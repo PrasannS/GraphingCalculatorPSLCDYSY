@@ -27,6 +27,10 @@
         <activity
             android:name=".WikiActivity"
             android:label="@string/title_activity_wiki"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CalcActivity2"
+            android:label="@string/title_activity_calc2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
