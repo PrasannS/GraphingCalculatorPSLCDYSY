@@ -1,101 +1,43 @@
 package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
-public class GraphActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class GraphActivity extends AppCompatActivity {
+    private Button home;
+    private Button settings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_graph);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        home = (Button) findViewById(R.id.graphHomeButton);
+        settings = (Button) findViewById(R.id.graphSettingsButton);
+        home.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v) {
+                openHomeActivity();
             }
         });
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.addDrawerListener(toggle);
-        toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+        settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openSettingsActivity();
+            }
+        });
     }
 
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
+    public void openHomeActivity()
+    {
+        Intent intent1 = new Intent(this, HomeActivity.class);
+        startActivity(intent1);
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.graph, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
-        }
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
+    public void openSettingsActivity()
+    {
+        Intent intent1 = new Intent(this, SettingsActivity.class);
+        startActivity(intent1);
     }
 }
