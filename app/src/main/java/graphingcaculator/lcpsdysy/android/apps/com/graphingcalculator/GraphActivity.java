@@ -22,6 +22,7 @@ public class GraphActivity extends AppCompatActivity {
                 openHomeActivity();
             }
         });
+
         settings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
