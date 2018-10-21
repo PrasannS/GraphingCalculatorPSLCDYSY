@@ -49,9 +49,8 @@ public class Expression {
         boolean ready = false;
         int ans = 100;
         int ind = 0;
-        char current = bedmas[0];
-        while(ind<=3&&!ready){
-            if(ind<=3)
+        char current;
+        while(ind<=bedmas.length-1&&!ready){
             current = bedmas[ind];
             for(int i = 0; i<c.size(); i++){
                 if(c.get(i)==current){

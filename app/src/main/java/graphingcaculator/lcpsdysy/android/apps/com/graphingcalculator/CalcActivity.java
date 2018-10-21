@@ -3,10 +3,12 @@ package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.io.Console;
 import java.util.ArrayList;
 
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
@@ -81,7 +83,13 @@ public class CalcActivity extends AppCompatActivity {
         enter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                calculate();
+                try {
+                    calculate();
+                }
+                catch(Exception e){
+                    display.setText("ERR");
+                    Log.d("There is an error","ERROR",e);
+                }
                 currentfunc = 0;
                 currentnum = 0;
             }
