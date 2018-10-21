@@ -15,6 +15,7 @@ public class GraphActivity extends AppCompatActivity {
     private ImageButton settings;
     private ImageButton origin;
     private GraphView graph;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
