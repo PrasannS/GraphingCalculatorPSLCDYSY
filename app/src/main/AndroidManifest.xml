@@ -19,15 +19,12 @@
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
-        <activity
-            android:name=".GraphActivity"
-            android:label="@string/title_activity_graph"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CalcActivity" />
         <activity
             android:name=".WikiActivity"
             android:label="@string/title_activity_wiki"
             android:theme="@style/AppTheme.NoActionBar" />
+<activity android:name=".CalcActivity" />
     </application>
 
 </manifest>
