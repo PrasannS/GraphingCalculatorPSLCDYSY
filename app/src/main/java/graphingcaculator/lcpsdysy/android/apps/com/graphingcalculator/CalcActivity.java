@@ -16,6 +16,7 @@ public class CalcActivity extends AppCompatActivity {
     private Button homebutton;
     private Button settingsbutton;
     private Button clearbutton;
+    private Button zero;
     private Button one;
     private Button two;
     private Button three;
@@ -30,6 +31,7 @@ public class CalcActivity extends AppCompatActivity {
     private Button subtract;
     private Button divide;
     private Button multiply;
+    private Button exponent;
     private int currentnum = 0;
     private int currentfunc = 0;
     private boolean onfunc = false;
@@ -138,6 +140,17 @@ public class CalcActivity extends AppCompatActivity {
             }
         });
 
+        exponent = (Button)findViewById(R.id.exponent);
+        exponent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                enterfunc('^');
+                show();
+            }
+        });
+
+
+
         one = (Button)findViewById(R.id.one);
         one.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -215,6 +228,15 @@ public class CalcActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 enternum(9);
+                show();
+            }
+        });
+
+        zero = (Button)findViewById(R.id.zero);
+        zero.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                enternum(0);
                 show();
             }
         });
