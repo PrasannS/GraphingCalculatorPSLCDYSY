@@ -3,19 +3,30 @@
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
-public class GraphActivity extends AppCompatActivity {
+import org.w3c.dom.Text;
+
+import java.util.StringTokenizer;
+
+ public class GraphActivity extends AppCompatActivity {
     private ImageButton home;
     private ImageButton settings;
     private ImageButton origin;
     private GraphView graph;
-    
+    private EditText input;
+    private Button updateInput;
+    private String currentInput;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,7 +79,17 @@ public class GraphActivity extends AppCompatActivity {
         graph.addSeries(series);
         graph.addSeries(series2);
         graph.addSeries(series3);
+
+        input = (EditText) findViewById(R.id.graphInput);
+        updateInput = (Button) findViewById(R.id.click);
+        updateInput.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                readInput();
+            }
+        });
     }
+
 
     public void openHomeActivity()
     {
@@ -90,4 +111,20 @@ public class GraphActivity extends AppCompatActivity {
         graph.getViewport().setYAxisBoundsManual(true);
         graph.getViewport().setXAxisBoundsManual(true);
     }
+     public void readInput()
+     {
+         currentInput = input.getText().toString();
+         int x = 0;
+         if (currentInput.charAt(0) == '(')
+         {
+             StringBuilder int1 = new StringBuilder();
+             for (int i = 1; i < currentInput.length() && currentInput.charAt(i) != ','; i++)
+                 int1.append(currentInput.charAt(i));
+             x = Integer.parseInt(int1.toString());
+             StringBuilder inty = new StringBuilder();
+             for (int i = 1; i < currentInput.length() && currentInput.charAt(i) != ')'; i++)
+                 int1.append(currentInput.charAt(i));
+             x = Integer.parseInt(int1.toString());
+         }
+     }
 }

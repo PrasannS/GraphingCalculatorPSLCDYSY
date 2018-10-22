@@ -61,7 +61,7 @@
         android:id="@+id/graphOriginButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:adjustViewBounds="true"
@@ -70,4 +70,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/origin" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/graphInput"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Enter"
+            android:id="@+id/click"/>
+
+    </LinearLayout>
+
+
 </android.support.constraint.ConstraintLayout>
