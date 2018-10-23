@@ -26,7 +26,6 @@ import java.util.StringTokenizer;
     private EditText input;
     private Button updateInput;
     private String currentInput;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
