@@ -174,6 +174,22 @@
                 android:id="@+id/exponent"
                 android:text="^"/>
 
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/decimal"
+                android:text="."/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/openbracket"
+                android:text="("/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/closedbracket"
+                android:text=")"/>
+
         </LinearLayout>
 
 
