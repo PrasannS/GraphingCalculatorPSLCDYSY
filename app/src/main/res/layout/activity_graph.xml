@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/searchView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <SearchView
@@ -74,21 +76,33 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="49dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="8dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/graphInput"
-            android:layout_width="300dp"
+            android:id="@+id/graphInputX"
+            android:layout_width="140dp"
+            android:layout_height="match_parent" />
+
+
+        <EditText
+            android:id="@+id/graphInputY"
+            android:layout_width="140dp"
             android:layout_height="match_parent" />
 
         <Button
+            android:id="@+id/click"
             android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:text="Enter"
-            android:id="@+id/click"/>
+            android:text="Enter" />
 
     </LinearLayout>
 

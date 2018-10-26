@@ -23,10 +23,12 @@ import java.util.StringTokenizer;
     private ImageButton settings;
     private ImageButton origin;
     private GraphView graph;
-    private EditText input;
+    private EditText inputX;
+    private EditText inputY;
     private Button updateInput;
     private String currentInput;
-    
+    private LineGraphSeries<DataPoint> series;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,14 +55,8 @@ import java.util.StringTokenizer;
             }
         });
         graph = (GraphView) findViewById(R.id.graph);
-        LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>(new DataPoint[] {
-                new DataPoint(0, 1),
-                new DataPoint(1, 5),
-                new DataPoint(2, 3),
-                new DataPoint(3, 2),
-                new DataPoint(4, 6),
-                new DataPoint(100, 200)
-        });
+        series = new LineGraphSeries<DataPoint>();
+
         LineGraphSeries<DataPoint> series2 = new LineGraphSeries<DataPoint>(new DataPoint[] {
                 new DataPoint(-1000, -1000),
         });
@@ -80,7 +76,8 @@ import java.util.StringTokenizer;
         graph.addSeries(series2);
         graph.addSeries(series3);
 
-        input = (EditText) findViewById(R.id.graphInput);
+        inputX = (EditText) findViewById(R.id.graphInputX);
+        inputY = (EditText) findViewById(R.id.graphInputY);
         updateInput = (Button) findViewById(R.id.click);
         updateInput.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -113,18 +110,16 @@ import java.util.StringTokenizer;
     }
      public void readInput()
      {
-         currentInput = input.getText().toString();
-         int x = 0;
-         if (currentInput.charAt(0) == '(')
+         try
          {
-             StringBuilder int1 = new StringBuilder();
-             for (int i = 1; i < currentInput.length() && currentInput.charAt(i) != ','; i++)
-                 int1.append(currentInput.charAt(i));
-             x = Integer.parseInt(int1.toString());
-             StringBuilder inty = new StringBuilder();
-             for (int i = 1; i < currentInput.length() && currentInput.charAt(i) != ')'; i++)
-                 int1.append(currentInput.charAt(i));
-             x = Integer.parseInt(int1.toString());
+             int x = Integer.parseInt(inputX.getText().toString());
+             int y = Integer.parseInt(inputX.getText().toString());
+             series.appendData(new DataPoint(x, y), true, 40);
+             //graph.addSeries(series);
+         }
+         catch (Exception e)
+         {
+
          }
      }
 }
