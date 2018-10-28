@@ -74,13 +74,7 @@ public class CalcActivity extends AppCompatActivity {
         clearbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                expressions.add(new Expression(chars,numbers));
-                expressions =  new ArrayList<>();
-                currentfunc = 0;
-                currentnum = 0;
-                currentExpression = 0;
-                isDecimal = false;
-                show();
+                openThisActivity();
             }
         });
 
@@ -184,10 +178,14 @@ public class CalcActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '(',')'));
-                currentExpression++;
+                if(expressions.get(currentExpression).c.size()>=expressions.get(currentExpression).i.size()){
+                    interFuncs.add(expressions.get(currentExpression).c.get(expressions.get(currentExpression).c.size()-1));
+                    expressions.get(currentExpression).c.remove(expressions.get(currentExpression).c.size()-1);
+                }
                 currentfunc = 0;
                 currentnum = 0;
                 isDecimal = false;
+                currentExpression++;
                 show();
             }
         });
@@ -302,6 +300,11 @@ public class CalcActivity extends AppCompatActivity {
         startActivity(intent1);
     }
 
+    public void openThisActivity(){
+        Intent intent1 = new Intent(this,CalcActivity.class);
+        startActivity(intent1);
+    }
+
     public void openSettingsActivity(){
         Intent intent1 = new Intent(this,HomeActivity.class);
         startActivity(intent1);
@@ -351,14 +354,15 @@ public class CalcActivity extends AppCompatActivity {
         }
 
     }
-
+/*
     public void calculate(Expression e){
         expressions.get(currentExpression).i.add(e.getSolution());
     }
-
+*/
     public void show(){
             stringshown = "";
-            int ind =0;
+            int ind;
+            int funcind = 0;
             for(Expression e: expressions){
                 if(e.hasSeparator){
                     stringshown+=e.separator;
@@ -379,6 +383,10 @@ public class CalcActivity extends AppCompatActivity {
                 if(e.hasSeparator){
                     stringshown+=e.close;
                 }
+                if(funcind<interFuncs.size()){
+                    stringshown+=interFuncs.get(funcind);
+                }
+                funcind++;
 
             }
 
@@ -407,6 +415,7 @@ public class CalcActivity extends AppCompatActivity {
                 for (Expression e : expressions) {
                     if(e.c.size()>=e.i.size()){
                         interFuncs.add(e.c.get(e.c.size()-1));
+                        e.c.remove(e.c.size()-1);
                     }
                     solved.i.add(e.getSolution());
                 }
