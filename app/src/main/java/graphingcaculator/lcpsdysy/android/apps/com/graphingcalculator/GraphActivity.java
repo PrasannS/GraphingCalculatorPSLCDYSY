@@ -112,14 +112,20 @@ import java.util.StringTokenizer;
      {
          try
          {
+             String expression = inputX.getText().toString();
+
              int x = Integer.parseInt(inputX.getText().toString());
              int y = Integer.parseInt(inputX.getText().toString());
              series.appendData(new DataPoint(x, y), true, 40);
-             //graph.addSeries(series);
+             graph.addSeries(series);
          }
          catch (Exception e)
          {
 
          }
+     }
+     public void calcExpress(String expression)
+     {
+
      }
 }

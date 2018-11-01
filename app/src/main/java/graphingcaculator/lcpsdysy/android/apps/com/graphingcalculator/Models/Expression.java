@@ -105,4 +105,61 @@ public class Expression {
         return ans;
 
     }
+
+    public double simpleSolveFromString(String input){
+        ArrayList<Expression> expressions = new ArrayList<>();
+        ArrayList<Double> nums = new ArrayList<Double>();
+        ArrayList<Character> operators = new ArrayList<>();
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < input.length(); i++)
+        {
+            char cur = input.charAt(i);
+            if (cur > 47 && cur < 58 || cur == 46)
+                sb.append(cur);
+            else
+            {
+                nums.add(Double.parseDouble(sb.toString()));
+                sb.delete(0, sb.length());
+                operators.add(cur);
+            }
+        }
+        Expression answer =  new Expression(operators,nums);
+        return answer.getSolution();
+
+
+    }
+
+    public double graphSolve(String input){
+        ArrayList<Expression> expressions = new ArrayList<>();
+        ArrayList<Double> nums = new ArrayList<Double>();
+        ArrayList<Character> operators = new ArrayList<>();
+        StringBuilder sb = new StringBuilder();
+        ArrayList<Integer> inds = new ArrayList<>();
+        for (int i = 0; i < input.length(); i++)
+        {
+            char cur = input.charAt(i);
+            if (cur > 47 && cur < 58 || cur == 46)
+                sb.append(cur);
+            else if (cur == 120)
+            {
+                if (sb.length() == 0)
+                    sb.append(1);
+                nums.add(Double.parseDouble(sb.toString()));
+                operators.add('*');
+                sb.delete(0, sb.length());
+                inds.add(nums.size());
+                nums.add(0.0);
+            }
+            else
+            {
+                nums.add(Double.parseDouble(sb.toString()));
+                sb.delete(0, sb.length());
+                operators.add(cur);
+            }
+        }
+        Expression answer =  new Expression(operators,nums);
+        return answer.getSolution();
+
+
+    }
 }
