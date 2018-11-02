@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.util.Log;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
@@ -108,18 +109,42 @@ import java.util.StringTokenizer;
         graph.getViewport().setYAxisBoundsManual(true);
         graph.getViewport().setXAxisBoundsManual(true);
     }
-     public void readInput()
+    public void readInput()
+    {
+        try
+        {
+            if (inputX.getText().toString().equals("") && inputY.getText().toString().equals(""))
+            {
+                testGraphing();
+            }
+            else
+            {
+                double x = Double.parseDouble(inputX.getText().toString());
+                double y = Double.parseDouble(inputY.getText().toString());
+                inputX.getText().clear();
+                inputY.getText().clear();
+                series.appendData(new DataPoint(x, y), false, 10000);
+            }
+        }
+        catch (Exception e)
+        {
+            Log.e("readInput()", "something went wrong in reading input");
+        }
+    }
+    public void testGraphing()
      {
          try
          {
-             int x = Integer.parseInt(inputX.getText().toString());
-             int y = Integer.parseInt(inputX.getText().toString());
-             series.appendData(new DataPoint(x, y), true, 40);
-             //graph.addSeries(series);
+             for (double i = -10; i < 100; i += 0.1)
+             {
+                 series.appendData(new DataPoint(i, Math.sin(i)),false,10000);
+                 Log.d("testGraphing()", "RUNNING RUNNING RUNNIGN");
+             }
+
          }
          catch (Exception e)
          {
-
+             Log.e("testGraphing()", "something went wrong while graphing");
          }
      }
 }
