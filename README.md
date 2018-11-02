@@ -8,7 +8,7 @@ Alarm Clock App where you have to solve a problem or do something that requires 
 
 *****************************************************************************************************************************
 
-OK so I've talked a bit and I guess the final concencus has gone into doing a graphing calculator... so that's what we're doing. Here is what I would I would like to be done this week:
+OK so I've talked a bit and I guess the final consensus has gone into doing a graphing calculator... so that's what we're doing. Here is what I would I would like to be done this week:
 
 Daniel: Since you are not in the compsci 2 class and I don't know the minimal amount of knowledge you have your task is a bit simpler than the rest. I would like you to work on creating a decent wiki template for one mathematical concept. To do this I would recommend primarily using the xml file which can be found on the filepath app/res/layout.
 
