@@ -43,7 +43,8 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/home_clipart" />
+        app:srcCompat="@drawable/home_clipart"
+        android:contentDescription="home clipart" />
 
     <ImageButton
         android:id="@+id/graphSettingsButton"
@@ -57,7 +58,8 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/gear_clipart" />
+        app:srcCompat="@drawable/gear_clipart"
+        android:contentDescription="gear clipart"/>
 
     <ImageButton
         android:id="@+id/graphOriginButton"
@@ -71,7 +73,8 @@
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/origin" />
+        app:srcCompat="@drawable/origin"
+        android:contentDescription="origin clipart"/>
 
 
     <LinearLayout
@@ -91,19 +94,21 @@
         <EditText
             android:id="@+id/graphInputX"
             android:layout_width="140dp"
-            android:layout_height="match_parent" />
-
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
 
         <EditText
             android:id="@+id/graphInputY"
             android:layout_width="140dp"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
 
         <Button
             android:id="@+id/click"
             android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:text="Enter" />
+            android:text="Enter"
+            android:layout_weight="1"/>
 
     </LinearLayout>
 

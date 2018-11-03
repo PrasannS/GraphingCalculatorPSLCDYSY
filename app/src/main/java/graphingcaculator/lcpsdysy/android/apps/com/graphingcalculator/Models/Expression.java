@@ -141,48 +141,54 @@ public class Expression {
         ArrayList<Character> operators = new ArrayList<>();
         StringBuilder sb = new StringBuilder();
         ArrayList<Integer> inds = new ArrayList<>();
-
-        for (int i = 0; i < input.length(); i++)
+        try
         {
-            char cur = input.charAt(i);
-            //Log.d("readInput()", cur + "");
-            if (cur > 47 && cur < 58 || cur == 46)
-                sb.append(cur);
-            else if (cur == 120)
+            for (int i = 0; i < input.length(); i++)
             {
-                if (sb.length() == 0)
-                    sb.append(1);
-                nums.add(Double.parseDouble(sb.toString()));
-                operators.add('*');
-                sb.delete(0, sb.length());
-                inds.add(nums.size());
-                nums.add(0.0);
-            }
-            else if (cur == 32);
-            else
-            {
-                if (!(sb.toString().length() == 0))
+                char cur = input.charAt(i);
+                //Log.d("readInput()", cur + "");
+                if (cur > 47 && cur < 58 || cur == 46)
+                    sb.append(cur);
+                else if (cur == 120)
+                {
+                    if (sb.length() == 0)
+                        sb.append(1);
                     nums.add(Double.parseDouble(sb.toString()));
-                sb.delete(0, sb.length());
-                operators.add(cur);
+                    operators.add('*');
+                    sb.delete(0, sb.length());
+                    inds.add(nums.size());
+                    nums.add(0.0);
+                }
+                else if (cur == 32);
+                else
+                {
+                    if (!(sb.toString().length() == 0))
+                        nums.add(Double.parseDouble(sb.toString()));
+                    sb.delete(0, sb.length());
+                    operators.add(cur);
+                }
             }
+            if (!(sb.toString().length() == 0))
+                nums.add(Double.parseDouble(sb.toString()));
+            LineGraphSeries<DataPoint> ansSeries = new LineGraphSeries<DataPoint>();
+            for (double i = -1000; i < 1000; i += 0.1)
+            {
+                for (int j = 0; j < inds.size(); j++)
+                    nums.set(inds.get(j), i);
+                ArrayList<Double> holdNums = new ArrayList<>();
+                ArrayList<Character> holdOp = new ArrayList<>();
+                for (int j = 0; j < nums.size(); j++)
+                    holdNums.add(nums.get(j));
+                for (int j = 0; j < operators.size(); j++)
+                    holdOp.add(operators.get(j));
+                Expression answer = new Expression(holdOp, holdNums);
+                ansSeries.appendData(new DataPoint(i, answer.getSolution()), false, 100000);
+            }
+            return ansSeries;
         }
-        if (!(sb.toString().length() == 0))
-            nums.add(Double.parseDouble(sb.toString()));
-        LineGraphSeries<DataPoint> ansSeries = new LineGraphSeries<DataPoint>();
-        for (double i = -1000; i < 1000; i += 0.1)
+        catch (Exception e)
         {
-            for (int j = 0; j < inds.size(); j++)
-                nums.set(inds.get(j), i);
-            ArrayList<Double> holdNums = new ArrayList<>();
-            ArrayList<Character> holdOp = new ArrayList<>();
-            for (int j = 0; j < nums.size(); j++)
-                holdNums.add(nums.get(j));
-            for (int j = 0; j < operators.size(); j++)
-                holdOp.add(operators.get(j));
-            Expression answer = new Expression(holdOp, holdNums);
-            ansSeries.appendData(new DataPoint(i, answer.getSolution()), false, 100000);
+            return new LineGraphSeries<DataPoint>();
         }
-        return ansSeries;
     }
 }
