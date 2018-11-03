@@ -3,19 +3,32 @@
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
+import android.util.Log;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
-public class GraphActivity extends AppCompatActivity {
+import java.util.ArrayList;
+
+import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
+
+ public class GraphActivity extends AppCompatActivity {
     private ImageButton home;
     private ImageButton settings;
     private ImageButton origin;
     private GraphView graph;
-    
+    private EditText inputX;
+    private EditText inputY;
+    private EditText inputFunc;
+    private Button updateInput;
+    private LineGraphSeries<DataPoint> series;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,14 +55,8 @@ public class GraphActivity extends AppCompatActivity {
             }
         });
         graph = (GraphView) findViewById(R.id.graph);
-        LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>(new DataPoint[] {
-                new DataPoint(0, 1),
-                new DataPoint(1, 5),
-                new DataPoint(2, 3),
-                new DataPoint(3, 2),
-                new DataPoint(4, 6),
-                new DataPoint(100, 200)
-        });
+        series = new LineGraphSeries<DataPoint>();
+
         LineGraphSeries<DataPoint> series2 = new LineGraphSeries<DataPoint>(new DataPoint[] {
                 new DataPoint(-1000, -1000),
         });
@@ -65,10 +72,21 @@ public class GraphActivity extends AppCompatActivity {
         graph.getViewport().setXAxisBoundsManual(true);
         graph.getViewport().setScalable(true);
         graph.getViewport().setScalableY(true);
-        graph.addSeries(series);
         graph.addSeries(series2);
         graph.addSeries(series3);
+
+        inputX = (EditText) findViewById(R.id.graphInputX);
+        inputY = (EditText) findViewById(R.id.graphInputY);
+        updateInput = (Button) findViewById(R.id.click);
+        updateInput.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                readInput();
+            }
+        });
+        inputFunc = (EditText) findViewById(R.id.enterFunc);
     }
+
 
     public void openHomeActivity()
     {
@@ -90,4 +108,52 @@ public class GraphActivity extends AppCompatActivity {
         graph.getViewport().setYAxisBoundsManual(true);
         graph.getViewport().setXAxisBoundsManual(true);
     }
+    public void readInput()
+    {
+        try
+        {
+            if (!inputFunc.getText().toString().equals(""))
+            {
+                Expression exp = new Expression(new ArrayList<Character>(), new ArrayList<Double>());
+                Log.d("readInput()", "reading Input, equation is " + inputFunc.getText().toString());
+                graph.addSeries(exp.graphSolve(inputFunc.getText().toString()));
+            }
+            else
+            {
+                graph.addSeries(series);
+                if (inputX.getText().toString().equals("") && inputY.getText().toString().equals(""))
+                {
+                    testGraphing();
+                }
+                else
+                {
+                    double x = Double.parseDouble(inputX.getText().toString());
+                    double y = Double.parseDouble(inputY.getText().toString());
+                    inputX.getText().clear();
+                    inputY.getText().clear();
+                    series.appendData(new DataPoint(x, y), false, 100000);
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            Log.e("readInput()", "something went wrong in reading input");
+        }
+    }
+    public void testGraphing()
+     {
+         try
+         {
+             for (double i = -10; i < 100; i += 0.1)
+             {
+                 series.appendData(new DataPoint(i, Math.sin(i)),false,100000);
+                 Log.d("testGraphing()", "RUNNING RUNNING RUNNING");
+             }
+
+         }
+         catch (Exception e)
+         {
+             Log.e("testGraphing()", "something went wrong while graphing");
+         }
+     }
 }
