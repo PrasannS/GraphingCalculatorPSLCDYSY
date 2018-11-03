@@ -32,7 +32,6 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
     private LineGraphSeries<DataPoint> plotSeries;
     private int[] swapColors = {Color.GREEN, Color.BLUE, Color.RED, Color.GRAY, Color.CYAN, Color.MAGENTA, Color.LTGRAY, Color.YELLOW, Color.BLACK};
     private int colorInd = 0;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
