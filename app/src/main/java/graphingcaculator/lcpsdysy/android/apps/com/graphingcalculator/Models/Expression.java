@@ -1,5 +1,10 @@
 package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models;
 
+import android.util.Log;
+
+import com.jjoe64.graphview.series.DataPoint;
+import com.jjoe64.graphview.series.LineGraphSeries;
+
 import java.util.ArrayList;
 
 public class Expression {
@@ -129,15 +134,18 @@ public class Expression {
 
     }
 
-    public double graphSolve(String input){
+    public LineGraphSeries<DataPoint> graphSolve(String input){
+        Log.d("readInput()", "recieved input to solve: " + input);
         ArrayList<Expression> expressions = new ArrayList<>();
         ArrayList<Double> nums = new ArrayList<Double>();
         ArrayList<Character> operators = new ArrayList<>();
         StringBuilder sb = new StringBuilder();
         ArrayList<Integer> inds = new ArrayList<>();
+
         for (int i = 0; i < input.length(); i++)
         {
             char cur = input.charAt(i);
+            //Log.d("readInput()", cur + "");
             if (cur > 47 && cur < 58 || cur == 46)
                 sb.append(cur);
             else if (cur == 120)
@@ -150,16 +158,31 @@ public class Expression {
                 inds.add(nums.size());
                 nums.add(0.0);
             }
+            else if (cur == 32);
             else
             {
-                nums.add(Double.parseDouble(sb.toString()));
+                if (!(sb.toString().length() == 0))
+                    nums.add(Double.parseDouble(sb.toString()));
                 sb.delete(0, sb.length());
                 operators.add(cur);
             }
         }
-        Expression answer =  new Expression(operators,nums);
-        return answer.getSolution();
-
-
+        if (!(sb.toString().length() == 0))
+            nums.add(Double.parseDouble(sb.toString()));
+        LineGraphSeries<DataPoint> ansSeries = new LineGraphSeries<DataPoint>();
+        for (double i = -10; i < 10; i += 1)
+        {
+            for (int j = 0; j < inds.size(); j++)
+                nums.set(inds.get(j), i);
+            ArrayList<Double> holdNums = new ArrayList<>();
+            ArrayList<Character> holdOp = new ArrayList<>();
+            for (int j = 0; j < nums.size(); j++)
+                holdNums.add(nums.get(j));
+            for (int j = 0; j < operators.size(); j++)
+                holdOp.add(operators.get(j));
+            Expression answer = new Expression(holdOp, holdNums);
+            ansSeries.appendData(new DataPoint(i, answer.getSolution()), false, 10000);
+        }
+        return ansSeries;
     }
 }

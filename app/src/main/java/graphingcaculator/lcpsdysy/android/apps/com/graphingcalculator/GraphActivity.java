@@ -8,12 +8,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.TextView;
 import android.util.Log;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
+
+import java.util.ArrayList;
+
+import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
 
  public class GraphActivity extends AppCompatActivity {
     private ImageButton home;
@@ -22,8 +25,8 @@ import com.jjoe64.graphview.series.LineGraphSeries;
     private GraphView graph;
     private EditText inputX;
     private EditText inputY;
+    private EditText inputFunc;
     private Button updateInput;
-    private String currentInput;
     private LineGraphSeries<DataPoint> series;
 
     @Override
@@ -69,7 +72,6 @@ import com.jjoe64.graphview.series.LineGraphSeries;
         graph.getViewport().setXAxisBoundsManual(true);
         graph.getViewport().setScalable(true);
         graph.getViewport().setScalableY(true);
-        graph.addSeries(series);
         graph.addSeries(series2);
         graph.addSeries(series3);
 
@@ -82,6 +84,7 @@ import com.jjoe64.graphview.series.LineGraphSeries;
                 readInput();
             }
         });
+        inputFunc = (EditText) findViewById(R.id.enterFunc);
     }
 
 
@@ -109,17 +112,27 @@ import com.jjoe64.graphview.series.LineGraphSeries;
     {
         try
         {
-            if (inputX.getText().toString().equals("") && inputY.getText().toString().equals(""))
+            if (!inputFunc.getText().toString().equals(""))
             {
-                testGraphing();
+                Expression exp = new Expression(new ArrayList<Character>(), new ArrayList<Double>());
+                Log.d("readInput()", "reading Input, equation is " + inputFunc.getText().toString());
+                graph.addSeries(exp.graphSolve(inputFunc.getText().toString()));
             }
             else
             {
-                double x = Double.parseDouble(inputX.getText().toString());
-                double y = Double.parseDouble(inputY.getText().toString());
-                inputX.getText().clear();
-                inputY.getText().clear();
-                series.appendData(new DataPoint(x, y), false, 10000);
+                graph.addSeries(series);
+                if (inputX.getText().toString().equals("") && inputY.getText().toString().equals(""))
+                {
+                    testGraphing();
+                }
+                else
+                {
+                    double x = Double.parseDouble(inputX.getText().toString());
+                    double y = Double.parseDouble(inputY.getText().toString());
+                    inputX.getText().clear();
+                    inputY.getText().clear();
+                    series.appendData(new DataPoint(x, y), false, 10000);
+                }
             }
         }
         catch (Exception e)
@@ -134,7 +147,7 @@ import com.jjoe64.graphview.series.LineGraphSeries;
              for (double i = -10; i < 100; i += 0.1)
              {
                  series.appendData(new DataPoint(i, Math.sin(i)),false,10000);
-                 Log.d("testGraphing()", "RUNNING RUNNING RUNNIGN");
+                 Log.d("testGraphing()", "RUNNING RUNNING RUNNING");
              }
 
          }
