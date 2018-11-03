@@ -131,7 +131,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
                     double y = Double.parseDouble(inputY.getText().toString());
                     inputX.getText().clear();
                     inputY.getText().clear();
-                    series.appendData(new DataPoint(x, y), false, 10000);
+                    series.appendData(new DataPoint(x, y), false, 100000);
                 }
             }
         }
@@ -146,7 +146,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
          {
              for (double i = -10; i < 100; i += 0.1)
              {
-                 series.appendData(new DataPoint(i, Math.sin(i)),false,10000);
+                 series.appendData(new DataPoint(i, Math.sin(i)),false,100000);
                  Log.d("testGraphing()", "RUNNING RUNNING RUNNING");
              }
 

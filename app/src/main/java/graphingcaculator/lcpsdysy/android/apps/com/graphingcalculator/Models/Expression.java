@@ -170,7 +170,7 @@ public class Expression {
         if (!(sb.toString().length() == 0))
             nums.add(Double.parseDouble(sb.toString()));
         LineGraphSeries<DataPoint> ansSeries = new LineGraphSeries<DataPoint>();
-        for (double i = -10; i < 10; i += 1)
+        for (double i = -1000; i < 1000; i += 0.1)
         {
             for (int j = 0; j < inds.size(); j++)
                 nums.set(inds.get(j), i);
@@ -181,7 +181,7 @@ public class Expression {
             for (int j = 0; j < operators.size(); j++)
                 holdOp.add(operators.get(j));
             Expression answer = new Expression(holdOp, holdNums);
-            ansSeries.appendData(new DataPoint(i, answer.getSolution()), false, 10000);
+            ansSeries.appendData(new DataPoint(i, answer.getSolution()), false, 100000);
         }
         return ansSeries;
     }
