@@ -70,8 +70,9 @@ public class Expression {
             i.remove(ind+1);
             c.remove(ind);
             ref--;
-            
+
         }
+
         solution = i.get(0);
         return solution;
     }
