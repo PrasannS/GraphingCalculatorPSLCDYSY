@@ -23,6 +23,7 @@ public class Expression {
             ref--;
 
         }
+
         solution = i.get(0);
     }
 
