@@ -34,6 +34,7 @@ public class CalcActivity extends AppCompatActivity {
     private Button exponent;
     private Button sqrt;
     private Button mod;
+    private Button E;
     private int currentnum = 0;
     private int currentfunc = 0;
     private boolean onfunc = false;
@@ -168,6 +169,17 @@ public class CalcActivity extends AppCompatActivity {
                 show();
             }
         });
+
+        E = (Button)findViewById(R.id.E);
+        E.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                enterfunc('E');
+                show();
+            }
+        });
+
+
 
 
 
