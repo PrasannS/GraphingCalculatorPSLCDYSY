@@ -40,9 +40,6 @@ public class CalcActivity extends AppCompatActivity {
     private Button divide;
     private Button multiply;
     private Button exponent;
-    private Button sqrt;
-    private Button mod;
-    private Button E;
     private boolean isDecimal = false;
     private int currentnum = 0;
     private int currentfunc = 0;
@@ -166,11 +163,7 @@ public class CalcActivity extends AppCompatActivity {
                 show();
             }
         });
-        sqrt = (Button)findViewById(R.id.sqrt);
-        sqrt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                enterfunc('√');=
+
         decimal = (Button)findViewById(R.id.decimal);
         decimal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -179,17 +172,13 @@ public class CalcActivity extends AppCompatActivity {
                 show();
             }
         });
-        mod = (Button)findViewById(R.id.mod);
-        mod.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                enterfunc('%');
+
         openbracket = (Button)findViewById(R.id.openbracket);
         openbracket.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '(',')'));
-                if(expressions.get(currentExpression).c.size()>=expressions.get(currentExpression).i.size()){
+                if(expressions.get(currentExpression).c.size()>expressions.get(currentExpression).i.size()){
                     interFuncs.add(expressions.get(currentExpression).c.get(expressions.get(currentExpression).c.size()-1));
                     expressions.get(currentExpression).c.remove(expressions.get(currentExpression).c.size()-1);
                 }
@@ -201,11 +190,6 @@ public class CalcActivity extends AppCompatActivity {
             }
         });
 
-        E = (Button)findViewById(R.id.E);
-        E.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                enterfunc('E');
         closedbracket = (Button)findViewById(R.id.closedbracket);
         closedbracket.setOnClickListener(new View.OnClickListener() {
             @Override

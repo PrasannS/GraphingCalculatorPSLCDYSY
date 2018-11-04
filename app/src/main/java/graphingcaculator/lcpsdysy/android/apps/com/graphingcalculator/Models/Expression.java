@@ -10,9 +10,6 @@ import java.util.ArrayList;
 public class Expression {
     private double solution;
     public char[] bedmas = {'E', '%', '^', '√', '/','*','+','-'};
-    private ArrayList<Double>i ;
-    ArrayList<Character>c ;
-    public char[] bedmas = {'^','/','*','+','-'};
     public ArrayList<Double>i ;
     public ArrayList<Character>c ;
     public char separator ;
