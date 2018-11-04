@@ -40,6 +40,9 @@ public class CalcActivity extends AppCompatActivity {
     private Button divide;
     private Button multiply;
     private Button exponent;
+    private Button E;
+    private Button mod;
+    private Button sqrt;
     private boolean isDecimal = false;
     private int currentnum = 0;
     private int currentfunc = 0;
@@ -163,6 +166,34 @@ public class CalcActivity extends AppCompatActivity {
                 show();
             }
         });
+
+        E = (Button)findViewById(R.id.E);
+        E.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                enterfunc('E');
+                show();
+            }
+        });
+
+        mod = (Button)findViewById(R.id.mod);
+        mod.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                enterfunc('%');
+                show();
+            }
+        });
+
+        sqrt = (Button)findViewById(R.id.sqrt);
+        sqrt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                enterfunc('√');
+                show();
+            }
+        });
+
 
         decimal = (Button)findViewById(R.id.decimal);
         decimal.setOnClickListener(new View.OnClickListener() {

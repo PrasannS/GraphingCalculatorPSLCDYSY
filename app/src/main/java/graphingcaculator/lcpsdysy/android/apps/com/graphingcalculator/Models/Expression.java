@@ -11,7 +11,7 @@ public class Expression {
     private double solution;
     public char[] bedmas = {'E', '%', '^', '√', '/','*','+','-'};
     public ArrayList<Double>i ;
-    public ArrayList<Character>c ;
+    public ArrayList<Character>c;
     public char separator ;
     public char close;
     public boolean hasSeparator = false;
@@ -35,7 +35,7 @@ public class Expression {
         }
     }
 
-    public Expression(ArrayList<Character>ct,ArrayList<Double>it, char sep, char clo){
+    public Expression(ArrayList<Character>ct, ArrayList<Double>it, char sep, char clo){
         i = it;
         c= ct;
         if(i.size()>0) {
