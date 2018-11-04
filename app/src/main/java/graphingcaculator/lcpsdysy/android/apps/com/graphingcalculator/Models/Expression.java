@@ -9,9 +9,6 @@ import java.util.ArrayList;
 
 public class Expression {
     private double solution;
-    public char[] bedmas = {'E', '%', '^', '√', '/','*','+','-'};
-    private ArrayList<Double>i ;
-    ArrayList<Character>c ;
     public char[] bedmas = {'^','/','*','+','-'};
     public ArrayList<Double>i ;
     public ArrayList<Character>c ;
@@ -73,7 +70,6 @@ public class Expression {
             i.remove(ind+1);
             c.remove(ind);
             ref--;
-            
         }
         solution = i.get(0);
         return solution;
@@ -91,12 +87,6 @@ public class Expression {
                 return a-b;
             case '^':
                 return Math.pow(a, b);
-            case '√':
-                return Math.sqrt(a);
-            case '%':
-                return a%b;
-            case 'E':
-                return a * Math.pow(10, b);
         }
         return a;
     }
