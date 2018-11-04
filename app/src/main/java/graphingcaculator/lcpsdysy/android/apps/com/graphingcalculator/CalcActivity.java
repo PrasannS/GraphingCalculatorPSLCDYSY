@@ -32,6 +32,8 @@ public class CalcActivity extends AppCompatActivity {
     private Button divide;
     private Button multiply;
     private Button exponent;
+    private Button sqrt;
+    private Button mod;
     private int currentnum = 0;
     private int currentfunc = 0;
     private boolean onfunc = false;
@@ -148,6 +150,25 @@ public class CalcActivity extends AppCompatActivity {
                 show();
             }
         });
+
+        sqrt = (Button)findViewById(R.id.sqrt);
+        sqrt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                enterfunc('√');
+                show();
+            }
+        });
+
+        mod = (Button)findViewById(R.id.mod);
+        mod.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                enterfunc('%');
+                show();
+            }
+        });
+
 
 
 

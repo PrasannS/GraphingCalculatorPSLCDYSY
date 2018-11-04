@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Expression {
     private double solution;
-    public char[] bedmas = {'^','/','*','+','-'};
+    public char[] bedmas = {'%', '^', '√', '/','*','+','-'};
     private ArrayList<Double>i ;
     ArrayList<Character>c ;
     public Expression(ArrayList<Character>ct,ArrayList<Double>it){
@@ -41,6 +41,10 @@ public class Expression {
                 return a-b;
             case '^':
                 return Math.pow(a, b);
+            case '√':
+                return Math.sqrt(a);
+            case '%':
+                return a%b;
         }
         return a;
     }
@@ -50,8 +54,7 @@ public class Expression {
         int ans = 100;
         int ind = 0;
         char current = bedmas[0];
-        while(ind<=3&&!ready){
-            if(ind<=3)
+        while(ind<bedmas.length&&!ready){
             current = bedmas[ind];
             for(int i = 0; i<c.size(); i++){
                 if(c.get(i)==current){
