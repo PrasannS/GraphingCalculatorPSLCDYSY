@@ -43,6 +43,7 @@ public class CalcActivity extends AppCompatActivity {
     private Button E;
     private Button mod;
     private Button sqrt;
+    private Button squared;
     private boolean isDecimal = false;
     private int currentnum = 0;
     private int currentfunc = 0;
@@ -185,14 +186,32 @@ public class CalcActivity extends AppCompatActivity {
             }
         });
 
+        squared = (Button)findViewById(R.id.squared);
+        squared.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                enterfunc('^');
+                enternum(2);
+                show();
+            }
+        });
+
         sqrt = (Button)findViewById(R.id.sqrt);
         sqrt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                enterfunc('√');
+                expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '√',')'));
+                if(expressions.get(currentExpression).c.size()>expressions.get(currentExpression).i.size()){
+                    interFuncs.add(expressions.get(currentExpression).c.get(expressions.get(currentExpression).c.size()-1));
+                    expressions.get(currentExpression).c.remove(expressions.get(currentExpression).c.size()-1);
+                }
+                currentfunc = 0;
+                currentnum = 0;
+                isDecimal = false;
+                currentExpression++;
                 show();
-            }
-        });
+    }
+});
 
 
         decimal = (Button)findViewById(R.id.decimal);

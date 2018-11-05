@@ -9,12 +9,13 @@ import java.util.ArrayList;
 
 public class Expression {
     private double solution;
-    public char[] bedmas = {'E', '%', '^', '√', '/','*','+','-'};
-    public ArrayList<Double>i ;
+    public char[] bedmas = {'E', '%', '^', '/','*','+','-'};
+    public ArrayList<Double>i;
     public ArrayList<Character>c;
     public char separator ;
     public char close;
     public boolean hasSeparator = false;
+
     public Expression(ArrayList<Character>ct,ArrayList<Double>it){
         i = it;
         c= ct;
@@ -56,6 +57,14 @@ public class Expression {
         separator = sep;
         hasSeparator = true;
         close = clo;
+
+    }
+
+    public double separatorProperties(double sep){
+        if(separator=='√'){
+            return Math.sqrt(sep);
+        }
+        return sep;
     }
 
     public double getSolution(){
@@ -74,6 +83,7 @@ public class Expression {
         }
 
         solution = i.get(0);
+        solution = separatorProperties(solution);
         return solution;
     }
 
@@ -89,8 +99,6 @@ public class Expression {
                 return a-b;
             case '^':
                 return Math.pow(a, b);
-            case '√':
-                return Math.sqrt(a);
             case '%':
                 return a%b;
             case 'E':

@@ -212,6 +212,12 @@
                 android:layout_height="match_parent"
                 android:id="@+id/sqrt"
                 android:text="√"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/squared"
+                android:text="^2"/>
         </LinearLayout>
 
 
