@@ -47,6 +47,7 @@ public class KeyBoardOneFragment extends Fragment {
     private Button enter;
     private Button add;
     private Button subtract;
+    private Button squared;
     private Button divide;
     private Button multiply;
     private Button exponent;
@@ -156,6 +157,15 @@ public class KeyBoardOneFragment extends Fragment {
             }
         });
 
+        squared = (Button)view.findViewById(R.id.squared);
+        squared.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                message = "^2";
+                KeyboardOneReadListener.OnKeyboardOneRead(message);
+            }
+        });
+
         subtract = (Button)view.findViewById(R.id.subtract);
         subtract.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -196,7 +206,7 @@ public class KeyBoardOneFragment extends Fragment {
         E.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                message = "^";
+                message = "E";
                 KeyboardOneReadListener.OnKeyboardOneRead(message);
             }
         });
