@@ -195,6 +195,11 @@
                 android:layout_height="match_parent"
                 android:id="@+id/second"
                 android:text="2nd"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/squared"
+                android:text="^2"/>
         </LinearLayout>
     </LinearLayout>
 

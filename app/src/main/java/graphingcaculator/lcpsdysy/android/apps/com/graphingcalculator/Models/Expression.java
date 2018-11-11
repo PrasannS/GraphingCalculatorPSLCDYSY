@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 public class Expression {
     private double solution;
-    public char[] bedmas = {'E', '%', '^', '√', '/','*','+','-'};
+    public char[] bedmas = {'E', '%', '^','/','*','+','-'};
     public double[] varcodes = {624.62461224,118.1182341,1234532.1243414949,2359259.8912415,232302.9234123,23223230.234123};
     public int numvars=0;
     public ArrayList<Double>i ;
@@ -35,6 +35,13 @@ public class Expression {
         close = clo;
     }
 
+    public double separatorProperties(double sep){
+        if(separator=='√'){
+            return Math.sqrt(sep);
+        }
+        return sep;
+    }
+
     public double getSolution(){
         int ref = c.size();
         int ind;
@@ -51,6 +58,7 @@ public class Expression {
         }
 
         solution = i.get(0);
+        solution = separatorProperties(solution);
         return solution;
     }
 

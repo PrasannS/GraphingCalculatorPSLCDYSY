@@ -312,7 +312,6 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
             enternum(Double.parseDouble(message));
         }
         else if(message.length()==1){
-            enterfunc(message.charAt(0));
             switch (message.charAt(0)){
                 case '.':
                     isDecimal = true;
@@ -333,6 +332,23 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                 case ')':
                     betweenExpressions=true;
                     show();
+                    break;
+
+                case'√':
+                    expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '√',')'));
+                    if(expressions.get(currentExpression).c.size()>expressions.get(currentExpression).i.size()){
+                        interFuncs.add(expressions.get(currentExpression).c.get(expressions.get(currentExpression).c.size()-1));
+                        expressions.get(currentExpression).c.remove(expressions.get(currentExpression).c.size()-1);
+                    }
+                    currentfunc = 0;
+                    currentnum = 0;
+                    isDecimal = false;
+                    currentExpression++;
+                    break;
+
+                default:
+                    enterfunc(message.charAt(0));
+                    break;
 
             }
         }
@@ -355,6 +371,10 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
         }
         else if(message.equals("quadratic")){
             loadformula("quadratic");
+        }
+        else if(message.equals("^2")){
+            enterfunc('^');
+            enternum(2);
         }
         else if(message.equals("clear")){
             openThisActivity();
