@@ -16,29 +16,30 @@ import android.widget.Button;
  * Use the {@link KeyBoardTwoFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class KeyBoardTwoFragment extends Fragment {
+    public class KeyBoardTwoFragment extends Fragment {
 
-    private Button openbracket;
-    private Button closedbracket;
-    private Button clearbutton;
-    private Button decimal;
-    private Button zero;
-    private Button one;
-    private Button two;
-    private Button three;
-    private Button four;
-    private Button five;
-    private Button six;
-    private Button seven;
-    private Button eight;
-    private Button nine;
-    private Button enter;
-    private Button add;
-    private Button subtract;
-    private Button divide;
-    private Button multiply;
-    private Button first;
-    private String message;
+        private Button openbracket;
+        private Button closedbracket;
+        private Button clearbutton;
+        private Button decimal;
+        private Button zero;
+        private Button one;
+        private Button two;
+        private Button three;
+        private Button four;
+        private Button five;
+        private Button six;
+        private Button seven;
+        private Button eight;
+        private Button nine;
+        private Button enter;
+        private Button add;
+        private Button subtract;
+        private Button divide;
+        private Button multiply;
+        private Button first;
+        private Button factorial;
+        private String message;
 
     OnKeyBoardTwoReadListener KeyBoardTwoReadListener;
     // TODO: Rename parameter arguments, choose names that match
@@ -184,6 +185,16 @@ public class KeyBoardTwoFragment extends Fragment {
                 KeyBoardTwoReadListener.OnKeyBoardTwoRead(message);
             }
         });
+
+        factorial = (Button)view.findViewById(R.id.factorial);
+        factorial.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                message = "!";
+                KeyBoardTwoReadListener.OnKeyBoardTwoRead(message);
+            }
+        });
+
 
 
 

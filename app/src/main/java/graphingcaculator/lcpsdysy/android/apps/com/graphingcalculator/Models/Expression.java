@@ -132,8 +132,6 @@ public class Expression {
         Expression answer = new Expression(interfuncs,expressions);
         answer.vars = this.vars;
         return answer;
-
-
     }
 
     public void setvar(char var, double value){
@@ -206,5 +204,12 @@ public class Expression {
             ansSeries.appendData(new DataPoint(i, answer.getSolution()), false, 100000);
         }
         return ansSeries;
+    }
+
+    public boolean isSpecialMultiplier(String str){
+        switch (str){
+            case "π": return true;
+        }
+        return false;
     }
 }
