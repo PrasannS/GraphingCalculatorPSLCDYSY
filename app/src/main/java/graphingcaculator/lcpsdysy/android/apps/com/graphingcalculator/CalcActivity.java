@@ -20,27 +20,23 @@ import java.security.spec.ECField;
 import java.util.ArrayList;
 
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
+import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expressions;
 
 public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragment.OnKeyboardOneReadListener, KeyBoardTwoFragment.OnKeyBoardTwoReadListener{
 
 
     private Button homebutton;
     private Button settingsbutton;
-
-    private boolean isDecimal = false;
+    private boolean isDecimal;
     private boolean firstform = false;
-    private int currentnum = 0;
-    private int currentfunc = 0;
     private boolean onfunc = false;
-    private int currentExpression=0;
     private TextView display;
     private String stringshown= "0";
-    private ArrayList<Expression> expressions = new ArrayList<>();
-    private ArrayList<Character> interFuncs = new ArrayList<>();
-    private boolean betweenExpressions=false;
+    private int currentnum = 0;
+    private int currentfunc = 0;
+    Expressions e = new Expressions(new ArrayList<Expression>());
+    private boolean betweenexpressions=false;
     private boolean formulamode = false;
-    private String formulaID = "0";
-    private int currentvar;
     public ArrayList<Character>chars = new ArrayList<>();
     public ArrayList<Double>numbers = new ArrayList<>();
     public static FragmentManager fragmentManager;
@@ -50,7 +46,7 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calc);
         numbers.add(0.0);
-        expressions.add(new Expression(chars,numbers));
+        e.expressions.add(new Expression(chars,numbers));
 
         fragmentManager = getSupportFragmentManager();
         if(findViewById(R.id.fragmentcontainer)!=null){
@@ -121,188 +117,83 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
 
     public void enternum(double i){
 
-        if(betweenExpressions){
-            expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>()));
-            currentExpression++;
+        if(betweenexpressions){
+            e.expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>()));
+            e.currentExpression++;
             currentfunc = 0;
             currentnum = 0;
             isDecimal = false;
-            betweenExpressions = false;
+            betweenexpressions = false;
         }
 
         if(onfunc){
             currentnum++;
-            expressions.get(currentExpression).i.add(i);
+            e.expressions.get(e.currentExpression).i.add(i);
             onfunc = false;
         }
-        else if(expressions.get(currentExpression).i.size()<1){
-            expressions.get(currentExpression).i.add(i);
+        else if(e.expressions.get(e.currentExpression).i.size()<1){
+            e.expressions.get(e.currentExpression).i.add(i);
         }
         else{
                 if(firstform){
                 if(isDecimal){
                     firstform = false;
-                    expressions.get(currentExpression).setvar(expressions.get(currentExpression).vars.get(0),i/Math.pow(10,getDecimalPlaces(expressions.get(currentExpression).i.get(currentnum))+1));
+                    e.expressions.get(e.currentExpression).setvar(e.expressions.get(e.currentExpression).vars.get(0),i/Math.pow(10,e.getDecimalPlaces(e.expressions.get(e.currentExpression).i.get(currentnum))+1));
                 }
                 else {
                     firstform = false;
-                    expressions.get(currentExpression).setvar(expressions.get(currentExpression).vars.get(0), i);
+                    e.expressions.get(e.currentExpression).setvar(e.expressions.get(e.currentExpression).vars.get(0), i);
                 }
                 }
 
                 else if(isDecimal){
-                    expressions.get(currentExpression).i.set(currentnum, expressions.get(currentExpression).i.get(currentnum)+(i/Math.pow(10,getDecimalPlaces(expressions.get(currentExpression).i.get(currentnum))+1)));
+                    e.expressions.get(e.currentExpression).i.set(currentnum, e.expressions.get(e.currentExpression).i.get(currentnum)+(i/Math.pow(10,e.getDecimalPlaces(e.expressions.get(e.currentExpression).i.get(currentnum))+1)));
                 }
                 else
-                    expressions.get(currentExpression).i.set(currentnum, expressions.get(currentExpression).i.get(currentnum)*10+i);
+                    e.expressions.get(e.currentExpression).i.set(currentnum, e.expressions.get(e.currentExpression).i.get(currentnum)*10+i);
 
         }
-        show();
+        show(false);
 
     }
 
     public void enterfunc(char c){
-        if(betweenExpressions){
-            interFuncs.add(c);
+        if(betweenexpressions){
+            e.interFuncs.add(c);
             onfunc = true;
         }
         if(!onfunc){
-            expressions.get(currentExpression).c.add(currentfunc,c);
+            e.expressions.get(e.currentExpression).c.add(currentfunc,c);
             currentfunc++;
             onfunc = true;
         }
         else{
-            expressions.get(currentExpression).c.set(currentfunc-1,c);
+            e.expressions.get(e.currentExpression).c.set(currentfunc-1,c);
         }
-        show();
+        show(false);
 
     }
 /*
     public void calculate(Expression e){
-        expressions.get(currentExpression).i.add(e.getSolution());
+        e.expressions.get(e.currentExpression).i.add(e.getSolution());
     }
 */
-    public void show(){
-            stringshown = "";
-            int ind;
-            int funcind = 0;
-            for(Expression e: expressions){
-                if(e.hasSeparator){
-                    stringshown+=e.separator;
-                }
-                ind = 0;
-                for(double c:e.i){
-                    if(e.getvar(c)!='0'){
-                        stringshown+=e.getvar(c);
-                    }
-                    else if(getDecimalPlaces(c)==0){
-                        stringshown+=(int)c;
-                        if(isDecimal)
-                            stringshown+=".0";}
-                    else{
-                        stringshown+=c+" ";}
-                    if(ind<e.c.size()){
-                        stringshown+=e.c.get(ind)+" ";
-                        ind++;
-                    }
-                }
-                if(e.hasSeparator){
-                    stringshown+=e.close;
-                }
-                if(funcind<interFuncs.size()){
-                    stringshown+=interFuncs.get(funcind);
-                }
-                funcind++;
-
-            }
-
-        display.setText(stringshown);
+    public void show(boolean a){
+            stringshown = e.toString();
+            display.setText(stringshown);
 
     }
 
-    public void solveExpressions(){
-        //boolean done = false;
-        //int ind = funcs.indexOf('(');
-            /*while(!done&&ind<funcs.size()){
-                if(ind==-1)
-                    break;
-                tempnums.add(nums.remove(ind));
-                tempfuncs.add(funcs.remove(ind));
-                if(funcs.get(ind)==')'){
-                    expressions.add(new Expression(tempfuncs, tempnums));
-                    ind = funcs.indexOf('(');
-                    tempnums.add(nums.remove(ind));
-                    funcs.remove(ind);
-                }
 
-            }*/
-            if(expressions.size()>1) {
-                Expression solved = new Expression(interFuncs, new ArrayList<Double>());
-                for (Expression e : expressions) {
-                    if(e.c.size()>=e.i.size()){
-                        interFuncs.add(e.c.get(e.c.size()-1));
-                        e.c.remove(e.c.size()-1);
-                    }
-                    solved.i.add(e.getSolution());
-                }
-                expressions = new ArrayList<>();
-                double solution = solved.getSolution();
-                solved.c = new ArrayList<>();
-                solved.i = new ArrayList<>();
-                solved.i.add(solution);
-                expressions.add(solved);
-            }
-            else{
-                double solution = expressions.get(currentExpression).getSolution();
-                expressions.get(currentExpression).c = new ArrayList<>();
-                expressions.get(currentExpression).i = new ArrayList<>();
-                expressions.get(currentExpression).i.add(solution);
-            }
-            currentnum = 0;
-            currentfunc = 0;
-            onfunc = false;
-            currentExpression = 0;
-            show();
 
-        /*while(funcs.indexOf('(')!=-1){
-            expressions.add(new Expression(new ArrayList<Character>(funcs.subList(funcs.indexOf('(')+1,funcs.indexOf(')'))),new ArrayList<Double>(nums.subList(funcs.indexOf('('),funcs.indexOf(')')+1))));
-            ArrayList<Character> tempf2= new ArrayList<>(funcs.subList(0,funcs.indexOf('(')));
-            funcs= new ArrayList<>(funcs.subList(funcs.indexOf(')')+1,funcs.size()));
-            funcs.addAll(tempf2);
-            ArrayList<Double> tempd2= new ArrayList<>(nums.subList(0,funcs.indexOf('(')+1));
-            nums= new ArrayList<>(nums.subList(funcs.indexOf(')'),nums.size()));
-            nums.addAll(tempd2);
-        }
-        if(nums.size()-funcs.size()<1) {
-            nums = new ArrayList<>();
-        }
-        Expression answer = new Expression(funcs,nums);
-        expressions.add(answer);
-        for(Expression e: expressions){
-            calculate(e);
-        }
-        nums = new ArrayList<>();
-        funcs = new ArrayList<>();
-        nums.add(answer.getSolution());
-        show();
-        */
-    }
 
-    public int getDecimalPlaces(double d){
-        String s = Double.toString(d);
-        String[] result = s.split("\\.");
-        if(Double.parseDouble(result[1])!=0)
-            return result[1].length();
-        else
-        return 0;
-    }
 
     public void loadformula(String id){
         firstform = true;
         formulamode = true;
-        Expression a = expressions.get(0).parseExpression("a+10*b", false);
-        expressions.set(currentExpression,a);
-        show();
+        Expression a = e.expressions.get(0).parseExpression("a+10*b", false);
+        e.expressions.set(e.currentExpression,a);
+        show(false);
     }
 
 
@@ -315,35 +206,35 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
             switch (message.charAt(0)){
                 case '.':
                     isDecimal = true;
-                    show();
+                    show(false);
                     break;
                 case '(':
-                    expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '(',')'));
-                    if(expressions.get(currentExpression).c.size()>expressions.get(currentExpression).i.size()){
-                        interFuncs.add(expressions.get(currentExpression).c.get(expressions.get(currentExpression).c.size()-1));
-                        expressions.get(currentExpression).c.remove(expressions.get(currentExpression).c.size()-1);
+                    e.expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '(',')'));
+                    if(e.expressions.get(e.currentExpression).c.size()>e.expressions.get(e.currentExpression).i.size()){
+                        e.interFuncs.add(e.expressions.get(e.currentExpression).c.get(e.expressions.get(e.currentExpression).c.size()-1));
+                        e.expressions.get(e.currentExpression).c.remove(e.expressions.get(e.currentExpression).c.size()-1);
                     }
                     currentfunc = 0;
                     currentnum = 0;
                     isDecimal = false;
-                    currentExpression++;
-                    show();
+                    e.currentExpression++;
+                    show(false);
                     break;
                 case ')':
-                    betweenExpressions=true;
-                    show();
+                    betweenexpressions=true;
+                    show(false);
                     break;
 
                 case'√':
-                    expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '√',')'));
-                    if(expressions.get(currentExpression).c.size()>expressions.get(currentExpression).i.size()){
-                        interFuncs.add(expressions.get(currentExpression).c.get(expressions.get(currentExpression).c.size()-1));
-                        expressions.get(currentExpression).c.remove(expressions.get(currentExpression).c.size()-1);
+                    e.expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '√',')'));
+                    if(e.expressions.get(e.currentExpression).c.size()>e.expressions.get(e.currentExpression).i.size()){
+                        e.interFuncs.add(e.expressions.get(e.currentExpression).c.get(e.expressions.get(e.currentExpression).c.size()-1));
+                        e.expressions.get(e.currentExpression).c.remove(e.expressions.get(e.currentExpression).c.size()-1);
                     }
                     currentfunc = 0;
                     currentnum = 0;
                     isDecimal = false;
-                    currentExpression++;
+                    e.currentExpression++;
                     break;
 
                 default:
@@ -353,9 +244,9 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
             }
         }
         else if(message.equals("enter")){
-            if(formulamode&&expressions.get(currentExpression).vars.size()>0){
+            if(formulamode&&e.expressions.get(e.currentExpression).vars.size()>0){
                 firstform  = true;
-                currentnum = expressions.get(currentExpression).i.indexOf(expressions.get(currentExpression).varcodes[0]);
+                currentnum = e.expressions.get(e.currentExpression).i.indexOf(e.expressions.get(e.currentExpression).varcodes[0]);
             }
             else{
                 try {
@@ -391,30 +282,30 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
             switch (message.charAt(0)){
                 case '.':
                     isDecimal = true;
-                    show();
+                    show(false);
                     break;
                 case '(':
-                    expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '(',')'));
-                    if(expressions.get(currentExpression).c.size()>expressions.get(currentExpression).i.size()){
-                        interFuncs.add(expressions.get(currentExpression).c.get(expressions.get(currentExpression).c.size()-1));
-                        expressions.get(currentExpression).c.remove(expressions.get(currentExpression).c.size()-1);
+                    e.expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '(',')'));
+                    if(e.expressions.get(e.currentExpression).c.size()>e.expressions.get(e.currentExpression).i.size()){
+                        e.interFuncs.add(e.expressions.get(e.currentExpression).c.get(e.expressions.get(e.currentExpression).c.size()-1));
+                        e.expressions.get(e.currentExpression).c.remove(e.expressions.get(e.currentExpression).c.size()-1);
                     }
                     currentfunc = 0;
                     currentnum = 0;
                     isDecimal = false;
-                    currentExpression++;
-                    show();
+                    e.currentExpression++;
+                    show(false);
                     break;
                 case ')':
-                    betweenExpressions=true;
-                    show();
+                    betweenexpressions=true;
+                    show(false);
 
             }
         }
         else if(message.equals("enter")){
-            if(formulamode&&expressions.get(currentExpression).vars.size()>0){
+            if(formulamode&&e.expressions.get(e.currentExpression).vars.size()>0){
                 firstform  = true;
-                currentnum = expressions.get(currentExpression).i.indexOf(expressions.get(currentExpression).varcodes[0]);
+                currentnum = e.expressions.get(e.currentExpression).i.indexOf(e.expressions.get(e.currentExpression).varcodes[0]);
             }
             else{
                 try {
@@ -434,5 +325,13 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
         else if(message.equals("clear")){
             openThisActivity();
         }
+    }
+
+    public void solveExpressions(){
+        e.solveAll();
+        show(false);
+        currentnum = 0;
+        currentfunc = 0;
+        onfunc = false;
     }
 }
