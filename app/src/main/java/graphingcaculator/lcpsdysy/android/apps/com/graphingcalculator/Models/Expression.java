@@ -21,6 +21,10 @@ public class Expression {
 
     public ArrayList<Character> vars= new ArrayList<>();
 
+    public Expression(){
+
+    }
+
 
     public Expression(ArrayList<Character>ct, ArrayList<Double>it){
         i = it;
@@ -105,68 +109,29 @@ public class Expression {
     }
 
     public Expression parseExpression(String input, boolean recur){
-        if(recur||input.indexOf('(')<0){
-            ArrayList<Double> nums = new ArrayList<>();
-            ArrayList<Character> operators = new ArrayList<>();
-            String tempnum = "";
-            for(int i = 0;i<input.length();i++){
-                if(Character.isDigit(input.charAt(i))||input.charAt(i)=='.'){
-                    tempnum+=input.charAt(i);
-                }
-                else if(Character.isLowerCase(input.charAt(i))){
-                    if(vars.size()>0){
-                        if(vars.indexOf(input.charAt(i))>=0){
-                            tempnum+=""+varcodes[vars.get(input.charAt(i))];
-                        }
-                        else{
-                            vars.add(input.charAt(i));
-                            tempnum+=""+varcodes[numvars];
-                            numvars++;
-                        }
-                    }
-                    else{
-                        vars.add(input.charAt(i));
-                        tempnum+=""+varcodes[numvars];
-                        numvars++;
-                    }
-                }
-                else{
-                    operators.add(input.charAt(i));
-                    nums.add(Double.parseDouble(tempnum));
-                    tempnum = "";
-                }
-            }
-            if(tempnum.length()>0)
-                nums.add(Double.parseDouble(tempnum));
-            Expression answer =  new Expression(operators,nums);
-            answer.vars = this.vars;
-            return answer;
+        ArrayList<Double> expressions = new ArrayList<>();
+        ArrayList<String> strings = new ArrayList<>();
+        ArrayList<Character> interfuncs;
+        String in = input;
+        while (in.indexOf('(')>=0){
+            strings.add(in.substring(in.indexOf('(')+1,in.indexOf(')')));
+            in = in.substring(0,in.indexOf('('))+in.substring(in.indexOf(')')+1);
         }
-        else{
-            ArrayList<Double> expressions = new ArrayList<>();
-            ArrayList<String> strings = new ArrayList<>();
-            ArrayList<Character> interfuncs;
-            String in = input;
-            while (in.indexOf('(')>=0){
-                strings.add(in.substring(in.indexOf('(')+1,in.indexOf(')')));
-                in = in.substring(0,in.indexOf('('))+in.substring(in.indexOf(')')+1);
+        Expression temp = parseExpression(in,true);
+        interfuncs = (ArrayList<Character>)temp.c.subList(temp.i.size(),temp.c.size()-1);
+        temp.c = (ArrayList<Character>)temp.c.subList(0,temp.i.size());
+        expressions.add(temp.getSolution());
+        for(String s:strings){
+            if(s.indexOf('(')<0){
+                expressions.add(parseExpression(s,true).getSolution());
             }
-            Expression temp = parseExpression(in,true);
-            interfuncs = (ArrayList<Character>)temp.c.subList(temp.i.size(),temp.c.size()-1);
-            temp.c = (ArrayList<Character>)temp.c.subList(0,temp.i.size());
-            expressions.add(temp.getSolution());
-            for(String s:strings){
-                if(s.indexOf('(')<0){
-                    expressions.add(parseExpression(s,true).getSolution());
-                }
-                else{
-                    expressions.add(parseExpression(s,false).getSolution());
-                }
+            else{
+                expressions.add(parseExpression(s,false).getSolution());
             }
-            Expression answer = new Expression(interfuncs,expressions);
-            answer.vars = this.vars;
-            return answer;
         }
+        Expression answer = new Expression(interfuncs,expressions);
+        answer.vars = this.vars;
+        return answer;
 
 
     }
