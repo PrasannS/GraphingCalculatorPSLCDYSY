@@ -40,6 +40,12 @@ public class Expressions {
                 if(e.getvar(c)!='0'){
                     stringshown+=e.getvar(c);
                 }
+                else if(checkPiFactor(c)!=-1){
+                    if(checkPiFactor(c)==1)
+                        stringshown+="π";
+                    else
+                        stringshown+=checkPiFactor(c) + "π";
+                }
                 else if(getDecimalPlaces(c)==0){
                     stringshown+=(int)c;
                     if(isDecimal(c))
@@ -133,6 +139,14 @@ public class Expressions {
         nums.add(answer.getSolution());
         show(false);
         */
+    }
+
+    public int checkPiFactor(double d){
+        if(d%Math.PI == 0){
+            return (int)(d/Math.PI);
+        }
+        else
+            return -1;
     }
 
 }

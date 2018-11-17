@@ -54,6 +54,7 @@ public class KeyBoardOneFragment extends Fragment {
     private Button E;
     private Button mod;
     private Button sqrt;
+    private Button pi;
     String message;
 
     OnKeyboardOneReadListener KeyboardOneReadListener;
@@ -146,7 +147,14 @@ public class KeyBoardOneFragment extends Fragment {
             }
         });
 
-
+        pi = (Button)view.findViewById(R.id.pi);
+        pi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                message = "π";
+                KeyboardOneReadListener.OnKeyboardOneRead(message);
+            }
+        });
 
         add = (Button)view.findViewById(R.id.add);
         add.setOnClickListener(new View.OnClickListener() {

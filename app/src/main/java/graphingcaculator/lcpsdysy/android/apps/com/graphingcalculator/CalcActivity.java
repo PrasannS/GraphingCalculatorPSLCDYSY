@@ -116,34 +116,38 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     }
 
     public void enternum(double i){
+        if(i<9 || i>-9 && !e.isDecimal(i)){
+            if(betweenexpressions){
+                e.expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>()));
+                e.currentExpression++;
+                currentfunc = 0;
+                currentnum = 0;
+                isDecimal = false;
+                betweenexpressions = false;
+            }
 
-        if(betweenexpressions){
-            e.expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>()));
-            e.currentExpression++;
-            currentfunc = 0;
-            currentnum = 0;
-            isDecimal = false;
-            betweenexpressions = false;
-        }
+        /*if(e.expressions.get(e.expressions.size()-1).isSpecialMultiplier(e.expressions.get(e.expressions.size()-1).)){
 
-        if(onfunc){
-            currentnum++;
-            e.expressions.get(e.currentExpression).i.add(i);
-            onfunc = false;
-        }
-        else if(e.expressions.get(e.currentExpression).i.size()<1){
-            e.expressions.get(e.currentExpression).i.add(i);
-        }
-        else{
+        }*/
+
+            if(onfunc){
+                currentnum++;
+                e.expressions.get(e.currentExpression).i.add(i);
+                onfunc = false;
+            }
+            else if(e.expressions.get(e.currentExpression).i.size()<1){
+                e.expressions.get(e.currentExpression).i.add(i);
+            }
+            else{
                 if(firstform){
-                if(isDecimal){
-                    firstform = false;
-                    e.expressions.get(e.currentExpression).setvar(e.expressions.get(e.currentExpression).vars.get(0),i/Math.pow(10,e.getDecimalPlaces(e.expressions.get(e.currentExpression).i.get(currentnum))+1));
-                }
-                else {
-                    firstform = false;
-                    e.expressions.get(e.currentExpression).setvar(e.expressions.get(e.currentExpression).vars.get(0), i);
-                }
+                    if(isDecimal){
+                        firstform = false;
+                        e.expressions.get(e.currentExpression).setvar(e.expressions.get(e.currentExpression).vars.get(0),i/Math.pow(10,e.getDecimalPlaces(e.expressions.get(e.currentExpression).i.get(currentnum))+1));
+                    }
+                    else {
+                        firstform = false;
+                        e.expressions.get(e.currentExpression).setvar(e.expressions.get(e.currentExpression).vars.get(0), i);
+                    }
                 }
 
                 else if(isDecimal){
@@ -152,9 +156,13 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                 else
                     e.expressions.get(e.currentExpression).i.set(currentnum, e.expressions.get(e.currentExpression).i.get(currentnum)*10+i);
 
+            }
+            show(false);
         }
-        show(false);
 
+        else{
+            e.expressions.get(e.currentExpression).i.add(i);
+        }
     }
 
     public void enterfunc(char c){
@@ -181,7 +189,6 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     public void show(boolean a){
             stringshown = e.toString();
             display.setText(stringshown);
-
     }
 
 
@@ -204,6 +211,9 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
         }
         else if(message.length()==1){
             switch (message.charAt(0)){
+                case'π':
+                    enternum(Math.PI);
+
                 case '.':
                     isDecimal = true;
                     show(false);
@@ -299,6 +309,20 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                 case ')':
                     betweenexpressions=true;
                     show(false);
+                case '!':
+                    double ans = e.expressions.get(e.expressions.size()-1).i.get(e.expressions.get(e.expressions.size()-1).i.size()-1);
+
+                    if(e.isDecimal(ans))
+                        display.setText("ERR");
+                    else{
+                        for(double i = ans-1; i >= 1; i--){
+                            ans = ans * i;
+                        }
+
+                        enternum(ans);
+                        currentnum++;
+                    }
+                    break;
 
             }
         }
