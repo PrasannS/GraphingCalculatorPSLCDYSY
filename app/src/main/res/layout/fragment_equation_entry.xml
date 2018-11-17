@@ -21,7 +21,6 @@
 
 
 
-
         <EditText
             android:id="@+id/enterFunc"
             android:layout_width="250dp"

@@ -12,7 +12,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
-    <LinearLayout
+    <!--<LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="51dp"
@@ -39,17 +39,29 @@
             android:layout_weight="1"/>
 
         <Button
-            android:id="@+id/click"
+            android:id="@+id/click" im working on it
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:text="Enter"
             android:layout_weight="1"/>
 
-    </LinearLayout>
-    <FrameLayout
+    </LinearLayout>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/frame"></LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/addgraph"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/frame"></FrameLayout>
+        android:text="+"
+
+        android:textSize="30dp"/>
     <com.jjoe64.graphview.GraphView
         android:id="@+id/graph"
         android:layout_width="match_parent"

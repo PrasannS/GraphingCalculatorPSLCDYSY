@@ -23,6 +23,7 @@ import java.util.ArrayList;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
 
  public class GraphActivity extends AppCompatActivity implements EquationEntryFragment.equationEntryFragmentListener {
+     private Button addgraph;
     private ImageButton home;
     private ImageButton settings;
     private GraphView graph;
@@ -40,8 +41,8 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
         //Set up buttons + graph + fragment
         home = (ImageButton) findViewById(R.id.graphHomeButton);
         settings = (ImageButton) findViewById(R.id.graphSettingsButton);
-        inputX = (EditText) findViewById(R.id.graphInputX);
-        inputY = (EditText) findViewById(R.id.graphInputY);
+        //inputX = (EditText) findViewById(R.id.graphInputX);
+        //inputY = (EditText) findViewById(R.id.graphInputY);
         graph = (GraphView) findViewById(R.id.graph);
         fragmentManager = getSupportFragmentManager();
         if (findViewById(R.id.frame) != null)
@@ -66,6 +67,20 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
             @Override
             public void onClick(View v) {
                 openSettingsActivity();
+            }
+        });
+
+        addgraph = (Button)findViewById(R.id.addgraph);
+        addgraph.setOnClickListener(new View.OnClickListener() {
+            @Override//
+            public void onClick(View view) {
+                if (findViewById(R.id.frame) != null)
+                {
+                    EquationEntryFragment eq = new EquationEntryFragment();
+                    FragmentTransaction ft = fragmentManager.beginTransaction();
+                    ft.add(R.id.frame, eq, null);
+                    ft.commit();
+                }
             }
         });
 

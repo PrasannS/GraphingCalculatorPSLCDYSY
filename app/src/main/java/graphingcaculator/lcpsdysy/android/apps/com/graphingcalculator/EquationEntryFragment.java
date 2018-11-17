@@ -82,17 +82,17 @@ public class EquationEntryFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_equation_entry, container, false);
         enterFunc = (EditText) view.findViewById(R.id.enterFunc);
         originButton = (ImageButton) view.findViewById(R.id.graphOriginButton);
-        enter = (Button) view.findViewById(R.id.enter);
+        enter = (Button) view.findViewById(R.id.enterButton);
         enter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+            @Override//
+            public void onClick(View view) {
                 message = enterFunc.getText().toString();
                 equationEntry.onEquationEntryFragmentRead(message);
             }
         });
         return view;
     }
-
+//
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
