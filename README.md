@@ -21,3 +21,7 @@ Prasann: I am going to create the calculator activity from scratch, none of the 
 IN ADDITTION TO THIS I WOULD LIKE EVERYONE TO ADD A SEARCHBAR TO THE TOP OF THEIR ASSIGNED ACTIVITY AND A BUTTON THAT TAKES THE USER BACK TO THE HOME AND A BUTTON THAT TAKES THE USER TO SETTINGS.
 
 PLEASE FEEL FREE TO ASK QUESTIONS HERE OR ON GROUP CHAT.
+
+
+@Lucas I made some changes to the files on the app
+if u want to add any functions u will need to do the xml and button part in the fragment one and two files which are the two keyboards. Its repetitive enough that u should not have too much issue figuring it out. I used an interface to connect two keyboard fragments to the CalcActivity so u may want to check out the method at the end of the file.
