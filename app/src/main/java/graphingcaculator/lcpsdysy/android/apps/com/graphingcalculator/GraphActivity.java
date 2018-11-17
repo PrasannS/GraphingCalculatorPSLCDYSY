@@ -2,6 +2,8 @@
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,32 +22,38 @@ import java.util.ArrayList;
 
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
 
- public class GraphActivity extends AppCompatActivity {
+ public class GraphActivity extends AppCompatActivity implements EquationEntryFragment.equationEntryFragmentListener {
     private ImageButton home;
     private ImageButton settings;
-    private ImageButton origin;
     private GraphView graph;
     private EditText inputX;
     private EditText inputY;
-    private EditText inputFunc;
-    private Button updateInput;
     private LineGraphSeries<DataPoint> plotSeries;
     private int[] swapColors = {Color.GREEN, Color.BLUE, Color.RED, Color.GRAY, Color.CYAN, Color.MAGENTA, Color.LTGRAY, Color.YELLOW, Color.BLACK};
     private int colorInd = 0;
+    public static FragmentManager fragmentManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_graph);
 
-        //Set up buttons + graph
+        //Set up buttons + graph + fragment
         home = (ImageButton) findViewById(R.id.graphHomeButton);
         settings = (ImageButton) findViewById(R.id.graphSettingsButton);
-        origin = (ImageButton) findViewById(R.id.graphOriginButton);
         inputX = (EditText) findViewById(R.id.graphInputX);
         inputY = (EditText) findViewById(R.id.graphInputY);
-        inputFunc = (EditText) findViewById(R.id.enterFunc);
-        updateInput = (Button) findViewById(R.id.click);
         graph = (GraphView) findViewById(R.id.graph);
+        fragmentManager = getSupportFragmentManager();
+        if (findViewById(R.id.frame) != null)
+        {
+            if (savedInstanceState != null)
+                return;
+            EquationEntryFragment eq = new EquationEntryFragment();
+            FragmentTransaction ft = fragmentManager.beginTransaction();
+            ft.add(R.id.frame, eq, null);
+            ft.commit();
+        }
+
 
         //Set up button OnClickListeners
         home.setOnClickListener(new View.OnClickListener() {
@@ -58,18 +66,6 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
             @Override
             public void onClick(View v) {
                 openSettingsActivity();
-            }
-        });
-        origin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                goToOrigin();
-            }
-        });
-        updateInput.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                readInput();
             }
         });
 
@@ -118,15 +114,15 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
         graph.getViewport().setXAxisBoundsManual(true);
     }
 
-    public void readInput()
+    public void readInput(String func)
     {
         try
         {
-            if (!inputFunc.getText().toString().equals(""))
+            if (!func.equals(""))
             {
                 Expression exp = new Expression(new ArrayList<Character>(), new ArrayList<Double>());
-                Log.d("readInput()", "reading Input, equation is " + inputFunc.getText().toString());
-                LineGraphSeries<DataPoint> points = exp.graphSolve(inputFunc.getText().toString());
+                Log.d("readInput()", "reading Input, equation is " + func);
+                LineGraphSeries<DataPoint> points = exp.graphSolve(func);
                 //If returned series has no values, something went wrong
                 if (points.isEmpty())
                     Toast.makeText(getApplicationContext(), "Please enter a valid equation", Toast.LENGTH_SHORT).show();
@@ -182,4 +178,9 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
              Log.e("testGraphing()", "something went wrong while graphing");
          }
      }
-}
+
+     @Override
+     public void onEquationEntryFragmentRead(String message) {
+         readInput(message);
+     }
+ }
