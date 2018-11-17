@@ -2,6 +2,7 @@
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.util.Log;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.Toast;
 
 import com.jjoe64.graphview.GraphView;
@@ -19,6 +22,7 @@ import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
 
@@ -30,20 +34,24 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
     private EditText inputX;
     private EditText inputY;
     private LineGraphSeries<DataPoint> plotSeries;
+    private ArrayList<LineGraphSeries<DataPoint>> allSeries;
     private int[] swapColors = {Color.GREEN, Color.BLUE, Color.RED, Color.GRAY, Color.CYAN, Color.MAGENTA, Color.LTGRAY, Color.YELLOW, Color.BLACK};
     private int colorInd = 0;
     public static FragmentManager fragmentManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_graph);
 
-        //Set up buttons + graph + fragment
+        //Initializers
         home = (ImageButton) findViewById(R.id.graphHomeButton);
         settings = (ImageButton) findViewById(R.id.graphSettingsButton);
         //inputX = (EditText) findViewById(R.id.graphInputX);
         //inputY = (EditText) findViewById(R.id.graphInputY);
         graph = (GraphView) findViewById(R.id.graph);
+        addgraph = (Button)findViewById(R.id.addgraph);
+        allSeries = new ArrayList<>();
         fragmentManager = getSupportFragmentManager();
         if (findViewById(R.id.frame) != null)
         {
@@ -54,7 +62,6 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
             ft.add(R.id.frame, eq, null);
             ft.commit();
         }
-
 
         //Set up button OnClickListeners
         home.setOnClickListener(new View.OnClickListener() {
@@ -69,8 +76,6 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
                 openSettingsActivity();
             }
         });
-
-        addgraph = (Button)findViewById(R.id.addgraph);
         addgraph.setOnClickListener(new View.OnClickListener() {
             @Override//
             public void onClick(View view) {
@@ -147,6 +152,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
                     points.setColor(swapColors[colorInd++]);
                     if (colorInd > 8)
                         colorInd = 0;
+                    allSeries.add(points);
                     graph.addSeries(points);
                 }
 
@@ -186,6 +192,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
                  sinSeries.appendData(new DataPoint(i, Math.sin(i)),false,100000);
                  Log.d("testGraphing()", "RUNNING RUNNING RUNNING");
              }
+             allSeries.add(sinSeries);
              graph.addSeries(sinSeries);
          }
          catch (Exception e)
@@ -197,5 +204,32 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
      @Override
      public void onEquationEntryFragmentRead(String message) {
          readInput(message);
+     }
+
+     @Override
+     public void deleteEq(int code) {
+         if (findViewById(R.id.frame) != null)
+         {
+             Log.d("delete eq", "Ran method");
+             FragmentTransaction ft = fragmentManager.beginTransaction();
+             Log.d("delete eq", "Started transaction");
+             List<Fragment> list = getSupportFragmentManager().getFragments();
+             for (int i = 0; i < ((List) list).size(); i++)
+             {
+                 Fragment frag = list.get(i);
+                 if (frag instanceof EquationEntryFragment)
+                 {
+                     Log.d("delete eq", "Given code: " + code + " seen code: " + ((EquationEntryFragment) frag).code);
+                     if (((EquationEntryFragment) frag).code == code)
+                     {
+                         graph.removeSeries(allSeries.remove(i));
+                         ft.remove(frag);
+                     }
+
+                 }
+             }
+             ft.commit();
+             Log.d("delete eq", "done");
+         }
      }
  }

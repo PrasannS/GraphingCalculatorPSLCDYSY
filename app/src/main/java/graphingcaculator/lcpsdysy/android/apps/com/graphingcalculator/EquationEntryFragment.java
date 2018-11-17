@@ -30,7 +30,8 @@ public class EquationEntryFragment extends Fragment {
     private String message;
     private EditText enterFunc;
     private equationEntryFragmentListener equationEntry;
-    private ImageButton originButton;
+    private Button deleteButton;
+    public int code;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -72,6 +73,7 @@ public class EquationEntryFragment extends Fragment {
     public interface equationEntryFragmentListener
     {
         public void onEquationEntryFragmentRead(String message);
+        public void deleteEq(int code);
     }
 
     @Override
@@ -81,13 +83,22 @@ public class EquationEntryFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_equation_entry, container, false);
         enterFunc = (EditText) view.findViewById(R.id.enterFunc);
-        originButton = (ImageButton) view.findViewById(R.id.graphOriginButton);
+        deleteButton = (Button) view.findViewById(R.id.deleteButton);
         enter = (Button) view.findViewById(R.id.enterButton);
         enter.setOnClickListener(new View.OnClickListener() {
             @Override//
             public void onClick(View view) {
                 message = enterFunc.getText().toString();
                 equationEntry.onEquationEntryFragmentRead(message);
+            }
+        });
+        deleteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (message == null)
+                    return;
+                code = (int) (Math.random() * 1000) + message.hashCode();
+                equationEntry.deleteEq(code);
             }
         });
         return view;
