@@ -85,7 +85,7 @@ public class EquationEntryFragment extends Fragment {
         enter = (Button) view.findViewById(R.id.enter);
         enter.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 message = enterFunc.getText().toString();
                 equationEntry.onEquationEntryFragmentRead(message);
             }
