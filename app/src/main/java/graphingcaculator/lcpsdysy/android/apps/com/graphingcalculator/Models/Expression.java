@@ -27,6 +27,7 @@ public class Expression {
     public int currentvar;
     public boolean isDecimal;
     public boolean onfunc;
+    public boolean closed = false;
 
     public ArrayList<Character> vars= new ArrayList<>();
 
@@ -55,10 +56,12 @@ public class Expression {
     }
 
     public Expression(ArrayList<Character>ct, ArrayList<Double>it, char sep, char clo){
+        expressions = new ArrayList<>();
         for(Double d: it){
             expressions.add(new Expression(d));
         }
         c= ct;
+        expressions.add(new Expression(0));
         separator = sep;
         hasSeparator = true;
         close = clo;
@@ -172,10 +175,11 @@ public class Expression {
         //this is a line after which ill put my own code
         expressions = new ArrayList<>();
         while(input.length()!=0){
+            int a =0;
             if(input.charAt(0)=='('){
                 Expression e = new Expression();
-                e.parseExpression(input.substring(1,input.indexOf(')')));
-                input = input.substring(input.indexOf(')')+1);
+                e.parseExpression(input.substring(1,getclose(input)));
+                input = input.substring(getclose(input)+1);
                 expressions.add(e);
             }
             else{
@@ -183,22 +187,32 @@ public class Expression {
                     expressions.add(new Expression(input.charAt(0)));
                     if(vars.indexOf(input.charAt(0))==-1){
                         vars.add(input.charAt(0));
+                        if(input.length()>1)
+                            input = input.substring(1);
+                        else{
+                            input= "";
+                            break;
+                        }
                     }
                 }
                 else{
-                    int a =0;
+
                     while(Character.isDigit(input.charAt(a))||input.charAt(a)=='.'&&a!=input.length()){
                         a++;
                     }
                     expressions.add(new Expression(Double.parseDouble(input.substring(0,a))));
-                    if(!Character.isDigit(input.charAt(0))&&input.charAt(0)!='.'&&a!=input.length()-1){
+                    if(a!=input.length()){
                         input = input.substring(a);
-                        this.c.add(input.charAt(0));
-                        input= input.substring(1);
                     }
-                    if(a==input.length()-1){
+                    else{
+                        input = "";
                         break;
                     }
+
+                }
+                if(!Character.isDigit(input.charAt(0))&&input.charAt(0)!='.'&&0!=input.length()){
+                    this.c.add(input.charAt(0));
+                    input = input.substring(1);
                 }
 
 
@@ -211,7 +225,7 @@ public class Expression {
     public void setvar(char var, double value, boolean set){
         for(Expression e:expressions){
             if(e.isvar&&e.isnum){
-                if(varchar==var){
+                if(e.varchar==var){
                     if(set){
                         e.num = value;
                     }
@@ -226,10 +240,12 @@ public class Expression {
                 }
             }
             else if(e.isvar){
-                e.isnum=true;
-                e.num = value;
+                if(e.varchar==var){
+                    e.isnum=true;
+                    e.num = value;
+                }
             }
-            else{
+            else if(!e.isnum){
                 e.setvar(var,value,set);
             }
 
@@ -248,54 +264,69 @@ public class Expression {
 
     public String toString(){
         String stringshown = "";
-        int ind;
-        int funcind = 0;
-        for(Expression e: this.expressions){
-            if(e.isnum){
-                if(e.hasSeparator){
-                    stringshown+=e.separator;
-                }
-                ind = 0;
-                if(e.isnum){
-                    if(checkPiFactor(num)!=-1){
-                        if(checkPiFactor(num)==1)
-                            stringshown+="π";
-                        else
-                            stringshown+=checkPiFactor(num) + "π";
-                    }
-                    else if(getDecimalPlaces(num)==0){
-                        stringshown+=(int)num;
-                        if(isDecimal(num))
-                            stringshown+=".0";}
-                    else{
-                        stringshown+=num+" ";}
-                    if(ind<c.size()){
-                        stringshown+=c.get(ind)+" ";
-                        ind++;
-                    }
-                }
-                else{
-                    stringshown+=e.toString();
-                }
-                if(e.hasSeparator){
-                    stringshown+=e.close;
-                }
-                if(funcind<c.size()){
-                    stringshown+=c.get(funcind);
-                }
-                funcind++;
+        if(isvar){
+            stringshown=""+varchar;
+        }
+        else{
+            if(this.hasSeparator){
+                stringshown+=this.separator;
             }
-            else if(e.isvar){
-                stringshown+=e.varchar;
-                if(funcind<c.size()){
-                    stringshown+=c.get(funcind);
-                }
-                funcind++;
+            int funcind = 0;
+            if(isnum){
+                stringshown=""+num;
             }
             else{
-                stringshown+=e.toString();
-            }
+                for(Expression e: this.expressions){
+                    if(e.isnum){
 
+                        if(e.isnum){
+                            if(checkPiFactor(e.num)!=-1){
+                                if(checkPiFactor(e.num)==1)
+                                    stringshown+="π";
+                                else
+                                    stringshown+=checkPiFactor(e.num) + "π";
+                            }
+                            else if(getDecimalPlaces(e.num)==0){
+                                stringshown+=""+(int)e.num;
+                                if(isDecimal(e.num))
+                                    stringshown+=".0";}
+                            else{
+                                stringshown+=e.num+" ";}
+                            if(funcind<c.size()){
+                                stringshown+=c.get(funcind)+" ";
+                                funcind++;
+                            }
+                        }
+                        else{
+                            stringshown+=e.toString();
+                            if(funcind<c.size()){
+                                stringshown+=c.get(funcind)+" ";
+                                funcind++;
+                            }
+                        }
+
+
+                    }
+                    else if(e.isvar){
+                        stringshown+=e.varchar;
+                        if(funcind<c.size()){
+                            stringshown+=c.get(funcind);
+                            funcind++;
+                        }
+                    }
+                    else{
+                        stringshown+=e.toString();
+                        if(funcind<c.size()){
+                            stringshown+=c.get(funcind)+" ";
+                            funcind++;
+                        }
+                    }
+
+                }
+            }
+            if(this.hasSeparator){
+                stringshown+=this.close;
+            }
         }
 
         return stringshown;
@@ -367,7 +398,7 @@ public class Expression {
     }
 
     public int checkPiFactor(double d){
-        if(d%Math.PI == 0){
+        if(d%Math.PI == 0&&d!=0){
             return (int)(d/Math.PI);
         }
         else
@@ -383,10 +414,80 @@ public class Expression {
             return 0;
     }
 
+
+    public boolean enternumber(double d, boolean straight){
+        isnum=false;
+        if(vars.size()!=currentvar){
+            this.setvar(vars.get(currentvar),d,false);
+            return true;
+        }
+        else{
+            if (expressions.get(expressions.size() - 1).isnum) {
+                if(straight){
+                    expressions.get(expressions.size()-1).num = d;
+                    return true;
+                }
+                if(onfunc){
+                    addExpression(new Expression(d));
+                    onfunc=false;
+                    return true;
+                }
+                else{
+                    if(expressions.get(expressions.size()-1).isnum){
+                        double temp = expressions.get(expressions.size()-1).num;
+                /*if(firstform){
+                    if(isDecimal){
+                        firstform = false;
+                        e.expressions.get(e.currentExpression).setvar(e.expressions.get(e.currentExpression).vars.get(0),i/Math.pow(10,e.getDecimalPlaces(e.expressions.get(e.currentExpression).i.get(currentnum))+1));
+                    }
+                    else {
+                        firstform = false;
+                        e.expressions.get(e.currentExpression).setvar(e.expressions.get(e.currentExpression).vars.get(0), i);
+                    }
+                }
+
+                else if(isDecimal){
+                    e.expressions.get(e.currentExpression).i.set(currentnum, e.expressions.get(e.currentExpression).i.get(currentnum)+(i/Math.pow(10,e.getDecimalPlaces(e.expressions.get(e.currentExpression).i.get(currentnum))+1)));
+                }
+                else
+                    e.expressions.get(e.currentExpression).i.set(currentnum, e.expressions.get(e.currentExpression).i.get(currentnum)*10+i);*/
+                        if(isDecimal){
+                            expressions.set(expressions.size()-1,new Expression(temp+d/Math.pow(10,getDecimalPlaces(temp)+1)));
+                            return true;
+                        }
+                        else{
+                            expressions.set(expressions.size()-1,new Expression(temp*10+d));
+                            return true;
+                        }
+                    }
+                    else{
+                        expressions.get(expressions.size()-1).enternumber(d,false);
+                        return true;
+                    }
+                }
+            }
+            else{
+                if(onfunc){
+                    addExpression(new Expression(d));
+                    onfunc=false;
+                    return true;
+                }
+                else if(straight){
+                    expressions.get(expressions.size() - 1).enternumber(d,true);
+                    return true;
+                }
+                else{
+                    expressions.get(expressions.size() - 1).enternumber(d,false);
+                    return true;
+                }
+            }
+        }
+    }
+
     public void enterfunction(char a){
-        if(expressions.get(expressions.size()-1).isnum){
+        if(expressions.get(expressions.size()-1).isnum||expressions.get(expressions.size()-1).closed){
             if(!onfunc){
-                c.add(a);
+                this.c.add(a);
                 onfunc = true;
             }
             else{
@@ -399,14 +500,42 @@ public class Expression {
         }
     }
 
-    public void enternumber(double d, boolean straight){
-        if(vars.size()!=currentvar){
-            setvar(vars.get(currentvar),d,false);
+    public boolean isDecimal(double d){
+        return d%1!=0;
+    }
+
+    public int getclose(String s){
+        int ind = 1;
+        int pnum = 1 ;
+        while(pnum!=0){
+            if(s.charAt(ind)=='(')
+                pnum++;
+            else if(s.charAt(ind)==')'){
+                pnum--;
+            }
+            ind++;
+        }
+        return ind;
+
+    }
+
+    public void addExpression(Expression e){
+        if(expressions.get(expressions.size()-1).isnum||expressions.get(expressions.size()-1).closed){
+            expressions.add(e);
+        }
+        else{
+            expressions.get(expressions.size()-1).addExpression(e);
         }
     }
 
-    public boolean isDecimal(double d){
-        return d%1!=0;
+    public void closeExpression(){
+        if(expressions.get(expressions.size()-1).isnum||expressions.get(expressions.size()-1).isvar){
+            this.closed=true;
+        }
+        else{
+            expressions.get(expressions.size()-1).closeExpression();
+        }
+        onfunc=false;
     }
 
 
@@ -427,7 +556,6 @@ public class Expression {
                     tempnums.add(nums.remove(ind));
                     funcs.remove(ind);
                 }
-
             }
         if(Expression.size()>1) {
             Expression solved = new Expression(c, new ArrayList<Double>());
@@ -452,7 +580,6 @@ public class Expression {
             Expression.get(currentExpression).i.add(solution);
         }
         currentExpression = 0;
-
         while(funcs.indexOf('(')!=-1){
             Expression.add(new Expression(new ArrayList<Character>(funcs.subList(funcs.indexOf('(')+1,funcs.indexOf(')'))),new ArrayList<Double>(nums.subList(funcs.indexOf('('),funcs.indexOf(')')+1))));
             ArrayList<Character> tempf2= new ArrayList<>(funcs.subList(0,funcs.indexOf('(')));
@@ -474,6 +601,7 @@ public class Expression {
         funcs = new ArrayList<>();
         nums.add(answer.getSolution());
         show(false);
-
     }*/
 }
+
+

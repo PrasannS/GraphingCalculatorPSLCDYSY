@@ -23,19 +23,13 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     private TextView display;
     private String stringshown= "0";
     Expression e = new Expression();
-    private boolean betweenExpression=false;
-    private boolean formulamode = false;
-    public ArrayList<Character>chars = new ArrayList<>();
-    public ArrayList<Double>numbers = new ArrayList<>();
     public static FragmentManager fragmentManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        e.expressions.add(new Expression(0));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calc);
-        numbers.add(0.0);
-        e.expressions.add(new Expression(chars,numbers));
-
         fragmentManager = getSupportFragmentManager();
         if(findViewById(R.id.fragmentcontainer)!=null){
             if(savedInstanceState!=null){
@@ -113,11 +107,11 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
         show();
 
     }
-/*
-    public void calculate(Expression e){
-        e.Expression.get(e.currentExpression).i.add(e.getSolution());
-    }
-*/
+    /*
+        public void calculate(Expression e){
+            e.Expression.get(e.currentExpression).i.add(e.getSolution());
+        }
+    */
     public void show(){
         stringshown = e.toString();
         display.setText(stringshown);
@@ -129,7 +123,6 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
 
     public void loadformula(String id){
         firstform = true;
-        formulamode = true;
         e.parseExpression("a+10*b");
         show();
     }
@@ -150,16 +143,17 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                     show();
                     break;
                 case '(':
-                    e.expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '(',')'));
+                    e.addExpression(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),'(',')'));
+                    e.onfunc=false;
                     show();
                     break;
                 case ')':
-                    betweenExpression=true;
+                    e.closeExpression();
                     show();
                     break;
 
                 case'√':
-                    e.expressions.add(new Expression(new ArrayList<Character>(), new ArrayList<Double>(), '√',')'));
+                    e.addExpression(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),'√',')'));
                     show();
                     break;
 
@@ -174,8 +168,8 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
             }
         }
         else if(message.equals("enter")){
-            if(e.vars.size()>0){
-                e.currentvar++;
+            if(e.vars.size()>0&&e.vars.size()-1!=e.currentvar){
+                    e.currentvar++;
             }
             else{
                 try {
@@ -207,10 +201,12 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     }
 
     public void solveExpression(){
-        e = new Expression(e.getSolution());
+        double temp = e.getSolution();
+        e = new Expression(new ArrayList<Character>(),new ArrayList<Double>());
+        e.expressions.add(new Expression(temp));
         show();
         //currentnum = 0;
-       // currentfunc = 0;
+        // currentfunc = 0;
         e.onfunc = false;
     }
 }
