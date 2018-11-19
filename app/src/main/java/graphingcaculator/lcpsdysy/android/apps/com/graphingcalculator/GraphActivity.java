@@ -13,8 +13,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.util.Log;
-import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.Toast;
 
@@ -208,7 +206,6 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
      public void deleteEq(int code) {
          if (findViewById(R.id.frame) != null)
          {
-             Log.d("deleteEq", "recieved code " + code);
              FragmentTransaction ft = fragmentManager.beginTransaction();
              List<Fragment> list = getSupportFragmentManager().getFragments();
              for (int i = 0; i < ((List) list).size(); i++)
@@ -216,7 +213,6 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
                  Fragment frag = list.get(i);
                  if (frag instanceof EquationEntryFragment)
                  {
-                     Log.d("deleteEq", "Code is " + code);
                      if (((EquationEntryFragment) frag).getCode() == code)
                      {
                          if (i >= allSeries.size())
@@ -236,7 +232,6 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
 
      @Override
      public void updatedEq(int code, String newEq) {
-        Log.d("updateG", "Updating " + code);
          List<Fragment> list = getSupportFragmentManager().getFragments();
          for (int i = 0; i < list.size() && i < allSeries.size(); i++)
          {
@@ -289,7 +284,6 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
      }
      @Override
      public boolean onTouch(View v, MotionEvent event) {
-         //Log.d("touch", x + " " + y);
          double newMaxX = graph.getViewport().getMaxX(false);
          double newMinX = graph.getViewport().getMinX(false);
          double newX = Math.abs(newMaxX + Math.abs(newMinX));

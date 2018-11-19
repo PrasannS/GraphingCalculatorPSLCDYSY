@@ -7,13 +7,11 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 
 
 /**
@@ -26,8 +24,6 @@ import android.widget.ImageButton;
  */
 public class EquationEntryFragment extends Fragment {
 
-    private Button enter;
-    private String message;
     private EditText enterFunc;
     private equationEntryFragmentListener equationEntry;
     private Button deleteButton;
@@ -85,14 +81,11 @@ public class EquationEntryFragment extends Fragment {
         if (getArguments() != null) {
             Bundle args = getArguments();
             code = (int) args.get("code");
-            Log.d("codeInsert", code + "");
         }
-        Log.d("textChanged", "set changewatch");
         deleteButton = (Button) view.findViewById(R.id.deleteButton);
         deleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("deleteEq", "recieved input");
                 equationEntry.deleteEq(code);
             }
         });
@@ -102,7 +95,7 @@ public class EquationEntryFragment extends Fragment {
     private TextWatcher changeWatch = new TextWatcher() {
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-            Log.d("text changed", "recieved change in beforeTextChanged");
+
         }
 
         @Override
@@ -112,7 +105,6 @@ public class EquationEntryFragment extends Fragment {
 
         @Override
         public void afterTextChanged(Editable s) {
-            Log.d("updateG", "given method");
             if (first)
             {
                 equationEntry.firstRead(s.toString());
