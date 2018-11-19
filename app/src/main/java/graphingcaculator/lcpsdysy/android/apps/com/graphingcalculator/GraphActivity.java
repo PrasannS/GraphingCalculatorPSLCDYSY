@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,13 +31,17 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
      private Button addgraph;
     private ImageButton home;
     private ImageButton settings;
+    private ImageButton originButton;
     private GraphView graph;
     private EditText inputX;
     private EditText inputY;
     private LineGraphSeries<DataPoint> plotSeries;
     private ArrayList<LineGraphSeries<DataPoint>> allSeries;
+    private ArrayList<Integer> colorInds;
+    private ArrayList<String> equations;
     private int[] swapColors = {Color.GREEN, Color.BLUE, Color.RED, Color.GRAY, Color.CYAN, Color.MAGENTA, Color.LTGRAY, Color.YELLOW, Color.BLACK};
     private int colorInd = 0;
+    private ScrollView scroll;
     public static FragmentManager fragmentManager;
 
     @Override
@@ -47,11 +52,16 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
         //Initializers
         home = (ImageButton) findViewById(R.id.graphHomeButton);
         settings = (ImageButton) findViewById(R.id.graphSettingsButton);
+        originButton = (ImageButton) findViewById(R.id.originButton);
         //inputX = (EditText) findViewById(R.id.graphInputX);
-        //inputY = (EditText) findViewById(R.id.graphInputY);
+        //inputY = (EditText) findViewBy
+        // Id(R.id.graphInputY);
         graph = (GraphView) findViewById(R.id.graph);
         addgraph = (Button)findViewById(R.id.addgraph);
+        scroll = (ScrollView) findViewById(R.id.scroll);
         allSeries = new ArrayList<>();
+        colorInds = new ArrayList<>();
+        equations = new ArrayList<>();
         fragmentManager = getSupportFragmentManager();
         if (findViewById(R.id.frame) != null)
         {
@@ -85,7 +95,25 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
                     FragmentTransaction ft = fragmentManager.beginTransaction();
                     ft.add(R.id.frame, eq, null);
                     ft.commit();
+                    scroll.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            scroll.fullScroll(View.FOCUS_DOWN);
+                        }
+                    },100);
                 }
+            }
+        });
+        originButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                graph.getViewport().setXAxisBoundsManual(true);
+                graph.getViewport().setYAxisBoundsManual(true);
+                graph.getViewport().setMinX(-5);
+                graph.getViewport().setMaxX(5);
+                graph.getViewport().setMinY(-5);
+                graph.getViewport().setMaxY(5);
+                graph.onDataChanged(false, false);
             }
         });
 
@@ -110,6 +138,8 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
         graph.getViewport().setScalableY(true);
         graph.addSeries(series2);
         graph.addSeries(series3);
+
+        graph.setOnTouchListener(new GraphTouchListener(allSeries, graph, colorInds, equations));
     }
 
 
@@ -142,13 +172,18 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
             {
                 Expression exp = new Expression(new ArrayList<Character>(), new ArrayList<Double>());
                 Log.d("readInput()", "reading Input, equation is " + func);
-                LineGraphSeries<DataPoint> points = exp.graphSolve(func);
+                equations.add(func);
+                double maxX = graph.getViewport().getMaxX(false);
+                double minX = graph.getViewport().getMinX(false);
+                double xChange = maxX - minX;
+                LineGraphSeries<DataPoint> points = exp.graphSolve(func, minX - xChange, maxX + xChange, (maxX - minX) / 100);
                 //If returned series has no values, something went wrong
                 if (points.isEmpty())
                     Toast.makeText(getApplicationContext(), "Please enter a valid equation", Toast.LENGTH_SHORT).show();
                 else
                 {
                     //Make graph a color
+                    colorInds.add(colorInd);
                     points.setColor(swapColors[colorInd++]);
                     if (colorInd > 8)
                         colorInd = 0;
@@ -160,11 +195,10 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
             else
             {
                 graph.addSeries(plotSeries);
+                colorInds.add(-1);
+                equations.add("plot");
                 //For fun, graphs sin function if all edittexts are empty
-                if (inputX.getText().toString().equals("") && inputY.getText().toString().equals(""))
-                {
-                    testGraphing();
-                }
+                if (inputX.getText().toString().equals("") && inputY.getText().toString().equals(""));
                 //Add plotted point
                 else
                 {
@@ -182,24 +216,6 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
             Toast.makeText(getApplicationContext(), "Invalid point value", Toast.LENGTH_SHORT).show();
         }
     }
-    public void testGraphing()
-     {
-         try
-         {
-             LineGraphSeries<DataPoint> sinSeries = new LineGraphSeries<>();
-             for (double i = -10; i < 100; i += 0.1)
-             {
-                 sinSeries.appendData(new DataPoint(i, Math.sin(i)),false,100000);
-                 Log.d("testGraphing()", "RUNNING RUNNING RUNNING");
-             }
-             allSeries.add(sinSeries);
-             graph.addSeries(sinSeries);
-         }
-         catch (Exception e)
-         {
-             Log.e("testGraphing()", "something went wrong while graphing");
-         }
-     }
 
      @Override
      public void onEquationEntryFragmentRead(String message) {
@@ -210,19 +226,18 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
      public void deleteEq(int code) {
          if (findViewById(R.id.frame) != null)
          {
-             Log.d("delete eq", "Ran method");
              FragmentTransaction ft = fragmentManager.beginTransaction();
-             Log.d("delete eq", "Started transaction");
              List<Fragment> list = getSupportFragmentManager().getFragments();
-             for (int i = 0; i < ((List) list).size(); i++)
+             for (int i = 0; i < ((List) list).size() && i < allSeries.size(); i++)
              {
                  Fragment frag = list.get(i);
                  if (frag instanceof EquationEntryFragment)
                  {
-                     Log.d("delete eq", "Given code: " + code + " seen code: " + ((EquationEntryFragment) frag).code);
                      if (((EquationEntryFragment) frag).code == code)
                      {
                          graph.removeSeries(allSeries.remove(i));
+                         colorInds.remove(i);
+                         equations.remove(i);
                          ft.remove(frag);
                      }
 
@@ -231,5 +246,63 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
              ft.commit();
              Log.d("delete eq", "done");
          }
+     }
+
+ }
+ class GraphTouchListener implements View.OnTouchListener
+ {
+     private ArrayList<LineGraphSeries<DataPoint>> series;
+     private GraphView graph;
+     private double x;
+     private ArrayList<Integer> colorInds;
+     private ArrayList<String> equations;
+     private double y;
+     private double maxX;
+     private double minX;
+     private int[] swapColors = {Color.GREEN, Color.BLUE, Color.RED, Color.GRAY, Color.CYAN, Color.MAGENTA, Color.LTGRAY, Color.YELLOW, Color.BLACK};
+     public GraphTouchListener(ArrayList<LineGraphSeries<DataPoint>> allSeries, GraphView graph, ArrayList<Integer> colorInds, ArrayList<String> equations)
+     {
+         this.equations = equations;
+         series = allSeries;
+         this.graph = graph;
+         this.colorInds = colorInds;
+         maxX = graph.getViewport().getMaxX(false);
+         minX = graph.getViewport().getMinX(false);
+         x = Math.abs(maxX) + Math.abs(minX);
+         y = Math.abs(graph.getViewport().getMaxY(false)) + Math.abs(graph.getViewport().getMinY(false));
+     }
+     @Override
+     public boolean onTouch(View v, MotionEvent event) {
+         //Log.d("touch", x + " " + y);
+         double newMaxX = graph.getViewport().getMaxX(false);
+         double newMinX = graph.getViewport().getMinX(false);
+         double newX = Math.abs(newMaxX + Math.abs(newMinX));
+         double newY = Math.abs(graph.getViewport().getMaxY(false)) + Math.abs(graph.getViewport().getMinY(false));
+         if ((newX > x && (newX - x) / x * 100 >= 100 )|| (newY > y && (newY - y) / y * 100 >= 100) || (x > newX && (x - newX) / x * 100 >= 50) || (y > newY && (y - newY) / y * 100 >= 50)
+                 || Math.abs((newMaxX - maxX)) > 0.5 * x || Math.abs((newMinX - minX)) > 0.5 * x)
+         {
+             maxX = newMaxX;
+             minX = newMinX;
+             x = newX;
+             y = newY;
+             minX = graph.getViewport().getMinX(false);
+             maxX = graph.getViewport().getMaxX(false);
+             double xChange = maxX - minX;
+             for (int i = 0; i < series.size(); i++)
+             {
+                 graph.removeSeries(series.get(i));
+                 Expression exp = new Expression(new ArrayList<Character>(), new ArrayList<Double>());
+                 series.set(i, exp.graphSolve(equations.get(i), minX - xChange, maxX + xChange, (maxX - minX) / 100));
+                 if (!(swapColors[colorInds.get(i)] == -1))
+                    series.get(i).setColor(swapColors[colorInds.get(i)]);
+                 graph.addSeries(series.get(i));
+             }
+         }
+//         if (series.size() > 0)
+//         {
+//             graph.removeSeries(series.get(0));
+//             series.remove(0);
+//         }
+         return false;
      }
  }
