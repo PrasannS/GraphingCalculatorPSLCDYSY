@@ -41,6 +41,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
     private ArrayList<String> equations;
     private int[] swapColors = {Color.GREEN, Color.BLUE, Color.RED, Color.GRAY, Color.CYAN, Color.MAGENTA, Color.LTGRAY, Color.YELLOW, Color.BLACK};
     private int colorInd = 0;
+    private int codes = 0;
     private ScrollView scroll;
     public static FragmentManager fragmentManager;
 
@@ -67,7 +68,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
         {
             if (savedInstanceState != null)
                 return;
-            EquationEntryFragment eq = new EquationEntryFragment();
+            EquationEntryFragment eq = EquationEntryFragment.newInstance(codes++);
             FragmentTransaction ft = fragmentManager.beginTransaction();
             ft.add(R.id.frame, eq, null);
             ft.commit();
@@ -91,7 +92,8 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
             public void onClick(View view) {
                 if (findViewById(R.id.frame) != null)
                 {
-                    EquationEntryFragment eq = new EquationEntryFragment();
+                    Log.d("textChanged", "add frag");
+                    EquationEntryFragment eq = EquationEntryFragment.newInstance(codes++);
                     FragmentTransaction ft = fragmentManager.beginTransaction();
                     ft.add(R.id.frame, eq, null);
                     ft.commit();
@@ -114,6 +116,8 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
                 graph.getViewport().setMinY(-5);
                 graph.getViewport().setMaxY(5);
                 graph.onDataChanged(false, false);
+                for (int i = 0; i < allSeries.size(); i++)
+                    updateGraph(i, equations.get(i));
             }
         });
 
@@ -153,44 +157,27 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
         Intent intent1 = new Intent(this, SettingsActivity.class);
         startActivity(intent1);
     }
-    public void goToOrigin()
-    {
-        graph.getViewport().setMinY(-5);
-        graph.getViewport().setMaxY(5);
-        graph.getViewport().setMinX(-5);
-        graph.getViewport().setMaxX(5);
 
-        graph.getViewport().setYAxisBoundsManual(true);
-        graph.getViewport().setXAxisBoundsManual(true);
-    }
-
-    public void readInput(String func)
+    @Override
+    public void firstRead(String func)
     {
         try
         {
             if (!func.equals(""))
             {
                 Expression exp = new Expression(new ArrayList<Character>(), new ArrayList<Double>());
-                Log.d("readInput()", "reading Input, equation is " + func);
+                Log.d("firstRead()", "reading Input, equation is " + func);
                 equations.add(func);
                 double maxX = graph.getViewport().getMaxX(false);
                 double minX = graph.getViewport().getMinX(false);
                 double xChange = maxX - minX;
                 LineGraphSeries<DataPoint> points = exp.graphSolve(func, minX - xChange, maxX + xChange, (maxX - minX) / 100);
-                //If returned series has no values, something went wrong
-                if (points.isEmpty())
-                    Toast.makeText(getApplicationContext(), "Please enter a valid equation", Toast.LENGTH_SHORT).show();
-                else
-                {
-                    //Make graph a color
-                    colorInds.add(colorInd);
-                    points.setColor(swapColors[colorInd++]);
-                    if (colorInd > 8)
-                        colorInd = 0;
-                    allSeries.add(points);
-                    graph.addSeries(points);
-                }
-
+                colorInds.add(colorInd);
+                points.setColor(swapColors[colorInd++]);
+                if (colorInd > 8)
+                    colorInd = 0;
+                allSeries.add(points);
+                graph.addSeries(points);
             }
             else
             {
@@ -218,23 +205,22 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
     }
 
      @Override
-     public void onEquationEntryFragmentRead(String message) {
-         readInput(message);
-     }
-
-     @Override
      public void deleteEq(int code) {
          if (findViewById(R.id.frame) != null)
          {
+             Log.d("deleteEq", "recieved code " + code);
              FragmentTransaction ft = fragmentManager.beginTransaction();
              List<Fragment> list = getSupportFragmentManager().getFragments();
-             for (int i = 0; i < ((List) list).size() && i < allSeries.size(); i++)
+             for (int i = 0; i < ((List) list).size(); i++)
              {
                  Fragment frag = list.get(i);
                  if (frag instanceof EquationEntryFragment)
                  {
-                     if (((EquationEntryFragment) frag).code == code)
+                     Log.d("deleteEq", "Code is " + code);
+                     if (((EquationEntryFragment) frag).getCode() == code)
                      {
+                         if (i >= allSeries.size())
+                             ft.remove(frag);
                          graph.removeSeries(allSeries.remove(i));
                          colorInds.remove(i);
                          equations.remove(i);
@@ -244,10 +230,40 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
                  }
              }
              ft.commit();
-             Log.d("delete eq", "done");
+             Log.d("deleteEq", "done");
          }
      }
 
+     @Override
+     public void updatedEq(int code, String newEq) {
+        Log.d("updateG", "Updating " + code);
+         List<Fragment> list = getSupportFragmentManager().getFragments();
+         for (int i = 0; i < list.size() && i < allSeries.size(); i++)
+         {
+             Fragment frag = list.get(i);
+             if (frag instanceof EquationEntryFragment)
+                 if (((EquationEntryFragment) frag).getCode() == code)
+                 {
+                     Log.d("updateG", "Matched code " + code);
+                     updateGraph(i, newEq);
+                 }
+
+         }
+     }
+
+     public void updateGraph(int ind, String newEq)
+     {
+         double maxX = graph.getViewport().getMaxX(false);
+         double minX = graph.getViewport().getMinX(false);
+         equations.set(ind, newEq);
+         double xChange = maxX - minX;
+         graph.removeSeries(allSeries.get(ind));
+         Expression exp = new Expression(new ArrayList<Character>(), new ArrayList<Double>());
+         allSeries.set(ind, exp.graphSolve(equations.get(ind), minX - xChange, maxX + xChange, (maxX - minX) / 100));
+         if (!(swapColors[colorInds.get(ind)] == -1))
+             allSeries.get(ind).setColor(swapColors[colorInds.get(ind)]);
+         graph.addSeries(allSeries.get(ind));
+     }
  }
  class GraphTouchListener implements View.OnTouchListener
  {
@@ -298,11 +314,6 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
                  graph.addSeries(series.get(i));
              }
          }
-//         if (series.size() > 0)
-//         {
-//             graph.removeSeries(series.get(0));
-//             series.remove(0);
-//         }
          return false;
      }
  }

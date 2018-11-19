@@ -22,12 +22,7 @@
 
         <EditText
             android:id="@+id/enterFunc"
-            android:layout_width="250dp"
-            android:layout_height="50dp" />
-        <Button
-            android:id="@+id/enterButton"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="Enter"/>
+            android:layout_height="50dp" />
     </LinearLayout>
 </FrameLayout>
