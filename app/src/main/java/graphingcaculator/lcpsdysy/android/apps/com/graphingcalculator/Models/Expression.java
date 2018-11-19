@@ -11,28 +11,53 @@ import java.util.Arrays;
 public class Expression {
     private double solution;
     public char[] bedmas = {'E', '%', '^','/','*','+','-'};
-    public double[] varcodes = {624.62461224,118.1182341,1234532.1243414949,2359259.8912415,232302.9234123,23223230.234123};
-    public int numvars=0;
-    public ArrayList<Double>i ;
+    //public double[] varcodes = {624.62461224,118.1182341,1234532.1243414949,2359259.8912415,232302.9234123,23223230.234123};
     public ArrayList<Character>c;
+    public ArrayList<Expression>expressions;
     public char separator ;
     public char close;
     public boolean hasSeparator = false;
+    public int currentExpression=0;
+    public String info;
+    public String name;
+    public boolean isnum = false;
+    public double num;
+    public char varchar;
+    public boolean isvar = false;
+    public int currentvar;
+    public boolean isDecimal;
+    public boolean onfunc;
 
     public ArrayList<Character> vars= new ArrayList<>();
 
     public Expression(){
+        expressions = new ArrayList<>();
+        c = new ArrayList<>();
+    }
 
+    public Expression(char c){
+        isvar = true;
+        varchar = c;
+    }
+
+    public Expression(double a){
+        isnum = true;
+        num = a;
     }
 
 
     public Expression(ArrayList<Character>ct, ArrayList<Double>it){
-        i = it;
+        expressions = new ArrayList<>();
+        for(Double d: it){
+            expressions.add(new Expression(d));
+        }
         c= ct;
     }
 
     public Expression(ArrayList<Character>ct, ArrayList<Double>it, char sep, char clo){
-        i = it;
+        for(Double d: it){
+            expressions.add(new Expression(d));
+        }
         c= ct;
         separator = sep;
         hasSeparator = true;
@@ -47,21 +72,33 @@ public class Expression {
     }
 
     public double getSolution(){
+        if(this.isnum)
+            return this.num;
+        ArrayList<Double> endList = new ArrayList<>();
+        for(Expression e:expressions){
+            if(e.isnum){
+                endList.add(e.num);
+            }
+            else{
+                endList.add(e.getSolution());
+            }
+
+        }
         int ref = c.size();
         int ind;
         char symbol;
         while(ref>=1){
             ind = getInd();
             symbol = c.get(ind);
-            i.add(ind,evaluate(i.get(ind),i.get(ind+1),symbol));
-            i.remove(ind+1);
-            i.remove(ind+1);
+            endList.add(ind,evaluate(endList.get(ind),endList.get(ind+1),symbol));
+            endList.remove(ind+1);
+            endList.remove(ind+1);
             c.remove(ind);
             ref--;
 
         }
 
-        solution = i.get(0);
+        solution = endList.get(0);
         solution = separatorProperties(solution);
         return solution;
     }
@@ -108,9 +145,8 @@ public class Expression {
 
     }
 
-    public Expression parseExpression(String input, boolean recur){
-        ArrayList<Double> expressions = new ArrayList<>();
-        ArrayList<String> strings = new ArrayList<>();
+    public void parseExpression(String input){
+        /*ArrayList<String> strings = new ArrayList<>();
         ArrayList<Character> interfuncs;
         String in = input;
         while (in.indexOf('(')>=0){
@@ -120,31 +156,87 @@ public class Expression {
         Expression temp = parseExpression(in,true);
         interfuncs = (ArrayList<Character>)temp.c.subList(temp.i.size(),temp.c.size()-1);
         temp.c = (ArrayList<Character>)temp.c.subList(0,temp.i.size());
-        expressions.add(temp.getSolution());
+        Expression.add(temp.getSolution());
         for(String s:strings){
             if(s.indexOf('(')<0){
-                expressions.add(parseExpression(s,true).getSolution());
+                Expression.add(parseExpression(s,true).getSolution());
             }
             else{
-                expressions.add(parseExpression(s,false).getSolution());
+                Expression.add(parseExpression(s,false).getSolution());
             }
         }
-        Expression answer = new Expression(interfuncs,expressions);
+        Expression answer = new Expression(interfuncs,Expression);
         answer.vars = this.vars;
-        return answer;
-    }
+        return answer;*/
 
-    public void setvar(char var, double value){
-        boolean done = false;
-        double val = varcodes[vars.indexOf(var)];
-        while(i.indexOf(val)>=0){
-            i.set(i.indexOf(val),value);
+        //this is a line after which ill put my own code
+        expressions = new ArrayList<>();
+        while(input.length()!=0){
+            if(input.charAt(0)=='('){
+                Expression e = new Expression();
+                e.parseExpression(input.substring(1,input.indexOf(')')));
+                input = input.substring(input.indexOf(')')+1);
+                expressions.add(e);
+            }
+            else{
+                if (Character.isLowerCase(input.charAt(0))) {
+                    expressions.add(new Expression(input.charAt(0)));
+                    if(vars.indexOf(input.charAt(0))==-1){
+                        vars.add(input.charAt(0));
+                    }
+                }
+                else{
+                    int a =0;
+                    while(Character.isDigit(input.charAt(a))||input.charAt(a)=='.'&&a!=input.length()){
+                        a++;
+                    }
+                    expressions.add(new Expression(Double.parseDouble(input.substring(0,a))));
+                    if(!Character.isDigit(input.charAt(0))&&input.charAt(0)!='.'&&a!=input.length()-1){
+                        input = input.substring(a);
+                        this.c.add(input.charAt(0));
+                        input= input.substring(1);
+                    }
+                    if(a==input.length()-1){
+                        break;
+                    }
+                }
+
+
+
+            }
+
         }
-        varcodes = Arrays.copyOfRange(varcodes, 1, varcodes.length-1);
-        vars.remove(vars.indexOf(var));
     }
 
-    public char getvar(double d){
+    public void setvar(char var, double value, boolean set){
+        for(Expression e:expressions){
+            if(e.isvar&&e.isnum){
+                if(varchar==var){
+                    if(set){
+                        e.num = value;
+                    }
+                    else{
+                        if(isDecimal){
+                            e.num = e.num+value/Math.pow(10,getDecimalPlaces(e.num)+1);
+                        }
+                        else{
+                            e.num  = e.num*10+value;
+                        }
+                    }
+                }
+            }
+            else if(e.isvar){
+                e.isnum=true;
+                e.num = value;
+            }
+            else{
+                e.setvar(var,value,set);
+            }
+
+        }
+    }
+
+    /*public char getvar(double d){
         char ans = '0';
         for(int i = 0; i<varcodes.length;i++){
             if(varcodes[i]==d){
@@ -152,11 +244,66 @@ public class Expression {
             }
         }
         return ans;
+    }*/
+
+    public String toString(){
+        String stringshown = "";
+        int ind;
+        int funcind = 0;
+        for(Expression e: this.expressions){
+            if(e.isnum){
+                if(e.hasSeparator){
+                    stringshown+=e.separator;
+                }
+                ind = 0;
+                if(e.isnum){
+                    if(checkPiFactor(num)!=-1){
+                        if(checkPiFactor(num)==1)
+                            stringshown+="π";
+                        else
+                            stringshown+=checkPiFactor(num) + "π";
+                    }
+                    else if(getDecimalPlaces(num)==0){
+                        stringshown+=(int)num;
+                        if(isDecimal(num))
+                            stringshown+=".0";}
+                    else{
+                        stringshown+=num+" ";}
+                    if(ind<c.size()){
+                        stringshown+=c.get(ind)+" ";
+                        ind++;
+                    }
+                }
+                else{
+                    stringshown+=e.toString();
+                }
+                if(e.hasSeparator){
+                    stringshown+=e.close;
+                }
+                if(funcind<c.size()){
+                    stringshown+=c.get(funcind);
+                }
+                funcind++;
+            }
+            else if(e.isvar){
+                stringshown+=e.varchar;
+                if(funcind<c.size()){
+                    stringshown+=c.get(funcind);
+                }
+                funcind++;
+            }
+            else{
+                stringshown+=e.toString();
+            }
+
+        }
+
+        return stringshown;
     }
 
     public LineGraphSeries<DataPoint> graphSolve(String input){
         Log.d("readInput()", "recieved input to solve: " + input);
-        ArrayList<Expression> expressions = new ArrayList<>();
+        ArrayList<Expression> Expression = new ArrayList<>();
         ArrayList<Double> nums = new ArrayList<Double>();
         ArrayList<Character> operators = new ArrayList<>();
         StringBuilder sb = new StringBuilder();
@@ -218,4 +365,115 @@ public class Expression {
         }
         return false;
     }
+
+    public int checkPiFactor(double d){
+        if(d%Math.PI == 0){
+            return (int)(d/Math.PI);
+        }
+        else
+            return -1;
+    }
+
+    public int getDecimalPlaces(double d){
+        String s = Double.toString(d);
+        String[] result = s.split("\\.");
+        if(Double.parseDouble(result[1])!=0)
+            return result[1].length();
+        else
+            return 0;
+    }
+
+    public void enterfunction(char a){
+        if(expressions.get(expressions.size()-1).isnum){
+            if(!onfunc){
+                c.add(a);
+                onfunc = true;
+            }
+            else{
+                c.set(c.size()-1,a);
+                isDecimal=false;
+            }
+        }
+        else{
+            expressions.get(expressions.size()-1).enterfunction(a);
+        }
+    }
+
+    public void enternumber(double d, boolean straight){
+        if(vars.size()!=currentvar){
+            setvar(vars.get(currentvar),d,false);
+        }
+    }
+
+    public boolean isDecimal(double d){
+        return d%1!=0;
+    }
+
+
+
+
+
+    /*public void solveAll(){
+        //boolean done = false;
+        //int ind = funcs.indexOf('(');
+            /*while(!done&&ind<funcs.size()){
+                if(ind==-1)
+                    break;
+                tempnums.add(nums.remove(ind));
+                tempfuncs.add(funcs.remove(ind));
+                if(funcs.get(ind)==')'){
+                    Expression.add(new Expression(tempfuncs, tempnums));
+                    ind = funcs.indexOf('(');
+                    tempnums.add(nums.remove(ind));
+                    funcs.remove(ind);
+                }
+
+            }
+        if(Expression.size()>1) {
+            Expression solved = new Expression(c, new ArrayList<Double>());
+            for (Expression e : Expression) {
+                if(e.c.size()>=e.i.size()){
+                    c.add(e.c.get(e.c.size()-1));
+                    e.c.remove(e.c.size()-1);
+                }
+                solved.i.add(e.getSolution());
+            }
+            Expression = new ArrayList<>();
+            double solution = solved.getSolution();
+            solved.c = new ArrayList<>();
+            solved.i = new ArrayList<>();
+            solved.i.add(solution);
+            Expression.add(solved);
+        }
+        else{
+            double solution = Expression.get(currentExpression).getSolution();
+            Expression.get(currentExpression).c = new ArrayList<>();
+            Expression.get(currentExpression).i = new ArrayList<>();
+            Expression.get(currentExpression).i.add(solution);
+        }
+        currentExpression = 0;
+
+        while(funcs.indexOf('(')!=-1){
+            Expression.add(new Expression(new ArrayList<Character>(funcs.subList(funcs.indexOf('(')+1,funcs.indexOf(')'))),new ArrayList<Double>(nums.subList(funcs.indexOf('('),funcs.indexOf(')')+1))));
+            ArrayList<Character> tempf2= new ArrayList<>(funcs.subList(0,funcs.indexOf('(')));
+            funcs= new ArrayList<>(funcs.subList(funcs.indexOf(')')+1,funcs.size()));
+            funcs.addAll(tempf2);
+            ArrayList<Double> tempd2= new ArrayList<>(nums.subList(0,funcs.indexOf('(')+1));
+            nums= new ArrayList<>(nums.subList(funcs.indexOf(')'),nums.size()));
+            nums.addAll(tempd2);
+        }
+        if(nums.size()-funcs.size()<1) {
+            nums = new ArrayList<>();
+        }
+        Expression answer = new Expression(funcs,nums);
+        Expression.add(answer);
+        for(Expression e: Expression){
+            calculate(e);
+        }
+        nums = new ArrayList<>();
+        funcs = new ArrayList<>();
+        nums.add(answer.getSolution());
+        show(false);
+
+    }*/
 }

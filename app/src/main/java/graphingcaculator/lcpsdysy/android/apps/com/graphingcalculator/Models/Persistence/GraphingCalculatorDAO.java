@@ -9,7 +9,6 @@ import android.database.sqlite.SQLiteDatabase;
 import java.util.ArrayList;
 
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
-import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expressions;
 
 public class GraphingCalculatorDAO {
 
@@ -46,7 +45,7 @@ public class GraphingCalculatorDAO {
         return "Prasann is an amazing person.";
     }
 
-    public void addEquation(Expressions m, String name){
+    public void addEquation(Expression m, String name){
 
         ContentValues values = new ContentValues();
         String id = java.util.UUID.randomUUID().toString();
@@ -59,7 +58,7 @@ public class GraphingCalculatorDAO {
 
     }
 
-    public void addFormula(Expressions m, String name){
+    public void addFormula(Expression m, String name){
 
         ContentValues values = new ContentValues();
         String id = java.util.UUID.randomUUID().toString();
@@ -70,36 +69,36 @@ public class GraphingCalculatorDAO {
         long insertID = database.insert(GraphingCalculatorDBHelper.FORMULAE_TABLE_NAME, null, values);
     }
 
-    public Expressions getFormula(String name){
+    public Expression getFormula(String name){
         Cursor cursor = database.query(GraphingCalculatorDBHelper.FORMULAE_TABLE_NAME, allColumns, "FormulaName" + " = " + "\""+ name+"\"", null, null, null, null );
         cursor.moveToFirst();
-        Expressions newE = cursorToFormula(cursor);
+        Expression newE = cursorToFormula(cursor);
         cursor.close();
         return newE;
     }
 
-    private Expressions cursorToFormula(Cursor cursor) {
-        Expressions m = new Expressions(new ArrayList<Expression>());
+    private Expression cursorToFormula(Cursor cursor) {
+        Expression m = new Expression();
         m.info = cursor.getString(cursor.getColumnIndex("FormulaInfo"));
         m.name= cursor.getString(cursor.getColumnIndex("FormulaName"));
-        m = m.parseExpressions(cursor.getString(cursor.getColumnIndex("FormulaString")));
+        m.parseExpression(cursor.getString(cursor.getColumnIndex("FormulaString")));
 
         return m;
     }
 
-    public Expressions getEquation(String name){
+    public Expression getEquation(String name){
         Cursor cursor = database.query(GraphingCalculatorDBHelper.EQUATIONS_TABLE_NAME, allColumns, "FormulaName" + " = " + "\""+ name+"\"", null, null, null, null );
         cursor.moveToFirst();
-        Expressions newE = cursorToEquation(cursor);
+        Expression newE = cursorToEquation(cursor);
         cursor.close();
         return newE;
     }
 
-    private Expressions cursorToEquation(Cursor cursor) {
-        Expressions m = new Expressions(new ArrayList<Expression>());
+    private Expression cursorToEquation(Cursor cursor) {
+        Expression m = new Expression();
         m.info = cursor.getString(cursor.getColumnIndex("EquationInfo"));
         m.name= cursor.getString(cursor.getColumnIndex("EquationName"));
-        m = m.parseExpressions(cursor.getString(cursor.getColumnIndex("EquationString")));
+        m.parseExpression(cursor.getString(cursor.getColumnIndex("EquationString")));
 
         return m;
     }
