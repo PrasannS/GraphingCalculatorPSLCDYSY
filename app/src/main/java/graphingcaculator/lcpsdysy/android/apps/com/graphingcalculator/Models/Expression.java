@@ -332,7 +332,7 @@ public class Expression {
         return stringshown;
     }
 
-    public LineGraphSeries<DataPoint> graphSolve(String input){
+    public LineGraphSeries<DataPoint> graphSolve(String input, double start, double end, double increment){
         Log.d("readInput()", "recieved input to solve: " + input);
         ArrayList<Expression> Expression = new ArrayList<>();
         ArrayList<Double> nums = new ArrayList<Double>();
@@ -369,7 +369,7 @@ public class Expression {
             if (!(sb.toString().length() == 0))
                 nums.add(Double.parseDouble(sb.toString()));
             LineGraphSeries<DataPoint> ansSeries = new LineGraphSeries<DataPoint>();
-            for (double i = -1000; i < 1000; i += 0.1)
+            for (double i = start; i < end; i += increment)
             {
                 for (int j = 0; j < inds.size(); j++)
                     nums.set(inds.get(j), i);

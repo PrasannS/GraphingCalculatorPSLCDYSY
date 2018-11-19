@@ -7,12 +7,12 @@
     tools:context=".GraphActivity"
     tools:layout_editor_absoluteY="81dp">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
-    <!--<LinearLayout
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--<LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="51dp"
@@ -46,35 +46,65 @@
             android:layout_weight="1"/>
 
     </LinearLayout>-->
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="100dp">
-        <LinearLayout
-            android:orientation="vertical"
+        <ScrollView
+            android:id="@+id/scroll"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:id="@+id/frame"></LinearLayout>
-    </ScrollView>
-    <Button
-        android:id="@+id/addgraph"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="+"
+            android:layout_height="100dp">
 
-        android:textSize="30dp"/>
-    <com.jjoe64.graphview.GraphView
-        android:id="@+id/graph"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="8dp" />
+            <LinearLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"></LinearLayout>
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/addgraph"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:text="+"
+                android:textSize="30dp" />
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/originButton"
+                android:scaleType="fitCenter"
+                android:padding="5dp"
+                app:srcCompat="@drawable/origin"/>
+        </LinearLayout>
 
 
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp" />
 
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:orientation="horizontal">
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/graphHomeButton"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:contentDescription="home clipart"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/home_clipart" />
+
         <SearchView
             android:id="@+id/searchView"
             android:layout_width="200dp"
@@ -82,27 +112,18 @@
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
+            android:layout_weight="1"
             android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:visibility="visible" />
-
-        <ImageButton
-            android:id="@+id/graphHomeButton"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:padding="5dp"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/home_clipart"
-            android:contentDescription="home clipart" />
+            android:layout_marginBottom="8dp" />
 
         <ImageButton
             android:id="@+id/graphSettingsButton"
-            android:layout_width="50dp"
+            android:layout_width="0dp"
             android:layout_height="50dp"
+            android:contentDescription="gear clipart"
             android:padding="5dp"
+            android:layout_weight="1"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/gear_clipart"
-            android:contentDescription="gear clipart"/>
+            app:srcCompat="@drawable/gear_clipart" />
     </LinearLayout>
-</LinearLayout>
 </android.support.constraint.ConstraintLayout>

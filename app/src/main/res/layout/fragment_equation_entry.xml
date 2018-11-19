@@ -9,26 +9,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp">
-        <ImageButton
-            android:id="@+id/graphOriginButton"
+
+        <Button
+            android:id="@+id/deleteButton"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:adjustViewBounds="true"
-            android:padding="5dp"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/origin"
-            android:contentDescription="origin clipart"/>
+            android:background="@android:color/white"
+            android:textColor="@android:color/holo_blue_light"
+            android:text="X" />
 
 
 
         <EditText
             android:id="@+id/enterFunc"
-            android:layout_width="250dp"
-            android:layout_height="50dp" />
-        <Button
-            android:id="@+id/enterButton"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="Enter"/>
+            android:layout_height="50dp" />
     </LinearLayout>
 </FrameLayout>
