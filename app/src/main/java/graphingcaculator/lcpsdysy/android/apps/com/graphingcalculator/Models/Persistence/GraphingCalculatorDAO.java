@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 import java.util.ArrayList;
 
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
+import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Formula;
 
 public class GraphingCalculatorDAO {
 
@@ -69,36 +70,36 @@ public class GraphingCalculatorDAO {
         long insertID = database.insert(GraphingCalculatorDBHelper.FORMULAE_TABLE_NAME, null, values);
     }
 
-    public Expression getFormula(String name){
+    public Formula getFormula(String name){
         Cursor cursor = database.query(GraphingCalculatorDBHelper.FORMULAE_TABLE_NAME, allColumns, "FormulaName" + " = " + "\""+ name+"\"", null, null, null, null );
         cursor.moveToFirst();
-        Expression newE = cursorToFormula(cursor);
+        Formula newE = cursorToFormula(cursor);
         cursor.close();
         return newE;
     }
 
-    private Expression cursorToFormula(Cursor cursor) {
-        Expression m = new Expression();
+    private Formula cursorToFormula(Cursor cursor) {
+        Formula m = new Formula();
         m.info = cursor.getString(cursor.getColumnIndex("FormulaInfo"));
         m.name= cursor.getString(cursor.getColumnIndex("FormulaName"));
-        m.parseExpression(cursor.getString(cursor.getColumnIndex("FormulaString")));
+        m.equationString = cursor.getString(cursor.getColumnIndex("FormulaString"));
 
         return m;
     }
 
-    public Expression getEquation(String name){
+    public Formula getEquation(String name){
         Cursor cursor = database.query(GraphingCalculatorDBHelper.EQUATIONS_TABLE_NAME, allColumns, "FormulaName" + " = " + "\""+ name+"\"", null, null, null, null );
         cursor.moveToFirst();
-        Expression newE = cursorToEquation(cursor);
+        Formula newE = cursorToEquation(cursor);
         cursor.close();
         return newE;
     }
 
-    private Expression cursorToEquation(Cursor cursor) {
-        Expression m = new Expression();
+    private Formula cursorToEquation(Cursor cursor) {
+        Formula m = new Formula();
         m.info = cursor.getString(cursor.getColumnIndex("EquationInfo"));
         m.name= cursor.getString(cursor.getColumnIndex("EquationName"));
-        m.parseExpression(cursor.getString(cursor.getColumnIndex("EquationString")));
+        m.equationString = cursor.getString(cursor.getColumnIndex("EquationString"));
 
         return m;
     }

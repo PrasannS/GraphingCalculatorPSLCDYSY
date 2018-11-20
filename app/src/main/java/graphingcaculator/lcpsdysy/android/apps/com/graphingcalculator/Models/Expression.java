@@ -18,8 +18,6 @@ public class Expression {
     public char close;
     public boolean hasSeparator = false;
     public int currentExpression=0;
-    public String info;
-    public String name;
     public boolean isnum = false;
     public double num;
     public char varchar;
@@ -61,10 +59,12 @@ public class Expression {
             expressions.add(new Expression(d));
         }
         c= ct;
+        onfunc=false;
         expressions.add(new Expression(0));
         separator = sep;
         hasSeparator = true;
         close = clo;
+        isnum = false;
     }
 
     public double separatorProperties(double sep){
@@ -417,6 +417,7 @@ public class Expression {
 
     public boolean enternumber(double d, boolean straight){
         isnum=false;
+        boolean b;
         if(vars.size()!=currentvar){
             this.setvar(vars.get(currentvar),d,false);
             return true;
@@ -481,6 +482,16 @@ public class Expression {
                     return true;
                 }
             }
+        }
+    }
+
+    public void addsepfunc(Expression a){
+        if(expressions.get(expressions.size()-1).isnum||expressions.get(expressions.size()-1).closed){
+            addExpression(a);
+            this.onfunc = false;
+        }
+        else{
+            expressions.get(expressions.size()-1).addsepfunc(a);
         }
     }
 

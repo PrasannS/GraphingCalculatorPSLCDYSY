@@ -143,8 +143,7 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                     show();
                     break;
                 case '(':
-                    e.addExpression(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),'(',')'));
-                    e.onfunc=false;
+                    e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),'(',')'));
                     show();
                     break;
                 case ')':
@@ -153,7 +152,7 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                     break;
 
                 case'√':
-                    e.addExpression(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),'√',')'));
+                    e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),'√',')'));
                     show();
                     break;
 
