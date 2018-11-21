@@ -14,19 +14,21 @@ import java.util.ArrayList;
 
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
 
-public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragment.OnKeyboardOneReadListener, KeyBoardTwoFragment.OnKeyBoardTwoReadListener{
+public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragment.OnKeyboardOneReadListener, KeyBoardTwoFragment.OnKeyBoardTwoReadListener,CalcDisplayFragment.OnCalcDisplayReadListener{
 
-
+    private Button addhistory;
     private Button homebutton;
     private Button settingsbutton;
     private boolean firstform = false;
     private TextView display;
     private String stringshown= "0";
-    Expression e = new Expression();
+    public Expression e = new Expression();
+    public double solution;
+    public String last;
     public static FragmentManager fragmentManager;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(final Bundle savedInstanceState) {
         e.expressions.add(new Expression(0));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calc);
@@ -44,6 +46,8 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
 
 
         display = (TextView) findViewById(R.id.display);
+        display.setFocusable(false);
+        display.setClickable(true);
         display.setText("0");
         /*display.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +55,26 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                 openHomeActivity();
             }
         });*/
+
+        addhistory = (Button)findViewById(R.id.addhistory);
+        addhistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(findViewById(R.id.fragmentcontainer)!=null){
+                    if(savedInstanceState!=null){
+                        return;
+                    }
+                    last = e.toString();
+                    solution = e.getSolution();
+                    CalcDisplayFragment calcDisplayFragment = CalcDisplayFragment.newInstance(last,solution);
+                    FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                    fragmentTransaction.add(R.id.history,calcDisplayFragment,null);
+                    fragmentTransaction.commit();
+
+                }
+            }
+        });
+
 
 
         homebutton = (Button)findViewById(R.id.homebutton);
@@ -200,9 +224,20 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     }
 
     public void solveExpression(){
-        double temp = e.getSolution();
+        addhistory.performClick();
+        double temp = solution;
         e = new Expression(new ArrayList<Character>(),new ArrayList<Double>());
         e.expressions.add(new Expression(temp));
+        show();
+        //currentnum = 0;
+        // currentfunc = 0;
+        e.onfunc = false;
+    }
+
+    @Override
+    public void OnCalcDisplayRead(double b) {
+        e = new Expression(new ArrayList<Character>(),new ArrayList<Double>());
+        e.expressions.add(new Expression(b));
         show();
         //currentnum = 0;
         // currentfunc = 0;
