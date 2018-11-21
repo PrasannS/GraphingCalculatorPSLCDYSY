@@ -206,7 +206,59 @@
                 android:id="@+id/pi"
                 android:text="π"/>
 
+
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/sin"
+                android:text="sin"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/cos"
+                android:text="cos"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tan"
+                android:text="tan"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/cot"
+                android:text="cot"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/csc"
+                android:text="CSc"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/sec"
+                android:text="sec"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:id="@+id/degrad"
+                android:text="rad" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

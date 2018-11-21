@@ -27,6 +27,7 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     public String last;
     public static FragmentManager fragmentManager;
 
+
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         e.expressions.add(new Expression(0));
@@ -167,7 +168,7 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                     show();
                     break;
                 case '(':
-                    e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),'(',')'));
+                    e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"(",")"));
                     show();
                     break;
                 case ')':
@@ -176,7 +177,7 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                     break;
 
                 case'√':
-                    e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),'√',')'));
+                    e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"√",")"));
                     show();
                     break;
 
@@ -189,6 +190,33 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                     break;
 
             }
+        }
+        else if(message.equals("degrad")){
+            e.changeradians();
+        }
+        else if(message.equals("sin")){
+            e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"sin",")"));
+            show();
+        }
+        else if(message.equals("cos")){
+            e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"cos",")"));
+            show();
+        }
+        else if(message.equals("tan")){
+            e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"tan",")"));
+            show();
+        }
+        else if(message.equals("cot")){
+            e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"cot",")"));
+            show();
+        }
+        else if(message.equals("sec")){
+            e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"sec",")"));
+            show();
+        }
+        else if(message.equals("csc")){
+            e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"csc",")"));
+            show();
         }
         else if(message.equals("enter")){
             if(e.vars.size()>0&&e.vars.size()-1!=e.currentvar){

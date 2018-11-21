@@ -55,6 +55,14 @@ public class KeyBoardOneFragment extends Fragment {
     private Button mod;
     private Button sqrt;
     private Button pi;
+    private Button cos;
+    private Button sec;
+    private Button sin;
+    private Button cot;
+    private Button tan;
+    private Button csc;
+    private Button degrad;
+    public boolean rad = true;
     String message;
 
     OnKeyboardOneReadListener KeyboardOneReadListener;
@@ -119,6 +127,22 @@ public class KeyBoardOneFragment extends Fragment {
             }
         });
 
+        degrad = (Button)view.findViewById(R.id.degrad);
+        degrad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                message = "degrad";
+                if(rad){
+                    degrad.setText("deg");
+                }
+                else
+                    degrad.setText("rad");
+                rad = !rad;
+                KeyboardOneReadListener.OnKeyboardOneRead(message);
+
+            }
+        });
+
 
 
         enter = (Button)view.findViewById(R.id.enter);
@@ -173,6 +197,7 @@ public class KeyBoardOneFragment extends Fragment {
                 KeyboardOneReadListener.OnKeyboardOneRead(message);
             }
         });
+
 
         subtract = (Button)view.findViewById(R.id.subtract);
         subtract.setOnClickListener(new View.OnClickListener() {
@@ -354,6 +379,68 @@ public class KeyBoardOneFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 message = "0";
+                KeyboardOneReadListener.OnKeyboardOneRead(message);
+            }
+        });
+
+        sin = (Button)view.findViewById(R.id.sin);
+        sin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                message = "sin";
+                KeyboardOneReadListener.OnKeyboardOneRead(message);
+            }
+        });
+
+        cos = (Button)view.findViewById(R.id.cos);
+        cos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                message = "cos";
+                CalcActivity.fragmentManager.beginTransaction().replace(R.id.fragmentcontainer,new KeyBoardTwoFragment(),null).commit();
+            }
+        });
+
+        cot = (Button)view.findViewById(R.id.cot);
+        cot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                message = "cot";
+                KeyboardOneReadListener.OnKeyboardOneRead(message);
+            }
+        });
+
+        tan = (Button)view.findViewById(R.id.tan);
+        tan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                message = "tan";
+                KeyboardOneReadListener.OnKeyboardOneRead(message);
+            }
+        });
+        sec = (Button)view.findViewById(R.id.sec);
+        sec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                message = "csc";
+                KeyboardOneReadListener.OnKeyboardOneRead(message);
+            }
+        });
+
+        csc = (Button)view.findViewById(R.id.csc);
+        csc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                message = "csc";
+                KeyboardOneReadListener.OnKeyboardOneRead(message);
+            }
+        });
+
+        squared = (Button)view.findViewById(R.id.squared);
+        squared.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                message = "^2";
                 KeyboardOneReadListener.OnKeyboardOneRead(message);
             }
         });

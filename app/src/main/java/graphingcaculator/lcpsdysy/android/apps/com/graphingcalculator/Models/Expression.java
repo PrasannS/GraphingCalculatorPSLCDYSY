@@ -14,8 +14,8 @@ public class Expression {
     //public double[] varcodes = {624.62461224,118.1182341,1234532.1243414949,2359259.8912415,232302.9234123,23223230.234123};
     public ArrayList<Character>c;
     public ArrayList<Expression>expressions;
-    public char separator ;
-    public char close;
+    public String separator ;
+    public String close;
     public boolean hasSeparator = false;
     public int currentExpression=0;
     public boolean isnum = false;
@@ -26,6 +26,7 @@ public class Expression {
     public boolean isDecimal;
     public boolean onfunc;
     public boolean closed = false;
+    public boolean radians = true;
 
     public ArrayList<Character> vars= new ArrayList<>();
 
@@ -53,7 +54,7 @@ public class Expression {
         c= ct;
     }
 
-    public Expression(ArrayList<Character>ct, ArrayList<Double>it, char sep, char clo){
+    public Expression(ArrayList<Character>ct, ArrayList<Double>it, String sep, String clo){
         expressions = new ArrayList<>();
         for(Double d: it){
             expressions.add(new Expression(d));
@@ -68,9 +69,46 @@ public class Expression {
     }
 
     public double separatorProperties(double sep){
-        if(separator=='√'){
+        if(separator.equals("√")){
             return Math.sqrt(sep);
         }
+        if(separator.equals("sin")){
+            return toDegrees(Math.sin(sep));
+        }
+        if(separator.equals("csc")){
+            return toDegrees(1/Math.sin(sep));
+        }
+        if(separator.equals("sec")){
+            return toDegrees(1/Math.cos(sep));
+        }
+        if(separator.equals("cot")){
+            return toDegrees(1/Math.tan(sep));
+        }
+        if(separator.equals("tan")){
+            return toDegrees(Math.tan(sep));
+        }
+        if(separator.equals("cos")){
+            return toDegrees(Math.cos(sep));
+        }
+        if(separator.equals("asin")){
+            return toDegrees(Math.asin(sep));
+        }
+        if(separator.equals("acsc")){
+            return toDegrees(1/Math.asin(sep));
+        }
+        if(separator.equals("asec")){
+            return toDegrees(1/Math.acos(sep));
+        }
+        if(separator.equals("acot")){
+            return toDegrees(1/Math.atan(sep));
+        }
+        if(separator.equals("atan")){
+            return toDegrees(Math.atan(sep));
+        }
+        if(separator.equals("acos")){
+            return toDegrees(Math.acos(sep));
+        }
+
         return sep;
     }
 
@@ -102,6 +140,7 @@ public class Expression {
         }
 
         solution = endList.get(0);
+        if(hasSeparator)
         solution = separatorProperties(solution);
         return solution;
     }
@@ -547,6 +586,25 @@ public class Expression {
             expressions.get(expressions.size()-1).closeExpression();
         }
         onfunc=false;
+    }
+
+    public void changeradians(){
+        if(expressions.get(expressions.size()-1).isnum||expressions.get(expressions.size()-1).closed){
+            this.radians = !this.radians;
+            this.onfunc = false;
+        }
+        else{
+            expressions.get(expressions.size()-1).changeradians();
+        }
+    }
+
+    public double toDegrees(double d){
+        if(radians){
+            return d;
+        }
+        else{
+            return d * (180 / Math.PI);
+        }
     }
 
 
