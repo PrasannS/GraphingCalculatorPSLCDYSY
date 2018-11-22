@@ -30,7 +30,6 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
-        e.expressions.add(new Expression(0));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calc);
         fragmentManager = getSupportFragmentManager();

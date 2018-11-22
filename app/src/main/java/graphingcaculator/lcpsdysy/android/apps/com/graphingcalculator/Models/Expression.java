@@ -17,7 +17,6 @@ public class Expression {
     public String separator ;
     public String close;
     public boolean hasSeparator = false;
-    public int currentExpression=0;
     public boolean isnum = false;
     public double num;
     public char varchar;
@@ -61,7 +60,6 @@ public class Expression {
         }
         c= ct;
         onfunc=false;
-        expressions.add(new Expression(0));
         separator = sep;
         hasSeparator = true;
         close = clo;
