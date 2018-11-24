@@ -1,8 +1,15 @@
 package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.io.IOException;
+
+import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Formula;
+
 public class FormulaListGenerator {
 
-    String[] mathFormulae ={"Algebra Formulas","Associative Property",
+    String[] mathFormulae = {"Algebra Formulas","Associative Property",
             "Absolute Value Formula","Addition Formula",
             "Anova Formula","Average Rate of Change Formula",
             "Asymptote Formula","Axis of Symmetry Formula",
@@ -340,4 +347,5 @@ public class FormulaListGenerator {
             "Ionization Energy Formula","Molality Formula",
             "Mole Fraction Formula","Partial Pressure Formula",
             "Partition Coefficient Formula","STP Formula"};
+
 }

@@ -1,0 +1,7475 @@
+
+$%$%
+!@#$%
+absolute pressure (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^(-1) [time]^(-2)
+
+
+Standard unit for absolute pressure
+!@#$%
+Pa (pascal)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Base physical quantity
+!@#$%
+pressure
+
+
+
+$%$%
+!@#$%
+speed under constant acceleration
+
+
+Equation
+!@#$%
+v = a t | 
+v | speed
+t | time
+a | acceleration
+
+
+Input values
+!@#$%
+time | 1 second
+acceleration | 1 m/s^2 (meter per second squared)
+
+
+Result
+!@#$%
+speed | 100 cm/s (centimeters per second)
+= 2.237 mph (miles per hour)
+= 3.6 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+2° (degrees) (plane angle)
+
+
+Unit conversions
+!@#$%
+34.91 mrad (milliradians)
+
+0.03491 radians
+
+2.222 grads
+ (unit officially deprecated)
+
+0.02222 quad (quadrants)
+
+
+Comparisons as plane angle
+!@#$%
+ ≈ 0.5 × angle at which the Leaning Tower of Pisa leans (≈ 4° )
+
+ ≈ 3.8 × angular diameter of the sun (≈ 0.53° )
+
+ ≈ 3.9 × angular diameter of the moon ( 29 to 33' )
+
+
+Visual representation for 2°  (degrees)
+!@#$%
+
+
+
+Equivalent angle
+!@#$%
+2° (degrees)
+
+
+Corresponding quantities
+!@#$%
+Arc length s along the Earth's equator from d = Rθ:
+ | 120 nmi (nautical miles)
+ | 138 miles
+ | 223 km (kilometers)
+ | 222638 meters
+
+Arc length s around the Earth at 45° latitude from d = Rcos(45°)θ:
+ | 85 nmi (nautical miles)
+ | 98 miles
+ | 157 km (kilometers)
+ | 157429 meters
+
+Rotation count N from N = φ/(2π):
+ | 0.0056 rot (rotations)
+
+
+
+Input
+!@#$%
+mean | {1, 2, -2, 4, -3}
+
+
+Result
+!@#$%
+2/5 = 0.4
+
+
+
+$%$%
+!@#$%
+amplitude (English word)
+
+
+Definitions
+!@#$%
+1 | noun | (physics) the maximum displacement of a periodic wave
+2 | noun | the property of copious abundance
+3 | noun | greatness of magnitude
+
+
+Pronunciation
+!@#$%
+'ampluht, ood (IPA: ˈæmplətˌud)
+
+
+Hyphenation
+!@#$%
+am-pli-tude (9 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1549 (European Renaissance) (469 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+amplitudes
+
+
+Synonyms
+!@#$%
+bountifulness | bounty
+
+
+Narrower terms
+!@#$%
+background level | noise level | signal level
+
+
+Broader terms
+!@#$%
+displacement | shift | abundance | copiousness | teemingness | magnitude (total: 6)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+g (standard acceleration due to gravity on the surface of the earth)
+
+
+Value
+!@#$%
+32.17 ft/s^2 (feet per second squared)
+
+386.1 in/s^2 (inches per second squared)
+
+9.807 m/s^2 (meters per second squared)
+
+980.7 cm/s^2 (centimeters per second squared)
+
+35.3 km/h/s (kilometers per hour per second)
+
+21.94 mi/h/s (miles per hour per second)
+
+
+Comparisons as acceleration
+!@#$%
+ ≈ 0.65 × acceleration from 0 to 100 km/h of a Bugatti Veyron (≈ 15 m/s^2 )
+
+ ≈ 1.1 × acceleration of a cheetah (0 to 96 km/h in 3 seconds) (≈ 8.9 m/s^2 )
+
+ ≈ 1.3 × acceleration from 0 to 100 km/h of a 2002 Ferrari Enzo (≈ 7.6 m/s^2 )
+
+
+Comparisons as gravitational acceleration
+!@#$%
+ ≈ 0.4 × gravitational acceleration at the 1 atmosphere level of Jupiter (≈ 25 m/s^2 )
+
+ ≈ 1.1 × gravitational acceleration on the surface of Venus (≈ 8.9 m/s^2 )
+
+ ≈ 2.6 × gravitational acceleration on the surface of Mars (≈ 3.7 m/s^2 )
+
+
+Interpretations
+!@#$%
+acceleration
+
+gravitational acceleration
+
+
+Basic unit dimensions
+!@#$%
+[length] [time]^(-2)
+
+
+Corresponding quantity
+!@#$%
+Gravitational field strength:
+ | 9.807 N/kg (newtons per kilogram)
+
+
+
+$%$%
+!@#$%
+Archimedes' principle | associated equations
+
+
+Result
+!@#$%
+B = ρV_fg
+
+
+
+$%$%
+!@#$%
+Ampère's circuital law | associated equations
+
+
+Result
+!@#$%
+∮_C B·d ℓ = μ_0 integral integral_S J·d S | ∮_C B·d ℓ = μ_0 I_enc | del xB = μ_0J
+
+
+
+$%$%
+!@#$%
+equation of circular motion
+
+
+Equation
+!@#$%
+ω = α t | 
+ω | angular velocity
+t | time
+α | angular acceleration
+(assuming constant angular acceleration)
+
+
+Input values
+!@#$%
+time | 1 second
+angular acceleration | 1 rad/s^2 (radian per second squared)
+
+
+Result
+!@#$%
+angular velocity | 1 rad/s (radian per second)
+= 57.3 °/s (degrees per second)
+
+
+
+$%$%
+!@#$%
+air | resistivity | air | formula
+
+
+Results
+!@#$%
+resistivity | (data not available)
+formula | (data not available)
+
+
+
+$%$%
+!@#$%
+angular momentum of a rigid body
+
+
+Equation
+!@#$%
+L = I ω | ω = 2 π n | 
+L | angular momentum
+I | moment of inertia
+ω | angular velocity
+n | rotation rate
+
+
+Input values
+!@#$%
+moment of inertia | 1 kg m^2 (kilogram meter squared)
+angular velocity | 1 rad/s (radian per second)
+
+
+Result
+!@#$%
+angular momentum | 1 J s (joule second)
+= 0.7376 (ft lbf) s (foot-pound seconds)
+= 0.7376 slug ft^2/s (slugs square feet per second)
+rotation rate | 0.1592 rps (revolutions per second)
+= 9.549 rpm (revolutions per minute)
+
+
+
+$%$%
+!@#$%
+equation of circular motion
+
+
+Equation
+!@#$%
+θ = ω t | 
+θ | angular displacement
+ω | angular velocity
+t | time
+
+
+Input values
+!@#$%
+angular velocity | 1 rad/s (radian per second)
+time | 1 second
+
+
+Result
+!@#$%
+angular displacement | 1 radian
+= 57.3° (degrees)
+= 57 degrees 17 arc minutes 44.81 arc seconds
+
+
+
+$%$%
+!@#$%
+average speed
+
+
+Equation
+!@#$%
+v^_ = d/t | 
+v^_ | average speed
+d | distance
+t | time
+
+
+Input values
+!@#$%
+distance | 1 meter
+time | 1 second
+
+
+Result
+!@#$%
+average speed | 100 cm/s (centimeters per second)
+= 2.237 mph (miles per hour)
+= 3.6 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+equation of circular motion
+
+
+Equation
+!@#$%
+ω = α t | 
+ω | angular velocity
+t | time
+α | angular acceleration
+(assuming constant angular acceleration)
+
+
+Input values
+!@#$%
+time | 1 second
+angular acceleration | 1 rad/s^2 (radian per second squared)
+
+
+Result
+!@#$%
+angular velocity | 1 rad/s (radian per second)
+= 57.3 °/s (degrees per second)
+
+
+
+$%$%
+!@#$%
+speed under constant acceleration
+
+
+Equation
+!@#$%
+v = a t | 
+v | speed
+t | time
+a | acceleration
+
+
+Input values
+!@#$%
+time | 1 second
+acceleration | 1 m/s^2 (meter per second squared)
+
+
+Result
+!@#$%
+speed | 100 cm/s (centimeters per second)
+= 2.237 mph (miles per hour)
+= 3.6 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+equation of circular motion
+
+
+Equation
+!@#$%
+ω = α t | 
+ω | angular velocity
+t | time
+α | angular acceleration
+(assuming constant angular acceleration)
+
+
+Input values
+!@#$%
+time | 1 second
+angular acceleration | 1 rad/s^2 (radian per second squared)
+
+
+Result
+!@#$%
+angular velocity | 1 rad/s (radian per second)
+= 57.3 °/s (degrees per second)
+
+
+
+$%$%
+!@#$%
+Archimedes' principle
+
+
+Equation
+!@#$%
+F_net = m_b g - B | B = ρ V_f g
+R = V_f/V_b | | 
+F_net | effective gravity
+V_b | volume of body
+ρ | fluid density
+m_b | mass of body
+B | buoyancy force in fluid
+V_f | volume of replaced fluid
+R | fraction of body submerged
+g | standard acceleration due to gravity on the surface of the earth (≈ 9.807 m/s^2)
+
+
+Input values
+!@#$%
+volume of body | 1 L (liter)
+mass density of body | 0.917 g/cm^3 (grams per cubic centimeter)
+fluid density | 1 g/cm^3 (gram per cubic centimeter)
+
+
+Result
+!@#$%
+effective gravity | 0 N (newtons)
+buoyancy force in fluid | 8.993 N (newtons)
+= 2.022 lbf (pounds-force)
+fraction of body submerged | 0.917
+mass of body | 917 grams
+= 2.022 lb (pounds)
+= 0.917 kg (kilograms)
+volume of replaced fluid | 917 cm^3 (cubic centimeters)
+= 55.96 in^3 (cubic inches)
+= 9.17 dL (deciliters)
+
+
+
+$%$%
+!@#$%
+beat frequency (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[time]^(-1)
+
+
+Standard unit for beat frequency
+!@#$%
+Hz (hertz)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Base physical quantity
+!@#$%
+frequency
+
+
+
+$%$%
+!@#$%
+Brewster (surname)
+
+
+Basic information for the United States
+!@#$%
+rank | 1770th
+fraction | 1 in 14535 people (0.0069%)
+number | 18554 people
+(based on 2000 United States Census)
+
+
+Ethnic fractions
+!@#$%
+white | 74.61%
+black | 19.75%
+Hispanic | 2.64%
+mixed | 1.88%
+Amerindian | 0.73%
+Asian | 0.39%
+
+
+Notable people with surname Brewster
+!@#$%
+Jordana Brewster (actor) (born 1980) (age: 38 years)
+Paget Brewster (actor) (born 1969) (age: 49 years)
+Lincoln Brewster (songwriter, etc.) (born 1971) (age: 47 years)
+Diane Brewster (actor) (1931 to 1991)
+Anna Brewster (actor, etc.) (born 1986) (age: 32 years)
+David Brewster (physicist) (1781 to 1868)
+Tim Brewster (football player, etc.) (born 1960) (age: 58 years)
+Daniel Brewster (politician) (1923 to 2007)
+Janet Huntington Brewster (philanthropist, etc.) (1910 to 1998)
+William K. Brewster (politician) (born 1941) (age: 77 years)
+...
+
+
+
+$%$%
+!@#$%
+average speed
+
+
+Equation
+!@#$%
+v^_ = d/t | 
+v^_ | average speed
+d | distance
+t | time
+
+
+Input values
+!@#$%
+distance | 1 meter
+time | 1 second
+
+
+Result
+!@#$%
+average speed | 100 cm/s (centimeters per second)
+= 2.237 mph (miles per hour)
+= 3.6 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+abs(x) | definition
+
+
+Results
+!@#$%
+abs(x) = x for (x element R and x>=0)
+
+abs(x) = -x for (x element R and x<0)
+
+abs(x) = sqrt(Im(x)^2 + Re(x)^2)
+
+
+
+$%$%
+!@#$%
+maximum deflection of a beam
+
+
+Input values
+!@#$%
+support type | cantilever
+force type | point load
+force | 200 lbf (pounds-force)
+beam length | 48 inches
+distance from end | 18 inches
+Young's modulus | 3×10^7 psi (pounds-force per square inch)
+cross section | square I-beam
+section height | 2 inches
+section width | 0.5 inches
+web height | 1.8 inches
+web thickness | 0.1 inches
+
+
+Result
+!@#$%
+ 0.33 inches (at x = 48 inches)
+
+
+Schematic
+!@#$%
+       
+
+
+Diagrams
+!@#$%
+
+
+          
+
+          
+
+          
+
+          
+
+
+Reactions
+!@#$%
+R_1 | F | 200 lbf (pounds-force)
+M_1 | F α | 3600 lbf in (pound-force inches)
+
+
+Maximum stress
+!@#$%
+ 26 ksi (kips-force per square inch) (at x = 0 inches)
+
+
+
+$%$%
+!@#$%
+capacitance formula
+
+
+Equation
+!@#$%
+C = Q/V | 
+C | electric capacitance
+Q | electric charge
+V | voltage
+(the charge required to cause unit potential difference in a conductor)
+
+
+Input values
+!@#$%
+electric charge | 100 C (coulombs)
+voltage | 10 V (volts)
+
+
+Result
+!@#$%
+electric capacitance | 10 F (farads)
+= 0.01 kF (kilofarads)
+= 10000 mF (millifarads)
+
+
+
+$%$%
+!@#$%
+solve 1 + 6 x + x^3 = 0
+
+
+Results
+!@#$%
+x ≈ -0.165906
+
+x ≈ 0.08295 - 2.45370 i
+
+x ≈ 0.08295 + 2.45370 i
+
+
+Root plot
+!@#$%
+
+
+
+Roots in the complex plane
+!@#$%
+
+
+
+Product of roots
+!@#$%
+-1
+
+
+Sum of roots
+!@#$%
+0
+
+
+
+$%$%
+!@#$%
+Bernoulli's energy equation
+
+
+Equation
+!@#$%
+P_1/ρ + v_1^2/2 + g z_1 = P_2/ρ + v_2^2/2 + g z_2 | 
+P_1 | pressure
+P_2 | downstream pressure
+z_1 | vertical displacement
+z_2 | downstream vertical displacement
+v_1 | speed
+v_2 | downstream speed
+ρ | fluid density
+g | standard acceleration due to gravity on the surface of the earth (≈ 9.807 m/s^2)
+
+
+Input values
+!@#$%
+downstream pressure | 311.7 kPa (kilopascals)
+vertical displacement | 1 meter
+downstream vertical displacement | 1 meter
+speed | 5 m/s (meters per second)
+downstream speed | 1.25 m/s (meters per second)
+fluid density | 1000 kg/m^3 (kilograms per cubic meter)
+
+
+Result
+!@#$%
+pressure | 300 kPa (kilopascals)
+= 3000 mbar (millibars)
+= 2250 mmHg (millimeters of mercury)
+
+
+
+$%$%
+!@#$%
+center of mass (English phrase)
+
+
+Definition
+!@#$%
+noun | point representing the mean position of the matter in a body
+
+
+Synonym
+!@#$%
+centre of mass
+
+
+Narrower terms
+!@#$%
+barycenter | center of buoyancy | center of immersion | centre of buoyancy | centre of immersion | centroid (total: 6)
+
+
+Broader terms
+!@#$%
+center | centre | midpoint
+
+
+
+$%$%
+!@#$%
+formula
+
+
+Definition
+!@#$%
+In mathematics, a formula is a fact, rule, or principle that is expressed in terms of mathematical symbols. Examples of formulas include equations, equalities, identities, inequalities, and asymptotic expressions.
+The term "formula" is also commonly used in the theory of logic to mean sentential formula (also called a propositional formula), i.e., a formula in propositional calculus.
+The correct Latin plural form of formula is "formulae, " although the less pretentious-sounding "formulas" is more commonly used.
+
+
+Related topics
+!@#$%
+equality | equation | identity | propositional calculus | sentential formula
+
+
+Subject classifications
+!@#$%
+terminology | general logic
+
+03Bxx
+
+
+
+$%$%
+!@#$%
+cone | Cartesian equation
+
+
+Result
+!@#$%
+(x^2 + y^2 = (r^2 (h - z)^2)/h^2 and 0<z<=h) or (x^2 + y^2<=r^2 and z = 0)
+(assuming base radius r and height h)
+
+
+Visual representation
+!@#$%
+
+(drawn with base radius 1 and height 2)
+
+
+Properties of cone
+!@#$%
+slant height | sqrt(h^2 + r^2)
+volume | 1/3 π h r^2≈1.0472 h r^2
+lateral surface area | π r sqrt(h^2 + r^2)≈3.14159 r sqrt(h^2 + r^2)
+base area | π r^2
+base circumference | 2 π r≈6.28319 r
+surface area | π r (sqrt(h^2 + r^2) + r)≈3.14159 r (sqrt(h^2 + r^2) + r)
+angle | tan^(-1)(h/r) radians
+(assuming base radius r and height h)
+
+
+
+$%$%
+!@#$%
+cylinder | Cartesian equation
+
+
+Result
+!@#$%
+x^2 + y^2<=r^2 and -h/2<=z<=h/2
+(assuming base radius r and height h)
+
+
+Visual representation
+!@#$%
+
+(drawn with base radius 1 and height 2)
+
+
+Properties of cylinder
+!@#$%
+volume | π h r^2
+lateral surface area | 2 π h r≈6.28319 h r
+base area | π r^2
+base circumference | 2 π r≈6.28319 r
+surface area | 2 π r (h + r)≈6.28319 r (h + r)
+(assuming base radius r and height h)
+
+
+
+$%$%
+!@#$%
+circle | Cartesian equation
+
+
+Result
+!@#$%
+x^2 + y^2 = r^2
+(assuming radius r and center at the origin)
+
+
+Visual representation
+!@#$%
+
+
+
+Properties of circle
+!@#$%
+diameter | 2 r
+area enclosed | π r^2
+circumference | 2 π r≈6.28319 r
+(assuming radius r and center at the origin)
+
+
+
+$%$%
+!@#$%
+quadrilateral laminae | defining inequalities
+
+
+Definitions
+!@#$%
+
+
+
+
+
+
+
+Lamina properties
+!@#$%
+diamond | 4
+golden rectangle | 4
+half rectangle | 4
+half square | 4
+isosceles trapezoid | 4
+kite | 4
+lozenge | 4
+parallelogram | 4
+quarter rectangle | 4
+quarter square | 4
+rectangle | 4
+regular diamond | 4
+rhombus | 4
+right trapezoid | 4
+square | 4
+trapezoid | 4
+inverted isosceles trapezoid | 4
+
+
+
+$%$%
+!@#$%
+capacitor reactance formula
+
+
+Equation
+!@#$%
+X_C = 1/(2 π f C) | 
+X_C | capacitive reactance
+C | electric capacitance
+f | frequency
+
+
+Input values
+!@#$%
+electric capacitance | 1 μF (microfarad)
+frequency | 1 kHz (kilohertz)
+
+
+Result
+!@#$%
+capacitive reactance | 159.2 Ω (ohms)
+= 0.1592 kΩ (kilohms)
+
+
+
+$%$%
+!@#$%
+centripetal force
+
+
+Equation
+!@#$%
+F = (m v^2)/r | 
+F | centripetal force
+r | radius
+v | rotation speed
+m | mass
+
+
+Input values
+!@#$%
+radius | 1 meter
+rotation speed | 1 m/s (meter per second)
+mass | 1 kg (kilogram)
+
+
+Result
+!@#$%
+centripetal force | 1 N (newton)
+= 0.2248 lbf (pounds-force)
+
+
+
+$%$%
+!@#$%
+geometric centroid
+
+
+Illustration
+!@#$%
+
+
+
+Alternate names
+!@#$%
+center of gravity | center of mass | centroid
+
+
+Definition
+!@#$%
+The centroid is center of mass of a two-dimensional planar lamina or a three-dimensional solid. The mass of a lamina with surface density function σ(x, y) is
+M = integral integral σ(x, y) dA, and the coordinates of the centroid (also called the center of gravity) are
+x^_ | = | ( integral integral xσ(x, y) dA)/M
+y^_ | = | ( integral integral yσ(x, y) dA)/M.
+The centroid of a lamina is the point on which it would balance when placed on a needle. The centroid of a solid is the point on which the solid would "balance."
+
+
+Related topics
+!@#$%
+centroid hexagon | Pappus's centroid theorem
+
+
+Related Wolfram Language symbol
+!@#$%
+Centroid
+
+
+Subject classifications
+!@#$%
+mechanical properties | general geometry
+
+51-XX
+
+
+
+$%$%
+!@#$%
+equation of circular motion
+
+
+Equation
+!@#$%
+ω = α t | 
+ω | angular velocity
+t | time
+α | angular acceleration
+(assuming constant angular acceleration)
+
+
+Input values
+!@#$%
+time | 1 second
+angular acceleration | 1 rad/s^2 (radian per second squared)
+
+
+Result
+!@#$%
+angular velocity | 1 rad/s (radian per second)
+= 57.3 °/s (degrees per second)
+
+
+
+$%$%
+!@#$%
+Coulomb's law | associated equations
+
+
+Result
+!@#$%
+F = (q_1 q_2)/(4 π r^2 ϵ_0) | F_(1, 2) = (q_1 q_2 r^^_(1, 2))/(4 π r^2 ϵ_0)
+
+
+
+$%$%
+!@#$%
+total internal reflection
+
+
+Equation
+!@#$%
+c_1 = c/n_1 | θ_c = sin^(-1)(n_2/n_1) | 
+θ_c | critical angle
+n_1 | refractive index within material
+n_2 | refractive index outside material
+c_1 | speed of light within material
+c | speed of light (≈ 2.998×10^8 m/s)
+
+
+Input values
+!@#$%
+refractive index within material | 1.3
+refractive index outside material | 1
+
+
+Result
+!@#$%
+critical angle | 50.28° (degrees)
+= 877.6 mrad (milliradians)
+= 0.8776 radians
+speed of light within material | 230610 km/s (kilometers per second)
+= 5.159×10^8 mph (miles per hour)
+= 2.306×10^8 m/s (meters per second)
+speed of light outside material | 299792 km/s (kilometers per second)
+= 6.706×10^8 mph (miles per hour)
+= 2.998×10^8 m/s (meters per second)
+
+
+
+$%$%
+!@#$%
+capacitance of parallel plates
+
+
+Equation
+!@#$%
+C = (ε_0 A)/d | 
+C | electric capacitance
+A | area
+d | distance
+ε_0 | electric constant (≈ 8.854×10^-12 F/m)
+(capacitance of two parallel plates, given the geometry)
+
+
+Input values
+!@#$%
+area | 1 cm^2 (square centimeter)
+distance | 1 mm (millimeter)
+
+
+Result
+!@#$%
+electric capacitance | 885.4 fF (femtofarads)
+= 0.8854 pF (picofarads)
+= 8.854×10^-4 nF (nanofarads)
+
+
+
+$%$%
+!@#$%
+electric charge density (physical quantity)
+
+
+Common symbol
+!@#$%
+ρ
+
+
+Basic dimensions
+!@#$%
+[length]^(-3) [time] [current]
+
+
+Standard unit for electric charge density
+!@#$%
+C/m^3 (coulomb per cubic meter)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate description
+!@#$%
+charge density
+
+
+
+$%$%
+!@#$%
+combustion (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a process in which a substance reacts with oxygen to give heat and light
+2 | noun | a state of violent disturbance and excitement
+3 | noun | the act of burning something
+
+
+Pronunciation
+!@#$%
+kuhmb'uhschuhn (IPA: kəmbˈʌstʃən)
+
+
+Hyphenation
+!@#$%
+com-bus-tion (10 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1600 (European Renaissance | Elizabethan era) (418 years ago)
+
+
+Word origins
+!@#$%
+Old French | Latin
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+combustions
+
+
+Synonym
+!@#$%
+burning
+
+
+Narrower terms
+!@#$%
+deflagration | fire | flaming | internal combustion | arson | fire-raising | firing | ignition | incendiarism | incineration | inflammation | kindling | lighting (total: 13)
+
+
+Broader terms
+!@#$%
+oxidation | oxidisation | oxidization | garboil | tumult | tumultuousness | uproar | change of integrity (total: 8)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+centripetal acceleration
+
+
+Equation
+!@#$%
+a = v^2/r | 
+a | centripetal acceleration
+r | radius
+v | rotation speed
+
+
+Input values
+!@#$%
+radius | 1 meter
+rotation speed | 1 m/s (meter per second)
+
+
+Result
+!@#$%
+centripetal acceleration | 100 cm/s^2 (centimeters per second squared)
+= 3.281 ft/s^2 (feet per second squared)
+= 1 m/s^2 (meter per second squared)
+
+
+
+$%$%
+!@#$%
+potential (English word)
+
+
+Definitions
+!@#$%
+1 | noun | the inherent capacity for coming into being
+2 | noun | the difference in electrical charge between two points in a circuit expressed in volts
+3 | adjective | existing in possibility
+4 | adjective | expected to become or be; in prospect
+
+
+Pronunciation
+!@#$%
+puht'enshuhl (IPA: pətˈɛnʃəl)
+
+
+Hyphenation
+!@#$%
+po-ten-tial (9 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1398 (Late Middle ages) (620 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Overall typical frequency
+!@#$%
+written: 1484th most common (1 in 8264 words) (59% adjective | 41% noun)
+
+spoken: 2313th most common (1 in 27027 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+potentials
+
+
+Synonyms
+!@#$%
+potency | potentiality | electric potential | potential difference | potential drop | voltage | possible | likely (total: 8)
+
+
+Antonym
+!@#$%
+actual
+
+
+Narrower terms
+!@#$%
+chance | latency | prospect | evoked potential | resting potential (total: 5)
+
+
+Broader terms
+!@#$%
+possibility | possibleness | electrical phenomenon
+
+
+Rhymes
+!@#$%
+confidential | essential | experiential | jurisprudential | nonresidential | quintessential (total: 6)
+(based on typical American pronunciation)
+
+
+
+$%$%
+!@#$%
+calorimetry (English word)
+
+
+Definition
+!@#$%
+noun | measurement of quantities of heat
+
+
+Hyphenation
+!@#$%
+cal-o-rim-e-try (11 letters | 5 syllables)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+calorimetries
+
+
+Broader terms
+!@#$%
+measure | measurement | measuring | mensuration (total: 4)
+
+
+
+$%$%
+!@#$%
+conservation of energy (English phrase)
+
+
+Definition
+!@#$%
+noun | the fundamental principle of physics that the total energy of an isolated system is constant despite internal changes
+
+
+Hyphenation
+!@#$%
+con-ser-va-tion of en-er-gy
+
+
+Synonyms
+!@#$%
+first law of thermodynamics | law of conservation of energy
+
+
+Broader terms
+!@#$%
+conservation | law of thermodynamics
+
+
+
+$%$%
+!@#$%
+static friction coefficient
+
+
+Equation
+!@#$%
+F_f = μ_s F_n | 
+μ_s | static friction coefficient
+F_n | normal force
+F_f | friction force
+
+
+Input values
+!@#$%
+normal force | 10 N (newtons)
+friction force | 6 N (newtons)
+
+
+Result
+!@#$%
+static friction coefficient | 0.6
+
+
+Schematic
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+equation of motion
+
+
+Equation
+!@#$%
+d = v t | 
+d | distance
+v | speed
+t | time
+
+
+Input values
+!@#$%
+speed | 1 m/s (meter per second)
+time | 1 second
+
+
+Result
+!@#$%
+distance | 100 cm (centimeters)
+= 3.281 feet
+= 3' 3.37"
+
+
+
+$%$%
+!@#$%
+Doppler shift
+
+
+Equation
+!@#$%
+f_o/f_s = c/(c + v_s) | 
+f_o/f_s | frequency reduction factor
+v_s | speed of the source away from the observer
+c | sound speed
+(the ratio between emitted and observed sound frequencies due to relative motion)
+
+
+Input values
+!@#$%
+speed of the source away from the observer | 10 m/s (meters per second)
+sound speed | 340.27 m/s (meters per second)
+
+
+Result
+!@#$%
+frequency reduction factor | 0.9715
+
+
+Audible frequencies
+!@#$%
+source: 1 | observed: 0.9715
+
+
+
+$%$%
+!@#$%
+deceleration (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[length] [time]^(-2)
+
+
+Standard unit for deceleration
+!@#$%
+m/s^2 (meter per second squared)
+
+
+Usage type
+!@#$%
+scalar | vector
+
+
+Base physical quantity
+!@#$%
+acceleration
+
+
+
+$%$%
+!@#$%
+electric field (English phrase)
+
+
+Definition
+!@#$%
+noun | a field of force surrounding a charged particle
+
+
+Hyphenation
+!@#$%
+e-lec-tric field
+
+
+Narrower terms
+!@#$%
+electrostatic field
+
+
+Broader terms
+!@#$%
+field | field of force | force field
+
+
+
+$%$%
+!@#$%
+object falling vertically
+
+
+Input value
+!@#$%
+fall distance | 100 feet
+
+
+Result
+!@#$%
+time to fall | 2.5 seconds
+final speed | 24 m/s (meters per second)
+ = 1300 miles per day
+ = 55 mph (miles per hour)
+(assuming point mass)
+
+
+
+$%$%
+!@#$%
+efficiency (English word)
+
+
+Definitions
+!@#$%
+1 | noun | the ratio of the output to the input of any system
+2 | noun | skillfulness in avoiding wasted time and effort
+
+
+Pronunciation
+!@#$%
+uhf'ishuhnsee (IPA: əfˈɪʃənsi)
+
+
+Hyphenation
+!@#$%
+ef-fi-cien-cy (10 letters | 4 syllables)
+
+
+Overall typical frequency
+!@#$%
+written: 2586th most common (1 in 25000 words) ( > 99% noun)
+
+spoken: 3333rd most common (1 in 90909 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+efficiencies
+
+
+Synonym
+!@#$%
+economy
+
+
+Antonym
+!@#$%
+inefficiency
+
+
+Narrower terms
+!@#$%
+figure of merit | economy
+
+
+Broader terms
+!@#$%
+ratio | skillfulness
+
+
+Rhymes
+!@#$%
+deficiency | immunodeficiency | inefficiency | proficiency | sufficiency (total: 5)
+(based on typical American pronunciation)
+
+
+Lexically close words
+!@#$%
+inefficiency | sufficiency
+
+
+Anagrams
+!@#$%
+(none among common words)
+
+
+Phrases
+!@#$%
+efficiency apartment | efficiency engineer | efficiency expert
+
+
+Other notable uses
+!@#$%
+efficiency.com | efficiency.net | efficiency.org
+
+
+Crossword puzzle clues
+!@#$%
+(none)
+
+
+Scrabble score
+!@#$%
+23 (International English) | 23 (North American English)
+
+
+
+$%$%
+!@#$%
+elastic potential energy (physical quantity)
+
+
+Common symbol
+!@#$%
+U_e
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-2)
+
+
+Standard unit for elastic potential energy
+!@#$%
+J (joule)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Base physical quantity
+!@#$%
+potential energy
+
+
+
+$%$%
+!@#$%
+electric power-voltage information
+
+
+Equation
+!@#$%
+P = V_rms^2/R | V_max = (crest factor) V_rms
+P_peak = V_max^2/R | | 
+P | continuous power
+V_rms | root-mean-square voltage
+R | resistive impedance
+V_max | peak voltage
+P_peak | peak power
+
+
+Input values
+!@#$%
+root-mean-square voltage | 110 V (volts)
+resistive impedance | 100 Ω (ohms)
+voltage shape | sine wave
+
+
+Results
+!@#$%
+continuous power | 121 We (watts)
+= 0.121 kWe (kilowatts)
+peak power | 242 We (watts)
+= 0.242 kWe (kilowatts)
+peak voltage | 155.6 V (volts)
+= 0.1556 kV (kilovolts)
+crest factor | sqrt(2)
+
+
+Voltage over time plot
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+energy density (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^(-1) [time]^(-2)
+
+
+Standard unit for energy density
+!@#$%
+J/m^3 (joule per cubic meter)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate descriptions
+!@#$%
+volume energy density | volumic energy density
+
+
+Common subcases
+!@#$%
+radiation energy density
+
+radon exposure
+
+
+
+$%$%
+!@#$%
+friction (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a state of conflict between persons
+2 | noun | the resistance encountered when one body is moved in contact with another
+3 | noun | effort expended in moving one object over another with pressure
+
+
+Pronunciation
+!@#$%
+fr'ikshuhn (IPA: frˈɪkʃən)
+
+
+Hyphenation
+!@#$%
+fric-tion (8 letters | 2 syllables)
+
+
+First known use in English
+!@#$%
+1563 (European Renaissance | Elizabethan era) (455 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+frictions
+
+
+Synonyms
+!@#$%
+clash | rubbing | detrition
+
+
+Narrower terms
+!@#$%
+abrasion | adhesive friction | attrition | detrition | grinding | grip | traction (total: 7)
+
+
+Broader terms
+!@#$%
+conflict | resistance | effort | elbow grease | exertion | sweat | travail (total: 7)
+
+
+Rhymes
+!@#$%
+addiction | affliction | benediction | constriction | contradiction | conviction | crucifixion | depiction | dereliction | diction | eviction | fiction | infliction | interdiction | jurisdiction | ... (total: 18)
+(based on typical American pronunciation)
+
+
+
+$%$%
+!@#$%
+escape velocity
+
+
+Equation
+!@#$%
+v = sqrt((2 G m)/r) | 
+v | speed
+m | mass
+r | radius
+G | Newtonian gravitational constant (≈ 6.674×10^-11 m^3/(kg s^2))
+
+
+Input values
+!@#$%
+mass | Earth (planet): 5.9721986×10^24 kg (kilograms)
+radius | Earth (planet): 3958.761 miles
+
+
+Result
+!@#$%
+speed | 11.19 km/s (kilometers per second)
+= 25022 mph (miles per hour)
+= 40270 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+frictional force (physical quantity)
+
+
+Common symbol
+!@#$%
+F_f
+
+
+Basic dimensions
+!@#$%
+[mass] [length] [time]^(-2)
+
+
+Standard unit for frictional force
+!@#$%
+N (newton)
+
+
+Usage type
+!@#$%
+scalar | vector
+
+
+Base physical quantity
+!@#$%
+force
+
+
+$%$%
+
+$%$%
+!@#$%
+Newton's law of universal gravitation
+
+
+Equation
+!@#$%
+F = (G m_1 m_2)/r^2 | 
+F | gravitational force
+m_1 | primary mass
+m_2 | secondary mass
+r | distance
+G | Newtonian gravitational constant (≈ 6.674×10^-11 m^3/(kg s^2))
+
+
+Input values
+!@#$%
+primary mass | Earth (planet): 5.9721986×10^24 kg (kilograms)
+secondary mass | 60 kg (kilograms)
+distance | Earth (planet): 3958.761 miles
+
+
+Result
+!@#$%
+gravitational force | 589.2 N (newtons)
+= 132.5 lbf (pounds-force)
+= 0.5892 kN (kilonewtons)
+
+
+
+$%$%
+!@#$%
+Venturi flow rate
+
+
+Equation
+!@#$%
+Q = π (D_1^2 sqrt((2 (P_1 - P_2))/ρ))/(4 sqrt(D_1^4/D_2^4 - 1)) | 
+Q | flow rate
+ρ | fluid density
+P_1 | upstream pressure
+P_2 | downstream pressure
+D_1 | upstream pipe diameter
+D_2 | downstream pipe diameter
+(Q is the flow rate as measured by a Venturi flow meter)
+
+
+
+
+Input values
+!@#$%
+fluid density | 1000 kg/m^3 (kilograms per cubic meter)
+upstream pressure | 40 Pa (pascals)
+downstream pressure | 20 Pa (pascals)
+upstream pipe diameter | 0.02 meters
+downstream pipe diameter | 0.01 meters
+
+
+Result
+!@#$%
+flow rate | 16.22 mL/s (milliliters per second)
+= 15.43 gal/h (gallons per hour)
+= 0.01622 L/s (liters per second)
+
+
+
+$%$%
+!@#$%
+Gauss's law | associated equations
+
+
+Result
+!@#$%
+∮_S E·d A = Q/ϵ_0 | del ·E = ρ/ϵ_0
+
+
+
+$%$%
+!@#$%
+Newton's forward difference formula
+
+
+Alternate name
+!@#$%
+Gregory-Newton formula
+
+
+Definition
+!@#$%
+Newton's forward difference formula is a finite difference identity giving an interpolated value between tabulated points {f_p} in terms of the first value f_0 and the powers of the forward difference Δ. For a element [0, 1], the formula states
+f_a = f_0 + aΔ + 1/(2!) a(a - 1) Δ^2 + 1/(3!) a(a - 1)(a - 2) Δ^3 + ....
+
+
+Related topics
+!@#$%
+finite difference | Markoff's formulas | Newton's backward difference formula | Newton's divided difference interpolation formula
+
+
+Subject classifications
+!@#$%
+finite differences
+
+39Axx | 65Q10
+
+
+Associated person
+!@#$%
+Isaac Newton
+
+
+
+$%$%
+!@#$%
+formula (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a group of symbols that make a mathematical statement
+2 | noun | directions for making something
+3 | noun | a conventionalized statement expressing some fundamental principle
+4 | noun | a representation of a substance using symbols for its constituent elements
+5 | noun | something regarded as a normative example
+6 | noun | a liquid food for infants
+7 | noun | (mathematics) a standard procedure for solving a class of mathematical problems
+(7 meanings)
+
+
+Pronunciation
+!@#$%
+f'awrmyuhluh (IPA: fˈɔrmjələ)
+
+
+Hyphenation
+!@#$%
+for-mu-la (7 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1638 (European Renaissance) (380 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Overall typical frequency
+!@#$%
+written: 3581st most common (1 in 37037 words) ( > 99% noun)
+
+spoken: 2401st most common (1 in 50000 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+formulas
+
+
+Synonyms
+!@#$%
+expression | recipe | chemical formula | convention | normal | pattern | rule (total: 7)
+
+
+Narrower terms
+!@#$%
+exponential expression | primitive | sentential function | empirical formula | molecular formula | code of behavior | code of conduct | mores | universal | algorithm | algorithmic program | algorithmic rule | heuristic | heuristic program | heuristic rule | ... (total: 17)
+
+
+Broader terms
+!@#$%
+mathematical statement | direction | instruction | statement | practice | milk | procedure | process (total: 8)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+gram (mass)
+
+
+Conversions to other units
+!@#$%
+1 g | 1000 mg (milligrams)
+ | 0.001 kg (kilograms)
+
+
+Conversions from other units
+!@#$%
+1 mg | 0.001 g
+1 kg | 1000 g
+
+
+Physical quantities
+!@#$%
+mass
+
+mass of atom
+
+
+Common prefix forms
+!@#$%
+milligram (mg) | kilogram (kg) | femtogram (fg) | picogram (pg) | nanogram (ng) | microgram (µg)
+
+
+Unit systems
+!@#$%
+Système International d'Unités (SI) | centimeter-gram-second (cgs) | meter-gram-wink
+
+
+Comparisons for 1 g as mass
+!@#$%
+ ≈ 0.4 × mass of a US penny ( 2.5 g )
+
+ ≈ mass of a US dollar bill (≈ 1 g )
+
+ ≈ paperclip mass (≈ 1 g )
+
+
+
+$%$%
+!@#$%
+heat of vaporization (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-2)
+
+
+Standard unit for heat of vaporization
+!@#$%
+J (joule)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate descriptions
+!@#$%
+enthalpy of evaporation | enthalpy of vaporization | heat of evaporation
+
+
+
+$%$%
+!@#$%
+data transfer
+
+
+Equation
+!@#$%
+I = R T | 
+T | time
+I | data
+R | data rate
+
+
+Input values
+!@#$%
+data | 10 MB (megabytes)
+data rate | 480 Mb/s (megabits per second)
+
+
+Result
+!@#$%
+time | 166.7 ms (milliseconds)
+= 0.1667 seconds
+
+
+
+$%$%
+!@#$%
+decibel to ratio conversion
+
+
+Equation
+!@#$%
+G = 20 log(10, Q_1/Q_2) | 
+G | decibel gain
+Q_1/Q_2 | ratio of quantities
+
+
+Input value
+!@#$%
+ratio of quantities | 10
+
+
+Result
+!@#$%
+decibel gain | 20 dB (decibels)
+= 2 B (bels)
+= 2.303 Np (nepers)
+
+
+
+$%$%
+!@#$%
+formula (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a group of symbols that make a mathematical statement
+2 | noun | directions for making something
+3 | noun | a conventionalized statement expressing some fundamental principle
+4 | noun | a representation of a substance using symbols for its constituent elements
+5 | noun | something regarded as a normative example
+6 | noun | a liquid food for infants
+7 | noun | (mathematics) a standard procedure for solving a class of mathematical problems
+(7 meanings)
+
+
+Pronunciation
+!@#$%
+f'awrmyuhluh (IPA: fˈɔrmjələ)
+
+
+Hyphenation
+!@#$%
+for-mu-la (7 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1638 (European Renaissance) (380 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Overall typical frequency
+!@#$%
+written: 3581st most common (1 in 37037 words) ( > 99% noun)
+
+spoken: 2401st most common (1 in 50000 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+formulas
+
+
+Synonyms
+!@#$%
+expression | recipe | chemical formula | convention | normal | pattern | rule (total: 7)
+
+
+Narrower terms
+!@#$%
+exponential expression | primitive | sentential function | empirical formula | molecular formula | code of behavior | code of conduct | mores | universal | algorithm | algorithmic program | algorithmic rule | heuristic | heuristic program | heuristic rule | ... (total: 17)
+
+
+Broader terms
+!@#$%
+mathematical statement | direction | instruction | statement | practice | milk | procedure | process (total: 8)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+present and future value (continuous compounding using dates)
+
+
+Equation
+!@#$%
+FV = PV exp(i T) | | 
+PV | present value
+FV | future value
+i | interest rate
+T | time
+(assumes continuous compounding)
+
+
+Input values
+!@#$%
+future value | $1000.00 (US dollars)
+interest rate | 6%
+issue date | Wednesday, November 7, 2018
+maturity date | Wednesday, November 22, 2023
+
+
+Results
+!@#$%
+present value | $739.00 (US dollars)
+time | 5.041 years
+
+
+Present value vs. interest rate
+!@#$%
+
+
+
+Present value vs. interest periods
+!@#$%
+
+
+
+Present value vs. future value
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+formula (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a group of symbols that make a mathematical statement
+2 | noun | directions for making something
+3 | noun | a conventionalized statement expressing some fundamental principle
+4 | noun | a representation of a substance using symbols for its constituent elements
+5 | noun | something regarded as a normative example
+6 | noun | a liquid food for infants
+7 | noun | (mathematics) a standard procedure for solving a class of mathematical problems
+(7 meanings)
+
+
+Pronunciation
+!@#$%
+f'awrmyuhluh (IPA: fˈɔrmjələ)
+
+
+Hyphenation
+!@#$%
+for-mu-la (7 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1638 (European Renaissance) (380 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Overall typical frequency
+!@#$%
+written: 3581st most common (1 in 37037 words) ( > 99% noun)
+
+spoken: 2401st most common (1 in 50000 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+formulas
+
+
+Synonyms
+!@#$%
+expression | recipe | chemical formula | convention | normal | pattern | rule (total: 7)
+
+
+Narrower terms
+!@#$%
+exponential expression | primitive | sentential function | empirical formula | molecular formula | code of behavior | code of conduct | mores | universal | algorithm | algorithmic program | algorithmic rule | heuristic | heuristic program | heuristic rule | ... (total: 17)
+
+
+Broader terms
+!@#$%
+mathematical statement | direction | instruction | statement | practice | milk | procedure | process (total: 8)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+de Broglie relations
+
+
+Equation
+!@#$%
+λ = h/p | 
+λ | wavelength
+p | momentum
+h | Planck constant (≈ 6.62607×10^-34 J s)
+(result does not depend on mass)
+
+
+Input values
+!@#$%
+mass | 1 m_n (neutron mass)
+momentum | 1.67×10^-27 kg m/s (kilogram meters per second)
+
+
+Result
+!@#$%
+wavelength | 396.8 nm (nanometers)
+= 1.562×10^-5 inches
+= 0.3968 µm (micrometers)
+
+
+
+$%$%
+!@#$%
+Doppler shift
+
+
+Equation
+!@#$%
+f_o/f_s = c/(c + v_s) | 
+f_o/f_s | frequency reduction factor
+v_s | speed of the source away from the observer
+c | sound speed
+(the ratio between emitted and observed sound frequencies due to relative motion)
+
+
+Input values
+!@#$%
+speed of the source away from the observer | 10 m/s (meters per second)
+sound speed | 340.27 m/s (meters per second)
+
+
+Result
+!@#$%
+frequency reduction factor | 0.9715
+
+
+Audible frequencies
+!@#$%
+source: 1 | observed: 0.9715
+
+
+
+$%$%
+!@#$%
+equation of motion
+
+
+Equation
+!@#$%
+d = v t | 
+d | distance
+v | speed
+t | time
+
+
+Input values
+!@#$%
+speed | 1 m/s (meter per second)
+time | 1 second
+
+
+Result
+!@#$%
+distance | 100 cm (centimeters)
+= 3.281 feet
+= 3' 3.37"
+
+
+
+$%$%
+!@#$%
+diffraction grating
+
+
+Equation
+!@#$%
+d sin(θ_m) = m λ | 
+θ_m | diffraction angle
+d | slit separation distance
+λ | wavelength
+m | diffraction order
+
+
+Input values
+!@#$%
+slit separation distance | 0.1 mm (millimeters)
+wavelength | 500 nm (nanometers)
+diffraction order | 1
+
+
+Result
+!@#$%
+diffraction angle | 0.2865° (degrees)
+= 5 mrad (milliradians)
+= 0.005 radians
+
+
+Normalized transmitted intensity vs. diffraction angle
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+dynamic viscosity (physical quantity)
+
+
+Common symbol
+!@#$%
+η
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^(-1) [time]^(-1)
+
+
+Standard unit for dynamic viscosity
+!@#$%
+Pa s (pascal second)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate descriptions
+!@#$%
+absolute viscosity | viscosity
+
+
+Common subcases
+!@#$%
+eddy viscosity
+
+Hall viscosity
+
+
+Orders of magnitude
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+elastic collision
+
+
+Equation
+!@#$%
+v_(1, f) = (m_1 v_(1, i) + m_2 v_(2, i) + m_2 (v_(2, i) - v_(1, i)))/(m_1 + m_2) | v_(2, f) = (m_1 v_(1, i) + m_2 v_(2, i) + m_1 (v_(1, i) - v_(2, i)))/(m_1 + m_2) | 
+v_(1, f) | final speed 1
+m_1 | mass 1
+v_(1, i) | initial speed 1
+m_2 | mass 2
+v_(2, i) | initial speed 2
+v_(2, f) | final speed 2
+
+
+Input values
+!@#$%
+mass 1 | 1 kg (kilogram)
+initial speed 1 | 1 m/s (meter per second)
+mass 2 | 1 kg (kilogram)
+initial speed 2 | -0.5 m/s (meters per second)
+
+
+Result
+!@#$%
+final speed 1 | -50 cm/s (centimeters per second)
+= -1.118 mph (miles per hour)
+= -1.8 km/h (kilometers per hour)
+final speed 2 | 100 cm/s (centimeters per second)
+= 2.237 mph (miles per hour)
+= 3.6 km/h (kilometers per hour)
+
+
+Schematic
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+electric current (physical quantity)
+
+
+Common symbol
+!@#$%
+I
+
+
+Basic dimensions
+!@#$%
+[current]
+
+
+Standard unit for electric current
+!@#$%
+A (ampere)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate descriptions
+!@#$%
+amperage | ampage | ampacity | current
+
+
+
+$%$%
+!@#$%
+formula (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a group of symbols that make a mathematical statement
+2 | noun | directions for making something
+3 | noun | a conventionalized statement expressing some fundamental principle
+4 | noun | a representation of a substance using symbols for its constituent elements
+5 | noun | something regarded as a normative example
+6 | noun | a liquid food for infants
+7 | noun | (mathematics) a standard procedure for solving a class of mathematical problems
+(7 meanings)
+
+
+Pronunciation
+!@#$%
+f'awrmyuhluh (IPA: fˈɔrmjələ)
+
+
+Hyphenation
+!@#$%
+for-mu-la (7 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1638 (European Renaissance) (380 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Overall typical frequency
+!@#$%
+written: 3581st most common (1 in 37037 words) ( > 99% noun)
+
+spoken: 2401st most common (1 in 50000 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+formulas
+
+
+Synonyms
+!@#$%
+expression | recipe | chemical formula | convention | normal | pattern | rule (total: 7)
+
+
+Narrower terms
+!@#$%
+exponential expression | primitive | sentential function | empirical formula | molecular formula | code of behavior | code of conduct | mores | universal | algorithm | algorithmic program | algorithmic rule | heuristic | heuristic program | heuristic rule | ... (total: 17)
+
+
+Broader terms
+!@#$%
+mathematical statement | direction | instruction | statement | practice | milk | procedure | process (total: 8)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+friction (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a state of conflict between persons
+2 | noun | the resistance encountered when one body is moved in contact with another
+3 | noun | effort expended in moving one object over another with pressure
+
+
+Pronunciation
+!@#$%
+fr'ikshuhn (IPA: frˈɪkʃən)
+
+
+Hyphenation
+!@#$%
+fric-tion (8 letters | 2 syllables)
+
+
+First known use in English
+!@#$%
+1563 (European Renaissance | Elizabethan era) (455 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+frictions
+
+
+Synonyms
+!@#$%
+clash | rubbing | detrition
+
+
+Narrower terms
+!@#$%
+abrasion | adhesive friction | attrition | detrition | grinding | grip | traction (total: 7)
+
+
+Broader terms
+!@#$%
+conflict | resistance | effort | elbow grease | exertion | sweat | travail (total: 7)
+
+
+Rhymes
+!@#$%
+addiction | affliction | benediction | constriction | contradiction | conviction | crucifixion | depiction | dereliction | diction | eviction | fiction | infliction | interdiction | jurisdiction | ... (total: 18)
+(based on typical American pronunciation)
+
+
+
+$%$%
+!@#$%
+(first) Froude number
+
+
+Equation
+!@#$%
+Fr_1 = v/sqrt(l g) | 
+Fr_1 | first Froude number
+v | characteristic speed
+l | characteristic length
+g | standard acceleration due to gravity on the surface of the earth (≈ 9.807 m/s^2)
+
+
+Input values
+!@#$%
+characteristic speed | 10 m/s (meters per second)
+characteristic length | 1 meter
+
+
+Result
+!@#$%
+first Froude number | 3.193
+
+
+
+$%$%
+!@#$%
+gravitational acceleration
+
+
+Gravitational field strength for Sugar Land, Texas
+!@#$%
+total field | 9.79967 m/s^2 (meters per second squared)
+angular deviation from local vertical | 0.00304° (degrees)
+down component | 9.79963 m/s^2 (meters per second squared)
+west component | 0.00952 m/s^2 (meters per second squared)
+south component | 0.02819 m/s^2 (meters per second squared)
+(based on EGM2008 12th order model; 23 meters above sea level)
+
+
+
+$%$%
+!@#$%
+Hooke's law | associated equations
+
+
+Result
+!@#$%
+F = -kx
+
+
+
+$%$%
+!@#$%
+heat of fusion (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-2)
+
+
+Standard unit for heat of fusion
+!@#$%
+J (joule)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate description
+!@#$%
+enthalpy of fusion
+
+
+
+$%$%
+!@#$%
+solve 1 + 6 x + x^3 = 0
+
+
+Results
+!@#$%
+x ≈ -0.165906
+
+x ≈ 0.08295 - 2.45370 i
+
+x ≈ 0.08295 + 2.45370 i
+
+
+Root plot
+!@#$%
+
+
+
+Roots in the complex plane
+!@#$%
+
+
+
+Product of roots
+!@#$%
+-1
+
+
+Sum of roots
+!@#$%
+0
+
+
+
+$%$%
+!@#$%
+Fourier's law
+
+
+Equation
+!@#$%
+q = -(k (T_2 - T))/x | 
+q | heat flux
+k | thermal conductivity
+T | temperature
+T_2 | equilibrium temperature
+x | distance
+
+
+Input values
+!@#$%
+thermal conductivity | 0.01 W/(m K) (watts per meter kelvin difference)
+temperature | 25 K (kelvins)
+equilibrium temperature | 125 K (kelvins)
+distance | 1 meter
+
+
+Result
+!@#$%
+heat flux | -1 W/m^2 (watt per square meter)
+= -100 µW/cm^2 (microwatts per square centimeter)
+= -1000 mW/m^2 (milliwatts per square meter)
+
+
+
+$%$%
+!@#$%
+hydration reactions
+
+
+Sample reactions
+!@#$%
+(data not available)
+
+
+
+$%$%
+!@#$%
+electric potential difference (physical quantity)
+
+
+Common symbol
+!@#$%
+U
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-3) [current]^(-1)
+
+
+Standard unit for electric potential difference
+!@#$%
+V (volt)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate descriptions
+!@#$%
+electric potential | electric tension | electric voltage | electromotive force | potential | potential difference | voltage | voltage difference
+
+
+Common subcases
+!@#$%
+alternating current voltage
+
+direct current voltage
+
+thermal voltage
+
+
+
+$%$%
+!@#$%
+drag coefficient
+
+
+Equation
+!@#$%
+C_d = F_d/(1/2 ρ u^2 A) | 
+C_d | drag coefficient
+F_d | drag force
+ρ | mass density
+u | characteristic speed
+A | area
+
+
+Input values
+!@#$%
+drag force | 100 N (newtons)
+mass density | 1.204 kg/m^3 (kilograms per cubic meter)
+characteristic speed | 800 km/h (kilometers per hour)
+area | 10 m^2 (square meters)
+
+
+Result
+!@#$%
+drag coefficient | 3.364×10^-4
+
+
+Quadratic drag force
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+formula (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a group of symbols that make a mathematical statement
+2 | noun | directions for making something
+3 | noun | a conventionalized statement expressing some fundamental principle
+4 | noun | a representation of a substance using symbols for its constituent elements
+5 | noun | something regarded as a normative example
+6 | noun | a liquid food for infants
+7 | noun | (mathematics) a standard procedure for solving a class of mathematical problems
+(7 meanings)
+
+
+Pronunciation
+!@#$%
+f'awrmyuhluh (IPA: fˈɔrmjələ)
+
+
+Hyphenation
+!@#$%
+for-mu-la (7 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1638 (European Renaissance) (380 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Overall typical frequency
+!@#$%
+written: 3581st most common (1 in 37037 words) ( > 99% noun)
+
+spoken: 2401st most common (1 in 50000 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+formulas
+
+
+Synonyms
+!@#$%
+expression | recipe | chemical formula | convention | normal | pattern | rule (total: 7)
+
+
+Narrower terms
+!@#$%
+exponential expression | primitive | sentential function | empirical formula | molecular formula | code of behavior | code of conduct | mores | universal | algorithm | algorithmic program | algorithmic rule | heuristic | heuristic program | heuristic rule | ... (total: 17)
+
+
+Broader terms
+!@#$%
+mathematical statement | direction | instruction | statement | practice | milk | procedure | process (total: 8)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+The Heat (movie)
+The Formula (movie) | MPAA rating
+
+
+Results
+!@#$%
+The Heat | R
+The Formula | R
+
+
+Basic movie information
+!@#$%
+ | The Heat | The Formula
+title | The Heat | The Formula
+directors | Paul Feig | John G. Avildsen
+release date | June 28, 2013 (5 years 5 months ago) | December 19, 1980 (37 years 11 months ago)
+runtime | 117 minutes (1 hour 57 minutes) | 117 minutes (1 hour 57 minutes)
+writers | Katie Dippold | Steve Shagan
+genres | action | comedy | crime | crime | thriller
+MPAA rating | R | R
+production budget | $43 million (US dollars) (current equivalent: $45.9 million) | 
+
+
+
+$%$%
+!@#$%
+self-inductance of a single core cable
+
+
+Equation
+!@#$%
+L = (μ_0 l log(R_1/R_2))/(2 π) | 
+L | self-inductance
+R_2 | conductor radius
+R_1 | sheath radius
+l | length
+μ_0 | magnetic constant (≈ 1.257×10^-6 N/A^2)
+(assuming high frequency currents)
+
+
+Input values
+!@#$%
+conductor radius | 1 cm (centimeter)
+sheath radius | 2.5 cm (centimeters)
+length | 5 meters
+
+
+Result
+!@#$%
+self-inductance | 916.3 nH (nanohenries)
+= 0.9163 μH (microhenries)
+= 9.163×10^-7 H (henries)
+
+
+$%$%
+
+$%$%
+!@#$%
+equation of motion
+
+
+Equation
+!@#$%
+d = v t | 
+d | distance
+v | speed
+t | time
+
+
+Input values
+!@#$%
+speed | 1 m/s (meter per second)
+time | 1 second
+
+
+Result
+!@#$%
+distance | 100 cm (centimeters)
+= 3.281 feet
+= 3' 3.37"
+
+
+
+$%$%
+!@#$%
+collision
+
+
+Equation
+!@#$%
+m_1 v_1, i + m_2 v_2, i = (m_1 + m_2) v_f | 
+v_f | final velocity of the combined object
+m_1 | mass of first object
+m_2 | mass of second object
+v_1, i | initial velocity of first object
+v_2, i | initial velocity of second object
+
+
+Input values
+!@#$%
+mass of first object | 1 kg (kilogram)
+mass of second object | 2 kg (kilograms)
+initial velocity of first object | 2 m/s (meters per second)
+initial velocity of second object | 1 m/s (meter per second)
+
+
+Result
+!@#$%
+final velocity of the combined object | 133.3 cm/s (centimeters per second)
+= 2.983 mph (miles per hour)
+= 4.8 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+electric resistance (physical quantity)
+
+
+Common symbol
+!@#$%
+R
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-3) [current]^(-2)
+
+
+Standard unit for electric resistance
+!@#$%
+Ω (ohm)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate description
+!@#$%
+resistance
+
+
+Common subcases
+!@#$%
+AC resistance
+
+DC resistance
+
+internal winding resistance
+
+resistive load
+
+
+Orders of magnitude
+!@#$%
+
+
+
+
+Derivative
+!@#$%
+d/dx(3 x^3 + 2 x) = 9 x^2 + 2
+
+
+Plots
+!@#$%
+
+
+
+
+
+Geometric figure
+!@#$%
+parabola
+
+
+Alternate form
+!@#$%
+(sqrt(2) - 3 i x) (sqrt(2) + 3 i x)
+
+
+Complex roots
+!@#$%
+x = -(i sqrt(2))/3
+
+x = (i sqrt(2))/3
+
+
+Roots in the complex plane
+!@#$%
+
+
+
+Polynomial discriminant
+!@#$%
+Δ = -72
+
+
+Properties as a real function
+!@#$%
+R (all real numbers)
+
+{y element R : y>=2}
+
+even
+
+
+Indefinite integral
+!@#$%
+integral(2 + 9 x^2) dx = 3 x^3 + 2 x + constant
+
+
+Global minimum
+!@#$%
+min{9 x^2 + 2} = 2 at x = 0
+
+
+$%$%
+
+$%$%
+!@#$%
+inductor reactance formula
+
+
+Equation
+!@#$%
+X_L = 2 π f L | 
+X_L | inductive reactance
+L | magnetic inductance
+f | frequency
+
+
+Input values
+!@#$%
+magnetic inductance | 1 H (henry)
+frequency | 1 kHz (kilohertz)
+
+
+Result
+!@#$%
+inductive reactance | 6.283 kΩ (kilohms)
+= 0.006283 MΩ (megohms)
+= 6283 Ω (ohms)
+
+
+
+$%$%
+!@#$%
+intensity (English word)
+
+
+Definitions
+!@#$%
+1 | noun | the amount of energy transmitted (as by acoustic or electromagnetic radiation)
+2 | noun | high level or degree; the property of being intense
+3 | noun | the magnitude of sound (usually in a specified direction)
+4 | noun | chromatic purity: freedom from dilution with white and hence vivid in hue
+
+
+Pronunciation
+!@#$%
+, int'ensuhtee (IPA: ˌɪntˈɛnsəti)
+
+
+Hyphenation
+!@#$%
+in-ten-si-ty (9 letters | 4 syllables)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+intensities
+
+
+Synonyms
+!@#$%
+intensity level | strength | intensiveness | loudness | volume | chroma | saturation | vividness (total: 8)
+
+
+Narrower terms
+!@#$%
+acoustic power | candlepower | field intensity | field strength | half-intensity | light intensity | radio brightness | sound pressure level | threshold level | badness | emphasis | ferocity | fierceness | force | forcefulness | ... (total: 27)
+
+
+Broader terms
+!@#$%
+magnitude | degree | grade | level | sound property | color property (total: 6)
+
+
+Rhymes
+!@#$%
+density | propensity
+(based on typical American pronunciation)
+
+
+Anagrams
+!@#$%
+(none among common words)
+
+
+Phrases
+!@#$%
+change intensity | intensity level | luminous intensity unit | magnetic intensity
+
+
+Other notable uses
+!@#$%
+Intensity (Dean R. Koontz)
+
+intensity.com | intensity.org | intensity.info
+
+
+Crossword puzzle clues
+!@#$%
+(none)
+
+
+Scrabble score
+!@#$%
+12 (International English) | 12 (North American English)
+
+
+
+$%$%
+!@#$%
+Newton's law of universal gravitation
+
+
+Equation
+!@#$%
+F = (G m_1 m_2)/r^2 | 
+F | gravitational force
+m_1 | primary mass
+m_2 | secondary mass
+r | distance
+G | Newtonian gravitational constant (≈ 6.674×10^-11 m^3/(kg s^2))
+
+
+Input values
+!@#$%
+primary mass | Earth (planet): 5.9721986×10^24 kg (kilograms)
+secondary mass | 60 kg (kilograms)
+distance | Earth (planet): 3958.761 miles
+
+
+Result
+!@#$%
+gravitational force | 589.2 N (newtons)
+= 132.5 lbf (pounds-force)
+= 0.5892 kN (kilonewtons)
+
+
+$%$%
+
+$%$%
+!@#$%
+escape velocity
+
+
+Equation
+!@#$%
+v = sqrt((2 G m)/r) | 
+v | speed
+m | mass
+r | radius
+G | Newtonian gravitational constant (≈ 6.674×10^-11 m^3/(kg s^2))
+
+
+Input values
+!@#$%
+mass | Earth (planet): 5.9721986×10^24 kg (kilograms)
+radius | Earth (planet): 3958.761 miles
+
+
+Result
+!@#$%
+speed | 11.19 km/s (kilometers per second)
+= 25022 mph (miles per hour)
+= 40270 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+kinematic viscosity (physical quantity)
+
+
+Common symbol
+!@#$%
+ν
+
+
+Basic dimensions
+!@#$%
+[length]^2 [time]^(-1)
+
+
+Standard unit for kinematic viscosity
+!@#$%
+m^2/s (square meter per second)
+
+
+Usage type
+!@#$%
+scalar
+
+
+
+$%$%
+!@#$%
+gravitational potential energy
+
+
+Equation
+!@#$%
+U = m g h | 
+U | gravitational potential energy
+g | gravitational acceleration
+m | mass
+h | height
+(energy of an object due to gravity near the surface of a gravitating body)
+
+
+Input values
+!@#$%
+gravitational acceleration | 1 g (standard acceleration due to gravity on the surface of the earth)
+mass | 10 kg (kilograms)
+height | 10 meters
+
+
+Result
+!@#$%
+gravitational potential energy | 0.9807 kJ (kilojoules)
+= 0.2724 W h (watt hours)
+= 6.121×10^21 eV (electronvolts)
+
+
+
+$%$%
+!@#$%
+all countries, dependencies, and territories | total primary energy consumption
+
+
+Summary
+!@#$%
+total | 523.9 quad/yr
+median | 0.1723 quad/yr
+highest | 105.9 quad/yr (China)
+lowest | 4×10^-5 quad/yr (Niue) | (2010, 2011, and 2012 estimates)
+(based on 213 values; 36 unavailable)
+
+
+Total primary energy consumption map
+!@#$%
+
+
+
+History
+!@#$%
+
+
+
+Distribution plots
+!@#$%
+ 
+(total primary energy consumption in quadrillion BTUs per year)
+
+
+Total primary energy consumption rankings
+!@#$%
+1 | China | 105.9 quad/yr
+2 | United States | 95.06 quad/yr
+3 | Russia | 31.52 quad/yr
+4 | India | 23.92 quad/yr
+5 | Japan | 20.31 quad/yr
+⋮ | | 
+209 | Montserrat | 0.00123 quad/yr
+210 | Kiribati | 8.2×10^-4 quad/yr
+211 | Falkland Islands | 6.3×10^-4 quad/yr
+212 | Saint Helena, Ascension and Tristan da Cunha | 1.3×10^-4 quad/yr
+213 | Niue | 4×10^-5 quad/yr
+(2010, 2011, and 2012 estimates)
+(based on 213 values; 36 unavailable)
+
+
+Unit conversion for median total primary energy 523.9 quad/yr
+!@#$%
+5.239×10^17 BTU_IT/yr (IT British thermal units per year)
+
+
+
+$%$%
+!@#$%
+kinetic energy
+
+
+Equation
+!@#$%
+K = (m v^2)/2 | 
+K | kinetic energy
+m | mass
+v | velocity
+(the energy of an object due to its motion)
+
+
+Input values
+!@#$%
+mass | 1 kg (kilogram)
+velocity | 10 m/s (meters per second)
+
+
+Result
+!@#$%
+kinetic energy | 50 J (joules)
+= 0.01389 W h (watt hours)
+= 312.1 EeV (exaelectronvolts)
+
+
+
+$%$%
+!@#$%
+gravitational acceleration
+
+
+Equation
+!@#$%
+g = (G M)/r^2 | 
+g | gravitational acceleration
+M | mass
+r | radius
+G | Newtonian gravitational constant (≈ 6.674×10^-11 m^3/(kg s^2))
+
+
+Input values
+!@#$%
+mass | Earth (planet): 5.9721986×10^24 kg (kilograms)
+radius | Earth (planet): 3958.761 miles
+
+
+Result
+!@#$%
+gravitational acceleration | 9.82 m/s^2 (meters per second squared)
+= 32.22 ft/s^2 (feet per second squared)
+= 982 cm/s^2 (centimeters per second squared)
+escape velocity | 11.19 km/s (kilometers per second)
+11186 m/s (meters per second)
+25020 mph (miles per hour)
+
+
+
+$%$%
+!@#$%
+linear speed (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[length] [time]^(-1)
+
+
+Standard unit for linear speed
+!@#$%
+m/s (meter per second)
+
+
+Usage type
+!@#$%
+scalar | vector
+
+
+Base physical quantity
+!@#$%
+speed
+
+
+Orders of magnitude
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+elements | molar heat of fusion
+
+
+Summary
+!@#$%
+median | 10 kJ/mol
+highest | 105 kJ/mol (carbon)
+lowest | 0.02 kJ/mol (helium)
+distribution | | (based on 93 values; 25 unavailable)
+
+
+Distribution plots
+!@#$%
+ 
+(molar heat of fusion in kilojoules per mole)
+
+
+Molar heat of fusion rankings
+!@#$%
+1 | carbon | 105 kJ/mol
+2 | silicon | 50.2 kJ/mol
+3 | boron | 50 kJ/mol
+4 | tantalum | 36 kJ/mol
+5 | molybdenum | 36 kJ/mol
+⋮ | | 
+89 | nitrogen | 0.36 kJ/mol
+90 | neon | 0.34 kJ/mol
+91 | fluorine | 0.26 kJ/mol
+92 | oxygen | 0.222 kJ/mol
+93 | helium | 0.02 kJ/mol
+(based on 93 values; 25 unavailable)
+
+
+Unit conversions for median molar heat of fusion 10 kJ/mol
+!@#$%
+0.01 MJ/mol (megajoules per mole)
+
+10000 J/mol (joules per mole)
+
+2.4 kcal/mol (thermochemical kilocalories per mole)
+
+2400 cal/mol (calories per mole)
+
+0.1 eV (molar electronvolts)
+
+
+
+$%$%
+!@#$%
+frequency (physical quantity)
+
+
+Common symbol
+!@#$%
+ν
+
+
+Basic dimensions
+!@#$%
+[time]^(-1)
+
+
+Standard unit for frequency
+!@#$%
+Hz (hertz)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Common subcases
+!@#$%
+beat frequency
+
+bus speed
+
+characteristic frequency
+
+CPU speed
+
+critical frequency
+
+
+
+$%$%
+!@#$%
+heat capacity (physical quantity)
+
+
+Common symbol
+!@#$%
+C
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-2) [temperature difference]^(-1)
+
+
+Standard unit for heat capacity
+!@#$%
+J/K (joule per kelvin difference)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate description
+!@#$%
+thermal capacity
+
+
+Common subcases
+!@#$%
+adiabatic heat capacity
+
+isenthalpic heat capacity
+
+isentropic heat capacity
+
+isobaric heat capacity
+
+isochoric heat capacity
+
+
+
+$%$%
+!@#$%
+lensmaker's equation
+
+
+Equation
+!@#$%
+1/f = (n_l - 1) (1/r_1 - 1/r_2 + ((n_l - 1) d)/(n_l r_1 r_2)) | 
+f | focal length
+r_1 | radius of curvature for front surface of lens
+r_2 | radius of curvature for back surface of lens
+d | lens thickness
+n_l | refractive index of lens material
+(signs for radius of curvature are positive/negative (negative/positive) if the front (back) surface of lens is convex/concave)
+
+
+Input values
+!@#$%
+radius of curvature for front surface of lens | 300 cm (centimeters)
+radius of curvature for back surface of lens | -300 cm (centimeters)
+lens thickness | 5 mm (millimeters)
+refractive index of lens material | 1.5
+
+
+Results
+!@#$%
+focal length | 3.001 meters
+= 9.845 feet
+= 9' 10.14"
+
+lens type | bi-convex, converging (positive)
+optical power | 3.001 diopters
+
+
+$%$%
+
+$%$%
+!@#$%
+object falling vertically
+
+
+Input value
+!@#$%
+fall distance | 100 feet
+
+
+Result
+!@#$%
+time to fall | 2.5 seconds
+final speed | 24 m/s (meters per second)
+ = 1300 miles per day
+ = 55 mph (miles per hour)
+(assuming point mass)
+
+
+
+$%$%
+!@#$%
+heat loss (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-2)
+
+
+Standard unit for heat loss
+!@#$%
+J (joule)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Base physical quantity
+!@#$%
+amount of heat
+
+
+
+$%$%
+!@#$%
+non-relativistic momentum
+
+
+Equation
+!@#$%
+p = m v | 
+p | momentum
+m | mass
+v | velocity
+
+
+Input values
+!@#$%
+mass | 1 kg (kilogram)
+velocity | 10 m/s (meters per second)
+
+
+Result
+!@#$%
+momentum | 10 kg m/s (kilogram meters per second)
+= 2.248 lbf s (pound-force seconds)
+= 10 J s/m (joule seconds per meter)
+
+
+$%$%
+
+$%$%
+!@#$%
+Newton's law of universal gravitation
+
+
+Equation
+!@#$%
+F = (G m_1 m_2)/r^2 | 
+F | gravitational force
+m_1 | primary mass
+m_2 | secondary mass
+r | distance
+G | Newtonian gravitational constant (≈ 6.674×10^-11 m^3/(kg s^2))
+
+
+Input values
+!@#$%
+primary mass | Earth (planet): 5.9721986×10^24 kg (kilograms)
+secondary mass | 60 kg (kilograms)
+distance | Earth (planet): 3958.761 miles
+
+
+Result
+!@#$%
+gravitational force | 589.2 N (newtons)
+= 132.5 lbf (pounds-force)
+= 0.5892 kN (kilonewtons)
+
+
+
+$%$%
+!@#$%
+Lorentz force (physical quantity)
+
+
+Common symbol
+!@#$%
+F
+
+
+Basic dimensions
+!@#$%
+[mass] [length] [time]^(-2)
+
+
+Standard unit for Lorentz force
+!@#$%
+N (newton)
+
+
+Usage type
+!@#$%
+scalar | vector
+
+
+Alternate description
+!@#$%
+magnetic force
+
+
+Base physical quantity
+!@#$%
+force
+
+
+
+$%$%
+!@#$%
+museum technicians and conservators | people employed | United States
+
+
+Result
+!@#$%
+10170 people (2009)
+
+
+Employment history
+!@#$%
+
+
+
+Employment summary
+!@#$%
+people employed | 10170 people
+yearly change | -30 people (-0.3%)
+workforce fraction | 0.008% (1 in 12846)
+median wage | $37120 per year (US dollars per year)
+median wage yearly change | +$460 per year (US dollars per year) (+1%)
+50% range | $(28480 to 49280) per year
+80% range | $(23530 to 67090) per year
+(2009 data)
+
+
+Related occupations
+!@#$%
+ | people employed | mean wage
+archivists | 4900 people | $49600 per year
+curators | 10410 people | $52330 per year
+
+
+Standard occupational classification information
+!@#$%
+SOC code | 25-4013
+SOC parent occupation | archivists, curators, and museum technicians
+
+
+
+$%$%
+!@#$%
+Heisenberg uncertainty principle | associated equations
+
+
+Result
+!@#$%
+ΔxΔp>=ℏ/2 | ΔEΔt>=ℏ/2
+
+
+
+$%$%
+!@#$%
+mass flow rate (physical quantity)
+
+
+Common symbol
+!@#$%
+m
+
+
+Basic dimensions
+!@#$%
+[mass] [time]^(-1)
+
+
+Standard unit for mass flow rate
+!@#$%
+kg/s (kilogram per second)
+
+
+Usage type
+!@#$%
+scalar
+
+
+
+$%$%
+!@#$%
+Newton's second law | associated equations
+
+
+Result
+!@#$%
+F_net = (dp)/(dt) | F = ma
+
+
+
+$%$%
+!@#$%
+electric potential difference (physical quantity)
+
+
+Common symbol
+!@#$%
+U
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-3) [current]^(-1)
+
+
+Standard unit for electric potential difference
+!@#$%
+V (volt)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate descriptions
+!@#$%
+electric potential | electric tension | electric voltage | electromotive force | potential | potential difference | voltage | voltage difference
+
+
+Common subcases
+!@#$%
+alternating current voltage
+
+direct current voltage
+
+thermal voltage
+
+
+
+Input
+!@#$%
+probability
+density
+function | normal distribution | mean | μ
+standard deviation | σ (positive)
+
+
+Result
+!@#$%
+e^(-(x - μ)^2/(2 σ^2))/(sqrt(2 π) σ)≈(0.398942 2.71828^(-(0.5 (x - μ)^2)/σ^2))/σ
+
+
+Plots for typical parameters
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+circular orbit velocity
+
+
+Equation
+!@#$%
+v_c = sqrt((G m)/r) | 
+v_c | circular velocity
+m | mass of orbit center
+r | orbital radius
+G | Newtonian gravitational constant (≈ 6.674×10^-11 m^3/(kg s^2))
+
+
+Input values
+!@#$%
+mass of orbit center | 5.98×10^24 kg (kilograms)
+orbital radius | 384000 km (kilometers)
+
+
+Result
+!@#$%
+circular velocity | 1.019 km/s (kilometers per second)
+= 2281 mph (miles per hour)
+= 3670 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+speed (physical quantity)
+
+
+Common symbol
+!@#$%
+v
+
+
+Basic dimensions
+!@#$%
+[length] [time]^(-1)
+
+
+Standard unit for speed
+!@#$%
+m/s (meter per second)
+
+
+Usage type
+!@#$%
+scalar | vector
+
+
+Alternate descriptions
+!@#$%
+rate | velocity
+
+
+Common subcases
+!@#$%
+airspeed
+
+average speed
+
+average moving speed
+
+calibrated airspeed
+
+characteristic speed
+
+
+Orders of magnitude
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+corrective lens equation for nearsightedness
+
+
+Equation
+!@#$%
+-1/d_max = C per meter | 
+C | lens power
+d_max | far point for nearsighted vision
+
+
+Input value
+!@#$%
+far point for nearsighted vision | 50 cm (centimeters)
+
+
+Result
+!@#$%
+lens power | -2 diopters
+= -200%
+
+
+
+$%$%
+!@#$%
+electric power formula
+
+
+Equation
+!@#$%
+P = V^2/R | 
+R | electric resistance
+V | voltage
+P | power
+(assuming dc quantities)
+
+
+Input values
+!@#$%
+voltage | 10 V (volts)
+power | 10 W (watts)
+
+
+Result
+!@#$%
+electric resistance | 10 Ω (ohms)
+= 0.01 kΩ (kilohms)
+
+
+
+$%$%
+!@#$%
+convert 1 K (kelvin) to degrees Celsius
+
+
+Result
+!@#$%
+-272.2 °C (degrees Celsius)
+
+
+Additional conversions
+!@#$%
+-457.87 °F (degrees Fahrenheit)
+
+1.8 °R (degrees Rankine)
+
+-217.72 °Ré (degrees Réaumur)
+
+-135.38 °Rø (degrees Rømer)
+
+
+Comparisons as temperature
+!@#$%
+1 °C above lowest temperature sodium Bose-Einstein condensate gas ever achieved in the laboratory (at MIT) (450 pK)
+
+0.9999999999520076 °C above kelvin-hertz relationship (4.79924×10^-11 K)
+
+1 °C above absolute zero (0 K)
+
+
+Interpretation
+!@#$%
+temperature
+
+
+Basic unit dimensions
+!@#$%
+[temperature]
+
+
+Corresponding quantity
+!@#$%
+Thermodynamic energy E from E = kT:
+ | 0.086 meV (millielectronvolts)
+
+
+
+$%$%
+!@#$%
+pressure formula
+
+
+Equation
+!@#$%
+P = F/A | 
+P | pressure
+F | force
+A | area
+
+
+Input values
+!@#$%
+force | 10 N (newtons)
+area | 1 m^2 (square meter)
+
+
+Result
+!@#$%
+pressure | 10 Pa (pascals)
+= 100 µbar (microbars)
+= 0.1 mbar (millibars)
+
+
+
+$%$%
+!@#$%
+Pressure Drop (music album)
+
+
+Basic information
+!@#$%
+name | Pressure Drop
+artist | Robert Palmer
+release date | 1975
+runtime | 37 minutes 28.6 seconds
+
+
+Tracklist
+!@#$%
+1 | Give Me an Inch | 3 minutes 18.09 seconds
+2 | Work to Make It Work | 4 minutes 8.306 seconds
+3 | Back in My Arms | 3 minutes 33 seconds
+4 | Riverboat | 3 minutes 47.56 seconds
+5 | Pressure Drop | 5 minutes 28.87 seconds
+6 | Here With You Tonight | 4 minutes 56.11 seconds
+7 | Trouble | 3 minutes 0.826 seconds
+8 | Fine Time | 5 minutes 51.57 seconds
+9 | Which of Us Is the Fool | 3 minutes 24.27 seconds
+
+
+Releases
+!@#$%
+release date | country | label | format | buy
+1975 | United Kingdom | Island | 12" Vinyl | 
+1993 | United Kingdom | Island Masters | CD | 
+ | United States | Island | CD | 
+ | United States | Island | CD | 
+
+
+Wikipedia summary
+!@#$%
+Pressure Drop is the second solo album by Robert Palmer, released in 1975. Palmer is backed by Little Feat and other musicians. The title track is a cover version of the reggae hit by Toots & the Maytals. However, many other songs on the album use "New Orleans funk.. along with smooth, dated disco ballads smothered in strings". Continuing his ...
+
+
+Wikipedia page hits history
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+small-oscillation pendulum | full pendulum
+
+
+Small‐oscillation pendulum
+!@#$%
+length | 1 meter
+initial angle | 20° (degrees)
+gravitational acceleration | 1 g (standard acceleration due to gravity on the surface of the earth)
+
+period | 2.006 seconds
+frequency | 0.4984 Hz (hertz)
+maximum speed | 108.8 cm/s (centimeters per second)
+= 2.433 mph (miles per hour)
+= 3.915 km/h (kilometers per hour)
+
+
+
+
+
+
+
+
+Full pendulum
+!@#$%
+length | 1 meter
+initial angle | 20° (degrees)
+gravitational acceleration | 1 g (standard acceleration due to gravity on the surface of the earth)
+
+period | 2.022 seconds
+frequency | 0.4946 Hz (hertz)
+maximum speed | 108.8 cm/s (centimeters per second)
+= 2.433 mph (miles per hour)
+= 3.915 km/h (kilometers per hour)
+
+
+
+
+
+
+
+$%$%
+!@#$%
+momentum (physical quantity)
+
+
+Common symbol
+!@#$%
+p
+
+
+Basic dimensions
+!@#$%
+[mass] [length] [time]^(-1)
+
+
+Standard unit for momentum
+!@#$%
+kg m/s (kilogram meter per second)
+
+
+Usage type
+!@#$%
+scalar | vector
+
+
+Alternate descriptions
+!@#$%
+linear momentum | translational momentum
+
+
+
+$%$%
+!@#$%
+Poiseuille's law
+
+
+Equation
+!@#$%
+Q = (π R^4 ΔP)/(8 η L) | 
+Q | flow rate of fluid
+η | dynamic viscosity
+R | radius of pipe
+L | length of pipe
+ΔP | pressure difference
+
+
+Input values
+!@#$%
+dynamic viscosity | 0.0015 Pa s (pascal seconds)
+radius of pipe | 4×10^-4 meters
+length of pipe | 0.025 meters
+pressure difference | 1.243 kPa (kilopascals)
+
+
+Result
+!@#$%
+flow rate of fluid | 0.333 mL/s (milliliters per second)
+= 0.317 gal/h (gallons per hour)
+= 2780 gal/yr (gallons per year)
+
+
+
+$%$%
+!@#$%
+Reynolds number
+
+
+Equation
+!@#$%
+Re = (ρ v l)/η | 
+Re | Reynolds number
+ρ | mass density
+v | characteristic speed
+l | characteristic length
+η | dynamic viscosity
+
+
+Input values
+!@#$%
+mass density | 1000 kg/m^3 (kilograms per cubic meter)
+characteristic speed | 1 m/s (meter per second)
+characteristic length | 10 cm (centimeters)
+dynamic viscosity | 1 cP (centipoise)
+
+
+Result
+!@#$%
+Reynolds number | 100000
+
+
+
+$%$%
+!@#$%
+all countries, dependencies, and territories | coastline length
+
+
+Summary
+!@#$%
+total | 491517 mi
+highest | 125567 mi (Canada)
+lowest | 0 mi (46 countries) | (based on 247 values; 2 unavailable)
+
+
+Distribution plots
+!@#$%
+ 
+(coastline length in thousands of miles)
+
+
+$%$%
+
+$%$%
+!@#$%
+relative (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a person related by blood or marriage
+2 | noun | an animal or plant that bears a relationship to another (as related by common descent or by membership in the same genus)
+3 | adjective | estimated by comparison; not absolute or complete
+4 | adjective | properly related in size or degree or other measurable characteristics; usually followed by "to"
+
+
+Pronunciation
+!@#$%
+r'eluhtiv (IPA: rˈɛlətɪv)
+
+
+Hyphenation
+!@#$%
+rel-a-tive (8 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1388 (Late Middle ages) (630 years ago)
+
+
+Word origins
+!@#$%
+Old French | Latin
+
+
+Overall typical frequency
+!@#$%
+written: 2400th most common (1 in 23256 words) ( > 99% adjective | 0% noun)
+
+spoken: 3545th most common (1 in 111111 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+relatives
+
+
+Synonyms
+!@#$%
+relation | congenator | congener | congeneric | comparative | proportional | relational (total: 7)
+
+
+Antonym
+!@#$%
+absolute
+
+
+Narrower terms
+!@#$%
+agnate | ancestor | antecedent | ascendant | ascendent | better half | blood relation | blood relative | cognate | cousin | cousin-german | descendant | descendent | enate | family | ... (total: 44)
+
+
+Broader terms
+!@#$%
+individual | mortal | person | somebody | someone | soul | being | organism (total: 8)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+efficiency of a heat engine
+
+
+Equation
+!@#$%
+η = 1 - Q_2/Q_1 | 
+η | efficiency
+Q_1 | heat flowing into an engine from a high-temperature reservoir
+Q_2 | waste heat flowing out of an engine into a low-temperature reservoir
+
+
+Input values
+!@#$%
+heat flowing into an engine from a high-temperature reservoir | 400 J (joules)
+waste heat flowing out of an engine into a low-temperature reservoir | 300 J (joules)
+
+
+Result
+!@#$%
+efficiency | 0.25
+
+
+
+$%$%
+!@#$%
+law of combining volumes | associated equations
+
+
+Result
+!@#$%
+(data not available)
+
+
+
+$%$%
+!@#$%
+mechanical advantage of a lever
+
+
+Equation
+!@#$%
+MA = d_1/d_2 | 
+MA | mechanical advantage
+d_1 | effort arm
+d_2 | load arm
+
+
+
+Input values
+!@#$%
+effort arm | 1 meter
+load arm | 20 cm (centimeters)
+lever type | first class
+
+
+Result
+!@#$%
+mechanical advantage | 5
+
+
+
+$%$%
+!@#$%
+electric resistivity formula
+
+
+Equation
+!@#$%
+ρ = 1/σ | 
+ρ | electric resistivity
+σ | electric conductivity
+
+
+Input value
+!@#$%
+electric conductivity | 1 S/m (siemens per meter)
+
+
+Result
+!@#$%
+electric resistivity | 1 Ω m (ohm meter)
+= 100 Ω cm (ohm centimeters)
+= 1000 mΩ m (milliohm meters)
+
+
+
+$%$%
+!@#$%
+relativistic Doppler shift
+
+
+Equation
+!@#$%
+f_o/f_s = sqrt((c - v_s)/(c + v_s)) | 
+f_o/f_s | frequency reduction factor
+v_s | speed of the source away from the observer
+c | speed of light (≈ 2.998×10^8 m/s)
+(the ratio between emitted and observed frequencies of light due to relative motion)
+
+
+Input value
+!@#$%
+speed of the source away from the observer | 0.22 c (speed of light)
+
+
+Result
+!@#$%
+frequency reduction factor | 0.7996
+
+
+Visible result
+!@#$%
+source: |observed: 
+
+
+
+$%$%
+!@#$%
+The Heat (movie) | release date | The Formula (movie) | MPAA rating
+
+
+Results
+!@#$%
+The Heat (movie) | release date | June 28, 2013
+The Formula (movie) | MPAA rating | R
+
+
+
+$%$%
+!@#$%
+hp (horsepower)
+
+
+Conversions to other units
+!@#$%
+1 hp | 1.014 PS (metric horsepower)
+ (unit officially deprecated)
+ | 745.7 W (watts)
+ | 0.7457 kW (kilowatts)
+
+
+Conversions from other units
+!@#$%
+1 PS | 0.9863 hp
+1 W | 0.001341 hp
+1 kW | 1.341 hp
+
+
+Physical quantity
+!@#$%
+power
+
+
+Unit system
+!@#$%
+US Customary System (USCS)
+
+
+Basic unit dimensions
+!@#$%
+[mass] [length]^2 [time]^(-3)
+
+
+Corresponding quantities for 1 hp
+!@#$%
+Logarithmic power B from P = 10^B:
+ | 2.9 BW (bels-watt)
+ | 29 dBW (decibels-watt)
+ | 59 dBm (decibels-milliwatt)
+
+Photon flux Φ in the visible spectrum from Φ = P/(hν):
+ | (1.4×10^21 to 2.8×10^21) photons/s (photons per second)
+
+Luminous flux of a light source radiating monochromatic light of 580 nm wavelength:
+ | 443 klm (kilolumens)
+
+
+Comparisons for 1 hp as power
+!@#$%
+ ≈ ( 0.075 ≈ 1/13 ) × average power consumption per person in the USA in 2008 (≈ 10 kW )
+
+ ≈ 0.31 × average power consumption per person worldwide in 2008 (≈ 2.4 kW )
+
+ ≈ (0.2 to 0.7) × power output in the form of heat of a domestic electric kettle ( 1 to 3 kW )
+
+
+
+$%$%
+!@#$%
+refractive index
+
+
+Equation
+!@#$%
+n = c/v | 
+n | refractive index
+v | characteristic speed
+c | speed of light (≈ 2.998×10^8 m/s)
+
+
+Input value
+!@#$%
+characteristic speed | 0.75 c (speed of light)
+
+
+Result
+!@#$%
+refractive index | 1.333
+
+
+
+$%$%
+!@#$%
+models | people employed | | c (speed of light)
+
+
+Result
+!@#$%
+{(data not available), c (speed of light)}
+
+
+
+$%$%
+!@#$%
+magnetism
+
+
+Magnetic declination for Sugar Land, Texas
+!@#$%
+1.96°E | | 
+
+
+Magnetic dip for Sugar Land, Texas
+!@#$%
+58.4°
+
+
+Geomagnetic field strength for Sugar Land, Texas
+!@#$%
+total field | +46.2 μT
+x component (north) | +24.2 μT
+y component (east) | +0.83 μT
+z component (down) | +39.4 μT
+(current predicted values from WMM 2015, excluding local perturbations)
+
+
+
+$%$%
+!@#$%
+inverse-square law | associated equations
+
+
+Result
+!@#$%
+I∝1/distance^2
+
+
+
+$%$%
+!@#$%
+heat index 
+
+
+Input values
+!@#$%
+temperature | 33 °C (degrees Celsius)
+relative humidity | 55%
+
+
+Result
+!@#$%
+heat index
+ | 38 °C (degrees Celsius)
+ = 100 °F (degrees Fahrenheit)
+
+
+Heat index at relative humidity of 55%
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+Snell's law
+
+
+Equation
+!@#$%
+n_1 sin(θ_1) = n_2 sin(θ_2) | 
+θ_2 | angle of refraction
+n_1 | index of refraction (first medium)
+n_2 | index of refraction (second medium)
+θ_1 | angle of incidence
+
+
+Input values
+!@#$%
+index of refraction (first medium) | 1
+index of refraction (second medium) | 1.3
+angle of incidence | 45° (degrees)
+
+
+Result
+!@#$%
+angle of refraction | 32.95° (degrees)
+= 575.1 mrad (milliradians)
+= 0.5751 radians
+
+
+Ray plot
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+maximum spring force
+
+
+Equation
+!@#$%
+F_max = (E d^4 (L - n d))/(16 (1 + ν) (D - d)^3 n) | 
+F_max | maximum spring force
+D | spring outer diameter
+d | spring wire diameter
+L | free length of spring
+E | Young's modulus
+ν | Poisson ratio
+n | number of active windings
+(force of fully compressed spring)
+
+
+
+
+Input values
+!@#$%
+spring outer diameter | 1 cm (centimeter)
+spring wire diameter | 2 mm (millimeters)
+free length of spring | 50 cm (centimeters)
+Young's modulus | 211 GPa (gigapascals)
+Poisson ratio | 0.3
+number of active windings | 5
+
+
+Result
+!@#$%
+maximum spring force | 31.07 kN (kilonewtons)
+= 6984 lbf (pounds-force)
+= 31067 N (newtons)
+
+
+
+$%$%
+!@#$%
+Mach number
+
+
+Equation
+!@#$%
+Ma = v/c | 
+Ma | Mach number
+v | characteristic speed
+c | sound speed
+
+
+Input values
+!@#$%
+characteristic speed | 100 m/s (meters per second)
+sound speed | 330 m/s (meters per second)
+
+
+Result
+!@#$%
+Mach number | 0.303
+
+
+Schematic
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+speed under constant acceleration
+
+
+Equation
+!@#$%
+v = a t | 
+v | speed
+t | time
+a | acceleration
+
+
+Input values
+!@#$%
+time | 1 second
+acceleration | 1 m/s^2 (meter per second squared)
+
+
+Result
+!@#$%
+speed | 100 cm/s (centimeters per second)
+= 2.237 mph (miles per hour)
+= 3.6 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+Fourier's law
+
+
+Equation
+!@#$%
+q = -(k (T_2 - T))/x | 
+q | heat flux
+k | thermal conductivity
+T | temperature
+T_2 | equilibrium temperature
+x | distance
+
+
+Input values
+!@#$%
+thermal conductivity | 0.01 W/(m K) (watts per meter kelvin difference)
+temperature | 25 K (kelvins)
+equilibrium temperature | 125 K (kelvins)
+distance | 1 meter
+
+
+Result
+!@#$%
+heat flux | -1 W/m^2 (watt per square meter)
+= -100 µW/cm^2 (microwatts per square centimeter)
+= -1000 mW/m^2 (milliwatts per square meter)
+
+
+
+$%$%
+!@#$%
+speed of sound in an ideal gas by pressure
+
+
+Equation
+!@#$%
+v_s = sqrt((γ P)/d) | 
+v_s | speed of sound
+γ | adiabatic index
+P | pressure
+d | density
+
+
+Input values
+!@#$%
+adiabatic index | 7/5 (diatomic gas)
+pressure | 1 atm (atmosphere)
+density | 1.225 kg/m^3 (kilograms per cubic meter)
+
+
+Result
+!@#$%
+speed of sound | 340.3 m/s (meters per second)
+= 761.2 mph (miles per hour)
+= 1225 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+formula (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a group of symbols that make a mathematical statement
+2 | noun | directions for making something
+3 | noun | a conventionalized statement expressing some fundamental principle
+4 | noun | a representation of a substance using symbols for its constituent elements
+5 | noun | something regarded as a normative example
+6 | noun | a liquid food for infants
+7 | noun | (mathematics) a standard procedure for solving a class of mathematical problems
+(7 meanings)
+
+
+Pronunciation
+!@#$%
+f'awrmyuhluh (IPA: fˈɔrmjələ)
+
+
+Hyphenation
+!@#$%
+for-mu-la (7 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1638 (European Renaissance) (380 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Overall typical frequency
+!@#$%
+written: 3581st most common (1 in 37037 words) ( > 99% noun)
+
+spoken: 2401st most common (1 in 50000 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+formulas
+
+
+Synonyms
+!@#$%
+expression | recipe | chemical formula | convention | normal | pattern | rule (total: 7)
+
+
+Narrower terms
+!@#$%
+exponential expression | primitive | sentential function | empirical formula | molecular formula | code of behavior | code of conduct | mores | universal | algorithm | algorithmic program | algorithmic rule | heuristic | heuristic program | heuristic rule | ... (total: 17)
+
+
+Broader terms
+!@#$%
+mathematical statement | direction | instruction | statement | practice | milk | procedure | process (total: 8)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+friction (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a state of conflict between persons
+2 | noun | the resistance encountered when one body is moved in contact with another
+3 | noun | effort expended in moving one object over another with pressure
+
+
+Pronunciation
+!@#$%
+fr'ikshuhn (IPA: frˈɪkʃən)
+
+
+Hyphenation
+!@#$%
+fric-tion (8 letters | 2 syllables)
+
+
+First known use in English
+!@#$%
+1563 (European Renaissance | Elizabethan era) (455 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+frictions
+
+
+Synonyms
+!@#$%
+clash | rubbing | detrition
+
+
+Narrower terms
+!@#$%
+abrasion | adhesive friction | attrition | detrition | grinding | grip | traction (total: 7)
+
+
+Broader terms
+!@#$%
+conflict | resistance | effort | elbow grease | exertion | sweat | travail (total: 7)
+
+
+Rhymes
+!@#$%
+addiction | affliction | benediction | constriction | contradiction | conviction | crucifixion | depiction | dereliction | diction | eviction | fiction | infliction | interdiction | jurisdiction | ... (total: 18)
+(based on typical American pronunciation)
+
+
+$%$%
+
+$%$%
+!@#$%
+Ohm's law | associated equations
+
+
+Result
+!@#$%
+I = V/R | J = σE
+
+
+
+$%$%
+!@#$%
+sound intensity (physical quantity)
+
+
+Common symbol
+!@#$%
+I
+
+
+Basic dimensions
+!@#$%
+[mass] [time]^(-3)
+
+
+Standard unit for sound intensity
+!@#$%
+W/m^2 (watt per square meter)
+
+
+Usage type
+!@#$%
+scalar
+
+
+
+$%$%
+!@#$%
+dB spl (decibel sound pressure level)
+
+
+Conversion to other unit
+!@#$%
+0 dB spl | 0 B spl (bels sound pressure level)
+
+
+Conversion from other unit
+!@#$%
+0 B spl | 0 dB spl
+
+
+Physical quantity
+!@#$%
+logarithmic sound pressure level
+
+
+Unit system
+!@#$%
+(not in a named unit system)
+
+
+
+$%$%
+!@#$%
+lattice
+
+
+Definition
+!@#$%
+An algebra 〈L;⋀, ⋁〉 is called a lattice if L is a nonempty set, ⋀ and ⋁ are binary operations on L, both ⋀ and ⋁ are idempotent, commutative, and associative, and they satisfy the absorption law. The study of lattices is called lattice theory.
+Note that this type of lattice is distinct from the regular array of points known as a point lattice (or informally as a mesh or grid). While every point lattice is a lattice under the ordering inherited from the plane, many lattices are not point lattices.
+Lattices offer a natural way to formalize and study the ordering of objects using a general concept known as the partially ordered set. 
+
+
+Related topics
+!@#$%
+cubic lattice | distributive lattice | integration lattice | laminated lattice | lattice-ordered set | lattice theory | modular lattice | point lattice | toric variety
+
+
+Subject classifications
+!@#$%
+lattice theory | point lattices
+
+03G10 | 05C35 | 06Bxx
+
+
+
+$%$%
+!@#$%
+impulse
+
+
+Equation
+!@#$%
+I = F t | 
+I | impulse
+F | force
+t | time
+
+
+Input values
+!@#$%
+force | 1 N (newton)
+time | 1 second
+
+
+Result
+!@#$%
+impulse | 1 kg m/s (kilogram meter per second)
+= 0.2248 lbf s (pound-force seconds)
+= 1000 g m/s (gram meters per second)
+
+
+
+$%$%
+!@#$%
+torque
+
+
+Equation
+!@#$%
+τ = r F | 
+τ | torque
+r | distance
+F | perpendicular force
+
+
+Input values
+!@#$%
+distance | 1 meter
+perpendicular force | 1 N (newton)
+
+
+Result
+!@#$%
+torque | 1 N m (newton meter)
+= 0.102 kgf m (kilogram-force meters)
+= 10.2 kgf cm (kilogram-force centimeters)
+
+
+Schematic
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+gravitational potential energy
+
+
+Equation
+!@#$%
+U = m g h | 
+U | gravitational potential energy
+g | gravitational acceleration
+m | mass
+h | height
+(energy of an object due to gravity near the surface of a gravitating body)
+
+
+Input values
+!@#$%
+gravitational acceleration | 1 g (standard acceleration due to gravity on the surface of the earth)
+mass | 10 kg (kilograms)
+height | 10 meters
+
+
+Result
+!@#$%
+gravitational potential energy | 0.9807 kJ (kilojoules)
+= 0.2724 W h (watt hours)
+= 6.121×10^21 eV (electronvolts)
+
+
+
+$%$%
+!@#$%
+time constant (physical quantity)
+
+
+Common symbol
+!@#$%
+τ
+
+
+Basic dimensions
+!@#$%
+[time]
+
+
+Standard unit for time constant
+!@#$%
+second
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate descriptions
+!@#$%
+exponential time constant | relaxation time
+
+
+Orders of magnitude
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+Light and Colour (Goethe's Theory) - The Morning after the Deluge - Moses Writing the Book of Genesis (painting)
+
+
+Basic information
+!@#$%
+artist | J. M. W. Turner
+completion date | 1843 (175 years ago)
+period | Romantic
+material | oil paint on canvas
+
+
+Image
+!@#$%
+
+
+
+Dimensions
+!@#$%
+width: 30.91 inches | height: 30.91 inches
+
+
+Location and owner
+!@#$%
+location | Tate Britain
+owner | Tate Gallery
+
+
+Artist information
+!@#$%
+full name | Joseph Mallord William Turner
+date of birth | Sunday, April 23, 1775 (243 years ago)
+place of birth | London, Greater London, United Kingdom
+date of death | Friday, December 19, 1851 (age: 76 years) 
+ (166 years ago)
+place of death | London, Greater London, United Kingdom
+
+
+Timeline
+!@#$%
+
+
+
+Other notable artworks by J. M. W. Turner
+!@#$%
+Chichester Canal (1828) | Modern Rome - Campo Vaccino (1839) | The Battle of Trafalgar (1824) | Snow Storm: Hannibal and His Army Crossing the Alps (1812) | Rain, Steam and Speed - The Great Western Railway (1844) | ... (total: 21)
+
+
+Wikipedia summary
+!@#$%
+Light and Colour (Goethe's Theory) - The Morning after the Deluge - Moses Writing the Book of Genesis is an oil painting by the English painter Joseph Mallord William Turner (c .1775-1851), first exhibited in 1843.
+
+
+Wikipedia page hits history
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+speed under constant acceleration
+
+
+Equation
+!@#$%
+v = a t | 
+v | speed
+t | time
+a | acceleration
+
+
+Input values
+!@#$%
+time | 1 second
+acceleration | 1 m/s^2 (meter per second squared)
+
+
+Result
+!@#$%
+speed | 100 cm/s (centimeters per second)
+= 2.237 mph (miles per hour)
+= 3.6 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+thermal conductivity (physical quantity)
+
+
+Common symbol
+!@#$%
+k
+
+
+Basic dimensions
+!@#$%
+[mass] [length] [time]^(-3) [temperature difference]^(-1)
+
+
+Standard unit for thermal conductivity
+!@#$%
+W/(m K) (watt per meter kelvin difference)
+
+
+Usage type
+!@#$%
+scalar
+
+
+
+$%$%
+!@#$%
+ideal transformer equation
+
+
+Equation
+!@#$%
+N_1/N_2 = V_1/V_2 | 
+V_2 | secondary voltage
+V_1 | primary voltage
+N_1 | primary turns
+N_2 | secondary turns
+
+
+Input values
+!@#$%
+primary voltage | 220 V (volts)
+primary turns | 200
+secondary turns | 100
+
+
+Result
+!@#$%
+secondary voltage | 110 V (volts)
+= 0.11 kV (kilovolts)
+
+
+
+$%$%
+!@#$%
+formula (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a group of symbols that make a mathematical statement
+2 | noun | directions for making something
+3 | noun | a conventionalized statement expressing some fundamental principle
+4 | noun | a representation of a substance using symbols for its constituent elements
+5 | noun | something regarded as a normative example
+6 | noun | a liquid food for infants
+7 | noun | (mathematics) a standard procedure for solving a class of mathematical problems
+(7 meanings)
+
+
+Pronunciation
+!@#$%
+f'awrmyuhluh (IPA: fˈɔrmjələ)
+
+
+Hyphenation
+!@#$%
+for-mu-la (7 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1638 (European Renaissance) (380 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Overall typical frequency
+!@#$%
+written: 3581st most common (1 in 37037 words) ( > 99% noun)
+
+spoken: 2401st most common (1 in 50000 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+formulas
+
+
+Synonyms
+!@#$%
+expression | recipe | chemical formula | convention | normal | pattern | rule (total: 7)
+
+
+Narrower terms
+!@#$%
+exponential expression | primitive | sentential function | empirical formula | molecular formula | code of behavior | code of conduct | mores | universal | algorithm | algorithmic program | algorithmic rule | heuristic | heuristic program | heuristic rule | ... (total: 17)
+
+
+Broader terms
+!@#$%
+mathematical statement | direction | instruction | statement | practice | milk | procedure | process (total: 8)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+capacitance of parallel plates
+
+
+Equation
+!@#$%
+C = (ε_0 A)/d | 
+C | electric capacitance
+A | area
+d | distance
+ε_0 | electric constant (≈ 8.854×10^-12 F/m)
+(capacitance of two parallel plates, given the geometry)
+
+
+Input values
+!@#$%
+area | 1 cm^2 (square centimeter)
+distance | 1 mm (millimeter)
+
+
+Result
+!@#$%
+electric capacitance | 885.4 fF (femtofarads)
+= 0.8854 pF (picofarads)
+= 8.854×10^-4 nF (nanofarads)
+
+
+$%$%
+
+$%$%
+!@#$%
+centripetal acceleration
+
+
+Equation
+!@#$%
+a = v^2/r | 
+a | centripetal acceleration
+r | radius
+v | rotation speed
+
+
+Input values
+!@#$%
+radius | 1 meter
+rotation speed | 1 m/s (meter per second)
+
+
+Result
+!@#$%
+centripetal acceleration | 100 cm/s^2 (centimeters per second squared)
+= 3.281 ft/s^2 (feet per second squared)
+= 1 m/s^2 (meter per second squared)
+
+
+
+$%$%
+!@#$%
+Newton's law of universal gravitation
+
+
+Equation
+!@#$%
+F = (G m_1 m_2)/r^2 | 
+F | gravitational force
+m_1 | primary mass
+m_2 | secondary mass
+r | distance
+G | Newtonian gravitational constant (≈ 6.674×10^-11 m^3/(kg s^2))
+
+
+Input values
+!@#$%
+primary mass | Earth (planet): 5.9721986×10^24 kg (kilograms)
+secondary mass | 60 kg (kilograms)
+distance | Earth (planet): 3958.761 miles
+
+
+Result
+!@#$%
+gravitational force | 589.2 N (newtons)
+= 132.5 lbf (pounds-force)
+= 0.5892 kN (kilonewtons)
+
+
+
+$%$%
+!@#$%
+dielectric polarization (physical quantity)
+
+
+Common symbol
+!@#$%
+P
+
+
+Basic dimensions
+!@#$%
+[length]^(-2) [time] [current]
+
+
+Standard unit for dielectric polarization
+!@#$%
+C/m^2 (coulomb per square meter)
+
+
+Usage type
+!@#$%
+scalar | vector
+
+
+Alternate descriptions
+!@#$%
+electric polarization | polarization
+
+
+
+$%$%
+!@#$%
+relativistic length contraction
+
+
+Equation
+!@#$%
+l = l_0 sqrt(1 - v^2/c^2) | 
+l | moving length
+l_0 | stationary length
+v | velocity
+c | speed of light (≈ 2.998×10^8 m/s)
+
+
+Input values
+!@#$%
+stationary length | 1 meter
+velocity | 3×10^7 m/s (meters per second)
+
+
+Result
+!@#$%
+moving length | 3.264 feet
+= 99.5 cm (centimeters)
+= 995 mm (millimeters)
+
+
+Diagram
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+speed under constant acceleration
+
+
+Equation
+!@#$%
+v = a t | 
+v | speed
+t | time
+a | acceleration
+
+
+Input values
+!@#$%
+time | 1 second
+acceleration | 1 m/s^2 (meter per second squared)
+
+
+Result
+!@#$%
+speed | 100 cm/s (centimeters per second)
+= 2.237 mph (miles per hour)
+= 3.6 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+work
+
+
+Equation
+!@#$%
+W = F d | 
+W | work
+F | collinear force
+d | distance
+
+
+Input values
+!@#$%
+collinear force | 1 N (newton)
+distance | 1 meter
+
+
+Result
+!@#$%
+work | 1 J (joule)
+= 9.478×10^-4 BTU_IT (IT British thermal units)
+= 1000 mJ (millijoules)
+= 1×10^7 ergs
+
+
+Schematic
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+moment of inertia of a point mass
+
+
+Equation
+!@#$%
+I = m r^2 | 
+I | moment of inertia
+m | mass
+r | axial distance
+
+
+Input values
+!@#$%
+mass | 1 kg (kilogram)
+axial distance | 1 meter
+
+
+Result
+!@#$%
+moment of inertia | 1 kg m^2 (kilogram meter squared)
+= 3417 lb in^2 (pound inches squared)
+= 23.73 lb ft^2 (pound feet squared)
+
+
+
+$%$%
+!@#$%
+gravitational acceleration (physical quantity)
+
+
+Common symbol
+!@#$%
+g
+
+
+Basic dimensions
+!@#$%
+[length] [time]^(-2)
+
+
+Standard unit for gravitational acceleration
+!@#$%
+m/s^2 (meter per second squared)
+
+
+Usage type
+!@#$%
+scalar | vector
+
+
+Alternate descriptions
+!@#$%
+acceleration of free fall | gravity
+
+
+Common subcase
+!@#$%
+free-air gravity anomaly
+
+
+
+$%$%
+!@#$%
+photon wavelength
+
+
+Equation
+!@#$%
+ν = c/λ | 
+λ | wavelength
+ν | frequency
+c | speed of light (≈ 2.998×10^8 m/s)
+
+
+Input value
+!@#$%
+frequency | 750 THz (terahertz)
+
+
+Result
+!@#$%
+wavelength | 399.7 nm (nanometers)
+= 1.574×10^-5 inches
+= 0.3997 µm (micrometers)
+
+
+
+$%$%
+!@#$%
+wave speed
+
+
+Equation
+!@#$%
+v = ν λ | 
+v | wave propagation speed
+λ | wavelength
+ν | frequency
+
+
+Input values
+!@#$%
+wavelength | 1 meter
+frequency | 25 Hz (hertz)
+
+
+Result
+!@#$%
+wave propagation speed | 25 m/s (meters per second)
+= 55.92 mph (miles per hour)
+= 82.02 ft/s (feet per second)
+
+
+
+$%$%
+!@#$%
+energy of oscillations
+
+
+Equation
+!@#$%
+K = m ({})^2 ω^2 sin^2(ω t) | U = m ({})^2 ω^2 cos^2(ω t)
+E = K + U | | 
+K | kinetic energy
+{} | wave amplitude
+ω | angular frequency
+t | time
+m | mass
+U | potential energy
+E | total energy
+
+
+Input values
+!@#$%
+wave amplitude | 10 cm (centimeters)
+angular frequency | 10 rad/s (radians per second)
+time | 0.5 seconds
+mass | 100 grams
+
+
+Result
+!@#$%
+kinetic energy | 91.95 mJ (millijoules)
+= 8.716×10^-5 BTU_IT (IT British thermal units)
+= 0.09195 J (joules)
+total energy | 100 mJ (millijoules)
+= 9.478×10^-5 BTU_IT (IT British thermal units)
+= 0.1 J (joules)
+potential energy | 8.046 mJ (millijoules)
+= 7.627×10^-6 BTU_IT (IT British thermal units)
+= 0.008046 J (joules)
+
+
+Energy Evolution
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+resistance formula
+
+
+Equation
+!@#$%
+R = (L ρ)/A | | 
+R | electric resistance
+ρ | electric resistivity
+L | length
+A | area
+
+
+Input values
+!@#$%
+electric resistivity | 1 Ω m (ohm meter)
+length | 10 meters
+area | 1 m^2 (square meter)
+
+
+Result
+!@#$%
+electric resistance | 10 Ω (ohms)
+= 0.01 kΩ (kilohms)
+
+
+
+$%$%
+!@#$%
+relativistic addition of velocities
+
+
+Equation
+!@#$%
+V = (u + v')/(1 + (u v')/c^2) | 
+V | velocity in stationary observer reference frame
+v' | velocity in the moving observer reference frame
+u | velocity of moving observer with respect to stationary observer
+c | speed of light (≈ 2.998×10^8 m/s)
+
+
+Input values
+!@#$%
+velocity in the moving observer reference frame | 0.5 c (speed of light)
+velocity of moving observer with respect to stationary observer | 0.7 c (speed of light)
+
+
+Result
+!@#$%
+velocity in stationary observer reference frame | 0.8889 c (speed of light)
+= 266482 km/s (kilometers per second)
+= 2.665×10^8 m/s (meters per second)
+
+
+
+$%$%
+!@#$%
+formula (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a group of symbols that make a mathematical statement
+2 | noun | directions for making something
+3 | noun | a conventionalized statement expressing some fundamental principle
+4 | noun | a representation of a substance using symbols for its constituent elements
+5 | noun | something regarded as a normative example
+6 | noun | a liquid food for infants
+7 | noun | (mathematics) a standard procedure for solving a class of mathematical problems
+(7 meanings)
+
+
+Pronunciation
+!@#$%
+f'awrmyuhluh (IPA: fˈɔrmjələ)
+
+
+Hyphenation
+!@#$%
+for-mu-la (7 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1638 (European Renaissance) (380 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Overall typical frequency
+!@#$%
+written: 3581st most common (1 in 37037 words) ( > 99% noun)
+
+spoken: 2401st most common (1 in 50000 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+formulas
+
+
+Synonyms
+!@#$%
+expression | recipe | chemical formula | convention | normal | pattern | rule (total: 7)
+
+
+Narrower terms
+!@#$%
+exponential expression | primitive | sentential function | empirical formula | molecular formula | code of behavior | code of conduct | mores | universal | algorithm | algorithmic program | algorithmic rule | heuristic | heuristic program | heuristic rule | ... (total: 17)
+
+
+Broader terms
+!@#$%
+mathematical statement | direction | instruction | statement | practice | milk | procedure | process (total: 8)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+relative density (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[dimensionless]
+
+
+Alternate descriptions
+!@#$%
+mass density ratio | specific gravity | relative volumic mass
+
+
+
+$%$%
+!@#$%
+specific heat of fusion (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[length]^2 [time]^(-2)
+
+
+Standard unit for specific heat of fusion
+!@#$%
+J/kg (joule per kilogram)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate description
+!@#$%
+specific enthalpy of fusion
+
+
+
+$%$%
+!@#$%
+stopping distance
+
+
+Equation
+!@#$%
+x = v_0 t_r + v_0^2/(2 μ g) | t = t_r + v_0/(μ g) | 
+x | distance to complete stop
+μ | friction for common cases
+v_0 | initial velocity
+t_r | thinking plus reaction time
+t | time to stop
+g | standard acceleration due to gravity on the surface of the earth (≈ 9.807 m/s^2)
+(assuming a constant deceleration μ g model based on public information from the NTSB, Insurance Institute for Highway Safety and other sources)
+
+
+Input values
+!@#$%
+friction for common cases | 1.0 (dry road and car with ABS)
+initial velocity | 50 km/h (kilometers per hour)
+thinking plus reaction time | 1.1 seconds
+
+
+Result
+!@#$%
+distance to complete stop | 25 meters
+= 82 feet
+= 27 yards
+= 0.025 km (kilometers)
+stopping distance in car lengths
+(average compact car) | ≈ 6
+time to stop | 2.5 seconds
+
+
+
+$%$%
+!@#$%
+elements | thermal expansion
+
+
+Summary
+!@#$%
+median | 1.1×10^-5 K^(-1)
+highest | 1.81×10^-4 K^(-1) (mercury)
+lowest | 2.6×10^-6 K^(-1) (silicon)
+distribution | | (based on 64 values; 54 unavailable)
+
+
+Distribution plots
+!@#$%
+ 
+(thermal expansion in reciprocal kelvins difference)
+
+
+Thermal expansion rankings
+!@#$%
+1 | mercury | 1.81×10^-4 K^(-1)
+2 | gallium | 1.2×10^-4 K^(-1)
+3 | sodium | 7.1×10^-5 K^(-1)
+4 | lithium | 4.6×10^-5 K^(-1)
+5 | europium | 3.5×10^-5 K^(-1)
+⋮ | | 
+60 | osmium | 5.1×10^-6 K^(-1)
+61 | chromium | 4.9×10^-6 K^(-1)
+62 | molybdenum | 4.8×10^-6 K^(-1)
+63 | tungsten | 4.5×10^-6 K^(-1)
+64 | silicon | 2.6×10^-6 K^(-1)
+(based on 64 values; 54 unavailable)
+
+
+Unit conversions for median thermal expansion 1.1×10^-5 K^(-1)
+!@#$%
+1.1×10^-5 °C^(-1) (reciprocal degrees Celsius difference)
+
+6.2×10^-6 °F^(-1) (reciprocal degrees Fahrenheit difference)
+
+
+Comparisons for median thermal expansion 1.1×10^-5 K^(-1)
+!@#$%
+ ≈ 0.79 × gold linear thermal expansion coefficient (≈ 1.4×10^-5 K^(-1) )
+
+ ≈ 0.94 × iron linear thermal expansion coefficient (≈ 1.2×10^-5 K^(-1) )
+
+ ≈ linear thermal expansion coefficient of graphite (parallel to graphite planes) (≈ 7×10^-6 K^(-1) )
+
+
+
+$%$%
+!@#$%
+tangential speed (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[length] [time]^(-1)
+
+
+Standard unit for tangential speed
+!@#$%
+m/s (meter per second)
+
+
+Usage type
+!@#$%
+scalar | vector
+
+
+Base physical quantity
+!@#$%
+speed
+
+
+Orders of magnitude
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+voltage divider (English phrase)
+
+
+Definition
+!@#$%
+noun | resistors connected in series across a voltage source; used to obtain a desired fraction of the voltage
+
+
+Hyphenation
+!@#$%
+volt-age di-vid-er
+
+
+Synonym
+!@#$%
+potential divider
+
+
+Narrower terms
+!@#$%
+potentiometer
+
+
+Broader terms
+!@#$%
+resistance | resistor
+
+
+Anagrams
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+weight
+
+
+Equation
+!@#$%
+W = m g | 
+W | weight
+m | mass
+g | standard acceleration due to gravity on the surface of the earth (≈ 9.807 m/s^2)
+
+
+Input value
+!@#$%
+mass | 1 kg (kilogram)
+
+
+Result
+!@#$%
+weight | 9.807 N (newtons)
+= 2.205 lbf (pounds-force)
+
+
+
+$%$%
+!@#$%
+pressure of a column of fluid
+
+
+Equation
+!@#$%
+P = ρ g h + P_0 | 
+P | pressure at bottom of fluid column
+h | height of fluid column
+ρ | fluid density
+P_0 | pressure at top of fluid column
+g | standard acceleration due to gravity on the surface of the earth (≈ 9.807 m/s^2)
+
+
+Input values
+!@#$%
+height of fluid column | 0.3 meters
+fluid density | 1000 kg/m^3 (kilograms per cubic meter)
+pressure at top of fluid column | 100 kPa (kilopascals)
+
+
+Result
+!@#$%
+pressure at bottom of fluid column | 102.9 kPa (kilopascals)
+= 1029 mbar (millibars)
+= 772.1 mmHg (millimeters of mercury)
+
+
+
+$%$%
+!@#$%
+magnetic flux (physical quantity)
+
+
+Common symbol
+!@#$%
+Φ
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-2) [current]^(-1)
+
+
+Standard unit for magnetic flux
+!@#$%
+Wb (weber)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate descriptions
+!@#$%
+flux | amount of magnetization | magnetic linkage | magnetic induction flux
+
+
+
+$%$%
+!@#$%
+maximal magnetic induction in a circular coil
+
+
+Equation
+!@#$%
+B = (μ_0 N I (l log((2 R + r sqrt((l^2 + 4 R^2)/r^2))/((2 + sqrt(4 + l^2/r^2)) r))))/(l (2 (-r + R))) | 
+B | magnetic induction
+N | coil turn count
+r | inner coil radius
+R | outer coil radius
+l | coil length
+I | electric current
+μ_0 | magnetic constant (≈ 1.257×10^-6 N/A^2)
+(assuming the wire diameter is much smaller than the coil length and radii)
+
+
+Input values
+!@#$%
+coil turn count | 100
+inner coil radius | 1 cm (centimeter)
+outer coil radius | 2 cm (centimeters)
+coil length | 2 cm (centimeters)
+electric current | 1 A (ampere)
+
+
+Result
+!@#$%
+magnetic induction | 3.533 mT (milliteslas)
+= 0.003533 T (teslas)
+
+
+
+$%$%
+!@#$%
+Newton's law of cooling
+
+
+Equation
+!@#$%
+dQ/dt = h A (T_2 - T) | 
+dQ/dt | heat transfer rate
+h | heat transfer coefficient
+T | temperature
+T_2 | equilibrium temperature
+A | area
+
+
+Input values
+!@#$%
+heat transfer coefficient | 0.01 W/(m^2 K) (watts per square meter kelvin difference)
+temperature | 25 K (kelvins)
+equilibrium temperature | 125 K (kelvins)
+area | 1 m^2 (square meter)
+
+
+Result
+!@#$%
+heat transfer rate | 1 W (watt)
+= 0.001341 hp (horsepower)
+= 1000 mW (milliwatts)
+
+
+$%$%
+
+$%$%
+!@#$%
+Hooke's law
+
+
+Equation
+!@#$%
+F = k x | 
+F | force
+k | spring constant
+x | extension
+
+
+Input values
+!@#$%
+spring constant | 10 N/m (newtons per meter)
+extension | 1 meter
+
+
+Result
+!@#$%
+force | 10 N (newtons)
+= 2.248 lbf (pounds-force)
+= 0.01 kN (kilonewtons)
+(force and displacement are in opposite directions)
+
+
+Force vs. distance
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+heat of fusion (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-2)
+
+
+Standard unit for heat of fusion
+!@#$%
+J (joule)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate description
+!@#$%
+enthalpy of fusion
+
+
+
+$%$%
+!@#$%
+dilution equation
+
+
+Equation
+!@#$%
+C_i V_i = C_f (V_i + V_a) | 
+C_f | final concentration
+C_i | initial concentration
+V_i | initial volume
+V_a | added volume
+(assuming solutions contain the same chemicals and concentration units)
+
+
+Input values
+!@#$%
+initial concentration | 5 mol/L (moles per liter)
+initial volume | 0.03 L (liters)
+added volume | 1.47 L (liters)
+
+
+Result
+!@#$%
+final concentration | 0.1 M (molar)
+= 100 mol/m^3 (moles per cubic meter)
+= 0.1 mol/dm^3 (moles per cubic decimeter)
+
+
+
+$%$%
+!@#$%
+formula (English word)
+
+
+Definitions
+!@#$%
+1 | noun | a group of symbols that make a mathematical statement
+2 | noun | directions for making something
+3 | noun | a conventionalized statement expressing some fundamental principle
+4 | noun | a representation of a substance using symbols for its constituent elements
+5 | noun | something regarded as a normative example
+6 | noun | a liquid food for infants
+7 | noun | (mathematics) a standard procedure for solving a class of mathematical problems
+(7 meanings)
+
+
+Pronunciation
+!@#$%
+f'awrmyuhluh (IPA: fˈɔrmjələ)
+
+
+Hyphenation
+!@#$%
+for-mu-la (7 letters | 3 syllables)
+
+
+First known use in English
+!@#$%
+1638 (European Renaissance) (380 years ago)
+
+
+Word origin
+!@#$%
+Latin
+
+
+Overall typical frequency
+!@#$%
+written: 3581st most common (1 in 37037 words) ( > 99% noun)
+
+spoken: 2401st most common (1 in 50000 words)
+
+(includes some inflected forms)
+
+
+Word frequency history
+!@#$%
+
+
+
+Inflected form
+!@#$%
+formulas
+
+
+Synonyms
+!@#$%
+expression | recipe | chemical formula | convention | normal | pattern | rule (total: 7)
+
+
+Narrower terms
+!@#$%
+exponential expression | primitive | sentential function | empirical formula | molecular formula | code of behavior | code of conduct | mores | universal | algorithm | algorithmic program | algorithmic rule | heuristic | heuristic program | heuristic rule | ... (total: 17)
+
+
+Broader terms
+!@#$%
+mathematical statement | direction | instruction | statement | practice | milk | procedure | process (total: 8)
+
+
+Rhymes
+!@#$%
+(none among common words)
+
+
+
+$%$%
+!@#$%
+moment of inertia of a point mass
+
+
+Equation
+!@#$%
+I = m r^2 | 
+I | moment of inertia
+m | mass
+r | axial distance
+
+
+Input values
+!@#$%
+mass | 1 kg (kilogram)
+axial distance | 1 meter
+
+
+Result
+!@#$%
+moment of inertia | 1 kg m^2 (kilogram meter squared)
+= 3417 lb in^2 (pound inches squared)
+= 23.73 lb ft^2 (pound feet squared)
+
+
+
+$%$%
+!@#$%
+net force (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[mass] [length] [time]^(-2)
+
+
+Standard unit for net force
+!@#$%
+N (newton)
+
+
+Usage type
+!@#$%
+scalar | vector
+
+
+Base physical quantity
+!@#$%
+force
+
+
+
+$%$%
+!@#$%
+circular orbit velocity
+
+
+Equation
+!@#$%
+v_c = sqrt((G m)/r) | 
+v_c | circular velocity
+m | mass of orbit center
+r | orbital radius
+G | Newtonian gravitational constant (≈ 6.674×10^-11 m^3/(kg s^2))
+
+
+Input values
+!@#$%
+mass of orbit center | 5.98×10^24 kg (kilograms)
+orbital radius | 384000 km (kilometers)
+
+
+Result
+!@#$%
+circular velocity | 1.019 km/s (kilometers per second)
+= 2281 mph (miles per hour)
+= 3670 km/h (kilometers per hour)
+
+
+
+$%$%
+!@#$%
+projectile path
+
+
+Equation
+!@#$%
+h = (v^2 sin^2(α))/(2 g) | x = (v^2 sin(2 α))/g
+T = (2 v sin(α))/g | | 
+T | travel time
+α | release angle relative to horizontal
+v | initial speed
+h | maximum height
+x | horizontal distance traveled
+g | standard acceleration due to gravity on the surface of the earth (≈ 9.807 m/s^2)
+
+
+Input values
+!@#$%
+release angle relative to horizontal | 45° (degrees)
+initial speed | 10 m/s (meters per second)
+
+
+Result
+!@#$%
+travel time | 1.442 seconds
+maximum height | 254.9 cm (centimeters)
+= 8.364 feet
+= 8' 4.366"
+horizontal distance traveled | 10.2 meters
+= 33.46 feet
+= 33' 5.463"
+
+
+Projectile path
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+position (physical quantity)
+
+
+Common symbol
+!@#$%
+x
+
+
+Basic dimensions
+!@#$%
+[length]
+
+
+Standard unit for position
+!@#$%
+meter
+
+
+Usage type
+!@#$%
+scalar | vector
+
+
+Orders of magnitude
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+4-aminosalicylic acid | formula
+
+
+Result
+!@#$%
+H_2NC_6H_3(OH)CO_2H
+
+
+
+$%$%
+!@#$%
+photon energy
+
+
+Equation
+!@#$%
+E = h ν | 
+E | energy
+ν | frequency
+h | Planck constant (≈ 6.62607×10^-34 J s)
+
+
+Input value
+!@#$%
+frequency | 10 THz (terahertz)
+
+
+Result
+!@#$%
+energy | 6.626×10^-21 J (joules)
+= 4.136 ceV (centielectronvolts)
+= 41.36 meV (millielectronvolts)
+
+
+Electromagnetic frequency range
+!@#$%
+IR-C (infrared) | FIR (far infrared) 
+
+
+$%$%
+$%$%
+$%$%
+
+$%$%
+!@#$%
+mechanical stress
+
+
+Equation
+!@#$%
+σ = F/A | 
+σ | mechanical stress
+F | force
+A | area
+
+
+Input values
+!@#$%
+force | 1 N (newton)
+area | 1 m^2 (square meter)
+
+
+Result
+!@#$%
+mechanical stress | 1 Pa (pascal)
+= 1.45×10^-4 psi (pounds-force per square inch)
+= 9.869×10^-6 atm (atmospheres)
+
+
+
+$%$%
+!@#$%
+static friction coefficient
+
+
+Equation
+!@#$%
+F_f = μ_s F_n | 
+μ_s | static friction coefficient
+F_n | normal force
+F_f | friction force
+
+
+Input values
+!@#$%
+normal force | 10 N (newtons)
+friction force | 6 N (newtons)
+
+
+Result
+!@#$%
+static friction coefficient | 0.6
+
+
+Schematic
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+spring constant of a helical spring
+
+
+Equation
+!@#$%
+k = (E d^4)/(16 (1 + ν) (D - d)^3 n) | 
+k | spring constant
+D | spring outer diameter
+d | spring wire diameter
+E | Young's modulus
+ν | Poisson ratio
+n | number of active windings
+
+
+
+
+Input values
+!@#$%
+spring outer diameter | 0.01 meters
+spring wire diameter | 0.002 meters
+Young's modulus | 211 GPa (gigapascals)
+Poisson ratio | 0.3
+number of active windings | 5
+
+
+Result
+!@#$%
+spring constant | 63401 N/m (newtons per meter)
+= 0.362 kips-force per inch
+= 4.344 kips-force per foot
+
+
+
+$%$%
+!@#$%
+electric surface charge density (physical quantity)
+
+
+Common symbol
+!@#$%
+σ
+
+
+Basic dimensions
+!@#$%
+[length]^(-2) [time] [current]
+
+
+Standard unit for electric surface charge density
+!@#$%
+C/m^2 (coulomb per square meter)
+
+
+Usage type
+!@#$%
+scalar
+
+
+
+$%$%
+!@#$%
+temperature
+
+
+Result
+!@#$%
+64 °F
+(1 hour 3 minutes ago)
+
+
+History & forecast
+!@#$%
+
+  | | | 
+low: 42 °F
+Wed, Nov 21, 3:00am, ... | average high: | 65 °F
+average low: | 52 °F | high: 75 °F
+Fri, Nov 23, 3:00pm
+ | |  
+
+
+Weather station information
+!@#$%
+name | KSGR (Sugar Land Regional Airport)
+relative position | 2 mi NW (from center of Sugar Land)
+relative elevation | (comparable to center of Sugar Land)
+local time | 3:55:51 pm CST | Thursday, November 22, 2018
+local sunlight | sun is above the horizon
+azimuth: 235° (SW) | altitude: 16° ()
+
+
+Weather station comparisons
+!@#$%
+ | position | elevation | current temperature
+KSGR | 2 mi NW | 82 ft | 64 °F (1 hour ago)
+KMCJ | 16 mi ENE | 226 ft | 64 °F (21 minutes ago)
+KHOU | 21 mi E | 46 ft | 63 °F (1 hour ago)
+(sorted by distance and inferred reliability)
+
+
+
+$%$%
+!@#$%
+kinetic energy of rotating object
+
+
+Equation
+!@#$%
+K = (I ω^2)/2 | 
+K | rotational kinetic energy
+I | moment of inertia
+ω | angular velocity
+
+
+Input values
+!@#$%
+moment of inertia | 1 kg m^2 (kilogram meter squared)
+angular velocity | 1 rad/s (radian per second)
+
+
+Result
+!@#$%
+rotational kinetic energy | 500 mJ (millijoules)
+= 4.739×10^-4 BTU_IT (IT British thermal units)
+= 0.5 J (joules)
+
+
+
+$%$%
+!@#$%
+resonance frequency equation
+
+
+Equation
+!@#$%
+f = 1/((2 π) sqrt(L C)) | 
+f | resonance frequency
+C | electric capacitance
+L | magnetic inductance
+
+
+Input values
+!@#$%
+electric capacitance | 1 μF (microfarad)
+magnetic inductance | 1 H (henry)
+
+
+Result
+!@#$%
+resonance frequency | 159.2 Hz (hertz)
+= 0.1592 kHz (kilohertz)
+
+
+
+$%$%
+!@#$%
+radiant energy (physical quantity)
+
+
+Common symbol
+!@#$%
+Q
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-2)
+
+
+Standard unit for radiant energy
+!@#$%
+J (joule)
+
+
+Usage type
+!@#$%
+scalar
+
+
+
+$%$%
+!@#$%
+equation of motion
+
+
+Equation
+!@#$%
+d = v t | 
+d | distance
+v | speed
+t | time
+
+
+Input values
+!@#$%
+speed | 1 m/s (meter per second)
+time | 1 second
+
+
+Result
+!@#$%
+distance | 100 cm (centimeters)
+= 3.281 feet
+= 3' 3.37"
+
+
+
+$%$%
+!@#$%
+surface tension (physical quantity)
+
+
+Common symbol
+!@#$%
+γ
+
+
+Basic dimensions
+!@#$%
+[mass] [time]^(-2)
+
+
+Standard unit for surface tension
+!@#$%
+N/m (newton per meter)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Alternate description
+!@#$%
+tension
+
+
+
+$%$%
+!@#$%
+relativistic time dilation
+
+
+Equation
+!@#$%
+t = t_0/sqrt(1 - v^2/c^2) | 
+t | time seen by stationary observer
+t_0 | time in rest frame
+v | velocity
+c | speed of light (≈ 2.998×10^8 m/s)
+
+
+Input values
+!@#$%
+time in rest frame | 1 second
+velocity | 3×10^7 m/s (meters per second)
+
+
+Result
+!@#$%
+time seen by stationary observer | 1.005 seconds
+
+
+Diagram
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+equation of circular motion
+
+
+Equation
+!@#$%
+ω_f^2 = ω_i^2 + 2 α θ | 
+ω_f | final angular velocity
+α | angular acceleration
+ω_i | initial angular velocity
+θ | angular displacement
+
+
+Input values
+!@#$%
+angular acceleration | 1 rad/s^2 (radian per second squared)
+initial angular velocity | 0 rad/s (radians per second)
+angular displacement | 1 radian
+
+
+Result
+!@#$%
+final angular velocity | 1.414 rad/s (radians per second)
+= 81.03 °/s (degrees per second)
+
+
+
+$%$%
+!@#$%
+de Broglie relations
+
+
+Equation
+!@#$%
+λ = h/p | 
+λ | wavelength
+p | momentum
+h | Planck constant (≈ 6.62607×10^-34 J s)
+(result does not depend on mass)
+
+
+Input values
+!@#$%
+mass | 1 m_n (neutron mass)
+momentum | 1.67×10^-27 kg m/s (kilogram meters per second)
+
+
+Result
+!@#$%
+wavelength | 396.8 nm (nanometers)
+= 1.562×10^-5 inches
+= 0.3968 µm (micrometers)
+
+
+
+$%$%
+!@#$%
+energy of oscillations
+
+
+Equation
+!@#$%
+K = m ({})^2 ω^2 sin^2(ω t) | U = m ({})^2 ω^2 cos^2(ω t)
+E = K + U | | 
+E | total energy
+{} | wave amplitude
+ω | angular frequency
+t | time
+m | mass
+K | kinetic energy
+U | potential energy
+
+
+Input values
+!@#$%
+wave amplitude | 10 cm (centimeters)
+angular frequency | 10 rad/s (radians per second)
+time | 0.5 seconds
+mass | 100 grams
+
+
+Result
+!@#$%
+total energy | 100 mJ (millijoules)
+= 9.478×10^-5 BTU_IT (IT British thermal units)
+= 0.1 J (joules)
+kinetic energy | 91.95 mJ (millijoules)
+= 8.716×10^-5 BTU_IT (IT British thermal units)
+= 0.09195 J (joules)
+potential energy | 8.046 mJ (millijoules)
+= 7.627×10^-6 BTU_IT (IT British thermal units)
+= 0.008046 J (joules)
+
+
+Energy Evolution
+!@#$%
+
+
+
+
+$%$%
+!@#$%
+abs(x) | definition
+
+
+Results
+!@#$%
+abs(x) = x for (x element R and x>=0)
+
+abs(x) = -x for (x element R and x<0)
+
+abs(x) = sqrt(Im(x)^2 + Re(x)^2)
+
+
+
+$%$%
+!@#$%
+tension (physical quantity)
+
+
+Common symbol
+!@#$%
+T
+
+
+Basic dimensions
+!@#$%
+[mass] [length] [time]^(-2)
+
+
+Standard unit for tension
+!@#$%
+N (newton)
+
+
+Usage type
+!@#$%
+scalar
+
+
+
+$%$%
+!@#$%
+thermodynamic energy
+
+
+Equation
+!@#$%
+E = k T | 
+E | energy
+T | temperature
+k | Boltzmann constant (≈ 1.38065×10^-23 J/K)
+
+
+Input value
+!@#$%
+temperature | 273 K (kelvins)
+
+
+Result
+!@#$%
+energy | 3.769×10^-21 J (joules)
+= 2.353 ceV (centielectronvolts)
+= 23.53 meV (millielectronvolts)
+
+
+
+$%$%
+!@#$%
+object falling vertically
+
+
+Input value
+!@#$%
+fall distance | 100 feet
+
+
+Result
+!@#$%
+time to fall | 2.5 seconds
+final speed | 24 m/s (meters per second)
+ = 1300 miles per day
+ = 55 mph (miles per hour)
+(assuming point mass)
+
+
+
+$%$%
+!@#$%
+Young's modulus formula
+
+
+Equation
+!@#$%
+E = (P L)/(A δ) | 
+δ | deformation
+P | load
+L | length
+A | area
+E | Young's modulus of material
+
+
+Input values
+!@#$%
+load | 4 kN (kilonewtons)
+length | 200 mm (millimeters)
+area | 1000 mm^2 (square millimeters)
+Young's modulus of material | 210 GPa (gigapascals)
+
+
+Result
+!@#$%
+deformation | 3.81 µm (micrometers)
+= 1.5×10^-4 inches
+= 3.81×10^-6 meters
+= 0.00381 mm (millimeters)
+
+
+
+$%$%
+!@#$%
+object falling vertically
+
+
+Input value
+!@#$%
+fall distance | 100 feet
+
+
+Result
+!@#$%
+time to fall | 2.5 seconds
+final speed | 24 m/s (meters per second)
+ = 1300 miles per day
+ = 55 mph (miles per hour)
+(assuming point mass)
+
+
+
+$%$%
+!@#$%
+wind energy (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-2)
+
+
+Standard unit for wind energy
+!@#$%
+J (joule)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Base physical quantity
+!@#$%
+energy
+
+
+
+$%$%
+!@#$%
+wave power (physical quantity)
+
+
+Basic dimensions
+!@#$%
+[mass] [length]^2 [time]^(-3)
+
+
+Standard unit for wave power
+!@#$%
+W (watt)
+
+
+Usage type
+!@#$%
+scalar
+
+
+Base physical quantity
+!@#$%
+power
+
+

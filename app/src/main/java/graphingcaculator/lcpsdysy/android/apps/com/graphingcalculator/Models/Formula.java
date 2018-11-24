@@ -10,8 +10,14 @@ public class Formula {
     public String equationString;
     public String info;
     public String name;
+    public String rawString;
+
+    public Formula(String raw){
+        rawString = raw;
+    }
 
     public Formula(){}
+
 
 
 
@@ -21,26 +27,6 @@ public class Formula {
         name = n;
     }
 
-    public Formula(String json){
-        try {
-            /*JSONObject response = new JSONObject(json);
-            this.name = response.optString("title");
-
-            this.info = response.optString("description");
-
-            JSONObject imgObject = response.optJSONObject("originalimage");
-            this.imageURL = imgObject.optString("source");
-
-            JSONObject locObject = response.optJSONObject("coordinates");
-            this.lat = Double.parseDouble(locObject.optString("lat"));
-            this.lng = Double.parseDouble(locObject.optString("lon"));
-
-            this.detailedDescription = response.optString("extract");*/
-        }
-        catch (Exception ex){
-            Log.d("Formula",ex.getMessage());
-        }
-    }
 
 
 }
