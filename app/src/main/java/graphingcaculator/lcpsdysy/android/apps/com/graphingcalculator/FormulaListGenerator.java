@@ -9,7 +9,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.For
 
 public class FormulaListGenerator {
 
-    String[] mathFormulae = {"Algebra Formulas","Associative Property",
+    public static String[] mathFormulae = {"Algebra Formulas","Associative Property",
             "Absolute Value Formula","Addition Formula",
             "Anova Formula","Average Rate of Change Formula",
             "Asymptote Formula","Axis of Symmetry Formula",
@@ -194,7 +194,7 @@ public class FormulaListGenerator {
             "Surface Area of a Sphere Formula","Surface Area of a Square Pyramid Formula"};
 
 
-    String [] physicsFormulae = {"Absolute Pressure Formula","Acceleration Formula",
+    public static String [] physicsFormulae = {"Absolute Pressure Formula","Acceleration Formula",
             "Angle between Two Vectors Formula","Average Force Formula",
             "Amplitude Formula","Acceleration due to Gravity Formula",
             "Archimedes Principle Formula","Ampere’s Law Formula",
@@ -314,7 +314,7 @@ public class FormulaListGenerator {
             "Voltage Drop Formula","Wind Energy Formula",
             "Wave Power Formula"};
 
-    String [] chemFormulae = {"Boyle’s Law Formula","Binding Energy Formula",
+    public static String [] chemFormulae = {"Boyle’s Law Formula","Binding Energy Formula",
             "Atomic Mass Formula","Activation Energy Formula",
             "Chemical Formula","Bond Order Formula",
             "Dalton’s Law Formula","Chemical Reaction Formula",
@@ -347,5 +347,77 @@ public class FormulaListGenerator {
             "Ionization Energy Formula","Molality Formula",
             "Mole Fraction Formula","Partial Pressure Formula",
             "Partition Coefficient Formula","STP Formula"};
+
+    public static void main(String [] args){
+        String formulatest  = "!@#$%\n" +
+                "speed under constant acceleration\n" +
+                "\n" +
+                "\n" +
+                "Equation\n" +
+                "!@#$%\n" +
+                "v = a t | \n" +
+                "v | speed\n" +
+                "t | time\n" +
+                "a | acceleration\n" +
+                "\n" +
+                "\n" +
+                "Input values\n" +
+                "!@#$%\n" +
+                "time | 1 second\n" +
+                "acceleration | 1 m/s^2 (meter per second squared)\n" +
+                "\n" +
+                "\n" +
+                "Result\n" +
+                "!@#$%\n" +
+                "speed | 100 cm/s (centimeters per second)\n" +
+                "= 2.237 mph (miles per hour)\n" +
+                "= 3.6 km/h (kilometers per hour)\n" +
+                "\n" +
+                "\n";
+
+        Formula f = new Formula(formulatest,2,physicsFormulae[1]);
+        System.out.println(f.toString());
+    }
+
+    public FormulaListGenerator(){
+
+    }
+
+    public ArrayList<Formula> loadformulae (String filepath, int type)throws IOException{
+        ArrayList<Formula>info = new ArrayList<>();
+        Scanner scanner = new Scanner(new File(filepath));
+        String FormulaTemp = "";
+        String temp;
+        scanner.nextLine();
+        scanner.nextLine();
+        int i = 0;
+        int a = 0;
+        while(i<30/*scanner.hasNextLine()*/){
+            temp = scanner.nextLine();
+            if(temp.equals("$%$%")){
+                if(type==0){
+                    info.add(new Formula(FormulaTemp,type,mathFormulae[a]));
+                System.out.println(Formula.types[type]);
+                System.out.println(mathFormulae[a]);}
+                if(type==1){
+                    info.add(new Formula(FormulaTemp,type,chemFormulae[a]));
+                System.out.println(Formula.types[type]);
+                System.out.println(chemFormulae[a]);}
+                if(type==2){
+                    info.add(new Formula(FormulaTemp,type,physicsFormulae[a]));
+                System.out.println(Formula.types[type]);
+                System.out.println(physicsFormulae[a]);}
+                FormulaTemp = "";
+                a++;
+            }
+            else if(temp.length()!=0){
+                FormulaTemp+=temp;
+                i++;
+            }
+        }
+        return info;
+    }
+
+
 
 }
