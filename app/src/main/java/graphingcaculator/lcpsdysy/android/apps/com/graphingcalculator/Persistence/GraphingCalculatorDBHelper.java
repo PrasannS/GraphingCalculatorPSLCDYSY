@@ -4,7 +4,12 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
+import java.io.IOException;
+import java.util.ArrayList;
+
+import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.FormulaListGenerator;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Formula;
 
@@ -28,7 +33,12 @@ public class GraphingCalculatorDBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db){
         db.execSQL(FORMULAE_TABLE_CREATE);
-        loadallformulae();
+        try{
+        loadallformulae();}
+        catch (IOException e){
+            Log.d("!@#$%^","filenotfound",e);
+        }
+
     }
 
     @Override
@@ -48,7 +58,14 @@ public class GraphingCalculatorDBHelper extends SQLiteOpenHelper {
         long insertID = database.insert(GraphingCalculatorDBHelper.FORMULAE_TABLE_NAME, null, values);
     }
 
-    public void loadallformulae(){
-
+    public void loadallformulae()throws IOException{
+        FormulaListGenerator f = new FormulaListGenerator();
+        ArrayList<Formula>fs = new ArrayList<>();
+        fs.addAll(f.loadformulae("textdataraw.MathFormulae",0));
+        fs.addAll(f.loadformulae("textdataraw.ChemFormulae",1));
+        fs.addAll(f.loadformulae("textdataraw.PhysicsFormulae",2));
+        for(Formula formula:fs){
+            addFormula(formula);
+        }
     }
 }
