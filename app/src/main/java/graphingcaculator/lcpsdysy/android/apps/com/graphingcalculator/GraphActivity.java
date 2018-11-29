@@ -24,6 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
+import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistence.GraphingCalculatorDAO;
 
  public class GraphActivity extends AppCompatActivity implements EquationEntryFragment.equationEntryFragmentListener {
      private Button addgraph;
@@ -42,11 +43,16 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Exp
     private int codes = 0;
     private ScrollView scroll;
     public static FragmentManager fragmentManager;
+    public GraphingCalculatorDAO datasource = null;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_graph);
+        //this code opens up the database, so now it is ready for usage
+        datasource = new GraphingCalculatorDAO(this.getApplicationContext());
+        datasource.open();
 
         //Initializers
         home = (ImageButton) findViewById(R.id.graphHomeButton);

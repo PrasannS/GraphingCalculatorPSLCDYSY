@@ -23,33 +23,39 @@ public class Formula {
 
     public Formula(String raw, int t, String s){
         name = s;
+        try{
         if(raw.equals("")){
             empty = true;
         }
+
         else {
             type = t;
             String temp = "";
             String next;
             String cur;
             Scanner scan = new Scanner(raw);
+            scan.nextLine();
             alternate = scan.nextLine();
             cur = alternate;
             while(scan.hasNextLine()){
                 next = scan.nextLine();
-                if(next.equals("!@#$")){
-                    info+=cur+"\n";
-                    content.add(temp);
-                    categories.add(cur);
-                    if((cur.equals("Equation")||cur.equals("Basic dimensions")||(cur.equals("Result")&&cur.indexOf('+')!=0))){
-                        scan.nextLine();
+                if(next.equals("!@#$%")){
+                    info+=cur+"---\n";
+                    if((cur.equals("Equation")||cur.equals("Basic dimensions")||cur.equals("Result"))){
+                        if(cur.equals("Result")){
+                            cur = scan.nextLine();
+                            if(cur.indexOf('+')!=-1||cur.indexOf('=')!=-1){
+                                equationString+=cur+",,,";
+                            }
+                        }
+                        else{
                         cur = scan.nextLine();
-                        if(!equationString.equals(""))
-                        equationString = cur;
+                        equationString+=cur+",,,";}
                     }
                     cur = scan.nextLine();
                 }
                 else if(!next.equals("")){
-                    if(!cur.equals("!@#$")){
+                    if(!cur.equals("!@#$%")){
                         temp+=cur;
                         info+=cur+"\n";
                     }
@@ -57,11 +63,20 @@ public class Formula {
                     cur = next;
                 }
             }
+            scan.close();
+
+        }}
+        catch (Exception e){
+            Log.d("Formula scan error","",e);
         }
 
     }
 
     public Formula(){}
+
+    public Formula(String s){
+        name = s;
+    }
 
 
 

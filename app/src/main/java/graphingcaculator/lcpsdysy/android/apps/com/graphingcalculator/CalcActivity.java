@@ -1,5 +1,6 @@
 package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -10,9 +11,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
+import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Formula;
+import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistence.GraphingCalculatorDAO;
 
 public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragment.OnKeyboardOneReadListener, KeyBoardTwoFragment.OnKeyBoardTwoReadListener,CalcDisplayFragment.OnCalcDisplayReadListener{
 
@@ -25,7 +29,12 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     public Expression e = new Expression();
     public double solution;
     public String last;
+    private GraphingCalculatorDAO datasource=null;
     public static FragmentManager fragmentManager;
+    public static Context calccontext;
+
+    public CalcActivity(){}
+
 
 
     @Override
@@ -44,6 +53,9 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
 
         }
 
+        calccontext = getApplicationContext();
+        datasource = new GraphingCalculatorDAO(this.getApplicationContext());
+        datasource.open();
 
         display = (TextView) findViewById(R.id.display);
         display.setFocusable(false);
@@ -269,5 +281,19 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
         //currentnum = 0;
         // currentfunc = 0;
         e.onfunc = false;
+    }
+
+    public ArrayList<Formula>loadformulas() throws IOException{
+        FormulaListGenerator f = new FormulaListGenerator();
+        ArrayList<Formula>fs = new ArrayList<>();
+        try {
+            fs.addAll(f.loadformulae("MathFormulae", 0, calccontext));
+            fs.addAll(f.loadformulae("ChemFormulae", 1, calccontext));
+            fs.addAll(f.loadformulae("PhysicsFormulae", 2, calccontext));
+        }
+        catch (Exception e){
+            Log.d("Loading issue", "Data unable to parse from textfiles",e);
+        }
+        return fs;
     }
 }

@@ -1,6 +1,11 @@
 package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 
+import android.content.Context;
+import android.os.Environment;
+import android.util.Log;
+
 import java.io.File;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.IOException;
@@ -348,7 +353,7 @@ public class FormulaListGenerator {
             "Mole Fraction Formula","Partial Pressure Formula",
             "Partition Coefficient Formula","STP Formula"};
 
-    public static void main(String [] args){
+    /*public static void main(String [] args){
         String formulatest  = "!@#$%\n" +
                 "speed under constant acceleration\n" +
                 "\n" +
@@ -377,43 +382,50 @@ public class FormulaListGenerator {
 
         Formula f = new Formula(formulatest,2,physicsFormulae[1]);
         System.out.println(f.toString());
-    }
+    }*/
 
     public FormulaListGenerator(){
 
     }
 
-    public ArrayList<Formula> loadformulae (String filepath, int type)throws IOException{
+    public ArrayList<Formula> loadformulae (String filepath, int type, Context context)throws IOException{
         ArrayList<Formula>info = new ArrayList<>();
-        Scanner scanner = new Scanner(new File(filepath));
-        String FormulaTemp = "";
-        String temp;
-        scanner.nextLine();
-        scanner.nextLine();
-        int i = 0;
-        int a = 0;
-        while(i<30/*scanner.hasNextLine()*/){
-            temp = scanner.nextLine();
-            if(temp.equals("$%$%")){
-                if(type==0){
-                    info.add(new Formula(FormulaTemp,type,mathFormulae[a]));
-                System.out.println(Formula.types[type]);
-                System.out.println(mathFormulae[a]);}
-                if(type==1){
-                    info.add(new Formula(FormulaTemp,type,chemFormulae[a]));
-                System.out.println(Formula.types[type]);
-                System.out.println(chemFormulae[a]);}
-                if(type==2){
-                    info.add(new Formula(FormulaTemp,type,physicsFormulae[a]));
-                System.out.println(Formula.types[type]);
-                System.out.println(physicsFormulae[a]);}
-                FormulaTemp = "";
-                a++;
+        try {
+            Scanner scanner = new Scanner(new InputStreamReader(context.getAssets().open(filepath)));
+            String FormulaTemp = "";
+            String temp;
+            scanner.nextLine();
+            scanner.nextLine();
+            int a = 0;
+            while (scanner.hasNextLine()) {
+                temp = scanner.nextLine();
+                if (temp.equals("$%$%")) {
+                    if (type == 0) {
+                        Formula f  =new Formula(FormulaTemp, type, mathFormulae[a]);
+                        info.add(new Formula(FormulaTemp, type, mathFormulae[a]));
+                        System.out.println(Formula.types[type]);
+                        System.out.println(mathFormulae[a]);
+                    }
+                    if (type == 1) {
+                        info.add(new Formula(FormulaTemp, type, chemFormulae[a]));
+                        System.out.println(Formula.types[type]);
+                        System.out.println(chemFormulae[a]);
+                    }
+                    if (type == 2) {
+                        info.add(new Formula(FormulaTemp, type, physicsFormulae[a]));
+                        System.out.println(Formula.types[type]);
+                        System.out.println(physicsFormulae[a]);
+                    }
+                    FormulaTemp = "";
+                    a++;
+                } else if (temp.length() != 0) {
+                    FormulaTemp += temp+"\n";
+                }
             }
-            else if(temp.length()!=0){
-                FormulaTemp+=temp;
-                i++;
-            }
+            scanner.close();
+        }
+        catch (Exception e){
+            Log.d("ScannerError","Scanner not working",e);
         }
         return info;
     }

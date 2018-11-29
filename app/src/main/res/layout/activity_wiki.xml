@@ -34,17 +34,16 @@
         
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="220dp"
             android:id="@+id/wikiframe"
             />
-        <SearchView
+
+        <graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.CustomAutoCompleteView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:id="@+id/wikisearch"></SearchView>
-
-        <android.inputmethodservice.KeyboardView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:id="@+id/myautocomplete"
+            android:completionThreshold="1"
+            />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
