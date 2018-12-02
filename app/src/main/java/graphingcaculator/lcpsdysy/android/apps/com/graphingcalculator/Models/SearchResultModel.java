@@ -1,4 +1,4 @@
-package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
+package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models;
 
 import android.util.Log;
 

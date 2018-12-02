@@ -58,7 +58,14 @@ public class GraphingCalculatorDAO {
     }
 
     public Formula getFormula(String name){
-        Cursor cursor = database.query(GraphingCalculatorDBHelper.FORMULAE_TABLE_NAME, allColumns, "FormulaName" + " = " + "\""+ name+"\"", null, null, null, null );
+        String sql = "";
+        sql += "SELECT * FROM " + GraphingCalculatorDBHelper.FORMULAE_TABLE_NAME;
+        sql += " WHERE " + "FormulaName" + " LIKE '%" + name + "%'";
+        sql += " ORDER BY " + "ID" + " DESC";
+        sql += " LIMIT 0,1";
+
+        Cursor cursor = database.rawQuery(sql, null);
+        //Cursor cursor = database.query(GraphingCalculatorDBHelper.FORMULAE_TABLE_NAME, allColumns, "FormulaName" + " = " + "\""+ name+"\"", null, null, null, null );
         cursor.moveToFirst();
         Formula newE = cursorToFormula(cursor);
         cursor.close();

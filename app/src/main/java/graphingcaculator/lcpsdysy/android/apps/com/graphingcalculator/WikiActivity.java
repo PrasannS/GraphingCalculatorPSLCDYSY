@@ -1,8 +1,13 @@
 package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ScrollView;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -12,6 +17,11 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistenc
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.CustomAutoCompleteView;
 
 public class WikiActivity extends AppCompatActivity {
+
+    public String cur;
+    public Formula curF;
+    public TextView wikiframe;
+
     GraphingCalculatorDAO datasource = null;
     CustomAutoCompleteView myAutoComplete;
 
@@ -24,12 +34,17 @@ public class WikiActivity extends AppCompatActivity {
     // just to add some initial value
     String[] item = new String[] {"Please search..."};
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wiki);
         datasource = new GraphingCalculatorDAO(this.getApplicationContext());
         datasource.open();
+
+        wikiframe = (TextView) findViewById(R.id.wikiframe);
+
 
         try{
 
@@ -49,6 +64,19 @@ public class WikiActivity extends AppCompatActivity {
             myAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, item);
             myAutoComplete.setAdapter(myAdapter);
 
+            myAutoComplete.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    myAutoComplete.performCompletion();
+                    cur = myAutoComplete.getText().toString();
+                    curF = datasource.getFormula(cur);
+                    wikiframe.setText(curF.toString());
+
+                }
+
+
+            });
+
         } catch (NullPointerException e) {
             e.printStackTrace();
         } catch (Exception e) {
@@ -59,13 +87,13 @@ public class WikiActivity extends AppCompatActivity {
     public void insertSampleData(){
 
         for(String s:FormulaListGenerator.chemFormulae){
-            databaseH.create( new FormulaName(s));
+            if(!databaseH.create( new FormulaName(s)))break;
         }
         for(String s:FormulaListGenerator.mathFormulae){
-            databaseH.create( new FormulaName(s));
+            if(!databaseH.create( new FormulaName(s)))break;
         }
         for(String s:FormulaListGenerator.physicsFormulae){
-            databaseH.create( new FormulaName(s));
+            if(!databaseH.create( new FormulaName(s)))break;
         }
 
     }

@@ -33,7 +33,7 @@ public class EquationEntryFragment extends Fragment {
     private OnFragmentInteractionListener mListener;
 
     public EquationEntryFragment() {
-        // Required empty public constructor
+
     }
 
 
