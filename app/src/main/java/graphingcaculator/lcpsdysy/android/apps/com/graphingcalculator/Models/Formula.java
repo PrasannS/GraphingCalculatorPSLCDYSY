@@ -26,10 +26,15 @@ public class Formula {
         try{
         if(raw.equals("")){
             empty = true;
+            type =t;
+            info = types[type]+"\n"+"Sorry we don't have any data on this. Press the below button to report if data is innacurate, incomplete, or nonexistent";
         }
 
         else {
+            /**TODO-we will have to figure out how to extract equations from info*/
             type = t;
+            info = types[type]+"\n"+raw;
+            /*
             String temp = "";
             String next;
             String cur;
@@ -63,7 +68,7 @@ public class Formula {
                     cur = next;
                 }
             }
-            scan.close();
+            scan.close();*/
 
         }}
         catch (Exception e){

@@ -1,5 +1,4 @@
-"/Users/prasannsinghal/Desktop/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java" -Didea.launcher.port=55622 "-Didea.launcher.bin.path=/Users/prasannsinghal/Desktop/Android Studio.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/prasannsinghal/Library/Android/sdk/platforms/android-28/android.jar:/Users/prasannsinghal/Library/Android/sdk/platforms/android-28/data/res:/Users/prasannsinghal/StudioProjects/GraphingCalculator/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes:/Users/prasannsinghal/StudioProjects/GraphingCalculator/app/build/generated/res/rs/debug:/Users/prasannsinghal/StudioProjects/GraphingCalculator/app/build/generated/res/resValues/debug:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/83187b8d46f3a4950114100637100701/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c76eb0a91a822875ab33b78cac5273bb/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/68350b238b819148fec4a4c9326c9d5e/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/86fe8b9a815f78f23b64a05f86926537/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a2bc98f30692cd2eea78dc633d4737fc/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f90a10759768e633d75802224219286f/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f90a10759768e633d75802224219286f/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7e65902506eb7fcec9cf6888580e3356/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7e65902506eb7fcec9cf6888580e3356/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/graphview-4.2.2.aar/5e6bd207393d6c051182e3c3fc74773b/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/graphview-4.2.2.aar/5e6bd207393d6c051182e3c3fc74773b/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7abf7011f4ff3c7ffadcc1546301a59e/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7abf7011f4ff3c7ffadcc1546301a59e/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/20d6eb3a95c8881a04700bdc1e59a174/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/442f88b5682c207f30d6929c9ff44d45/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8dffad56fce481f9e21bac7eef17f1e8/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/07415fc322079f520d8b09b5c79fbbce/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/99f25dade7c9ca43ae47b5912da045f6/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/1c902f223c68748bf6d04ed74b57c037/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/955848765a4b8b89665f51c752054a41/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9ac6f80c9f59d36f6a7131aa9b8bccc9/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5d109e0c326e0017722619f631612127/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b5521b191d0c1166bd446304da7b0eaa/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2db25929a4cc750a017a9287331b9e5c/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/04fd18169f02c8bc95113e3a4b24cb40/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/686e0364af1a2fbdc203fd141b5ed144/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/123bcf39818799b905d287ef928f7cfc/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/123bcf39818799b905d287ef928f7cfc/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4fbc2ade34aade7acb656d60b0701573/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4fbc2ade34aade7acb656d60b0701573/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/de7413ca6269020e998d31b61f9883cb/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d2dd9f0677eb1db5d16e50e579534645/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9d10ad94eac57d85abdf6d0195f19426/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9d10ad94eac57d85abdf6d0195f19426/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c860c576fc43272f65079f194079d62f/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/af4e6cd69e861eab000b1fa81c45b294/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/af4e6cd69e861eab000b1fa81c45b294/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/2e2cc8e735bcc2d62b3f4e51d32268be/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6bbf59210a5d3392a07509c849afb0c0/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f723d1af4d8b2603819fa694458a1e91/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f723d1af4d8b2603819fa694458a1e91/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/c2fa05eedd18eceff44fd2b7092bbe44/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/266ef63806ed97d72ad93220f5426e85/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/266ef63806ed97d72ad93220f5426e85/jars/classes.jar:/Users/prasannsinghal/Desktop/Android Studio.app/Contents/lib/idea_rt.jar" com.intellij.rt.execution.application.AppMainV2 graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.ConvertUrlToString
-*** BEGIN ***
+$%$%
 
 When any pressure is detected above the absolute zero of pressure, it is labeled as absolute pressure. It is measured using barometer, and it is equal to measuring pressure plus the atmospheric pressure.
 Diagram showing absolute pressure, vacuum and gauge
@@ -16,8 +15,7 @@ Given: p<sub>atm</sub> (Atmospheric pressure) = 31 psi
 Given: Atmospheric pressure p<sub>atm</sub> = 15 psi
 The Gauge pressure is
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Acceleration Formula
 One may have perceived that pushing a terminally ill bus can give it a sudden start. That’s because lift provides upward push when it starts. Here Velocity changes and this is acceleration! Henceforth, the frame accelerates. Acceleration is described as the rate of change of velocity of an object. A body&#8217;s acceleration is the final result of all the forces being applied on the body, as defined by Newton&#8217;s Second Law. Acceleration is a vector quantity that is described as the frequency at which a body’s  velocity changes.
@@ -43,8 +41,7 @@ uRLStringLine title="s=0+\frac{1}{2}\times 9.8m/s^{2}\times (5s^{2})" src="https
 uRLStringLine title="=122.5\, m" src="https://latex.codecogs.com/gif.latex?=122.5\,&amp;space;m" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 If the two vectors are assumed as a⃗ and b⃗ then the dot created is articulated as a.b. Let’s suppose these two vectors are separated by angle θ. To know what&#8217;s the angle measurement we solve with the below formula
 uRLStringLine class="aligncenter wp-image-5168 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Vectors-Formula.jpg" alt="Vectors Formula" width="249" height="153" 
@@ -83,8 +80,7 @@ uRLStringLine src="https://latex.codecogs.com/gif.latex?=cos^{-1}\frac{3}{8.8057
 uRLStringLine src="https://latex.codecogs.com/gif.latex?=cos^{-1}0.372" title="=cos^{-1}0.372" 
 uRLStringLine src="https://latex.codecogs.com/gif.latex?=68.16^{\circ}" title="=68.16^{\circ}" 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Average Force Formula
 The force applied by a body that’s traveling at a definite velocity (rate of speed) for a definite period of time is the average force. The word<em> &#8216;average&#8217; </em>is made use of to specify that this velocity is not an<em> </em>accurately measured or <em>&#8216;instantaneous&#8217;</em>  velocity. Therefore, the mass of the body multiplied by the average velocity over the definite time is equivalent to average force.
@@ -106,15 +102,12 @@ uRLStringLine "F=\frac{mv}{t}=\frac{0.25\times 1.5}{2}=0.1875\,N" src="https://l
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 g=9.07 m/sec2
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Fundamental to fluid mechanics Archimedes&#8217; principle is a fundamental law of physics. Archimedes&#8217; principle indicates that the increasing buoyant force that is applied on a body submerged in a liquid, whether partially or fully immersed, is equivalent to the mass of the fluid that the form displaces. The object will sink, if the mass of the water displaced is less than the weight of the body, otherwise, the body will float, with the weight of the water displaced equivalent to the mass of the object.
 When a body is totally or partly submerged in a fluid it experiences buoyancy (upward force) that is equivalent to the mass of the fluid displaced.
@@ -143,14 +136,12 @@ Thus, 2.45 N of upward force is being applied on the stone.
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 uRLStringLine "\vec{B}=\frac{\mu_{0} I}{2\pi R}" src="https://latex.codecogs.com/gif.latex?\vec{B}=\frac{\mu_{0}&amp;space;I}{2\pi&amp;space;R}" width="75" height="37" 
 uRLStringLine title="\vec{B}=\frac{4\pi\times 10^{-7}\times 5}{0.628}=1\times 10^{-5}\, T" src="https://latex.codecogs.com/gif.latex?\vec{B}=\frac{4\pi\times&amp;space;10^{-7}\times&amp;space;5}{0.628}=1\times&amp;space;10^{-5}\,&amp;space;T" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Angular acceleration is denoted by α and is expressed in the units of rad/s2 or radians per second square. 
 Formula:
@@ -187,12 +178,10 @@ Upon substituting the values, we get,
 Angular velocity d is
 dω =20×1 = 20 rad/s
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The degree to which a body rotates, gives its angular momentum. It is designated by L. Angular Momentum Formula is articulated as
 uRLStringLine "L=I\omega" src="https://latex.codecogs.com/gif.latex?L=I\omega" width="57" height="12" 
@@ -214,8 +203,7 @@ Problem 2: Compute the angular momentum of the rod of radius 1 m and mass 2 kg
 Given: Radius r = 1 m,
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Formula: Angular displacement of a point can be given by using the following formula, 
 \(Angular displacement = \theta _{f}- \theta _{i}\)
@@ -288,8 +276,7 @@ Using the formula for angular displacement,
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The average speed is a scalar quantity, which means, it is only represented by the magnitude and direction of travel is not important and is linked to the distance covered by the object.
 Average Speed Formula
@@ -313,8 +300,7 @@ uRLStringLine "So,\, the\, average\, speed\, of\, the\, vikram's\, journey\, by\
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Speed is all about how slow or fast an object moves. To calculate the speed of the rotational motion, angular speed arises.
 uRLStringLine "Angular\, speed\, \left ( \omega \right )\, =\, \frac{Total\, distance\, traveled}{Total\, time\, taken}\, =\, \frac{\Theta }{t}" src="https://latex.codecogs.com/gif.latex?Angular\,&amp;space;speed\,&amp;space;\left&amp;space;(&amp;space;\omega&amp;space;\right&amp;space;)\,&amp;space;=\,&amp;space;\frac{Total\,&amp;space;distance\,&amp;space;traveled}{Total\,&amp;space;time\,&amp;space;taken}\,&amp;space;=\,&amp;space;\frac{\Theta&amp;space;}{t}" width="406" height="38" 
@@ -341,12 +327,10 @@ uRLStringLine "=\, 5\, rad/s." src="https://latex.codecogs.com/gif.latex?=\,&amp
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Angular velocity is a vector quantity and is described as the rate of change of angular displacement which specifies the angular speed or rotational speed of an object and the axis about which the object is rotating. The amount of change of angular displacement of the particle at a given period of time is called angular velocity. The track of the angular velocity vector is vertical to the plane of rotation, in a direction which is usually indicated by the right-hand rule.
 It is articulated as
@@ -374,8 +358,7 @@ uRLStringLine "=\, \frac{2\pi }{60}" src="https://latex.codecogs.com/gif.latex?=
 uRLStringLine "=\, 0.1047\, rad/s." src="https://latex.codecogs.com/gif.latex?=\,&amp;space;0.1047\,&amp;space;rad/s." width="123" height="18" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 It is apparent that kids are astonished when witnessing paper boats float in water. So what keeps these paper boats floating in the water. It is called Buoyancy
 uRLStringLine class="aligncenter wp-image-5255 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Buoyancy-formula.jpg" alt="Buoyancy formula" width="233" height="176" 
@@ -402,8 +385,7 @@ Given: Density ρ = 2 g/cm^3,
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Beat Frequency Formula
 Beat is a word linked to sound waves. The beat frequency is not anything but the difference in frequency of two wave. It is because of the constructive and destructive interferences. When two sound waves of dissimilar frequency approach your ear, the alternating productive and damaging interference causes the sound to be alternatively loud and soft &#8211; a phenomenon which is termed as &#8220;beating&#8221; or producing beats. The beat frequency is equivalent to the complete value of the alteration in frequency of the two waves. The count of beats per second is equivalent to the difference in frequency. Conferring to these interferences, sound will be loud or soft. Actually, the beat frequency is the complete value of the difference in wave frequencies. The formula for the beat frequency is,
@@ -419,8 +401,7 @@ Answer:
 Known numerics are,
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Brewster&#8217;s Law Brewster derived a relation amongst the polarizing angle ip and the refractive index mu which is well known as Brewster’s law. This says that the tangent of the polarizing angle is numerically equivalent to the refractive index of the medium.
 A polarizing angle is created when at a certain angle of incidence, the reflected light is completely polarized, and this specific value of the angle of incidence is identified as polarizing angle. The polarizing angle ip hinges on on the refractive index mu of the transparent material.
@@ -449,8 +430,7 @@ uRLStringLine "Brewster's\, angle\, =\, 48.4^{o}" src="https://latex.codecogs.co
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 As the word states, Average Velocity is the average value of the known velocities. Displacement over total time is Average Velocity. The average speed of an object is described as the distance traveled divided by the time gone. Velocity is a vector unit, and average velocity can be described as the displacement divided by the time. The units for velocity can be understood from the definition to be meters/second or in common any distance unit over any time unit. The average speed of a body is described as the distance covered divided by the time elapsed.
 It is useful in determining the average value of speed if the body is varying continuously for the given time intervals.
@@ -480,8 +460,7 @@ uRLStringLine "=\, 35\, m/s." src="https://latex.codecogs.com/gif.latex?=\,&amp;
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 The Bulk Modulus is the relative change in the volume of a body produced by a unit compressive or tensile stress acting over its surface uniformly.
@@ -515,8 +494,7 @@ The change in percentage = (ΔV / V) × 100
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Deflection is the degree to which a particular structural element can be displaced by a considerable amount of load. It can be referred to an angle or distance.
@@ -592,8 +570,7 @@ V = −wx^2/2
 = 0.004 kg m^2.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Capacitance is used to describe how much charge any conductor can hold. It represents the ratio of the charge flowing across the conductor to the potential applied. Capacitors are the conductors used for holding charges. 
 Capacitance is the ability of a substance to store an electrical charge. Any object that can be electrically charged shows capacitance. A parallel-plate capacitor is the common form of energy storage device. Capacitance is exhibited by a parallel plate arrangement and defined in terms of charge storage. When a capacitor is charged completely, there is a potential difference between its plates, and larger the area of the plates and/or smaller the distance between them, greater will be the charge of the capacitor and greater will be its Capacitance.
@@ -632,8 +609,7 @@ Cp = C1 + C2
       = 11 F
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 A buffer solution is an aqueous solution comprising a mixture of a weak acid and its conjugate base, or vice versa. There is a minute change in its pH when a small or moderate amount of strong acid or base is added to it and that’s the reason it is used to prevent changes in the pH of a solution.
@@ -679,8 +655,7 @@ V = 0.02×1000 / 0.2×1.82
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Water in a hydraulic system exhibits two types of energy – kinetic and potential. Kinetic energy when water is in motion and potential is when there is water pressure. The sum of both kinetic and potential forms is the total energy of water. According to Bernoulli’s principle, the total energy of the liquid remains constant and hence when water flow in a system increases, the pressure must decrease.
@@ -706,8 +681,7 @@ P2 = 1.95 * 105 Pa
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 All the bodies have a point where its total mass is concentrated, and we can lift it by applying force on that particular point.
 Center of mass is the unique point where the weighted relative position of the distributed mass sums to zero or the point where if a force is applied causes it to move in the direction of strength. 
@@ -746,8 +720,7 @@ The Center of mass is expressed by X
 6.071 cm
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Current density refers to the density of current and denoted by the symbol J. In the field of electromagnetism, Current Density is the measure of flow of electric charge in amperes per unit area of cross-section (m²). This is a vector quantity, with both magnitude and direction. An electrical current flowing through and having units of charge per unit time per unit area are measured in the direction perpendicular to the flow of direction.
 It concerns about the amount of current flowing across the given area.
@@ -780,15 +753,12 @@ The current density is given by J = 50 / 10
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 uRLStringLine class="aligncenter wp-image-5342 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Cylinder-Formula.jpg" alt="Cylinder Formula" width="174" height="249" 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Circle is a particular shape and defined as the set of points in a plane placed at equal distance from a single point called the center of the circle. We use Circle Formula to calculate the area, diameter, and circumference of a circle. The length between any point on the circle and its center is known as its radius.Any line that passes through the center of the circle and connects two points of the circle is known as the diameter of the circle. Radius is half the length of a diameter of the circle. Area of the circle describes the amount of space covered by the circle and the length of the boundary of the circle is known as its circumference.
 uRLStringLine class="aligncenter wp-image-5334 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Circle-Formula.jpg" alt="Circle Formula" width="174" height="153" 
@@ -838,8 +808,7 @@ Circumference of a circle
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 A quadrilateral whose vertices lie on a single circle is called cyclic quadrilateral. This circle is called the circumcircle, and the vertices are known to be concyclic.
 The sum of the products of opposite sides of a cyclic quadrilateral is equal to the product of the two diagonals. The opposite angle of a cyclic quadrilateral is supplementary.
@@ -881,8 +850,7 @@ Area of cyclic quadrilateral is given by
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Capacitive Reactance Formula
 Capacitive reactance ( X<sub>C</sub>) is a measure of a capacitor&#8217;s opposition to alternating current. It is measured in ohms like resistance but reactance is more complex than resistance because its value depends on frequency (f) of the electrical signal passing through the capacitor.
@@ -917,11 +885,9 @@ xc = 1 / 2 &pi; x 200 x 1000 x 10^-3
 Hence, the capacitive reactance is 7.961 &Omega;
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The Centroid of a Triangle is the center of the triangle which can be determined as the point of intersection of all the three medians of a triangle. The median is a line drawn from the midpoint of any one side to the opposite vertex. The centroid divides all the medians of the triangle in 2:1 ratio.
 uRLStringLine class="aligncenter size-full wp-image-5350" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Centroid-Formula.jpg" alt="Centroid Formula" width="372" height="259" 
@@ -957,8 +923,7 @@ C = (4,4)
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The movement of an object along the circumference of a circle or rotation along its circular path is known as circular motion. It may be uniform and exhibit a constant angular rate of rotation and speed, or non-uniform with changing rate of rotation.
 Rotating around a fixed axis of a three-dimensional body involves circular motion of its parts. The motion equation describes the movement of the center of mass of a body.  Objects moving in circles possess a speed which is equal to the distance traveled per time of travel. By multiplying the rotational frequency with the circumference we can determine the average speed of the object.
@@ -996,8 +961,7 @@ vc = 2×π×1495×108 / 365.25
 = 2.571 × 109 m/s.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Coulomb&#8217;s law is based on the electrostatic interaction between electrically charged particles. The law was first published by French physicist Charles Augustin de Coulomb and was essential in the development of the theory of electromagnetism.
 The law provides the amount of force when two charges are separated by some distance.
@@ -1042,8 +1006,7 @@ F = k q1q2 / r^2
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Critical Angle Formula
 Critical Angle can be described as the angle of incidence that offers an angle of refraction of 90 degrees. Remember that the critical angle is defined as an angle of incidence value. The critical angle will be 48-6-degrees for water-air boundaries and 61.0-degrees for crown glass-water boundary.
@@ -1067,8 +1030,7 @@ The solution to the problem requires the use of the above equation for the criti
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Cylindrical Capacitor Formula
 The capacitor is used to store large amounts of electric current in a small space. Capacitors include wide applications in electric juicers, electric motors, flour mills and other electrical instruments. The potential difference between each capacitor varies. There are many electrical circuits where capacitors are to be grouped accordingly to get the desired capacitance. There are two common modes including Capacitors in series and Capacitors in parallel.
@@ -1107,8 +1069,7 @@ Capacitance per unit length = -9.94 &times;&times; 10&minus;11&minus;11 F/m.
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The charge density is the measure of electric charge per unit area of a surface, or per unit volume of a body or field.
 The charge density describes how much electric charge is accumulated in a particular field. Specifically, it finds the charge density per unit volume, surface area, and length. It measures the amount of electric charge per unit volume of space, in one, two or three dimensions. Charge density may depend on position, but it can be negative.
@@ -1151,17 +1112,14 @@ Charge density = 2 C/m2
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 The driving force of the electron flow from anode to cathode shows a potential drop in the energy of the electrons moving into the wire.  The difference in potential energy between the anode and cathode is known as the cell potential in a voltaic cell.
@@ -1200,8 +1158,7 @@ Ecellcell = 0.056 V
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Calorimetry Formula
 Calorimetry defines the act of measuring different changes in state variables of a body for deriving the heat transfer related to the changes of its states. This Calorimetry is performed with a calorimeter.
@@ -1230,8 +1187,7 @@ m = qCqC
 Because heat is absorbed in this melting this is an endothermic reaction.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 According to the law of conservation of energy, the total energy of an isolated system remains conserved over time. In this definition, the isolated system refers to as a thermodynamic system so designed that no matter or energy can pass through it.    
 The statement of conservation of energy can be written as,
@@ -1258,14 +1214,11 @@ As per the law of conservation of energy formula, we have:
 \(Or\Delta E_{sys}=Q-W=\left ( 1.67\times 10^{27} \right )-\left ( 1.30\times 10^{27} \right )=0.37\times 10^{27}\)
 To watch video lectures and solve more examples on the topic, download Byju’s The Learning App.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Doppler Shift Formula
 A Doppler shift is a phenomenon of a change in frequency based on the observers point of view. The most common analogy of this is standing on the side of the road and listen to a passing car. As the car approaches, there is a definitive sound. As the car passes, the sound changes to a lower frequency. This is called a Doppler Shift. There are two types of Doppler shifts:
@@ -1301,12 +1254,10 @@ Velocity of observer, v<sub>o </sub>= 20 ms^-1
 = 941 Hz.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Electric Field is the region produced by an electric charge around it whose influence is observed when another charge is brought in that region where the field exists.
 uRLStringLine class="aligncenter wp-image-5431 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Electric-Field-Formula.jpg" alt="Electric Field Formula" width="326" height="176" 
@@ -1344,8 +1295,7 @@ E = Kq / r^2
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Voltage Drop Formula can be used to calculate the voltage drop over an electrical circuit. It simply defines the energy loss while the electric current moves through the circuit. It often happens with the wires. It is the voltage loss that happens due to its impedance.
 Formula for DC voltage drop formula
@@ -1374,12 +1324,10 @@ L = VTIVTI
 = 7.5 H
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Elastic potential energy is the potential energy stored by stretching or compressing an elastic object by an external force such as the stretching of a spring. It is equal to the work done to stretch the spring which depends on the spring constant k and the distance stretched.
 According to Hooke&#8217;s law, the force applied to stretch the spring is directly proportional to the amount of stretch.
 uRLStringLine class="aligncenter size-full wp-image-5448" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Elastic-Potential-Energy.jpg" alt="Elastic Potential Energy" width="358" height="296" In other words,
@@ -1421,23 +1369,19 @@ Force Constant k is given by
 = 4.9 N/m
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Velocity or Escape speed is the speed of a body at which the total of the kinetic energy and gravitational potential energy is zero. In a different sense, it can be described as the speed required to break the gravitational attraction. The formula for escape speed is articulated as,
 \(v_{e}=\sqrt{\frac{2GM}{r}}\)
@@ -1449,12 +1393,10 @@ Known parameters are,
 \(v_{e}=\sqrt{\frac{2GM}{r}}\)
 \(v_{e}=\sqrt{\frac{2\times 6.673\times 10^{-11}\times 1.898\times 10^{27}}{71492}}=59.5km/s\)
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Formula Dynamics
 As all of us know dynamics teaches us about the motion of any body grounded on how the forces are exerted on it. Perhaps these equations were derived founded on experimenting the motion.
@@ -1478,8 +1420,7 @@ uRLStringLine src="http://latex.codecogs.com/gif.latex?Acceleration&space;a=15m/
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Gravity Formula
 Gravity also termed as gravitation, is a force that occurs among all material objects in the universe. For any two objects or units having non-zero mass, the force of gravity has a tendency to attract them toward each other. The Universal Law of Gravitation says that:
@@ -1507,8 +1448,7 @@ uRLStringLine "9\times 10^{16}Kg" src="http://latex.codecogs.com/gif.latex?9\tim
 uRLStringLine "The\; mass\; of\; the\; planet\; is\; 9\times 10^{16}Kg" src="http://latex.codecogs.com/gif.latex?The\;&amp;space;mass\;&amp;space;of\;&amp;space;the\;&amp;space;planet\;&amp;space;is\;&amp;space;9\times&amp;space;10^{16}Kg" alt="Gravity formula" width="301" height="20" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Flow Rate Formula
 As we all know, liquids flow. One can say how slow or fast it flows. But can someone tell at what rate Fluid flows? To compute that let&#8217;s study the flow rate.The flow rate of a liquid is how much fluid passes through an area in a particular time. Flow rate can be articulated in either terms of velocity and cross-sectional area, or time and volume. As liquids are incompressible, the rate of flow into an area must be equivalent to the rate of flow out of an area. This is identified as the equation of continuity.
@@ -1538,8 +1478,7 @@ uRLStringLine src="http://latex.codecogs.com/gif.latex?The\;flow\;rate\;is\;give
 uRLStringLine src="http://latex.codecogs.com/gif.latex?Q=\frac{C}{t}=\frac{500}{1800}=0.2778m^{3}/s" title="Q=\frac{C}{t}=\frac{500}{1800}=0.2778m^{3}/s" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Gauss&#8217;s Law states that the total electric flux out of a closed surface is equal to the charge enclosed divided by the permittivity. The electric flux in an area is defined as the electric field multiplied by the area of the surface projected in a plane and perpendicular to the field.
 The electric field is the basic concept to know about electricity. Generally, the electric field of surface is calculated by applying coulomb&#8217;s law, but to calculate the electric field distribution in a closed surface, we need to understand the concept of Gauss law. It explains about the electric charge enclosed in a closed or the electric charge present in the enclosed closed surface. 
 The total charge enclosed in a closed surface is proportional to the total flux enclosed by the surface. If ϕ is total flux and ϵ0 is electric constant, the total electric charge Q enclosed by the surface is
@@ -1575,8 +1514,7 @@ Electric flux is given by
 ϕ = 0.0188 Nm2 / C−1
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Gregory Newton’s is a forward difference formula which is applied to calculate finite difference identity. Regarding the first value f0 and the power of the forward difference Δ, the Gregory Newton’s forward formula gives an interpolated value between the tabulated points. The interpolated value between is expressed by {fp}.By applying forward difference operator and forward difference table, this method simplifies the calculations involved in polynomial approximation of functions which are called spaced data points.
 The Formula states for a ∈ [0,1]
@@ -1606,12 +1544,10 @@ f(0.5) = 1 + 0.5 × 6 + 0.5(0.5−1)×10 / 2 + 0.5(0.5−1)×(0.5 – 2)x6/6
         = 0.125 + 0.5 + 1.5 + 1 
 Therefore, f(0.5) = 3.125
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
                           The gram formula mass of a compound is the amount of that compound that has the same mass in grams as the formula mass in atomic mass unit. An atom of each element has a characteristic mass and in like manner each molecule of a compound has a characteristic formula mass.
 When the formula mass of an ionic compound is determined by the addition of its component atomic masses and expressed in grams, it is called the <span class="content_select">Gram Formula Mass</b><b. 
 <span class="content_select">Gram Formula Mass</b> is mathematically expressed as 
@@ -1624,8 +1560,7 @@ CaCO<sub>3</sub> = 100 formula mass
 CaCO<sub>3</sub> = 100g = gram formula weight.
  
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 What is Heat of Vaporization ?
 The Heat of Vaporization is the quantity of heat that needs to be absorbed to vaporize a particular quantity of liquid at a constant temperature. If the solutions of vapor and liquid states are compared, the kinetic energy of the steam is proved to be higher than the kinetic energy of the fluid.
@@ -1645,11 +1580,9 @@ uRLStringLine src="http://latex.codecogs.com/gif.latex?m=\frac{q}{H_{v}}" title=
  = 15500 / 2257
 = 6.867 g
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Heat is a form of energy and the power is the rate at which energy is used. The rate at which heat energy is utilized is measured in watts which can also be called as power loss. Heat gain via walls and roofs is affected by solar energy which is absorbed at the outer surface represented by the air temperature. It is the outdoor temperature which would generate the same heat gain through the element without solar energy since it exists with the actual air temperature. 
 The heat gain formula is given by,
 q = 1.10 &times; cfm &times; (to &#8211; ti)
@@ -1680,8 +1613,7 @@ q = 27500
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Heat Load Formula
 The heating load is the amount of heat energy required to be added to a specific space to maintain the temperature in an acceptable range. The cooling load is the amount of heat energy required to be removed from the space to keep the temperature in an acceptable range.
@@ -1721,8 +1653,7 @@ Heat load, Q = m &times; Cp &times;&Delta;T
    = 4405
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The continuous compounding formula is used to determine the interest earned on an account that is constantly compounded, necessarily leading to an infinite amount of compounding periods.
 The effect of compounding is earning interest on investment, or at times paying interest on debt, that is reinvested to earn additional monies that would not have been gained based on the principal balance alone. By earning interest on prior interest, one can earn at an exponential rate.
 The continuous compounding formula takes this effect of compounding to the furthest limit. Instead of compounding interest on a monthly, quarterly, or annual basis, continuous compounding will efficiently reinvest gains perpetually.
@@ -1735,12 +1666,10 @@ However, one does not have to plug this value in the formula, as the calculator 
 $A=2340\;e^{0.031(3)}\approx 2568.06$
 So, the balance after 3 years is approximately Rs. 2,568.06.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Louis-de-Broglie explained the De-Broglie waves in the year 1923 which were later experimented and proved by Davisson and Germer in the year 1927. These waves explain about the nature of the wave related with the particle.
 uRLStringLine src="http://latex.codecogs.com/gif.latex?p=\frac{E}{c}" title="p=\frac{E}{c}" 
@@ -1776,8 +1705,7 @@ De-broglie wavelength &lambda;&lambda; = hmvhmv
  = 1.32 &times;&times; 10-32 m.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Doppler Effect defines the apparent change in the frequency of sound when the observer and the medium both are in relative motion. It&#8217;s a wave phenomenon which holds not just for sound waves but also for electromagnetic waves like microwaves, visible light, and microwaves. It depends on three factors &#8211; Velocity of the source, Velocity of the medium and Velocity of the observer.
 Solved Examples 
@@ -1803,8 +1731,7 @@ f = 530m/s+(+8m/s)530m/s−(+9m/s)530m/s+(+8m/s)530m/s−(+9m/s) (1416 Hz)
 f = 1432 Hz.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Displacement is calculated as the shortest distance between starting and final point which prefers straight line path over curved paths.
 Suppose a body is moving in two different directions x and y then Resultant Displacement will be
@@ -1842,11 +1769,9 @@ The direction of Resultant displacement is South East.
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Dynamic Viscosity Formula for a fluid defines its internal resistance to flow due to some shearing force. A tangential force which acts when one horizontal plane moves with another one. The viscosity acts an important fluid property while analyzing the liquid behaviour and fluid motion near solid boundaries.
 Formula for Dynamic Viscosity
 T = &mu;&mu; uyuy.
@@ -1879,15 +1804,13 @@ Therefore, the dynamic viscosity = 0.75 Ns/m22.
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 uRLStringLine "m_{1}u_{1}\, +\, m_{2}u_{2}\, =\, m_{1}v_{1}\, +\, m_{2}v_{2}" src="https://latex.codecogs.com/gif.latex?m_{1}u_{1}\,&amp;space;+\,&amp;space;m_{2}u_{2}\,&amp;space;=\,&amp;space;m_{1}v_{1}\,&amp;space;+\,&amp;space;m_{2}v_{2}" width="244" height="15" 
 uRLStringLine "\frac{1}{2}m_{1}u_{1}^{2}\, +\, \frac{1}{2}m_{2}u_{2}^{2}\, =\, \frac{1}{2}m_{1}v_{1}^{2}\, + \frac{1}{2}m_{2}v^{2}_{2}" src="https://latex.codecogs.com/gif.latex?\frac{1}{2}m_{1}u_{1}^{2}\,&amp;space;+\,&amp;space;\frac{1}{2}m_{2}u_{2}^{2}\,&amp;space;=\,&amp;space;\frac{1}{2}m_{1}v_{1}^{2}\,&amp;space;+&amp;space;\frac{1}{2}m_{2}v^{2}_{2}" width="290" height="37" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Where, <br V is the voltage <br R is the resistance
                           <a class="backtotop" href="#top" name="electric-current-problems">Back to Top</a>                          <br style="clear:both"
                       Let us discuss the problems related to electric current.
@@ -1896,8 +1819,7 @@ I = <span class="content_latex">$\frac{15}{3}$ = 5A
 I = <span class="content_latex">$\frac{10}{4}$ = 2.5A
  
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 In brief Force can be described as the exterior agency which makes the body change its state, size, position under strain. It is represented by F.
 Commonly, the formula for force is articulated by
@@ -1926,8 +1848,7 @@ The acceleration is, a = (v &#8211; u)/t
 Therefore, a =  -60 \(m/s^{2}\) [-ve sign indicates retardation]
 Thus the retarding Force, F = ma = 1 × 60 = 60N
 
-*** END ***
-*** BEGIN ***
+$%$%
 Friction is the resistance required for moving a body through an external surface. But the friction loss is connected to the flow of liquid through a pipe. In other sense, it is a kind of energy loss because of the friction inside the tube. It is intimately related to the velocity and viscosity of the fluid. Friction loss can be articulated as h<sub>l</sub> as friction loss is nothing but the energy or head loss. Friction loss formula is articulated as,
 uRLStringLine "h_{1}\, =\, f\, \times\, \frac{L}{D}\, \times\, \frac{v^{2}}{2g}" src="https://latex.codecogs.com/gif.latex?h_{1}\,&amp;space;=\,&amp;space;f\,&amp;space;\times\,&amp;space;\frac{L}{D}\,&amp;space;\times\,&amp;space;\frac{v^{2}}{2g}" width="154" height="45" 
 Where,
@@ -1952,8 +1873,7 @@ uRLStringLine "h_{1}\, =\, 0.3\times\, \frac{20}{0.5}\, \times\frac{50^{2}}{2\ti
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Froude Number Formula
 Froude number was termed after William Froude is a dimensionless number defined as the ratio of characteristic velocity to the gravity wave velocity.
@@ -1986,12 +1906,10 @@ uRLStringLine src="http://latex.codecogs.com/gif.latex?v=1.59m/s" title="v=1.59m
 Thus, the velocity of the moving fish is1.59 m/s.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Hooke&#8217;s law states that the force required to extend or compress a spring by some distance is directly proportional to that distance. The stiffness of the spring is a constant factor characteristic. The property of elasticity states that it takes twice the much force to stretch a spring twice as long. This linear dependence of displacement on stretching is known as Hooke’s law. This law is named after 17^th century British physicist Robert Hooke.
 It says that the amount of stress we apply on any object, that amount of stress is observed on it, which means Stress ∝ Strain.
 uRLStringLine class="aligncenter size-full wp-image-5539" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Hookes-Law.jpg" alt="Hooke's Law" width="338" height="256" 
@@ -2023,20 +1941,16 @@ k = &#8211; F / x
 = &#8211; 100 / 0.8
 = &#8211; 125 N/m.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Heat of Hydration Formula
 Heat of hydration is defined as the amount of energy released when one mole of ions undergo hydration. It is a special type of dissolution energy where in the solvent is water.
@@ -2073,16 +1987,13 @@ Therefore, Heat of hydration of Na+ = -395
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 \(=27\times 10^{10}J\)
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Heat Input Formula
 Under arc welding process, heat input and arc energy are the measures of energy that has been supplied to the piece to form a weld. Both are measured in units of energy per unit length.<br It refers to a characteristic or dimension such as weld length, a bead, the diameter of a weld spot or cross section. The amount of heat input which goes into a weld is determined as a function of time.
@@ -2102,8 +2013,7 @@ Heat input = Voltage &times; current &times;time / distance travelled&times;1000
 = 1500 &times; 3400 &times; 80 / 24 x 1000<br  Therefore, Heat input = 17000 joules / ft.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Heat Rate Formula
 The heat rate is the amount of energy required by an electrical generator or a power plant to produce one kilowatt hour (kWh) of electricity.
@@ -2138,8 +2048,7 @@ Therefore, HP= 18.864
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The property of a conductor by which an alteration in current passing through it creates (induces) voltage or electromotive force in any nearby conductors (mutual inductance) and in both the conductor itself (self-inductance) is termed as Inductance.  Inductance is described as opposing of changes of current. The inductance value is represented as L and its unit is Henry. One Henry value is equivalent to the induced one volt by changing of current in one ampere per second in an inductance value. The inductance value is of two types. One is mutual inductance and another one is self-inductance. Let us see the applications of inductance value.
 The self-inductance in an electrical circuit is
@@ -2163,8 +2072,7 @@ frequency f = 200 Hz,
 inductance L = 50 Henry
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 <b<span class="content_color">Volt </b>is a unit of electrical potential or motive force &#8211; potential is required to send one ampere of current through one ohm of resistance. <span class="content_color">Watt  </b>is a unit of electrical energy or power &#8211; one watt is the product of one ampere and one volt &#8211; one ampere of current flowing under the force of one volt gives one watt of energy
 Below are given some commonly used Electrical formulas which may be helpful for you.
 
@@ -2174,12 +2082,10 @@ Below are given some commonly used Electrical formulas which may be helpful for 
 
                           <a class="backtotop" href="#top" name="electrical-problems">Back to Top</a>                          <br style="clear:both"
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The crash in which kinetic energy of the system is not conserved but the momentum is conserved, then that collision is termed as Inelastic Collision.
 uRLStringLine class="aligncenter wp-image-5621 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Inelastic-Collision.jpg" alt="Inelastic Collision" width="457" height="302" 
@@ -2205,8 +2111,7 @@ uRLStringLine "=\, \frac{6}{5}" src="https://latex.codecogs.com/gif.latex?=\,&am
 uRLStringLine "=\, 1.2\, m/s." src="https://latex.codecogs.com/gif.latex?=\,&amp;space;1.2\,&amp;space;m/s." width="85" height="18" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Equivalent Resistance Formula
 Equivalent resistance is where the aggregate resistance connected either in parallel or series is calculated. Essentially, the circuit is designed either in Series or Parallel.Electrical resistance shows how much energy one needs when you move the charges/current through your devices. If you require lots of energy, then the resistance necessary is also high. The equivalent resistance of a network is that single resistor that could replace the entire network in such a way that for a certain applied voltage V you get the same current I as you were getting for a network.
@@ -2227,8 +2132,7 @@ uRLStringLine src="http://latex.codecogs.com/gif.latex?\frac{1}{R_{p}}=\frac{1}{
 uRLStringLine src="http://latex.codecogs.com/gif.latex?=0.029\mho&space;&plus;0.05\mho&space;=0.079\mho" title="=0.029\mho +0.05\mho =0.079\mho" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The rate of change at one known instant is the Instantaneous rate of change, and it is equivalent to the value of the derivative at that specific point. So it can be said that, in a function, the slope, m of the tangent is equivalent to the instantaneous rate of change at a specific point. One more method to comprehend this concept clearly is with the difference quotient and limits. The average rate of change of y with respect to x is the difference quotient. Now if one looks at the difference quotient and lets Delta x-&gt;0, this will be the instantaneous rate of change. In guileless words, the time interval gets lesser and lesser.
 The Instantaneous Rate of Change Formula provided with limit exists in,
@@ -2245,8 +2149,7 @@ f(x) = 3x^2 + 12
 Problem  2: Compute the Instantaneous rate of change of the function f(x) = 5x^3 &#8211; 4x^2 + 2x + 1 at x = 2?
 Known Function, f(x) = 5x^3 &#8211; 4x^2 + 2x + 1
 
-*** END ***
-*** BEGIN ***
+$%$%
 Electricity is the flow of charge in a conductor from anode to cathode. Electricity has varied applications It acts as a tool to provide power to electrical devices. We can say the flow of charge builds up the current which we call as Electricity. To understand how the Electricity is generated, we need to understand the various basic parameters related to it like voltage, Current, resistance, conductivity and relation among them.
 uRLStringLine class="aligncenter wp-image-5438 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Electricity-Formulas.jpg" alt="Electricity Formulas" width="358" height="296" 
 Some of the commonly used Electricity formula are listed below.
@@ -2282,8 +2185,7 @@ Charge Q = I × t
 = 7200 C
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Inductive reactance or simply reactance is not anything but the resistance of an inductive circuit. An inductor competes against the current in a coil which alters the direction and Instantaneous magnitude. This opposition is comparable to resistance but always possesses a phase shift between voltage and current and dissipate zero power. As it has some alteration from the resistance, it is termed as reactance. And it is denoted as XL. The SI unit is ohm. The formula for reactance is given as
@@ -2306,8 +2208,7 @@ uRLStringLine title="\large So, f= \frac{X_{L}}{2\pi L}" src="https://latex.code
 
 uRLStringLine title="\large f=\frac{3500}{2\times3.14\times0.25}=2229Hz" src="https://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;f=\frac{3500}{2\times3.14\times0.25}=2229Hz" 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Intensity is the quantity of energy the wave conveys per unit time across a surface of unit area and it is also equivalent to the energy density multiplied by the wave speed. It is generally measured with units of watts per square meter. Intensity will depend on the strength and amplitude of a wave. Intensity is represented as I. The formula for intensity is articulated by,
 uRLStringLine title="I=\frac{P}{A}" src="https://latex.codecogs.com/gif.latex?I=\frac{P}{A}" alt="" 
@@ -2331,8 +2232,7 @@ P = 30 x 10^-5 x 50
 = 0.015W
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Force of Attraction Formula
 Force of attractionis a force that pulls the body near due to its attraction.There are numerous attractive forces prevailing in nature.Some of them magnetic force, electric force, electrostatic force and gravitational force.Gravitational force is very well identified instanceforce of attraction as it draws objects towards itself regardless of its distance. The Newton&#8217;s universal law of gravitation clarifies alot more about how this force performs. It states that every mass that occurs in the universe attracts some or the other mass in the universe. It validates the fact that anyone thrown up comes down.
@@ -2366,8 +2266,7 @@ uRLStringLine src="http://latex.codecogs.com/gif.latex?F=6.67\times&space;10^{-8
 uRLStringLine src="http://latex.codecogs.com/gif.latex?Therefore,&space;6.67\times&space;10^{-8}N\;&space;of\;gravitational\;&space;force\;&space;acts\;&space;between\;&space;the\;&space;two\;&space;bodies" title="Therefore, 6.67\times 10^{-8}N\; of\;gravitational\; force\; acts\; between\; the\; two\; bodies" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Fluid Mechanics Formula
 Fluid mechanicscould be defined as the division of engineering science which deals with the fluids behavior in both motion and rest situations.
@@ -2389,8 +2288,7 @@ uRLStringLine src="http://latex.codecogs.com/gif.latex?viscosity=\frac{force\;pe
 uRLStringLine src="http://latex.codecogs.com/gif.latex?viscosity=(\frac{1.2\times&space;0.015\times&space;10^{-3}}{0.35})=0.0514\times&space;10^{-3}=5.14\times&space;10^{-3}Ns/m^{2}" title="viscosity=(\frac{1.2\times 0.015\times 10^{-3}}{0.35})=0.0514\times 10^{-3}=5.14\times 10^{-3}Ns/m^{2}" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 What is escape velocity?
 Escape Velocity is the minimum velocity required by a body to be projected overcome the gravitational pull of the earth. It is the minimum velocity required by an object to escape the gravitational field that is, escape the land without ever falling back. An object that has this velocity at the earth’s surface will totally escape the earth&#8217;s gravitational field ignoring the losses due to the atmosphere.
@@ -2432,8 +2330,7 @@ Vesc = √2GMR
 = 7.59 × 105 m/s
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Viscosity is a concept where fluid shows struggle against flowing, which is being distorted due to extensional stress forces or shear stress. Kinematic viscosity is the sort which is computed by calculating the ratio of the fluid mass density to the dynamic fluid, viscosity or absolute fluid viscosity. It is from time to time known as momentum diffusivity. The units of kinematic viscosity are established on time and area. It is the ratio of the area of time; henceforth it is m22/s or ft22/s.
@@ -2462,11 +2359,9 @@ Therefore, the density of fluid is 0.445kg/m3
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Energy Consumption Formula
 Energy consumption is the use of power or energy of a system by making use of supply. The consumption is done in Giga Joule per year, kilograms of oil equivalent per year (kg/a) and in Watts.
@@ -2486,8 +2381,7 @@ Answer:
 Given: Power P = 500 W, t<sub>h</sub>/day = 2 hrs
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Kinetic energy is the energy possessed by a body due to its motion. Kinetic Energy Formula is articulated as
@@ -2512,8 +2406,7 @@ uRLStringLine title="\sqrt{13.33}" src="https://latex.codecogs.com/gif.latex?\sq
 =3.65m/s
 The man is running with the velocity of 3.65m/s
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Any object placed in the field of gravitational pull of the Earth experiences gravitational force. Gravitational acceleration is defined as the acceleration gained by an object because of the force of gravity acting on it. It is represented by ‘g’ and is measured in terms of m/s2. Gravitational acceleration is a vector quantity, that is, it possesses both magnitude as well as direction. 
 Formula: The gravitational acceleration acting on any object can be given using the following equation,  \(g = GM/ (r + h)^{2}\)
@@ -2562,8 +2455,7 @@ The acceleration due to gravity of the satellite can be found from the formula:
 \(g = (6.673 * 10^{-11})(5.98* 10^{24})/(6630000)^{2}\)
 \(g = 9.07 \frac{m}{s^{2}}\)
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 The speed with which an object moves in the linear path is termed as Linear speed. In easy words, it is the distance covered for a linear path in given time.
@@ -2590,8 +2482,7 @@ uRLStringLine title="50\times\frac{\pi }{30}" src="https://latex.codecogs.com/gi
 =5.237rad/s
 Radius r = 2 m
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Latent heat is the heat required to convert a solid into a liquid or vapor phase, or a liquid into a vapor phase. According to different phase, it has different names like heat of condensation, heat of vaporization etc. The amount of heat energy absorbed or released for a phase change is known as latent heat.
@@ -2623,16 +2514,13 @@ L = Q / M
  = 400 / 2
  = 200k.cal/kg
 
-*** END ***
-*** BEGIN ***
+$%$%
 uRLStringLine title="f=\frac{V}{\lambda }=\frac{3\times 10^{8}}{500\times 10^{-9}}=6\times 10^{14}hz" src="http://latex.codecogs.com/gif.latex?f=\frac{V}{\lambda&amp;space;}=\frac{3\times&amp;space;10^{8}}{500\times&amp;space;10^{-9}}=6\times&amp;space;10^{14}hz" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Lens maker formula is used to construct a lens with specified focal length. A lens has two curved surfaces, but both are not exactly same. If the refractive index and the radius of curvature of both the surface are known, you can determine the focal length of that particular lens by using the given lens maker’s formula,
 uRLStringLine "\frac{1}{f}\, =\, \left ( \mu -1 \right )\left ( \frac{1}{R_{1}}-\frac{1}{R_{2}} \right )" src="https://latex.codecogs.com/gif.latex?\frac{1}{f}\,&amp;space;=\,&amp;space;\left&amp;space;(&amp;space;\mu&amp;space;-1&amp;space;\right&amp;space;)\left&amp;space;(&amp;space;\frac{1}{R_{1}}-\frac{1}{R_{2}}&amp;space;\right&amp;space;)" width="196" height="45" 
@@ -2666,13 +2554,11 @@ So, f = 1/ 0.274
        = 3.64 cm
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 uRLStringLine class="alignnone wp-image-946246 size-full" title="Magnetism Formulas" src="https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-02.jpg" alt="Magnetism Formulas" width="881" height="472" srcset="https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-02.jpg 881w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-02-250x134.jpg 250w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-02-768x411.jpg 768w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-02-700x375.jpg 700w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-02-120x64.jpg 120w" sizes="(max-width: 881px) 100vw, 881px"  uRLStringLine class="alignnone wp-image-946247 size-full" title="Magnetism Formulas" src="https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-03.jpg" alt="Magnetism Formulas" width="898" height="487" srcset="https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-03.jpg 898w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-03-250x136.jpg 250w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-03-768x416.jpg 768w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-03-700x380.jpg 700w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-03-120x65.jpg 120w" sizes="(max-width: 898px) 100vw, 898px"  uRLStringLine class="alignnone wp-image-946248 size-full" title="Magnetism Formulas" src="https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-04.jpg" alt="Magnetism Formulas" width="845" height="590" srcset="https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-04.jpg 845w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-04-250x175.jpg 250w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-04-768x536.jpg 768w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-04-700x489.jpg 700w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-04-120x84.jpg 120w" sizes="(max-width: 845px) 100vw, 845px"  uRLStringLine class="alignnone wp-image-946245 size-full" title="Magnetism Formulas" src="https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-01.jpg" alt="Magnetism Formulas" width="860" height="543" srcset="https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-01.jpg 860w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-01-250x158.jpg 250w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-01-768x485.jpg 768w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-01-700x442.jpg 700w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Magnetism-Formulas-01-120x76.jpg 120w" sizes="(max-width: 860px) 100vw, 860px" 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Free fall as the term says, is a body falling freely because of the gravitational pull of our earth.
 Imagine a body is falling freely for time t seconds, with velocity v, from a height h, due to gravity g.
 uRLStringLine class="aligncenter wp-image-5518 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Free-Fall.jpg" alt="Free Fall" width="249" height="378" 
@@ -2688,12 +2574,10 @@ Problem  2: The cotton falls after 3 s and iron falls after 5 s. Which is movi
 The Velocity in free fall is autonomous of mass.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 According to newton’s law of motion, all moving bodies continue to be in the state of rest or motion unless interfered by some external force. The same principle can be applied to momentum i.e, if the mass and velocity of an object remains same, then the momentum of the object remains constant.
 Momentum is associated with the mass of the moving body and can be defined as the quantity of motion measured as a product of mass and velocity.
@@ -2728,8 +2612,7 @@ Mass, m = p / v
 = 166.66 Kg
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Mechanical energy is the sum of kinetic energy and potential energy in an object that is used to do a particular work. In other words, it describes the energy of an object because of its motion or position, or both.  Potential energy is possessed by the object&#8217;s position whereas kinetic energy is possessed by the movement. When an object is moving, its potential energy is zero. When it’s at rest, the kinetic energy is zero.
 The mechanical energy formula is given by,
@@ -2770,8 +2653,7 @@ M.E = 1 / 2mv2
 = 1 / 2 × 20 ×102
 = 1000 J
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Gravitational Force Formula
 The universe has numerous forces, a lot of pushes and pulls. One is always pushing or pulling something, even if only the ground. In Physics, there are actually only four essential forces from which everything new is derived: the gravitational force, the electromagnetic force, the strong force and the weak force.
@@ -2797,8 +2679,7 @@ uRLStringLine src="http://latex.codecogs.com/gif.latex?=\frac{6.673\times&space;
 uRLStringLine src="http://latex.codecogs.com/gif.latex?1\times&space;10^{-10}N" title="1\times 10^{-10}N" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Magnetic force is the force of attraction or repulsion that arises between electrically charged particles due to their motion. It is the basic force responsible for effects like action of electric motors or attraction of iron pieces towards magnet.
@@ -2843,8 +2724,7 @@ FB = q v B sinθ
 = 50 × 3 ×1 × sin 0
 =0
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Momentum is the tendency of the object to be in motion and therefore is a vector quantity. It is determined by the product of the mass of the object and its velocity. If both the objects are not experiencing any external forces, then the total momentum of the objects before and after the interaction is the same. This relation under the fundamental law of physics is known as the conservation of momentum.
 This fundamental law of physics can be applied to explain the phenomenon of collision and explosion.The momentum formula is given by,
@@ -2891,8 +2771,7 @@ Therefore, v1 (after) = &#8211; 2.5 m/s
 The negative sign shows that it travels in the opposite direction.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Quantum mechanics is the discipline of measurements on the minuscule scale. That measurements are in macro and micro physics can lead to very diverse consequences. Heisenberg uncertainty principle or basically uncertainty principle is a vital concept in Quantum mechanics. Uncertainty principle says that both position and momentum of a particle cannot be determined at the same time and accurately. The result of position and momentum is at all times greater than h/4π. The formula for Heisenberg Uncertainty principle is articulated as,
 uRLStringLine "\Delta\, \times \Delta p\geq\, \frac{h}{4\pi }" src="https://latex.codecogs.com/gif.latex?\Delta\,&amp;space;\times&amp;space;\Delta&amp;space;p\geq\,&amp;space;\frac{h}{4\pi&amp;space;}" width="114" height="39" 
 Where, the Planck&#8217;s constant (6.626×10−34×10−34Js) is h , Δp is the uncertainty in momentum and  Δx is the uncertainty in position
@@ -2919,8 +2798,7 @@ uRLStringLine "\Delta\, \times\, \geq \, \frac{h}{4\pi \Delta p}" src="https://l
 uRLStringLine "\Delta\, \times\, \geq \, \frac{6.626\times 10^{-34}}{4\times 3.14\times364\times 10^{-37} }\, =1.44m" src="https://latex.codecogs.com/gif.latex?\Delta\,&amp;space;\times\,&amp;space;\geq&amp;space;\,&amp;space;\frac{6.626\times&amp;space;10^{-34}}{4\times&amp;space;3.14\times364\times&amp;space;10^{-37}&amp;space;}\,&amp;space;=1.44m" width="318" height="42" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The mass flow rate is the mass of a liquid substance passing per unit time. In other words, Mass flow rate is defined as the rate of movement of liquid mass through a unit area. The mass flow is directly depended on the density, velocity of the liquid and area of cross section. It is the movement of mass per unit time.The mass flow is denoted by m and the units in kg/s.
 The mass flow formula is given by,
@@ -2958,8 +2836,7 @@ m = ρVA
 = 900 kg/s
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Newton&#8217;s second law of motion is formally stated as The acceleration of an object generated by a net force is directly proportional to its magnitude and in the same direction as the net force and inversely proportional to the mass of the object.
 Newton’s second law is among the most important laws of motion in Physics, under the study of forces and matter. It describes the relationship between mass and acceleration of a body towards the force.
 According to Newton’s second law, the force is expressed by the product of mass and acceleration of the body.   
@@ -2990,8 +2867,7 @@ F = ma
    = 180N
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Induced voltage is produced as a product of electromagnetic induction. Electromagnetic induction is the procedure of producing emf (induced voltage) by exposing a conductor into a magnetic field. Induced voltage is described by making use of the Faraday&#8217;s law of induction. Induced voltage of a closed-circuit is described as the rate of change of magnetic flux through that closed circuit. Induced voltage formula is articulated as,
@@ -3021,8 +2897,7 @@ uRLStringLine title="\large =0.003925Tm^{2}" src="https://latex.codecogs.com/gif
 
 uRLStringLine title="\large \varepsilon =-10\times\frac{0.003925}{8}=0.00490V" src="https://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;\varepsilon&amp;space;=-10\times\frac{0.003925}{8}=0.00490V" alt="" 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
  
 The normal force is the force component vertical to any contact surface. It decides the amount of force the body applies on the ground. The normal force will be the weight of the object only if the object is not accelerating (decelerating). When a object is about to fall, it depends on which position the object falls on the ground. It is denoted by F<sub>N</sub> and is given in newtons (N).
@@ -3060,8 +2935,7 @@ w.k.t g (gravitational force) = 9.8 ms^-2
 The normal force is articulated as,
 Thus, the normal force being applied on the book is 16.66 N.
 
-*** END ***
-*** BEGIN ***
+$%$%
 Orbital velocity is the velocity at which a body revolves around the other body. Objects that travel in uniform circular motion around the Earth are called to be in orbit. The velocity of this orbit depends on the distance between the object and the center of the earth.
 This velocity is usually given to the artificial satellites so that it revolves around any particular planet.
 The orbital velocity formula is given by,
@@ -3100,8 +2974,7 @@ Vorbit = √GM / R
       3.754 x 109 m/s.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 The velocity at which motion start is termed as Initial Velocity. It is velocity at time interval t = 0. It is represented by u.Three initial velocity formulas are there-
@@ -3119,8 +2992,7 @@ Problem 1: Johny completes the bicycle ride with the final velocity of 10 ms^-
 Given: v (Final velocity) = 10 ms^-1,
 Given: Distance s = 100m,
 
-*** END ***
-*** BEGIN ***
+$%$%
 <!-- Ask a question with input field -->
 <span style="line-height: 1.6em;">Optics </b>describe the light propagation in terms of light ray. The light ray in geometrical optics is an instrument which is used to approximate models of how a light will propagate. Light rays tend to bend at the interface of two different medium where re\fractive index changes. The geometrical optics gives us the rules for light propagating through optical devices.
 The geometrical optics could be made used to explain the geometrical imaging and aberrations.
@@ -3136,8 +3008,7 @@ Some Examples on Optics Formula are:
 (focal length of eye) $\frac{1}{fe}$ = ( $\frac{1}{v}$ ) + ( $\frac{1}{150} $)
 $left ( \frac{1}{v} right )+left ( \frac{1}{infty } right )=left ( \frac{1}{f_{e}} right )+left ( \frac{1}{f} right )$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Power Formula
 The capacity to do work is termed as Energy. The Energy expended to do work in unit time is termed as Power. It is represented as P.
@@ -3172,8 +3043,7 @@ uRLStringLine "=588\;Watts" src="http://latex.codecogs.com/gif.latex?=588\;Watts
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Kelvin and Celsius scales are the most frequently used temperature assessing scales in thermometer business.The size of 1 degree on Kelvin scale is similar to the size of 1 degree on Celsius scale that is, the difference or alteration in temperature is similar on both the balances. The Kelvin and Celsius Relation on the scale is articulated as
@@ -3192,8 +3062,7 @@ Known :
 Melting point of hydrogen is 14.01 K
 Hydrogen’s boiling point is 20.28 K = 20.28 – 273.15 = -252.87 ^0C
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Pressure is the force applied by one object on the another. It is symbolized by P.
 uRLStringLine "P\, =\, \frac{F}{A}" src="https://latex.codecogs.com/gif.latex?P\,&amp;space;=\,&amp;space;\frac{F}{A}" width="61" height="37" 
@@ -3217,8 +3086,7 @@ P = 1000 × 9.8 × 1m
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Pressure drop describes the difference in the pressure between two points of a network carrying fluid. Pressure drop occurs when the frictional force caused by the resistance to flow acting on the fluid as it flows through the tube.  
 It has a relation between viscosity and velocity of the liquid. The main factors that determine the resistance to the liquid flow are fluid velocity through the pipe and the fluid viscosity. Pressure drop is proportional to the frictional shear forces within the pipe network. 
 The Pressure drop is denoted by J. 
@@ -3262,8 +3130,7 @@ J = 0.3×4×100 / 2 x 9.8×0.5
 = 12.24 Pa.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 A simple pendulum is a mechanical arrangement that demonstrates periodic motion. The simple pendulum comprises of a small bob of mass ‘m’ suspended by a thin string secured to a platform at its upper end of length L.
 The string’s mass is thought of to be negligible paralleled to the mass of the bob and is disregarded. The bob when released from a specific height swings back and forth over the same path.
@@ -3287,8 +3154,7 @@ uRLStringLine "Length=0.56m" src="http://latex.codecogs.com/gif.latex?Length=0.5
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Linear momentum is the vector quantity and defined as the product of mass of an object, m, and its velocity, v. The letter ‘p’ is applied to express it and used as momentum for short. Please note that the body’s momentum is always in the same direction as its velocity vector. It’s a conserved quantity which means that the total momentum of a system is constant. The units of linear momentum are kg m/s.
@@ -3320,8 +3186,7 @@ v = P / m
    = 8 m/s
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Poiseuille’s law states that the flow of liquid depends on following factors like the pressure gradient (∆P), the length of the narrow tube (L) of radius (r) and the viscosity of the fluid (η) along with relationship among them.
 The entire relation or the Poiseuille’s Law formula is given by,
 Q = ΔPπr4 / 8ηl
@@ -3351,8 +3216,7 @@ The average speed is given by, =
 The average speed becomes 0.911 m / s
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Reynolds number is a dimensionless value which is applied in fluid mechanics to represent whether the fluid flow in a duct or pat a body is steady or turbulent. This value is obtained by comparing the inertial force with the viscous force.
 The Reynolds number id denoted by Re.
@@ -3396,8 +3260,7 @@ Hence, the flow is laminar.
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 <!-- Ask a question with input field -->
 Measurements are used to measure something. It is the estimation of ratios of quantity. It is made by comparing a quantity with a standard unit. They are used to find the size, length or amount of something. Measurement Formulas are used to find the distance, area, surface area, volume, circumference etc. They also include some conversion formulas like conversion of inch to feet, meter to miles etc.
 Some of the Measurement Formulas are given below:
@@ -3410,8 +3273,7 @@ Some solved problems based on measurements are given below:
 = $\sqrt{(7 &#8211; 2)^{2} + (5 &#8211; 3)^{2}}$
 = 5.39 units
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The Resultant force is defined as the total force acting on a body along with their directions. When the object is at rest or travelling with the same velocity, the resultant force has to be zero. Since all the forces are acting towards the same direction, the resultant force should be same for all the forces.
 If one force is acting perpendicular to another, the resultant force is determined by using Pythagorean theorem.The Resultant force formula is given by,
@@ -3444,15 +3306,12 @@ FR = √16+81
 FR = √97
  = 9.84N
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
                           In 1808, the French chemist Joseph Louis Gay-Lussac reported the results of new experiments together with a generalization known today as Gay-Lussac&#8217;s law of combining gases.	      
 
 Gay-Lussac&#8217;s Law is applicable only to gases. The volumes of liquids or solids involved in the reactants or products are not governed by Gay Lussac&#8217;s law.
@@ -3461,8 +3320,7 @@ Gay-Lussac&#8217;s Law is applicable only to gases. The volumes of liquids or so
 Question 1: </b>What is the volume of a quantity of a gas at 27^oC if its volume was 400mL at 0^oC? The pressure remains constant.<br Solution:</b><br Since the temperature increased, the volume increased. Here we must use a temperature factor greater than 1, that is 300/273
 Question 2: </b>Solve Gay-Lussac&#8217;s Law to get an expression for the unknown volume. Substitute the appropriate data into the formula.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Mechanical advantage is a type of measure which calculates the amplified force gained by the mechanical system. It provides the ratio between the force applied to the load and the force needed to overcome the given force. Since the two quantities are a force, it is a unitless parameter.  
 In other words, the mechanical advantage is the force generated by a machine to the force applied to it which is applied in assessing the performance of the machine. The mechanical advantage formula is given by
@@ -3493,8 +3351,7 @@ MA = 1000 / 600
    = 1.66
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Simply resistivity or Electrical resistivity is the resistance of the flow of current from one end to the other in a material. Electrical resistivity is a simply accessible and informative quantity to describe the material. It is the reciprocal of electrical conductivity. Resistivity is symbolized by ρ. It is directly proportional to the resistance of the material and the length of the material and inversely proportional to the area of cross section of the provided material. Formula for resistivity is,
 uRLStringLine "\rho\, =\, \frac{RA}{l}" src="https://latex.codecogs.com/gif.latex?\rho\,&amp;space;=\,&amp;space;\frac{RA}{l}" width="69" height="37" 
 Where, ρ is the resistivity, <em>R</em> is the resistance, <em>l</em> is the length of the material and <em>A</em> is the area of cross-section.
@@ -3511,8 +3368,7 @@ uRLStringLine "\rho\, =\, \frac{RA}{l}" src="https://latex.codecogs.com/gif.late
 uRLStringLine "\rho\, =\, \frac{3\times 0.5}{0.2}\, =\, 7.5\Omega m" src="https://latex.codecogs.com/gif.latex?\rho\,&amp;space;=\,&amp;space;\frac{3\times&amp;space;0.5}{0.2}\,&amp;space;=\,&amp;space;7.5\Omega&amp;space;m" width="179" height="38" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The relativistic doppler effect formula is articulated as,
 \(v&#8217;=v\sqrt{\frac{1+\frac{v}{c}}{1-\frac{v}{c}}}\)
@@ -3550,8 +3406,7 @@ The frequency of train is,
 ∴ frequency ν = 498.08 Hz
 Thus, the frequency of train is 498.08 Hz.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Heat Release Rate formula
 The Heat Release Rate is the crucial parameter to characterize a fire. There is a variety of methods to estimate Heat release rate. The most used techniques are based on mass balance. When the heat of combustion of fuel is known, the measure of mass loss can be evaluated. 
@@ -3589,11 +3444,9 @@ Therefore, heat release rate = 970 KJ/Kg
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The refractive index of a medium is defined as how the light travels through that medium. It is a dimensionless measure. It defines how much a light ray can bent when it enters from one medium to the other. Snell&#8217;s law clarifies the relation between the angle of incidence and angle of refraction. So, there are two formulas for calculating the refractive index of a medium. Let us imagine that a ray of light is traveling from a medium a to another medium b. Then conferring from Snell&#8217;s law,
 uRLStringLine "n\, =\, \frac{speed\, of\, light\, in\, vacuum}{speed\, of\, light\, in\, medium}\, =\frac{c}{v}" src="https://latex.codecogs.com/gif.latex?n\,&amp;space;=\,&amp;space;\frac{speed\,&amp;space;of\,&amp;space;light\,&amp;space;in\,&amp;space;vacuum}{speed\,&amp;space;of\,&amp;space;light\,&amp;space;in\,&amp;space;medium}\,&amp;space;=\frac{c}{v}" width="278" height="42" 
@@ -3613,12 +3466,10 @@ uRLStringLine "n\, =\, \frac{c}{v}" src="https://latex.codecogs.com/gif.latex?n\
 uRLStringLine "n\, =\, \frac{3\times 108}{2\times 108}\, =\, 1.5" src="https://latex.codecogs.com/gif.latex?n\,&amp;space;=\,&amp;space;\frac{3\times&amp;space;108}{2\times&amp;space;108}\,&amp;space;=\,&amp;space;1.5" width="156" height="38" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Magnetic field is a region surrounding a magnetic material or within a moving electric charge where the force of magnetism acts.  In other words, the force experienced by the field due to the magnet is known as magnetic force and this kind of field is known as magnetic field. Magnetic field varies from one shape to another just like solenoid has a different magnetic field than toroid.
 There are three magnetic field formulas:
@@ -3666,8 +3517,7 @@ B = μoiN / 2πr
 
     = 1.504 x 10-6 tesla
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 uRLStringLine class="aligncenter wp-image-5632 size-full" title="Inverse Square Law" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Inverse-Square-Law.jpg" alt="Inverse Square Law" width="476" height="257" 
 Inverse Square Law Formula is articulated as
@@ -3695,16 +3545,13 @@ Intensity, \(I_{2}=\sqrt{\frac{I_{1d_{1}^{2}}}{d_{2}}}\)
 = \(\frac{80\times 50^{2}}{10^{2}}\)
 = 40 milliroentgens/hour
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Spring is a tool used daily by many of us and their inertia are frequently neglected by assuming it as massless. It&#8217;s an extremely casual activity that a Spring, when strained, undergoes displacement when it is compacted it gets compressed and when its free it comes to its equilibrium position. This fact tells us that spring exerts an equal as well as an opposite force on a body which compresses or stretches it.
 uRLStringLine class="aligncenter wp-image-6000 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/13153335/Spring-Force.jpg" alt="Spring Force" width="384" height="336" 
 The Spring force formula is given by,
@@ -3731,8 +3578,7 @@ k = &#8211; 50 N/m
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 In fluid dynamics, the Mach number (M) named after Ernst Mach is a dimensionless quantity which describes the ratio of the flow of velocity past a boundary to the local speed or sound; wherein c is the speed of the sound in the medium.It shows how fast the object can move if it is moving equally or faster than the speed of the sound.
 The Mach number formula is expressed by,
@@ -3768,8 +3614,7 @@ Therefore, Speed of object = 1127
 Hence, the speed is supersonic.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Let us imagine a cyclist riding; his velocities differs unceasingly dependent on distance, time etc. At one particular moment if we want to find his velocity it&#8217;s not anything but instantaneous velocity.Instantaneous Velocity Formula is made use of to determine the instantaneous velocity of the given body at any specific instant. It is articulated as:
@@ -3795,8 +3640,7 @@ For time t = 5s, the Instantaneous Velocity is articulated as,
 V(t) = 8t + 10
 = 50 m/s.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Heat Flux formula
 Heat flux is the amount of heat transferred per unit area per unit time to or from a surface. Basically, it is a derived quantity since it involves the principle of two quantities viz. the amount of heat transfer per unit time and the area to or from which the heat transfer occurs.
@@ -3814,8 +3658,7 @@ JHc = 370 x 210 / 75
 JHc = 1036 MW
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The speed of sound is defined as the distance travelled by a sound wave propagating through an elastic medium per unit time. The speed of sound in a particular medium depends on density and elasticity of a medium. More is the speed of sound greater is the elasticity and smaller is the density. The speed of sound is maximum in solids and minimum in solids.
 The speed of sound formula is given by,
 uRLStringLine "c\, =\, \sqrt{\gamma \times \frac{P}{\rho }}" src="https://latex.codecogs.com/gif.latex?c\,&amp;space;=\,&amp;space;\sqrt{\gamma&amp;space;\times&amp;space;\frac{P}{\rho&amp;space;}}" width="107" height="56" 
@@ -3847,8 +3690,7 @@ Therefore, Pressure = 5714.28 Pa.
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Strain energy is defined as the energy stored in a body due to deformation. The strain energy per unit volume is known as strain energy density and the area under the stress-strain curve towards the point of deformation. When the applied force is released, the whole system returns to its original shape. It is usually denoted by U.
 The strain energy formula is given as,
 U = Fδ / 2
@@ -3897,8 +3739,7 @@ Therefore, the strain energy of rod is 12.15 J.
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 We witness in our day-to-day life the frictional force taking place in moving bodies which are in interaction. This is called kinetic friction. Rolling friction and sliding friction falls under this topic<em>.</em>
@@ -3918,12 +3759,10 @@ uRLStringLine title="\mu_{k}=\frac{F_{k}}{F_{n}}" src="https://latex.codecogs.co
 uRLStringLine title="\frac{500}{1000}" src="https://latex.codecogs.com/gif.latex?\frac{500}{1000}" alt="" 
 =0.5
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Ohms Law Formula
 Ohms law says that the current running through the conductor is directly proportional to the potential difference across its extremities as long as the temperature and other physical conditions are constant.
@@ -3944,8 +3783,7 @@ Current I = 5 A,
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Sound intensity is defined as sound per unit area perpendicular to direction of sound waves represented by I. The SI unit of sound intensity is watt per square meter (W/m2). The standard text is the measurement of sound intensity of the noise in the air at the location of the listener as a sound energy quantity. 
 The sound intensity formula is given as,
 uRLStringLine "I\, =\, \frac{P}{A}" src="https://latex.codecogs.com/gif.latex?I\,&amp;space;=\,&amp;space;\frac{P}{A}" width="56" height="37" 
@@ -3980,8 +3818,7 @@ IL= 10 log10 1×10−9 / 10−12
  = 3.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Sound Pressure Level Formula
 Sound pressure is the pressure applied by the sound waves. Sound pressure level is the is the ratio of the actual sound pressure and the reference level which is the lowest intensity sound that can be heard by maximum people. In other words, sound pressure level decides the amount of pressure on the sound.  It provides the logarithmic measures of rms value of the sound pressure to the reference value of the sound.
@@ -4015,8 +3852,7 @@ Therefore, L<sub>p</sub> = 3.52 dB
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The overall potential energy of an ionic compound, which is frequently referred to as the lattice energy, U<sub>L</sub> per mole might be represented as the total of the electrostatic and repulsive energy terms. The Born-Lande equation provides lattice energy.
 Lattice Energy Formula per mole is symbolized as
@@ -4038,8 +3874,7 @@ Problem  2: The lattice energy of AgBr is 895 KJ mol^-1. Predict the Lattice e
 If the only variance between AgBr and AgI were in the size of the anion, one would expect the lattice energies to be relational to the inverse ratio of r<sub>c</sub> + r<sub>a</sub>.
 uRLStringLine title="=(895)(\frac{321}{342})=840KJmole^{-1}" src="https://latex.codecogs.com/gif.latex?=(895)(\frac{321}{342})=840KJmole^{-1}" 
 
-*** END ***
-*** BEGIN ***
+$%$%
 A car is traveling at full speed. It crashes into the barrier, because of the negligence of the driver.
 uRLStringLine class="aligncenter size-full wp-image-5616" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Impulse-Energy.jpg" alt="Impulse Energy" width="424" height="171" 
 Here huge force is applied on the wall by the car in a very little time interval which we term as an impulse.
@@ -4069,8 +3904,7 @@ uRLStringLine "=\, 0.045\, \times\,\frac{40}{.003}" src="https://latex.codecogs.
 uRLStringLine "=\, 600N." src="https://latex.codecogs.com/gif.latex?=\,&amp;space;600N." width="68" height="12" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Torque Formula
 When we take a wrench and fix a bolt; the force exerted alters the rotational moment along an axis. This is what is termed as Torque.
@@ -4094,8 +3928,7 @@ Answer:
 The handle of the door is located at 20 cm. Thus, the line of action is 20/2 = 10 cm.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Potential energy is defined as the energy stored in an object. Potential energy can be divided into many types; Gravitational potential energy, Electric Potential Energy, <a href="https://byjus.com/elastic-potential-energy-calculator/" target="_blank">Elastic Potential energy</a> etc. Here the <a href="https://byjus.com/physics/gravitational-potential-energy-equation/" target="_blank">gravitational potential energy</a> is defined as the energy possessed by an object by virtue of its position relative to others. Elastic potential energy is defined as the energy possessed by virtue of stresses within its body and electric potential is defined as the energy possessed by an object by virtue of the total charge stored within. 
 Formula for Potential Energy</b>
@@ -4132,13 +3965,11 @@ Substituting the above values in the formula, we get,
 PE=50×10×5
 PE=250 J
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 uRLStringLine class="alignnone wp-image-946269 size-full" title="Time Constant Formula" src="https://cdn1.byjus.com/wp-content/uploads/2018/10/Time-Constant-Formula-011.jpg" alt="Time Constant Formula" width="791" height="110" srcset="https://cdn1.byjus.com/wp-content/uploads/2018/10/Time-Constant-Formula-011.jpg 791w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Time-Constant-Formula-011-250x35.jpg 250w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Time-Constant-Formula-011-768x107.jpg 768w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Time-Constant-Formula-011-700x97.jpg 700w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Time-Constant-Formula-011-120x17.jpg 120w" sizes="(max-width: 791px) 100vw, 791px"  uRLStringLine class="alignnone wp-image-946253 size-full" title="Time Constant Formula" src="https://cdn1.byjus.com/wp-content/uploads/2018/10/Time-Constant-Formula-02.jpg" alt="Time Constant Formula" width="762" height="543" srcset="https://cdn1.byjus.com/wp-content/uploads/2018/10/Time-Constant-Formula-02.jpg 762w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Time-Constant-Formula-02-250x178.jpg 250w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Time-Constant-Formula-02-700x499.jpg 700w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Time-Constant-Formula-02-120x86.jpg 120w" sizes="(max-width: 762px) 100vw, 762px" 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The visible light is emitted and absorbed by tiny packets called photons and exhibit properties of both waves and particles. This property is known as wave-particle duality. 
 Light waves can be measured in two different ways,
 These waves are categorized according to the frequencies that have similar characteristics in the electromagnetic spectrum of the light. The subcategories of each spectrum vary according to the wave frequency. 
@@ -4171,8 +4002,7 @@ Therefore, λ (wavelength) = 0.5 × 10 -6
 The color of the wavelength of 5000 nm is green.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The speedometer gives the record of speed for each instant of time. This gives the illustration of instantaneous speed.Instantaneous speed is the speed of a particle in movement at any desired instant of time. Its formula is articulated as
 uRLStringLine title="\large S_{inst}=\lim_{lim_{t\rightarrow T}}\frac{dx}{dt}" src="https://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;S_{inst}=\lim_{lim_{t\rightarrow&amp;space;T}}\frac{dx}{dt}" alt="" 
@@ -4201,8 +4031,7 @@ uRLStringLine title="\large S_{inst}=lim_{t&gt;T}(2t+0)" src="https://latex.code
 The instaneous speed of honey bee is 4m/s
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 \(K=\frac{QL}{A\Delta T}\)
 Where,
@@ -4216,8 +4045,7 @@ Problem  2: What is the temperature gradient if a conductor at 70 K after a fl
 Known:
 The temperature gradient is articulated as
 
-*** END ***
-*** BEGIN ***
+$%$%
 In other words, transformer transforms the energy from one circuit to another. This occurs through electromagnetic induction. It is known as an efficient voltage converter, which can reduce the high voltage to low voltage and vice versa. A good-condition transformer consists of two windings, namely primary winding and secondary winding. There are two types of transformer; step up and step down transformers.
 The transformer formula is given by,
 uRLStringLine "\frac{V_{p}}{V_{s}}\, =\, \frac{N_{p}}{N_{s}}" src="https://latex.codecogs.com/gif.latex?\frac{V_{p}}{V_{s}}\,&amp;space;=\,&amp;space;\frac{N_{p}}{N_{s}}" width="74" height="39" 
@@ -4252,8 +4080,7 @@ Vs = 200 × 350 / 100
 = 700V
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Moment refers to a very short period of time. If you consider a see-saw, putting weights on both the sides makes it to be in a balanced moment. If you put extra weight or less weight on one hand, the see-saw is no more balanced, and this is known as the unbalanced moment.
 uRLStringLine class="aligncenter size-full wp-image-5662" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Moment.jpg" alt="Moment" width="574" height="250" 
 The measure of turning effect is known as torque. The force which acts on the body of the torque is known as moment of force.
@@ -4310,8 +4137,7 @@ A weight of 2 N needs to be hanged from  80 cm point to keep the meter rule bal
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 When two parallel plates are connected across a battery, the plates are charged and an electric field is established between them, and this setup is known as the parallel plate capacitor. The direction of the electric field is defined as the direction in which the positive test charge would flow.Capacitance is the limitation of the body to store the electric charge. Every capacitor has its capacitance. The typical parallel-plate capacitor consists of two metallic plates of area A, separated by the distance d.
@@ -4353,8 +4179,7 @@ A = 1 x10−9 / 8.54 ×10−12
 Therefore, area of parallel plate capacitor is 117.09 m2.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Kinematics Formula is altogether about the motion of bodies at points, devoid of considering the cause because of which it happens.
 Kinematic formulas are three to be precise:
 v=v<sub>o</sub>+at
@@ -4391,8 +4216,7 @@ uRLStringLine title="(0)\times(5)+\frac{1}{2}\times8m/s^{2}(5)^{2}" src="https:/
 =100m
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Tangential acceleration concept is applied to measure how the tangential velocity of a point at a certain radius changes with time. Tangential acceleration is similar to linear acceleration but specific to the tangential direction which relates to circular motion.
 In other words, the rate of change of tangential velocity of a particle in a circular orbit is known as Tangential acceleration. It directs towards tangent to the path of the body.
 uRLStringLine class="aligncenter wp-image-5866 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Tangential-Acceleration-Formula-2.png" alt="Tangential Acceleration Formula" width="642" height="336" 
@@ -4436,8 +4260,7 @@ The tangential acceleration is given by at = dv / dt
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The law of universal gravitation states that any two objects in the universe attract each other with a force which is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.
 It’s a general Physics law derived from the observations by Isaac Newton. In modern language, the law states: every point mass attracts another single point mass by a force pointing along the line intersecting both the ends.
 The universal gravitation formula is given by
@@ -4471,8 +4294,7 @@ F=Gm1m2 / r2
 F =2965.77×10-11N
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The electromagnetic wave is characterized by its wave phase, frequency, and direction of propagation of transverse field oscillation which consists of transverse electric and magnetic components. The plane that uses the transverse electric vector is associated with a quantity known as polarization plane.  Light is a transverse electromagnetic wave, but any natural light can be considered as unpolarized since the propagation of all the planes are equally probable. Therefore, based on the position of the polarizer we get horizontal or vertical polarized light.Polarized light is a condition where when each light waves are placed parallel to each other. It is possible to polarize only transverse waves and that light is built up by transverse waves.  
 The degree of polarization completely depends on the matter and the angle at which the light is reflected. All the substances that could polarize light are known as polarizer and the phenomenon is known as polarization.
@@ -4503,8 +4325,7 @@ I = Iocos2θ  or cos2θ = I / Io = 0.075
 Therefore, θ = 74.1
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Length contraction is considered when an object has traveled with the velocity of light. So, relativity arrives into the picture. Therefore, one can say that length contraction happens when an object is traveling at the speed of light. This is described as the decrease in length if a body is traveling with the velocity of light linked to the observer. The formula for length contraction is articulated as,
 uRLStringLine title="\large L=L_{0}\sqrt{1-\frac{v^{2}}{c^{2}}}" src="https://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;L=L_{0}\sqrt{1-\frac{v^{2}}{c^{2}}}" alt="" 
@@ -4531,8 +4352,7 @@ uRLStringLine title="15\times\sqrt{1-0.85^{2}}" src="https://latex.codecogs.com/
 L= 15 X 0.5267=7.901m
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The speed of a body in a specific direction is the measure of Velocity.
 uRLStringLine class="aligncenter wp-image-5925 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/velocity.jpg" alt="velocity" width="800" height="400" 
@@ -4553,8 +4373,7 @@ uRLStringLine "Velocity\; is\; given\; by\;V=\frac{s}{t}=\frac{-150ft}{3s}=-50ft
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Work is said to be done when an object experiences displacement. It is represented by W.
 uRLStringLine "W\, =\, F\times d." src="https://latex.codecogs.com/gif.latex?W\,&amp;space;=\,&amp;space;F\times&amp;space;d." width="99" height="13" 
 Where,
@@ -4571,8 +4390,7 @@ W = Fd cos θ
 ^       = 3.51 Nm.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The rotational inertia is defined as an analog of mass in the case of linear motion. It describes the relationship under dynamics of rotational motion. The moment of inertia needs to be specified with respect to a chosen axis of rotation.It depends on the shape of the object and the axis of rotation. The rotational inertia differs for different objects and varies according to its rotational axis.
 The rotational inertia formula is given by,  
 I = mr2
@@ -4602,8 +4420,7 @@ I = mr2
   = 130kgm2
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Gravity is defined as the force that attracts a body towards the earth or towards any other physical body having mass.
 If a particular object is falling, the particle is bound to point in the direction of gravity. The magnitude of the falling body depends on the mass, gravitational constant and height from which it is falling.
 The Work done by gravity formula is given by,
@@ -4643,11 +4460,9 @@ the work done by gravity is 490.392 J
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 A wave is defined as a kind of disturbance in a moving medium, for example, the waves of the ocean move in a medium and can see the movement of wave crest from one point to the other in a given time period. The motion of an object can be described regarding speed which describes the velocity of the object. 
 A wave is visualized when a source vibrates and disturbs a particle in the medium. This can usually be seen in the case of tuning fork or ripples in water when a body is dropped, etc. 
 The number of waves traveled in one second is the frequency and the time period is the reciprocal of the frequency of the waves. Wavelength is the distance between the corresponding points in any two consecutive waves. 
@@ -4681,8 +4496,7 @@ f = 22.8 KHz.
 The frequency of light wave is 22.8 KHz.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 You may have been near to any sea shore if you stay close to such places. When the wind passes on the water surface, it leads to the pressure difference between upper and bottom wind that results in the generation of waves. Wave energy is the energy that is gained by the eaves. When the wind blows on the sea shore, it shifts its energy to these waves. These waves carry a lot of power which we call wave power.
 The Wave energy formula is given by,
 E = ρgH2 / 8
@@ -4721,8 +4535,7 @@ H = √8E / ρg
  The wave height of the wave is 2.55 m.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Resistance Formula
 Resistance is the measure of opposition applied by any object to the flow of electric current. A resistor is an electronic constituent that is used in the circuit with the purpose of offering that specific amount of resistance.
@@ -4752,8 +4565,7 @@ uRLStringLine "R_{p}=\frac{R_{1}R_{2}}{R_{1}+R_{2}}=\frac{5\times 2}{5+2}=1.428\
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Relative Velocity Formula
 Relative velocity is used to describe the motion of airplanes in the wind or moving boats through water etc. This velocity is computed according to the observer inside the object. This can be computed by introducing an intermediate frame of references. In simpler words, this can be the vector some of the velocities. Formula for relative velocity is articulated as,
@@ -4771,8 +4583,7 @@ From the problem, it is known that<br V<sub>BC</sub>(Velocity of boat with respe
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The consequence of stress is what is termed as strain. Strain is the measure of how much distortion has befallen on the body compared to its initial shape due to the action of force. It is denoted by ϵ.
 uRLStringLine "Strain\, \left ( \epsilon \right )\, =\, \frac{x}{L}" src="https://latex.codecogs.com/gif.latex?Strain\,&amp;space;\left&amp;space;(&amp;space;\epsilon&amp;space;\right&amp;space;)\,&amp;space;=\,&amp;space;\frac{x}{L}" width="126" height="33" 
@@ -4796,8 +4607,7 @@ x (Change in length)= 0.5 mm,
 uRLStringLine "Strain\, is\, given\, by\, \epsilon \, =\, \frac{x}{L}" src="https://latex.codecogs.com/gif.latex?Strain\,&amp;space;is\,&amp;space;given\,&amp;space;by\,&amp;space;\epsilon&amp;space;\,&amp;space;=\,&amp;space;\frac{x}{L}" width="193" height="33" 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Specific Gravity Formula
 Specific Gravity elucidates us about how lighter or denser a given object is. It is found by comparing the mass, weight or density of given amount of material or fluid with the same amount of water at four degree  Celsius.
@@ -4824,8 +4634,7 @@ uRLStringLine "=\frac{174}{62.4}=2.8" src="http://latex.codecogs.com/gif.latex?=
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Specific Heat is the quantity of heat essential to raise the temperature of a gram of any substance by 1 degree Celsius.
 Specific Heat formula is articulated as
@@ -4846,8 +4655,7 @@ m (Mass) = 50 Kg,
 The temperature difference is given by:
 \(\Delta T\;=\;\frac{Q}{C\;m}\;=\;\frac{500\times 10^{3}}{4.3\times 10^{3}\times 50}\)
 
-*** END ***
-*** BEGIN ***
+$%$%
 When the body is moving with a certain velocity and suddenly brakes are applied. You would have noticed that the body stops completely after covering a certain distance. This is called stopping distance.
 The stopping distance is the distance traveled between the time when the body decides to stop a moving vehicle and the time when the vehicle stops completely. The stopping distance depends on factors including road surface, and reflexes of the car’s driver and it is denoted by d. 
 Stopping Distance formula is given by,
@@ -4884,8 +4692,7 @@ d = k v2
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Thermal expansion describes the tendency of an object to change in its area, volume and shape to a shift in temperature through a transfer of heat. Heat is a consistently decreasing function of the average molecular kinetic energy of an object. Heating up a substance increases its kinetic energy. 
 Since thermal expansion leads to changes in dimension either in length or volume, therefore, there are three types of thermal expansion namely – Linear expansion, Area expansion, and Volume expansion.  
 uRLStringLine "\frac{\Delta L}{L_{o}}\, =\, \alpha _{L}\Delta T" src="https://latex.codecogs.com/gif.latex?\frac{\Delta&amp;space;L}{L_{o}}\,&amp;space;=\,&amp;space;\alpha&amp;space;_{L}\Delta&amp;space;T" width="108" height="39" 
@@ -4937,8 +4744,7 @@ The change in volume is given by
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Tangential velocity is the linear speed of any object moving along a circular path. A point on the outside the edge of a turntable moves greater distance in one complete rotation than a point near to the center. When a body moves in a circular path at a distance r from the center, the body’s velocity is directed tangentially at any instant. This is known as tangential velocity. In other words, the linear velocity is its tangential velocity at any instant.
 uRLStringLine class="aligncenter wp-image-5867 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Tangential-Velocity.jpg" alt="Tangential Velocity" width="642" height="336" 
 Tangential Velocity Formula is given by,
@@ -4977,8 +4783,7 @@ the formula for tangential velocity is given by,
 <em>r</em> = 2 m
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Voltage Divider Formula
 The voltage divider is the series of resistors or capacitors which that can be tapped at any intermediate point to generate a specific fraction of the voltage applied between its ends.
@@ -5014,11 +4819,9 @@ Vout = 11.66V
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Pressure is defined as the force applied which is perpendicular to the surface of the object per area over which the force is distributed. The Gauge pressure is the pressure relative to ambient pressure.Various units are applied to express pressure. Some of which derive from a unit of force per unit area. The SI unit of pressure is Pascal (Pa).  Similarly, water pressure is the term used to describe the strength of water flow through a channel or pipe. The water pressure formula is given by,  Water Pressure = pgh
 Where,
 P = water pressure,
@@ -5053,8 +4856,7 @@ Pressure loss = 0.4335 ×200
                      = 86.7 Pascal.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Magnetic flux is defined as the total number of magnetic field lines through a given coil or area. It is the normal component of magnetic field which passes through the area. Magnetic flux is denoted by ΦB where B represents magnetic field, and its unit is measured in Weber (Wb). The value of magnetic flux is a vector quantity and it depends on the direction of the magnetic field.
 The magnetic flux formula is given by,
@@ -5092,8 +4894,7 @@ Area, A = 20 ×15
    =  1350 x 10-5 Wb
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 A coil of wire which is designed to generate a strong magnetic field within the coil is called a solenoid. Wrapping the same wire many times around a cylinder creates a strong magnetic field when an electric current is passed through it. N denotes the number of turns the solenoid has. More the number of loops, stronger is the magnetic field.
 A solenoid is a type of electromagnet whose purpose is to produce a controlled magnetic field. If the purpose of a solenoid is to impede changes in the electric current, it can be more specifically classified as an inductor.  
 The formula for magnetic field of a solenoid is given by,
@@ -5132,8 +4933,7 @@ I = Bl / μoN
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Newton’s law of cooling describes the rate at which an exposed body changes temperature through radiation which is approximately proportional to the difference between the object’s temperature and its surroundings, provided the difference is small, i.e.,
 
@@ -5192,14 +4992,12 @@ T(t) = Ts + (To &#8211; Ts)e-kt
    = 45.6 oC 
 Temperature cools down from 80oC to 45.6oC after 10 min.
 
-*** END ***
-*** BEGIN ***
+$%$%
 uRLStringLine class="aligncenter size-full wp-image-5885" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Physics-Formula.jpg" alt="Physics Formula" width="376" height="162" 
 Questions in physics are something which challenges your skills and physics knowledge which are grounded on three things
 On our pages, we provide you all physics formulas in a simple format in our effort to create a site where a scholar can get any sought after formulas. To comprehend it in problem-solving or conceptually, students can get help from our tutors who are accessible 24/7.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 If the usual position(i.e., when not stretched), there is no energy in the spring. But, when the position is altered from its usual position, the spring is able to store energy by the virtue of its position. This stored energy is known as potential energy. Potential<span style="line-height: 1.5;"> energy of the spring is the potential energy stored as a result of deformation of a particular elastic object, or a spring. It describes the work done to stretch the spring and depends on the spring constant k and the distance stretched.
 The Potential energy of a spring is given by,
@@ -5229,8 +5027,7 @@ P.E = 1 / 2 kx2
    = 12.5 J
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The amount of heat gained by a solid object to convert it into a liquid without any further increase in the temperature is known as latent heat of fusion. The content of latent heat is complex in the case of sea ice because it is possible for sea ice and brine to exist together at any temperature and melt at a temperature other than 0oc when bathed in a concentrated salt solution, just like it occurs in the walls of brine cells when brine cells migration occurs. If m kg of solid changes to liquid at constant temperature which is its melting point, the heat absorbed by the substance or the latent heat of fusion formula is given by,
       Q = m L
@@ -5280,8 +5077,7 @@ m = Q / L
 
                                
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Molar concentration is the most convenient method of expressing the concentration of a solute in a solution. Molarity is defined as the number of moles of solute dissolved per liter of solution, i.e., M = mol/L. All mole calculations are applied to determine the amount in moles of the solution, for which it is the molar concentration.
@@ -5327,8 +5123,7 @@ Therefore, eq.mass = Ca(HCO3)2 / 2
  = 1.7 geq/L 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The Mass concept decides the amount of matter is present in an object. It is a quantitative measure of an object’s resistance to acceleration. Not to get confused with the term weight, Weight is not a mass but the amount of gravitational force that acts on the given body.The molar mass, M is the physical property which is defined as the mass of a chemical substance divided by its amount of the substance. The SI unit of molar mass is kg/mol.  
 The mass formula is given as
@@ -5382,8 +5177,7 @@ m = 2 k.E / v2
    = 2.44 kg
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Moment of Inertia is a quantity which describes body’s tendency to resist angular acceleration. In other words it is the measure of the amount of moment provided to a body to conquer its own inertia. It describes about the object offering resistance to accelerate or slow down its own motion.
 It is the sum of the products of the mass of every component in the body with the square of the distance from the point of rotation.  
 Moment of inertia formula is given by
@@ -5417,8 +5211,7 @@ Moment of Inertia formula is given by,
         = 20 / 1
         = 20 Kg
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The net force is defined as is the sum of all the forces acting on an object. Net force can accelerate a mass. Some or the other force acts on any body either at rest or motion. The net force is a term used in a system when there is a significant number of forces.  
 If N is the number of forces acting on a body, the net force formula is given by, 
@@ -5464,8 +5257,7 @@ FNet = Fa + Ff
 Therefore, the net force is 50 N.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The orbital speed of the body which is usually a planet or a natural satellite is the speed at which it orbits around the barycenter of a system which is usually around a massive body. The orbital speed of the earth around the sun is 108,000 km/h. It relates the mass of a given planet to the gravitational constant and radius through the equation.
 uRLStringLine "v_{orbit}\, =\, \sqrt{\frac{GM}{R}}" src="https://latex.codecogs.com/gif.latex?v_{orbit}\,&amp;space;=\,&amp;space;\sqrt{\frac{GM}{R}}" width="122" height="45" 
 Where,
@@ -5479,8 +5271,7 @@ Given,
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 One often experiences many kinds of motions in our daily life. Projectile motion is one among them. A projectile is some body thrown in space or air. The Curved path with which the projectile travels is what is termed as trajectory. The free fall motion of any object in a horizontal path with constant velocity is Projectile Motion.
 
@@ -5520,8 +5311,7 @@ V<sub>yo</sub> = 20 m/s,
 The Vertical velocity in y-direction is articulated as V<sub>y</sub> = V<sub>yo</sub> sin 60^o
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Position Formula
 When something travels from a point to the other, it is called as displacement. Presuming the golf ball moves from position x<sub>1</sub> to position x<sub>2</sub>.
@@ -5546,8 +5336,7 @@ Known:
 x<sub>1</sub> (First position) = 6 m,
 x<sub>2</sub> (Second position) = 100 m
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 In any fluid, the static pressure is exerted on the walls of the container and in the fluid. These forces act perpendicular to the walls of the container. When an external pressure is applied to the fluid, the pressure is distributed uniformly in all parts of the fluid and this is known as Pascal’s principle named after the Physicist Blaise Pascal.The Pascal’s principle refers to only the external pressure and within the fluid the pressure at the bottom is greater than the top.
 According to Pascal’s principle, the force per unit area describes an external pressure which is transmitted through fluid and the formula is written as,
@@ -5579,8 +5368,7 @@ F2 = A2 x F1/A1
 = 50 x 50 / 40
    = 62.5 N
 
-*** END ***
-*** BEGIN ***
+$%$%
 A photon is defined as the quantum of electromagnetic radiation. The term quantum refers to the smallest elemental unit of a quantity. Hence, one quantum of electromagnetic energy is known as a photon.
 A photon is characterized either by wavelength (λ) or an equivalent energy E.
 The energy of a photon is inversely proportional to the wavelength of a photon.
@@ -5618,14 +5406,12 @@ So, λ = hc / E
 = 0.056 x 10-16 m
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 uRLStringLine class="alignnone wp-image-946263 size-full" title="Relativity Formula" src="https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-011.jpg" alt="Relativity Formula" width="701" height="438" srcset="https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-011.jpg 701w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-011-250x156.jpg 250w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-011-700x437.jpg 700w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-011-120x75.jpg 120w" sizes="(max-width: 701px) 100vw, 701px" 
 uRLStringLine class="alignnone wp-image-946256 size-full" style="font-size: 16px;" title="Relativity Formula" src="https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-02.jpg" alt="Relativity Formula " width="705" height="520" srcset="https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-02.jpg 705w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-02-250x184.jpg 250w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-02-700x516.jpg 700w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-02-120x89.jpg 120w" sizes="(max-width: 705px) 100vw, 705px"  uRLStringLine class="alignnone wp-image-946257 size-full" style="font-size: 16px;" title="Relativity Formula" src="https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-03.jpg" alt="Relativity Formula " width="683" height="317" srcset="https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-03.jpg 683w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-03-250x116.jpg 250w, https://cdn1.byjus.com/wp-content/uploads/2018/10/Relativity-Formula-03-120x56.jpg 120w" sizes="(max-width: 683px) 100vw, 683px" 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The mass concept dialogue is a very standard one in physics. The well known special theory of relativity voices a lot more about relativistic mass, when there is comparative measurements of length and time in dissimilar frames. The relative change in mass is also perceived when the body is in motion. This concept is relativistic mass. Comparable to length contraction and time dilation a thing called mass increase happens when the object is in motion.
 The relativistic mass formula is articulated as,
@@ -5656,12 +5442,10 @@ Rest mass, m<sub>o</sub> = 1.26 × 10^−24 kg (approximately).
 Thus, the rest mass of the particle is 1.26 × 10^−24 kg.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 We all come in touch with the word stress in our day-to-day life when some external thing has an impact on our state of mind. Likewise in Physics, stress is the external restoring force acting on per unit area.
 uRLStringLine "\sigma\, =\, \frac{F}{A}" src="https://latex.codecogs.com/gif.latex?\sigma\,&amp;space;=\,&amp;space;\frac{F}{A}" width="58" height="37" 
 Where,
@@ -5682,8 +5466,7 @@ uRLStringLine "=\, 5000\, Nm^{2}." src="https://latex.codecogs.com/gif.latex?=\,
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Static Friction Formula
 Let us imagine a car at rest. To start it without making use of the accelerator, one will have to use a lot of force.
@@ -5704,8 +5487,7 @@ Known:
 m (Mass) = 4 kg,
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 According to Hooke’s law, the force required to compress or extend a spring is directly proportional to the distance it is stretched. It can be represented in an equation as F = kx, where F is the force applied, k is the spring constant and x is the extension of the object usually in meters.
 In other words, spring constant is the force applied if the displacement in the spring is unity.
 If a force F is considered that stretches the spring so that it displaces the equilibrium position by x.
@@ -5744,8 +5526,7 @@ The spring constant formula is given by
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 According to electromagnetism, charge density is defined as a measure of electric charge per unit volume of the space in one, two or three dimensions. To be specific, the linear surface or volume charge density is the amount of electric charge per surface area or volume, respectively. 
 Surface charge describes the electric potential difference between the inner and outer surface of different states like solid and liquid, liquid and gas or gas and liquid. The surface charge density is present only in conducting surfaces and describes the whole amount of charge q per unit area A.
 Hence, the Surface charge density formula is given by,
@@ -5786,8 +5567,7 @@ Therefore, σ = 117.994
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Temperature is the degree or intensity of the heat present in substance or a system, expressed based on the comparative scale and shown by a thermometer. 
 In other words, Temperature is the measure of hotness or coldness of a body measured regarding degrees or Kelvin on the Celsius, Kelvin, and Fahrenheit scales. 
 The change in temperature is based on the amount of heat released or absorbed. The S.I unit of temperature is Kelvin. 
@@ -5821,8 +5601,7 @@ The Heat released is given by formula Q = mc ΔT
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 
@@ -5849,8 +5628,7 @@ The rotational kinetic energy is <a href="https://www.codecogs.com/eqnedit.php?
 <a href="https://www.codecogs.com/eqnedit.php?latex==\frac{1}{2}\times100\pi&amp;space;rad/s\times50kgm^{2}" target="_blank">uRLStringLine title="=\frac{1}{2}\times100\pi rad/s\times50kgm^{2}" src="https://latex.codecogs.com/gif.latex?=\frac{1}{2}\times100\pi&amp;space;rad/s\times50kgm^{2}" alt="" </a>
 = 2500 J
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The resonant frequency is the frequency of a resonant circuit. A Resonant circuit is also identified as LC circuit or tank circuit. This circuit comprises of inductor and capacitor attached parallel to each other. The resonant circuit is used to create a particular frequency or to select a particular frequency from a complex circuit. So, the resonant frequency formula is articulated as,
 <a href="https://www.codecogs.com/eqnedit.php?latex=f_{0}=\frac{1}{2\pi&amp;space;\sqrt{LC}}" target="_blank">uRLStringLine title="f_{0}=\frac{1}{2\pi \sqrt{LC}}" src="https://latex.codecogs.com/gif.latex?f_{0}=\frac{1}{2\pi&amp;space;\sqrt{LC}}" alt="" </a>
@@ -5872,8 +5650,7 @@ C = 0.5F
 <a href="https://www.codecogs.com/eqnedit.php?latex=f_{0}=\frac{1}{2\times3.14\sqrt{1\times0.5}}" target="_blank">uRLStringLine title="f_{0}=\frac{1}{2\times3.14\sqrt{1\times0.5}}" src="https://latex.codecogs.com/gif.latex?f_{0}=\frac{1}{2\times3.14\sqrt{1\times0.5}}" </a>
 f<sub>0</sub> = 0.2251Hz
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Radiant heat energy is a notion which is rather more nicely explained by Stefan&#8217;s law. This law elucidates how the heat is radiated! It states that, The amount of heat which is radiated (E) by a flawless black body for a second in a provided unit area is directly related to the fourth power of its absolute temperature (T).
 The Radiant heat energy formula is articulated as,
 E α T^4
@@ -5904,8 +5681,7 @@ Thus, the temperature of the surface is 218.54 K.
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Speed Distance Time Formula is mathematically articulated as:
 \(x=\frac{d}{t}\)
@@ -5930,8 +5706,7 @@ Speed is calculated using the formula \(x=\frac{d}{t}\)
 = \(x= 60\;Miles\times \frac{3}{4}\;hours\)
 = 80 miles/hr
 
-*** END ***
-*** BEGIN ***
+$%$%
 Surface tension is a word which is linked to the liquid surface. It is a physical property of liquids, in which the molecules are drawn onto every side. This is a type of dragging force per unit length. On the surface of the liquids, there is no other molecules surround each atom. So the surface later layer gets attracted inwards. The formula for finding surface tension is articulated as,
 uRLStringLine "T=\frac{F}{L}" src="http://latex.codecogs.com/gif.latex?T=\frac{F}{L}" width="54" height="37" 
 Where
@@ -5946,8 +5721,7 @@ uRLStringLine "T=\frac{F}{L}=\frac{6}{3}=2N/cm" src="http://latex.codecogs.com/g
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 According to theory of relativity, time dilation is defined as the difference between elapsed time of the two events measured by either moving relative to each other located differently from gravitational mass or masses.
 Let’s consider a clock kept in two different observers. One observer is at rest and other is moving along with the speed of light. The existence of time difference between the two clocks is known as time dilation.
 The time dilation formula is given by,
@@ -5980,8 +5754,7 @@ T = T0 / √1−v2/c2
   = 23.43 = 24 years
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 What is uniform circular motion?
 uRLStringLine src="https://cdn1.byjus.com/wp-content/uploads/2016/04/uniform-circular-motion.jpg" alt="uniform circular motion" width="347" height="242" class="aligncenter size-full wp-image-5850" 
 The term circular is applied to describe the motion in a curved path.The motion of any object along a circular path covering equal distance along the circumference in same interval of time is known as uniform circular motion. In any uniform circular motion, the speed remains constant, but the direction of the velocity changes. 
@@ -6022,8 +5795,7 @@ F = 1/t = 1/1.006
 Therefore, F = 0.99 Hz
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 The distance between consecutive crests of a wave, particularly the points of an electromagnetic wave is known as its wavelength.The wavelength and frequency are closely related. Higher the frequency, shorter is the wavelength. Since all the light waves move through a vacuum with same speed, the number of wave crests passing by a given point per second depends on the wavelength.
@@ -6056,8 +5828,7 @@ Wavelength λ = Distance / No of oscillations
                                   = 20 / 30
                                   = 0.66 ms-1
 
-*** END ***
-*** BEGIN ***
+$%$%
 A wave is sensed when a source vibrates and disturbs a particle on the way in the medium. This can be seen in ripples in water when its surface is touched, in tuning fork, etc. This generates a wave pattern that starts to move along the medium from particle to particle. The frequency at which each particle vibrates is equal to frequency at which the source vibrates. In one period, the source is capable of displacing the first particle upward from the rest, back to rest, downward from rest and finally back to rest. This whole back and forth movement makes one complete wave cycle. Every wave has its own wavelength, frequency, speed and time period.
 The wave formula which constitutes speed, wavelength and frequency are given by,
 V = f λ
@@ -6088,12 +5859,10 @@ f = 13.72 KHz.
 Therefore, the frequency of sound wave is 13.72 KHz.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Tension is nothing but the drawing force acting on the body when it is hung from objects like chain, cable, string etc. It is represented by T (occasionally also symbolized as F<sub>t</sub>).
 Tension formula is articulated as
@@ -6116,8 +5885,7 @@ Answer:
 Weight of the man W = 500 N,
 uRLStringLine "\therefore Mass\; of\; man\; is\; m=\frac{W}{g}=\frac{500}{9.8}=51.02\;kg" src="http://latex.codecogs.com/gif.latex?\therefore&amp;space;Mass\;&amp;space;of\;&amp;space;man\;&amp;space;is\;&amp;space;m=\frac{W}{g}=\frac{500}{9.8}=51.02\;kg" width="359" height="42" 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Thermal energy is the energy generated from heat. This heat is produced by the movement of small particles within an object. The faster the particles move, more the heat is generated.
 Thermal energy is responsible for the temperature of the system and a part of total energy of the system which is the sum of potential energy and kinetic energy. 
 The thermal energy is usually expressed by Q. It is directly proportional to the mass of the substance, temperature difference and the specific heat. 
@@ -6154,8 +5922,7 @@ Q = mcΔT
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Terminal velocity is the highest velocity that can be attained by an object when it falls through the air. It happens when the sum of the dragged force (Fd) and buoyancy is equal to the downward force of gravity (FG) acting on the body. The object holds zero acceleration since the net force acting is zero.
 uRLStringLine "V_{terminal}\, =\, \sqrt{2gh}" src="https://latex.codecogs.com/gif.latex?V_{terminal}\,&amp;space;=\,&amp;space;\sqrt{2gh}" width="140" height="23" 
 Terminal Velocity Formula is given as
@@ -6184,8 +5951,7 @@ h = v2terminal / 2g
    = 510.204 m.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Young’s modulus which can also be called as elastic modulus is a mechanical property of linear elastic solid substances. It describes the relationship between stress (force per unit area) and strain (proportional deformation in an object. The Young’s modulus is named after the British scientist Thomas Young. 
 A solid object deforms when a particular load is applied to it. If the object is elastic, the body regains its original shape when the pressure is removed. Many materials are not linear and elastic beyond a small amount of deformation. The constant Young’s modulus applies only to linear elastic substances.  
@@ -6217,8 +5983,7 @@ E = 4 / 0.15
    =26.66 N/m2
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Voltage drop specifies how the supplied energy from a voltage source is reduced as electric current flows through the elements that do not supply voltage (passive elements) of the electrical circuits. The voltage drop across conductors, across connectors and internal resistances of the source are unwanted since the supply energy is lost. The voltage drop across active circuit elements and loads are desired, since supplied power performs efficient work. 
 The voltage drop formula is given by,
 V = I Z
@@ -6257,8 +6022,7 @@ V = IZ
     = 180 V
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Wind energy is a kind of solar energy. Wind energy describes the process by which wind is used to produce electricity. The wind turbines convert the kinetic energy present in the wind to mechanical power.
 Wind energy is a renewable source of energy that determines the total power in the wind. The wind turbines which convert kinetic energy to mechanical power, where in the mechanical power is converted into electricity which acts as a useful source.
 The wind energy formula is given by,
@@ -6299,8 +6063,7 @@ P = 1 / 2 ρ A V3
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Wave power is the energy carried by the wind waves and consumption of that energy to do useful work, for example, electricity generation, pumping of water into the reservoirs or water desalination. A machine capable of exploiting wave power is known as wave energy converter. Wave power is different from diurnal flux of tidal power and steady gyre of ocean currents. On a whole, the wave power is the energy transport by the wave surface of the ocean.
 The Wave power formula is given by,
@@ -6342,7 +6105,3 @@ P = ρg2Th2l / 32π
 P = 0.2945 W.
 
 The wave power is 0.294 W
-
-*** END ***
-
-Process finished with exit code 0

@@ -30,7 +30,6 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     public String last;
     private GraphingCalculatorDAO datasource=null;
     public static FragmentManager fragmentManager;
-    public static Context calccontext;
     public boolean first = true;
 
     public CalcActivity(){}
@@ -52,8 +51,6 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
             fragmentTransaction.commit();
 
         }
-
-        calccontext = getApplicationContext();
         datasource = new GraphingCalculatorDAO(this.getApplicationContext());
         datasource.open();
 
@@ -343,17 +340,5 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
         e.onfunc = false;
     }
 
-    public ArrayList<Formula>loadformulas() throws IOException{
-        FormulaListGenerator f = new FormulaListGenerator();
-        ArrayList<Formula>fs = new ArrayList<>();
-        try {
-            fs.addAll(f.loadformulae("MathFormulae", 0, calccontext));
-            fs.addAll(f.loadformulae("ChemFormulae", 1, calccontext));
-            fs.addAll(f.loadformulae("PhysicsFormulae", 2, calccontext));
-        }
-        catch (Exception e){
-            Log.d("Loading issue", "Data unable to parse from textfiles",e);
-        }
-        return fs;
-    }
+
 }

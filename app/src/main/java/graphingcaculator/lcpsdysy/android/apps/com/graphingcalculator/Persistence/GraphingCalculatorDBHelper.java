@@ -14,6 +14,7 @@ import java.util.ArrayList;
 
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.CalcActivity;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.FormulaListGenerator;
+import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.HomeActivity;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Formula;
 
@@ -63,7 +64,7 @@ public class GraphingCalculatorDBHelper extends SQLiteOpenHelper {
     }
 
     public void loadallformulae(SQLiteDatabase database)throws IOException{
-        CalcActivity c = new CalcActivity();
+        HomeActivity c = new HomeActivity();
         try{
         ArrayList<Formula> fs = c.loadformulas();
             for(Formula formula:fs){

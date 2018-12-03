@@ -1,22 +1,17 @@
-"/Users/prasannsinghal/Desktop/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java" -Didea.launcher.port=56383 "-Didea.launcher.bin.path=/Users/prasannsinghal/Desktop/Android Studio.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/prasannsinghal/Library/Android/sdk/platforms/android-28/android.jar:/Users/prasannsinghal/Library/Android/sdk/platforms/android-28/data/res:/Users/prasannsinghal/StudioProjects/GraphingCalculator/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes:/Users/prasannsinghal/StudioProjects/GraphingCalculator/app/build/generated/res/rs/debug:/Users/prasannsinghal/StudioProjects/GraphingCalculator/app/build/generated/res/resValues/debug:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/83187b8d46f3a4950114100637100701/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c76eb0a91a822875ab33b78cac5273bb/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/68350b238b819148fec4a4c9326c9d5e/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/86fe8b9a815f78f23b64a05f86926537/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a2bc98f30692cd2eea78dc633d4737fc/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f90a10759768e633d75802224219286f/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f90a10759768e633d75802224219286f/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7e65902506eb7fcec9cf6888580e3356/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7e65902506eb7fcec9cf6888580e3356/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/graphview-4.2.2.aar/5e6bd207393d6c051182e3c3fc74773b/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/graphview-4.2.2.aar/5e6bd207393d6c051182e3c3fc74773b/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7abf7011f4ff3c7ffadcc1546301a59e/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7abf7011f4ff3c7ffadcc1546301a59e/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/20d6eb3a95c8881a04700bdc1e59a174/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/442f88b5682c207f30d6929c9ff44d45/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8dffad56fce481f9e21bac7eef17f1e8/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/07415fc322079f520d8b09b5c79fbbce/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/99f25dade7c9ca43ae47b5912da045f6/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/1c902f223c68748bf6d04ed74b57c037/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/955848765a4b8b89665f51c752054a41/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9ac6f80c9f59d36f6a7131aa9b8bccc9/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5d109e0c326e0017722619f631612127/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b5521b191d0c1166bd446304da7b0eaa/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2db25929a4cc750a017a9287331b9e5c/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/04fd18169f02c8bc95113e3a4b24cb40/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/686e0364af1a2fbdc203fd141b5ed144/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/123bcf39818799b905d287ef928f7cfc/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/123bcf39818799b905d287ef928f7cfc/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4fbc2ade34aade7acb656d60b0701573/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4fbc2ade34aade7acb656d60b0701573/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/de7413ca6269020e998d31b61f9883cb/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d2dd9f0677eb1db5d16e50e579534645/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9d10ad94eac57d85abdf6d0195f19426/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9d10ad94eac57d85abdf6d0195f19426/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c860c576fc43272f65079f194079d62f/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/af4e6cd69e861eab000b1fa81c45b294/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/af4e6cd69e861eab000b1fa81c45b294/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/2e2cc8e735bcc2d62b3f4e51d32268be/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6bbf59210a5d3392a07509c849afb0c0/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f723d1af4d8b2603819fa694458a1e91/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f723d1af4d8b2603819fa694458a1e91/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/c2fa05eedd18eceff44fd2b7092bbe44/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/266ef63806ed97d72ad93220f5426e85/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/266ef63806ed97d72ad93220f5426e85/jars/classes.jar:/Users/prasannsinghal/Desktop/Android Studio.app/Contents/lib/idea_rt.jar" com.intellij.rt.execution.application.AppMainV2 graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.ConvertUrlToString
-*** BEGIN ***
-<a style="color: white;" href="https://www.leado.io/flows/facebook-lead-ads-to-google-sheets">Facebook Lead ads to Google Sheets</a>
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Associative property is a core concept in mathematics that shows a property of some binary operations. In propositional logic, associativity is a valid rule of replacement for expressions in logical proofs. According to associative property law it states that you can add or multiply regardless of how the numbers are grouped. Associative property in simple terms refers to grouping of numbers. It is mainly used to regroup things and any time type of computation depends on things being regrouped.
 <span style="text-decoration: underline;">Associative Property of Addition 
 <span style="text-decoration: underline;">Associative Property of Multiplication
 Q1) Solve 12 + (15 + 7) Using Associative Property of Addition.
 Q2) Solve 3 $\times$ (2 $\times$ 6) using Associative Property of Addition
 
-*** END ***
-*** BEGIN ***
+$%$%
 The absolute value of a number is represented in the form as |a|. This value or number represents the distance between a and 0 on a number line. An absolute value equation is an equation that contains an absolute value expression. The equation for an absolute value is mentioned below. There are two forms of absolute value inequalities.  One with less than, |a|&lt; b, and the other with greater than, |a|&gt; b. They are solved differently. 
          |x|=a
 
-*** END ***
-*** BEGIN ***
+$%$%
 The sum of values is called addition. To know the total values, one need to add two or three different values.
 \[\large Sum \:of \:Two\: Numbers = First \: Number + Second\: Number\]
 X and Y are two given number then, the sum Z is given by
@@ -25,8 +20,7 @@ For list of values like  a1, a2, a3,……….an a1, a2, a3,……….an. The f
 
    3  2      
 
-*** END ***
-*** BEGIN ***
+$%$%
 For reference please go through the below-mentioned example:
 Question 1: The following data is given:
 
@@ -44,8 +38,7 @@ F = $\frac{MST}{MSE}$ 
 F = $\frac{80}{84}$
 F = 11.429
 
-*** END ***
-*** BEGIN ***
+$%$%
 f(5) = 3(5) + 12
 f(8) = 3(8) + 12
 The average rate of change is,
@@ -54,8 +47,7 @@ A(x) = $\frac{36-27}{3}$
 A(x) = $\frac{9}{3}$
 A(x) = 3
 
-*** END ***
-*** BEGIN ***
+$%$%
 In analytic geometry, an asymptote of a curve is a line such that the distance between the curve and the line approaches zero as they tend to infinity. In some contexts, such as algebraic geometry, an asymptote is defined as a line which is tangent to a curve at infinity. There are two types of asymptote: one is horizontal and other is vertical. Below mentioned is asymptote formula.
 uRLStringLine 5111" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/asymptote-formula.png" alt="Asymptote Formula" width="455" height="169" />
 The method we have used before to solve this type of problem is to divide through by the highest power of x.
@@ -64,8 +56,7 @@ The method we have used before to solve this type of problem is to divide throug
 = $\LARGE\frac{2+0}{1+0}$
 = $\LARGE2$
 
-*** END ***
-*** BEGIN ***
+$%$%
 Axis of symmetry is a line that divides an object into two equal halves, thereby creating a mirror like reflection of either side of the object. The word symmetry implies balance. Symmetry can be applied to various contexts and situations. Symmetry is a key concept in geometry which cuts the figure into two halves that are exact reflections of each other, as shown in figure given below.
 a and b are coefficients of x^2 and x respectively.
 <!-- Ask a question with input field -->uRLStringLine 5089" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/axis.png" alt="Axis of Symmetry" width="239" height="217" />
@@ -75,8 +66,7 @@ Find the axis of symmetry of the graph of y=$x^{2}$−6x+5, using the formula.
 For a quadratic function in standard form, y=a$x^{2}$+bx+c, the axis of symmetry is a vertical line x = $\frac{-b}{2a}$
 Simplify.
 
-*** END ***
-*** BEGIN ***
+$%$%
 Angle is formed when two rays intersect i.e. half-lines projected with a common endpoint. The corner points of angle is known as the vertex of the angle and the rays as the sides, i.e. the lines are known as the arms. It is defined as the measure of turn between the two lines. The unit of angle is radians or degrees. There are different types of formulas for angles some of them are double-angle formula, half angle formula, compound angle formula, interior angle formula etc. 
 
 uRLStringLine 5103" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Angle-Formula-1.png" alt="Angle Formula" width="276" height="218" />Central Angle Formula = 
@@ -86,12 +76,10 @@ Where, s represents the arc length,
 Formula for Double Angle
 \[\large \cos (2a) = \cos ^{2}(a) &#8211; \sin ^{2}(a) = 2 \cos ^{2}(a) -1 = 1-2\sin ^{2}(a)\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 Triangle usually comprises of three edges and three vertices. Classified into three different types of triangles i.e. Equilateral, Isosceles and Scalene &#8211; each triangle has its own unique features and properties. If all three angles of a triangle are equal, the triangle is called Equilateral. A Isosceles triangle has two equal angles. A Scalene triangle is one in which all three angles are different. A right triangle has one right angle. In Geometry, two triangles are congruent if they are of the same shape and size.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 
@@ -99,8 +87,7 @@ A sequence is an ordered list of numbers. The sum of the terms of a sequence is 
 Where,
 Some solved problems on arithmetic sequence are given below:
 
-*** END ***
-*** BEGIN ***
+$%$%
 The average deviation is a part of several indices of variability that is used by statisticians to characterize the dispersion among the measures in a given population. The average deviation of a set of scores is calculated by computing the mean and then specific distance between each score and that mean without regard to whether the score is above or below the mean. It is also called as average absolute deviation. Below mentioned is the formula to calculate the average deviation.
 \[\LARGE Average\:Deviation=\sum_{i=1}^{n}\left | x-\overline{x} \right |\]
 $\overline{x} = \frac{4+6+8+10+12+14}{6}$
@@ -109,33 +96,27 @@ $Average \: Deviation= \frac{\left | 9-4 \right |\left | 9-6 \right |\left | 9-8
 $Average \: Deviation=\frac{5\times 3\times 1\times 1\times 3\times 5}{6}$ 
 $Average \: Deviation=37.5$ 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Area is the size of a two-dimensional surface.  It is defined as the amount of two-dimensional space occupied by an object. Area formulas have many practical applications in building, farming, architecture, science. The area of a shape can be determined by placing the shape over a grid and counting the number of squares that covers the entire space.For example area of square can be calculated using $a^{2}$ where, a is the length of it&#8217;s side.
 uRLStringLine 5045" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Square.png" alt="Area of a Square" width="223" height="225" />
 List of Formulas
 Rectangle
 w  = width
 
-*** END ***
-*** BEGIN ***
+$%$%
 A pentagon is five-sided polygon in geometry. It may be simple or self – intersecting in shape. The five angles present in the pentagon are equal. A regular pentagon has all of the sides and angles are the same as each other. Pentagons can be regular or irregular and convex or concave. A regular pentagon is one with all equal sides and angles. Its interior angles are 108 degrees and its exterior angles are 72 degrees. An irregular pentagon is a shape that does not have equal sides and/or angles and therefore do not have specified angles. A convex pentagon is one whose vertices, or points where the sides meet, is pointing outwards as opposed to a concave pentagon whose vertices point inwards. Imagine a collapsed roof of a house.
 The Area of a Pentagon Formula is, A = $\frac{5}{2}$sa
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 A rectangle comprises of four sides, where the longer lines parallel to each other is equal in length. It can also be described or termed as an equiangular quadrilateral since all of its angles are equal (360°/4 = 90°). It can also be defined as a parallelogram containing opposite sides equal and parallel in it. A rectangle with four sides of equal length is a square. The area of a rectangle is calculated in units by multiplying the width by the height of the rectangle. The formula for rectangle of area is mentioned below:
 
-*** END ***
-*** BEGIN ***
+$%$%
 Anything that is an opposite of a function and has been differentiated in trigonometric terms is known as an anti-derivative. Both the antiderivative and the differentiated function are continuous on a specified interval. In calculus, an antiderivative, primitive function, primitive integral or indefinite integral of a function f is a differentiable function F whose derivative is equal to the original function f. Some of the formulas are mentioned below.
 $\large If\:f(x)=(dx+b)^{a}\:then\:F(x)=\frac{1}{d}\frac{(dx+b)^{a+1}}{a+1} +C\:(unless\:a=-1)$
 
-*** END ***
-*** BEGIN ***
+$%$%
 A circle is a geometrical shape which is made up of an infinite number of points in a plane that are located at a fixed distance from a point called as the center of the circle. The fixed distance from any of these points to the center is known as the radius of the circle.
 uRLStringLine class="aligncenter wp-image-6817" title="Circle" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/24154207/Capture.jpg" alt="Circle" width="238" height="213" />A part of a curve lying on the circumference of a circle.
 A sector is a portion of a circle which is enclosed between its two radii and the arc adjoining them. The most common sector of a circle is a semi-circle which represents half of a circle. 
@@ -167,19 +148,16 @@ Area of the sector = \(\frac{\theta }{360^{0}}\times \Pi r^{2}\)
 = \(\frac{30}{360^{0}}\times \frac{22}{7}\times 9^{2}=21.21cm^{2}\)
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 <!-- Ask a question with input field -->uRLStringLine 5139" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Arc.png" alt="Arc Length Formula" width="197" height="227" />
 Arc Length Formula = \[\LARGE 2\pi r\:\left(\frac{\theta}{360}\right )\]
 = 5.582 cm
 
-*** END ***
-*** BEGIN ***
+$%$%
 <a class="backtotop" href="#top" name="area formula of quadrilaterals ">uRLStringLine 5048" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Quadrilaterals.png" alt="Quadrilaterals" width="538" height="288" /></a>
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 A circle is a geometrical shape which is made up of an infinite number of points in a plane that are located at a fixed distance from a point called as the center of the circle. The fixed distance from any of these points to the center is known as the radius of the circle.
 uRLStringLine class="aligncenter wp-image-6817" title="Circle" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/24154207/Capture.jpg" alt="Circle" width="238" height="213" />A part of a curve lying on the circumference of a circle.
 A sector is a portion of a circle which is enclosed between its two radii and the arc adjoining them. The most common sector of a circle is a semi-circle which represents half of a circle. 
@@ -211,30 +189,24 @@ Area of the sector = \(\frac{\theta }{360^{0}}\times \Pi r^{2}\)
 = \(\frac{30}{360^{0}}\times \frac{22}{7}\times 9^{2}=21.21cm^{2}\)
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 With the resemblance of diamond, a rhombus is a flat figure with four equal straight sides. All sides of the rhombus have equal length, opposite sides are parallel, and opposite angles are equal. Another name for rhombus is equilateral quadrilateral, means that all of its sides are equal in length. A rhombus is in the shape of a slanting square. The area of the rhombus is half the product of the diagonals. 
 uRLStringLine 4950" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/area-of-a-rhombus-formulas.png" alt="Area of a Rhombus" width="528" height="282" />
 
-*** END ***
-*** BEGIN ***
+$%$%
 Hence the height of the parallelogram is 8 cm and breath is
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Area of a Circle Formula is given as,
 
-*** END ***
-*** BEGIN ***
+$%$%
 A polygon having equal sides’ i.e. equilateral and equal angles i.e. equiangular is known as a regular polygon. An apothem is used to find the area of a regular polygon. Apothem is a segment that joins the polygon’s center to the midpoint of any side and it is perpendicular to that side. All vertices of a regular polygon lie on a common circle (the circumscribed circle), i.e., they are concyclic points. That is, a regular polygon is a cyclic polygon. Along with it, the property of equal-length sides, this implies that every regular polygon also has an inscribed circle or incircle that is tangent to every side at the midpoint. Thus, a regular polygon is a tangential polygon.
 A regular n-sided polygon can be constructed with compass and straightedge if and only if the odd prime factors of n are distinct Fermat primes. See constructible polygon.
 <span style="line-height: 1.6em;">uRLStringLine class="aligncenter wp-image-4965" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/reg-p.png" alt="Area of a Regular Polygon" width="300" height="223" />
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Arithmetic Sequence Explicit formula allows direct computation of any term for a arithmetic sequence. In mathematical words the explicit formula of arithmetic sequence is designated to the nth term of the sequence.
 A sequence such as 1, 5, 9, 13, 17 or 12, 7, 2, –3, –8, –13, –18 which has a constant difference between terms. The first term is called <i>a</i><i>1</i>, the common difference is <i>d</i>, and the number of terms is <i>n</i>. While some sequences are simply random values, while other sequences have a definite pattern that is used to arrive at the sequence&#8217;s terms.
 At Byju’s you will get to know the formula of Arithmetic Sequence Explicit and few solved examples that will help you to understand this math formula.
@@ -247,11 +219,9 @@ And the explicit formula is
 Example 2: Find the explicit formula of the sequence 3, -2, -7. -12…
 And the explicit formula is
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 You know that polygons are 2D closed figures which are made up of 3 or more line segments. Triangle is the smallest polygon with 3 sides. Similarly, the polygon which has 8 sides is called an octagon. If the 8 sides of the octagon are equal in length and the angles between these sides are equal, the octagon is called a regular octagon. In a regular octagon, the measure of each of the interior angle is 135 degrees. The exterior angles measure 45 degrees each.
 In this section, we will learn how to calculate the area of an octagon. We will also derive a formula for the same and solve some examples so as to give you a clear understanding of the concept.
 Now, the formula for computing the area of a regular octagon can be given as:
@@ -293,15 +263,13 @@ Area of an Octagon = \(2a^{2}(1+\sqrt{2})\)
 Area of the UFC boxing ring= \(2\times 80^{2}(1+\sqrt{2})=30901.93 cm^{2}\)
 To solve more problems on the topic, download Byju&#8217;s -The Learning App.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The area under a curve between two points is found out by doing a definite integral between the two points. To find the area under the curve y = f(x) between x = a &amp; x = b, integrate y = f(x) between the limits of a and b. This area can be calculated using integration with given limits.
 uRLStringLine class="aligncenter wp-image-6050 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/13175445/Area-Under-the-Curve1.png" alt="Area under the Curve Formula" width="555" height="320" />
 Formula for Area under the Curve
 \[\LARGE Area = \int_{a}^{b}f(x)dx\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 An isosceles triangle is a triangle with two equal sides and has one unequal side. The angles opposite the equal sides are also equal. The equal sides are called legs and the third side is called the base. The angle included by the legs is called the vertex angle and the angles that have the base as one of their sides are called the base angles.
 uRLStringLine 5182" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Isoceles-1.png" alt="Area of Isosceles Triangle Formula" width="227" height="218" />
 \[\LARGE Area\;of\;Isoscele\;Triangle\;Formula=\frac{1}{2}bh\]
@@ -318,8 +286,7 @@ b = 18 cm
 Thus, the base of the triangle is 18 cm.
 Also, check the <a href="https://byjus.com/formulas/isosceles-triangle-perimeter-formula">Isosceles Triangle Perimeter Formula</a>
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Binary Numbering System is the most fundamental numbering system in mathematics as well as in all digital and computer based systems. Binary numbers follow the same set of rules as the decimal numbering system.
 The Binary Numbering System contains only 0s and 1s. A binary number such as 101100101 is expressed with a string of 0s and 1s with each digit having a value twice that of the previous digit.  
 While, writing the binary numbers you need to signify the number is binary (base 2), for instance: let’s take the value 101. As it is written, it would be hard to know to work out whether it is a binary or decimal value.  
@@ -334,14 +301,12 @@ Binary Numbers Addition basic rules
 Binary Numbers Subtraction
 Binary Examples
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Question 1: 
  Solution: 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Recursion is the process of choosing a starting term and repeatedly applying the same process to each term to arrive at the following term. Recursion requires that you know the value of the term immediately before the term you are trying to find.
 Speaking about the Arithmetic Sequence Recursive Formula, it has two parts: first a starting value that begins the sequence and a recursion equation that shows how terms of the sequence related to the preceding terms.
 Here is the formula of Arithmetic Sequence Recursive: $t_{n}$ = $t_{n-1}$
@@ -354,8 +319,7 @@ n = 4
 Answer:  -4, 1, 6, 11
 Example 2: Find the recursive formula when the sequence  2, 4, 6, 8, 10….
 
-*** END ***
-*** BEGIN ***
+$%$%
 The dimensions of an annulus are defined by the two radii R, r, which are the radii of the outer ring and the inner &#8216;hole&#8217; respectively. The area of a circular ring can be found by subtraction the area of small circle from that of the large circle.
 Here are formulas to find Area of Annulus
 uRLStringLine class="aligncenter" title="\huge R = \sqrt{r^{2}-\frac{a}{\pi}}" src="https://latex.codecogs.com/png.latex?\dpi{100}&amp;space;\huge&amp;space;R&amp;space;=&amp;space;\sqrt{r^{2}-\frac{a}{\pi}}" alt="Annulus Formula" width="200" height="83" />
@@ -364,12 +328,10 @@ Where,
 Example 1:
 A = $\pi$ ($R^{2}$ &#8211; $r^{2}$)
 
-*** END ***
-*** BEGIN ***
+$%$%
  Solution: 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The binomial distribution is a type of probability distribution in statistics that has two possible outcomes. In probability theory, the binomial distribution come with two parameters n and p.
 The probability distribution becomes a binomial probability distribution when it meets the following requirements.
 
@@ -379,28 +341,24 @@ p^r = $0.5^{7}$ = 0.0078125
 Solve P(X = r) = <sub>n</sub>C<sub>r. </sub>p^r . $(1-p)^{n-r }$
 The probability of getting exactly 7 heads is 0.19
 
-*** END ***
-*** BEGIN ***
+$%$%
 Question 1: Evaluate tan^-1(1.732)?
  Solution:
 
-*** END ***
-*** BEGIN ***
+$%$%
 The binomial distribution is a type of distribution in statistics that has two possible outcomes. For instance, if you toss a coin and there are only two possible outcomes: heads or tails. In the same way, taking a test could have two possible outcomes: pass or fail.
 The binomial probability formula can calculate the probability of success for binomial distributions. The Binomial Probability distribution is an experiment that posses the following properties:
 The Binomial Probability distribution of exactly x successes from n number of trials is given by the below formula-
 \[\LARGE P(X) = C_{x}^{n} P^{x} q^{n-x}\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 To convert binary to decimal the following chart is used and binary is noted as per the given decimal number.
 So, for instance, if you use a binary number string it should add the subscript “2” to denote a base 2 number so the binary number would be written as $10_{2}$. Likewise if it was a standard decimal number it would add the subscript “10” to denote a base 10 and written as $10_{10}$.
 uRLStringLine 5022" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Binary-to-Decimal-1.png" alt="Binary to Decimal" width="453" height="320" />
 To convert, you simply take a value from the top row wherever there is a 1 below and then add the values together. 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Basic Math Formula is an equality containing one or more variables. Solving the equation consists of determining which values of the variables make the equality true. The Basic Math Formulas includes various equations as the following:
 The Basic Math Formulas display how a math problem will work out with the help of some equations such as equation of force, accelerations or work done. More importantly, they are used to provide mathematical solutions for real world problems. 
 There are many types of equations, and they are found in many areas of mathematics. The techniques used to examine them differ according to their type. It can be as simple as a basic addition formula or complicated as an integration of differentiation.
@@ -415,8 +373,7 @@ Percent Formulas:
 \[\large Percentage Formula: \frac{Rate}{100} = \frac{Percentage}{base}\]
 Where,
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 We often come across with functions in mathematics. A function f is co-function of a function g if f(A) = g(B) whenever A and B are complementary angles. 
@@ -425,8 +382,7 @@ A mathematical function is said to be a special kind of relation between inputs 
 Trigonometric Co-Functions
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 uRLStringLine class="aligncenter wp-image-4656 size-full" title="Equilateral Triangle" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Area-of-Equilateral-Triangle-1.png" alt="Equilateral Triangle" width="620" height="370" />
 
 Thus, we can calculate area by the basic equation,
@@ -434,8 +390,7 @@ Thus, we can calculate area by the basic equation,
 
 For more, <a href="https://byjus.com/formulas/triangle-formula">Formulas of triangles</a>.
 
-*** END ***
-*** BEGIN ***
+$%$%
 Calculus is one of the branches of Mathematics that involves in the study of ‘Rage to Change’ and their application to solving equations. It has two major branches, Differential Calculus that is concerning rates of change and slopes of curves, and Integral Calculus concerning accumulation of quantities and the areas under and between curves.
 Both branches make use of the fundamental notions of convergence of infinite sequences and infinite series to a well-defined limit. These two branches are related to each other by the fundamental theorem of calculus
 The Differential Calculus splits up an area into small parts to calculate the rate of change. While, the Integral calculus joins small parts to calculates the area or volume. In short, it is the method of reasoning or calculation.
@@ -473,8 +428,7 @@ Integration Formulas
 \[\large \int \frac{dr}{\sqrt{a^{2}-x^{2}}} = \arcsin \left ( \frac{x}{a} \right )+C\]
 \[\large \int \frac{dr}{\sqrt{a^{2}+x^{2}}} = \frac{1}{a}\arcsin \left ( \frac{x}{a} \right )+C\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 Commutative is an algebra property that refers to moving stuff around. The Commutative property is changing the order of the operands doesn’t change the output. Commutative property is applicable for addition and multiplication, but not applicable for subtraction and division.
 Commutative Property of Addition
 Commutative Property of Multiplication
@@ -484,15 +438,13 @@ Solution
 Question 2: Is 5 $\times$ 3 = 3 $\times$ 5 satisfy the commutative property of multiplication?
 Solution
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Binomial Expansion Theorem is an algebra formula that describes the algebraic expansion of powers of a binomial. According to the binomial expansion theorem, it is possible to expand any power of x + y into a sum of the form.
 The Binomial Expansion Formula or Binomial Theorem is given as,
 \[\large (x+y)^{n} = x^{n} + nx^{n-1}y + \frac{n(n-1)}{2!} x^{n-2} y^{2} + &#8230; + y^{n}\]
 Question 1: What is the value of (2+5)^3 ?
 
-*** END ***
-*** BEGIN ***
+$%$%
 Chi Square is one of the most useful non-parametric statistics. Chi Square is used in data consist of people distributed across categories, and to know whether that distribution is different from what would expect by chance.
 A Chi Square is one way to show a relationship between two categorical variables. There are two types of variables in statistics: numerical variables and non-numerical variables. The value can be calculated by using the given observed frequency and expected frequency. The Chi Square is denoted by X^2 and the formula is:
 <!-- Ask a question with input field --> \[\LARGE X^{2}=\sum \frac{(O-E)^{2}}{E}\]
@@ -510,16 +462,14 @@ Therefore, $\frac{(6-6.24)^{2}}{6.24} = 0.0092$
 Continue doing this for the rest of the cells, and add the final numbers for each cell together for the final Chi Square number. There are 6 total cells, so at the end you should be adding six numbers together for you final Chi Square number.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Bayes’ Theorem formula is an important method for calculating conditional probabilities. It is used to calculate posterior probabilities. Bayes’s theorem describes the probability of an event, based on conditions that might be related to the event.
 For instance, a patient is observed to have a certain symptom, and Bayes&#8217; formula can be used to compute the probability that a diagnosis is correct, given that observation. In simple words, suppose a doctor is interested in whether a person has cancer, and knows the person’s age. If cancer is related to age, then, using Bayes’ theorem, the person’s age can be used to access more accurate probability that the patient have cancer.
 Bayes&#8217; theorem is named after Thomas Bayes, who first provided an equation that allows new evidence to update beliefs.
 Where,
 Question 1: Calculate P(B/A) if P(A/B) = 0.25, P(A) = 0.4 and P(B) = 0.5 using Bayes theorem.
 
-*** END ***
-*** BEGIN ***
+$%$%
 Conditional Probability is a measure of the probability of an event given that another event has occurred.
 If the event of interest is A and the event B is known or assumed to have occurred, &#8220;the conditional probability of A given B&#8221;, or &#8220;the probability of A under the condition B&#8221;, is usually written as P(A|B), or sometimes PB(A). 
 When B is given by A, then conditional probability is,
@@ -527,8 +477,7 @@ When B is given by A, then conditional probability is,
 When A is given by B, then the conditional probability is
 \[\LARGE P(A|B)= \frac{P(A\cap B)}{P(B)}\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 Correlation Coefficient is a measure of the association between two variables. It is used to find the relationship is between data and a measure to check how strong it is. The formulas return a value between -1 and 1 wherein one shows -1 shows negative correlation and +1 shows a positive correlation.
 The correlation coefficient value is positive when it shows that there is a correlation between the two values and the negative value shows the amount of diversity among the two values.
 There are several types of correlation coefficient formulas.
@@ -544,22 +493,19 @@ $S_{x}$ and $S_{y}$ are the sample standard deviations, and $S_{xy}$ is the sa
 \[\large \rho_{xy}= \frac{\sigma_{xy}}{\sigma_{x} \sigma_{y}}\]
 The population correlation coefficient uses $\sigma_{x}$ and $\sigma_{y}$ as the population standard deviations, and $\sigma_{xy}$ as the population covariance.
 
-*** END ***
-*** BEGIN ***
+$%$%
 A complex number is a number that can be expressed in the form a + bi, where a and b are real numbers and i is the imaginary unit, that satisfies the equation i^2 = −1. In this expression, a is the real part and b is the imaginary part of the complex number.
 Complex number extend the concept of the one-dimensional number line to the two-dimensional complex plane by using the horizontal axis for the real part and the vertical axis for the imaginary part.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Covariance is one of the statistical measurement to know the relationship of the <a href="https://byjus.com/maths/variance/">variance</a> between the two variables. The Covariance indicates how two variables are related and also helps to know whether the two variables vary together or change together.
 The Covariance is denoted as Cov(X,Y) and here is the formula.
 \[\LARGE Cov(X,Y)= \frac{\sum (x_{i}-\overline{x})(y_{i}-\overline{y})}{N}\]
 
 x = 2.1, 2.5, 4.0, and 3.6 (economic growth)
 
-*** END ***
-*** BEGIN ***
+$%$%
 A combination formula is a  way of selecting items from a collection, such that the order of selection does not matter. The combination involves selection of objects or things out of larger group where order doesn’t matter.
 The combination formula will find the number of possible combinations that can be obtained by taking a sub-set of items from a larger set. It shows how many different possible sub-sets can be made from the larger set.
 The combination formula show the number of ways a sample of “r” elements can be obtained from a larger set of “n” distinguishable objects.
@@ -567,21 +513,18 @@ Question 1: Father asks his son to choose 4 items from the table. If the table 
  Solution:
 <span class="content_latex">$\frac{18!}{4!(18 &#8211; 4)!}$ = <span class="content_latex">$\frac{18!}{14!4!}$ = 3,060 Possible Answers
 
-*** END ***
-*** BEGIN ***
+$%$%
 Confidence interval is a range within which most plausible values would occur. To calculate confidence interval, one needs to set confidence level as 90%, 95%, or 99% etc. A 90% confidence level means that we would expect 90% of the interval estimates to include the population parameter; 95% of the intervals would include the parameter and so on.
 Where,
 
-*** END ***
-*** BEGIN ***
+$%$%
 Process capability index (cpk) is the measure of process capability. It shows how closely a process is able to produce the output to its overall specifications. It decides how consistent we are to our average performance.
 A person may perform with minimum variation, but he can be away from his target towards one of the specification limits that indicates the Cpk will be lower, but Cp will be high.
 \[\large Cpk=min \left (\frac{USL-mean}{3\sigma},\frac{mean-LSL}{3\sigma} \right)\]
 USL (Upper Specification Limit) =49°C
 Cpk is given by,</p>
 
-*** END ***
-*** BEGIN ***
+$%$%
 Where,
 Question 1: The number of roses and the number of lily flowers are noted every week at a garden during an observation. The observation readings of 4 successive weeks are as follows:
 Compute the coefficient of determination.
@@ -595,8 +538,7 @@ $r$ = $\large\frac{-8}{\sqrt{800}}$
 $r$ = $\large\frac{-8}{28}$
 $r$ = -0.28
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Chain Rule is a formula for computing the derivative of the composition of two or more functions. For instance, if <i>f </i>and <i>g </i>are functions, then the chain rule expresses the derivative of their composition.
 The Chain Rule Formula is as follows &#8211; 
 \[\LARGE \frac{dy}{dx}=\frac{dy}{du}.\frac{du}{dx}\]
@@ -607,8 +549,7 @@ $\frac{dy}{dx}=\frac{dy}{du}.\frac{du}{dx}$
 $\frac{dy}{dx}$= -sin u $\times$ 2x
 = -2x sin u $x^{2}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 You might have noticed that before the commencement of a cricket match, a decision is to be made as to which team would bat or bowl first. How is this done? You see that the captains of the two teams participate in a coin toss wherein they pick one side of a coin each – say head or tail. The umpire tosses the coin in the air. The team which wins the toss gets to make the decision of batting or bowling first. This is one of the most common applications of the coin toss experiment. 
 Why do you think this method is used? This is plainly because the possibility of obtaining a head in a coin toss is as likely as obtaining a tail, that is, 50%. So when you toss one coin, there are only two possibilities – a head (H) or a tail (L). However, what if you want to toss 2 coins simultaneously? Or say, 3, 4 or 5 coins? The outcomes of these coin tosses will differ. Let us learn more about coin toss <a href="https://byjus.com/probability-formulas" target="_blank">probability formula</a>.
 Probability is the measurement of chances – likelihood that an event will occur. If the probability of an event is high, it is more likely that the event will happen. It is measured between 0 and 1, inclusive. So if an event is unlikely to occur, its probability is 0. And 1 indicates the certainty for the occurrence. 
@@ -635,8 +576,7 @@ Therefore, probability of getting at least 2 tails =
 \(\frac{No\;of\;favourable\;outcomes}{Total\;number\;of\;possible\;outcomes}\)
 \(=\frac{4}{8}=\frac{1}{2}\)
 
-*** END ***
-*** BEGIN ***
+$%$%
 Celsius scale is most preferably used  temperature scale as it has a melting point at 0° C and boiling point at 100° C. The Celsius temperature scale — originally centigrade and later renamed, for Swedish astronomer Anders Celsius — is used almost everywhere else in the world.
 There are basically four conversions of temperatures
 \[\LARGE F=C\times \frac{9}{5}+32\]
@@ -649,27 +589,23 @@ Formula: $F=C\times \frac{9}{5}+32$
 $F$ = 30°$\times$$\frac{9}{5}$+$32$
 $F$ = 86° F
 
-*** END ***
-*** BEGIN ***
+$%$%
 $=50000\left ( 1+\frac{10}{100}\right)^{5} &#8211; 50000$$=80525.50 &#8211; 50000$
 Compound Interest = 30525.50
 The compound interest for 5 years is Rs. 30525.50
 
-*** END ***
-*** BEGIN ***
+$%$%
  Solution: 
 Cp = <span class="content_latex">$\frac{10-6}{6\times3}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The cube root formula is the vice versa of the cube formula. Check the example below for detail &#8211;
 5 cube = $5^{3}$ = $125$
 $1^{3}$ = $1$
 1728 = 12 $\times$ 12 $\times$ 12
 $\sqrt[3]{1728}$ = $\sqrt[3]{12 \times 12 \times 12}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Central Limit Theorem is the sampling distribution of the sampling means approaches a normal distribution as the sample size gets larger, no matter what the shape of the data distribution. An essential component of the Central Limit Theorem is the average of sample means will be the population mean.
 Similarly, if you find the average of all of the standard deviations in your sample, you will find the actual standard deviation for your population.
 Central limit theorem is applicable for a sufficiently large sample sizes (n≥30). The formula for central limit theorem can be stated as follows:
@@ -678,8 +614,7 @@ $and$
 \[\LARGE \sigma _{\overline{x}}=\frac{\sigma }{\sqrt{n}}\]
 Where,
 
-*** END ***
-*** BEGIN ***
+$%$%
 In elementary algebra, completing the square is a technique for converting a quadratic polynomial to a perfect square added to some constant. This method is used for solving the quadratic equation.
 In mathematics, completing the square is often applied in any computation involving quadratic polynomials. Completing the square is also used to derive the quadratic formula.
 Completing the Square Formula is given as
@@ -691,8 +626,7 @@ $\sqrt{11}$ =3.317
 x = -3 +3.317 or x = -3 -3.317,
 x=0.317 or x= -6.317
 
-*** END ***
-*** BEGIN ***
+$%$%
 Covariance Matrix is a measure of how much two random variables gets change together. It is actually used for computing the covariance in between every column of data matrix.
 The Covariance Matrix is also known as dispersion matrix and variance-covariance matrix. The covariance between two jointly distributed real-valued random variables X and Y with finite second moments is defined as.
 $\LARGE Cov(X,Y)=\sum \frac{(X_{i}-\overline{X})(Y_{i}-\overline{Y})}{N}=\sum \frac{X_{i}Y_{i}}{N}$
@@ -708,13 +642,11 @@ $=\frac{1}{4}\begin{pmatrix} 10 &amp;12 \\ 12 &amp;40 \end{pmatrix}$
 $=\begin{pmatrix} 2.5 &amp;3.0 \\ 3.0 &amp;10.0 \end{pmatrix}$
 $=\begin{pmatrix} S_{x}^{2}&amp;S_{xy}\\ S_{xy} &amp; S_{x}^{2} \end{pmatrix}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Change of base formula helps to rewrite the logarithm in terms of another base log. Change of base formula is used in the evaluation of log and have another base than 10.
 \[\LARGE \log_{b}x=\frac{\log _{d}x}{\log _{d}b}\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 A Complex number is in the form of a+ib, where a and b are real numbers the i is called the imaginary unit. i has the property that is $i^{2}$ = $-1$.
 To find the division of any complex number use below-given formula.
 Let two complex numbers are a+ib, c+id, then the division formula is,
@@ -726,14 +658,12 @@ Step 3 &#8211; $\large \frac{14+21i-12i-18(-1)}{4+6i-6i-9(-1)}$
 Step 4 &#8211; $\large \frac{32+9i}{13}$
 Step 5 &#8211; $\large \frac{32}{13}+\frac{9}{13}i$
 
-*** END ***
-*** BEGIN ***
+$%$%
 Cross Product Formula is given by,
 Cross product formula is used to determine the cross product or angle between any two vectors based on the given problem.
  Solution: 
 
-*** END ***
-*** BEGIN ***
+$%$%
 All cubic equations have either one real root, or three real roots. If the polynomials have the degree three, they are known as cubic polynomials.
 The  cubic  equation is of the form,
 <span style="text-decoration: underline;">Depressing the Cubic Equation
@@ -747,8 +677,7 @@ This equation can be factorised to give
 (x-1)(x-2)(x-3)=0
 This equation has three real roots, all different &#8211; the solutions are x = 1, x = 2 and x = 3.
 
-*** END ***
-*** BEGIN ***
+$%$%
 In statistic, the Coefficient of variation formula or known as CV, also known as relative standard deviation (RSD) is a standardized measure of dispersion of a probability distribution or frequency distribution. When the value of coefficient of variation is lower, it means the data has less variability and high stability.
 The formula for coefficient of variation is given below:
 \[\LARGE Coefficient\;of\;Variation\;Formula = \frac{Standard\;Deviation}{Mean}\]
@@ -761,13 +690,11 @@ Looking at the standard deviations of 10.2 and 12.7, you might think that the te
 Regular test: CV = 17.03
 Randomized answers: CV = 28.35
 
-*** END ***
-*** BEGIN ***
+$%$%
 Note: we write down “5 cube” as $5^{3}$  (the little 3 means the number appears three times during the multiplication process.
 The Cube Formula for any value ‘x’ is given as,
 
-*** END ***
-*** BEGIN ***
+$%$%
 Solution:
 Given r = 10 cm
 Arc length = 20 cm
@@ -785,15 +712,13 @@ Central Angle $\theta$ = <span class="content_latex">$\frac{Arc\;Length \times 3
 <span class="content_select">r= $\frac{8280}{6.28\times 82.4}$
 r = 16 cm
 
-*** END ***
-*** BEGIN ***
+$%$%
 Since the matrix is triangular, the determinant is the product of the diagonals. 
 (2) (4) = 8
 $A_{23}=(-1)^{2+3}(8)=-8$
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 A complex number is the form of $x$ + $y^{i}$, where x and y are the real numbers and i is an imaginary number. The i satisfies $i^{2}$ = $-1$.
 The complex number power formula is given below.
 \[\LARGE z^{n}=(re^{i\theta})^{n}=r^{n}e^{in\theta}\]</p>
@@ -809,16 +734,14 @@ $=-972-972i$
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The circumference of a closed curve or circular object is the linear distance around its edge. The circumference of a circle is a special importance in geometry and trigonometry.
 uRLStringLine 5957" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/12190205/Circumference-Formula1.png" alt="Circumference Formula" width="488" height="292" />The Circumference Formula requires either the radius or the diameter of the circle for its calculation.
 \[\LARGE Circumference\;of\;a\;Circle(C)=2\pi r=\pi d\]
 Where,
 C is the circumference of the circle.
 
-*** END ***
-*** BEGIN ***
+$%$%
 In trigonometry, the law of cosines is also known as the cosine formula or cosine rule, relates the lengths of the sides of a triangle to the cosine of one of its angles.
 The Cosine Formula is,
 \[\large a^{2}=b^{2}+c^{2}-2bc.\cos A\]
@@ -827,8 +750,7 @@ The Cosine Formula is,
 $cos \theta$ = <span class="content_latex">$\frac{Adjacent}{Hypotenuse}$
 $cos \theta$  = <span class="content_latex">$\frac{12 cm}{15 cm}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 In single-variable calculus, the difference quotient is usually the name for the expression, which taken to the limit when h approaches 0, gives the derivative of the function f. Difference Quotient Formula is used to find the slope of the line that passes through two points. It is also used in the definition of the derivative.
 <span class="content_select">Difference Quotient Formula
 \[\LARGE \frac{f(x+h)-f(x)}{h}\]
@@ -836,26 +758,22 @@ In single-variable calculus, the difference quotient is usually the name for the
 $\frac{[f(x+h)-f(x)]}{h}$
 <span style="text-decoration: underline;">Step 3: Simplify the above expression.
 
-*** END ***
-*** BEGIN ***
+$%$%
 To solve more problems on the topic, download Byju&#8217;s -The Learning App.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The circle graph is also called pi graph and pi chart. Some important formulas of circle graph are given below,
 \(Percentages =\frac{Amount\;in\;the\;Category}{Total}\times 100]\)
 \(Angle =\frac{Amount\;in\;the\;Category}{Total}\times 360°\)
 
-*** END ***
-*** BEGIN ***
+$%$%
 A trapezoid is a quadrilateral with two sides parallel. The centroid of a trapezoid lies between the two bases. For any trapezoid with parallel sides a and b, use below given formula.
 uRLStringLine 6037" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/13163802/Trapezoid1.png" alt="Trapezoid" width="555" height="370" />
 Find below formula for the centroid of trapezoid located a distance of x,
 \[\LARGE x = \frac{b+2a}{3(a+b)}h\]
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The chord is a line segment that only covers the part inside the circle. A chord that passes through the center of the circle is also a diameter of the circle. There are two basic formulas to find the chord length of the circle.
 uRLStringLine 5988" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/13141149/Chord.png" alt="Chord of a Circle" width="253" height="211" />
 Formula to find the length of a chord of a circle &#8211;
@@ -872,22 +790,19 @@ Chord length = 2$\times$5.744
 Chord length = 11.48 cm
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Direct Variation is said to be the relationship between two variables in which one is a constant multiple of the other. For example, when one variable changes the other changes in proportion to the first. If b is directly proportional to a, the equation is of the form b = ka (where k is a constant).Two variables are said to be in direct variation when the variables are related in such a way that the ratio of their values always remains the same. Direct variation is expressed in various mathematical forms. In equation form y and x vary directly since the ratio of y to x never changes.
 The Direct Variation Formula
 k = <span class="content_latex">$\frac{120}{30}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The steps to find the circumcenter of a triangle:
  Solution: 
 So, mid point of AB = (<span class="content_latex">$\frac{3+1}{2}$,<span class="content_latex">$\frac{2+4}{2}$) = (2,3)
 Slope of AB = (<span class="content_latex">$\frac{4-2}{1-3}$) = -1
 Slope of AC = (<span class="content_latex">$\frac{4-2}{5-3}$) = 1
 
-*** END ***
-*** BEGIN ***
+$%$%
 There are four basic operations of Arithmetic, namely, Addition, Subtraction, Multiplication and Division.
 Division is breaking a number up into an equal number of parts. Division is a arithmetic operation used in Maths. It splits a given number of items into different groups.
 For instance, 20 divided by 4: If you take 20 Apples and put them into four equal sized groups, there will be 5 apples in each group.
@@ -910,8 +825,7 @@ Examples: 40 ÷ 1 = 40
 Examples: 40 ÷ 40 = 1
 2.5 ÷ 2.5 = 1
 
-*** END ***
-*** BEGIN ***
+$%$%
 $\large \frac{d}{dx}(u.v)=\frac{dv}{dx}\left ( \frac{du}{dx}.v\right )$
 $\large \frac{du}{dx}=\frac{du}{dx}\frac{dv}{dx}$
 $\large \frac{du}{dx}=\frac{\frac{du}{dx}}{\frac{dv}{dx}}$
@@ -936,8 +850,7 @@ $\large \frac{d}{dx}(coth(u))=-csch^{2}(u)\frac{du}{dx}$
 $\large \frac{d}{dx}(sech(u))=-sech(u)tanh(u)\frac{du}{dx}$
 $\large \frac{d}{dx}(csch(u))=-csch(u)coth(u)\frac{du}{dx}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 Formula for Half-Life in Exponential Decay &#8211;
 \[\large N(t)=N_{0}\left ( \frac{1}{2}^{\frac{t}{t_{\frac{1}{2}}}} \right )\]
 \[\large N(t)=N_{0}e^{\frac{-t}{r}}\]
@@ -946,15 +859,13 @@ $N_{0}$ is the initial quantity of the substance that will decay (this quantity 
 The three parameters $t_\frac{1}{2}$, r, and $\lambda$ are all directly related:
 \[\large t_{\frac{1}{2}}=\frac{\ln (2)}{\lambda}= r \ln(2)\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 The geometric definition of the dot product states that the dot product between two vectors $\vec{a}$ and $\vec{b}$ is &#8211; 
 uRLStringLine class="aligncenter wp-image-6285 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/17145633/Dot1.png" alt="Dot Product" width="406" height="231" />
 |a| is the magnitude (length) of vector $\vec{a}$
 If we have two vectors a = $a_{1}$, $a_{2}$, $a_{3}$…..$a_{n}$ and b = $b_{1}$, $b_{2}$, $b_{3}$…..$b_{n}$, then the dot product is given by
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 A vector is an object that has both a magnitude and a direction. In Geometrically, we can picture a vector as a directed line segment, whose length is the magnitude of the vector and with an arrow indicating the direction.
 Vector is typically represented by an arrow whose direction is the same as that of the quantity and whose length is proportional to the quantity magnitude. Vector quantities are often represented by scaled vector diagrams. The vector diagram depicts a displacement vector.
@@ -977,8 +888,7 @@ Notice that the only difference between the first two is the signs are all oppos
 (c): Not much to this one other than acknowledging that the position vector of a point is nothing more than a vector with the point&#8217;s coordinates as its components. (-90, 4)
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 \((\cos x+i\sin x)^{n}=\cos (nx)+i\sin (nx)\)
 This formula is named after Abraham de Moivre, a French mathematician.
 $\large (\cos\theta+i\sin\theta)^{\frac{1}{n}}=\cos \left ( \frac{2k\pi +\theta}{n} \right )+i\sin \left ( \frac{2k\pi +\theta }{n} \right )for\;k=0,1,2,&#8230;,n-1$
@@ -991,34 +901,28 @@ $(1+i)^{7}$ = $\left [ \sqrt{2}\left ( \frac{\sqrt{2}}{2}+i\frac{\sqrt{2}}{2} \r
 = $8-8i$
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 To solve more problems on the topic, download Byju&#8217;s -The Learning App.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 \[\LARGE Principal\left (1+\frac{Rate}{365}\right)^{365\times Time}-Principal\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 The line stretching from one corner of the square or rectangle to the opposite corner through the center of the figure is known as the diagonal. Any square that has two diagonals are equal in length to each other. Diagonal Formula is used to calculate the polygon diagonals. Diagonals are a line joining two nonadjacent vertices of a polygon i.e. a diagonal joins two vertices of a polygon excluding the edges of the figure.
 \[\LARGE Diagonal\;of\;a\;Square=a\sqrt{2}\]
 Where, a is the length of the side of the square
 \[\LARGE Diagonal\;of\;a\;Rectangle=\sqrt{l^{2}+b^{2}}\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 \[\LARGE Determinant =i(bz-cy)-j(az-cx)+k(ay-bx)\]
 A = $\begin{bmatrix} 4 &amp; 2\\ 7 &amp; 8 \end{bmatrix}$
 Determinant is calculated as,
 ad &#8211; bc = (4 $\times$ 8) &#8211; (2 $\times$ 7) = 32 &#8211; 14 = 18</p>
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 $\LARGE \theta =\tan^{-1}\frac{(y_{2}-y_{1})}{(x_{2}-x_{1})}$
 
 Find the direction of the vector $\overrightarrow{pq}$  whose initial point P is at (5, 2) and end point is at Q is at (4, 3)?
@@ -1031,16 +935,14 @@ $\theta$ = $tan^{-1}$ <span class="content_latex">$\frac{(3-4)}{(2-5)}$
 $\theta$ = -0.26
 $\theta$ $14.89^{circ}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 Given: side x = 5 cm
 Use diagonal formula,
 Diagonal of cube = $\sqrt{3}x$
 Diagonal of cube = $\sqrt{3}*5$
 <span style="line-height: 1.6em;">Diagonal of cube = 8.66 cm<span style="line-height: 1.6em;">
 
-*** END ***
-*** BEGIN ***
+$%$%
 $\large \int_{a}^{\infty }\frac{dx}{x^{2}+a^{2}}=\frac{\pi }{2a}$
 $\large \int_{a}^{\infty }\frac{x^{m}dx}{x^{n}+a^{n}}=\frac{\pi a^{m-n+1}}{n\sin \left ( \frac{(m+1)\pi }{n} \right )},0&lt; m+1&lt; n$
 $\large \int_{a}^{\infty }\frac{x^{p-1}dx}{1+x}=\frac{\pi }{\sin (p\pi )},0&lt; p&lt; 1$
@@ -1051,18 +953,15 @@ $\large \int_{0}^{\pi }\sin(mx)\sin (nx)dx=\left\{\begin{matrix} 0 &amp; if\;m\n
 $\large \int_{0}^{\pi }\cos (mx)\cos (nx)dx=\left\{\begin{matrix} 0 &amp; if\;m\neq n\\ \frac{\pi }{2} &amp; if\;m=n \end{matrix}\right.\;m,n\;positive\;integers$
 $\large \int_{0}^{\pi }\sin (mx)\cos (nx)dx=\left\{\begin{matrix} 0 &amp; if\;m+n\;even\\ \frac{2m}{m^{2}-n^{2}} &amp; if\;m+n\;odd \end{matrix}\right.\;m,n\;integers$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 In geometry, an ellipse is described as a curve on a plane that surrounds two focal points such that the sum of the distances to the two focal points is constant for every point on the curve. In the following figure, F1 and F2 are called the foci of the ellipse. 
 uRLStringLine 6410" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/20130818/Foci-of-Ellipse.png" alt="Foci of Ellipse" width="200" height="127" />Ellipse has two types of axis &#8211; Major Axis and Minor Axis. The longest chord of the ellipse is the major axis. The perpendicular chord to the major axis is the minor axis which bisects the major axis at the center.
 Where,
 
-*** END ***
-*** BEGIN ***
+$%$%
 
                           <a class="backtotop" href="#top" name="equation-problems">Back to Top</a>                          <br style="clear:both"/>
                       Let us discuss the solutions of quadratic equations.
@@ -1076,21 +975,17 @@ x = <span class="content_latex">$\frac{-bpm \sqrt{b^{2}-4ac}}{2a}$<br /><br />x 
 x = <span class="content_latex">$\frac{3+7}{4}$ = <span class="content_latex">$\frac{5}{2}$ or x = <span class="content_latex">$\frac{3-7}{4}$ = -1
  
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 By definition, Empirical Probability is the number of outcomes in which a specified event occurs to the total number of trials.
 Empirical probability is different from Theoretical probability on certain major aspects. That is, in theoretical probability, the probability is measured on the basis of the likeliness of an outcome. Whereas in the case of Empirical probability, the probability is based on how the event actually occurred during trials. The formula for Empirical probability is unlike a <a href="https://byjus.com/formulas/probability-formulas">theoretical probability formula</a>.
 <span class="content_select">P(E) = E<span style="line-height: 20.7999992370605px;">mpirical Probability
 
-*** END ***
-*** BEGIN ***
+$%$%
 $\large sin\left ( \frac{a}{2} \right )=\pm \sqrt{\frac{(1-cos\;a)}{2}}$
 $\large cos\left ( \frac{a}{2} \right )=\pm \sqrt{\frac{(1+cos\;a)}{2}}$
 $\large tan\left ( \frac{a}{2} \right )=\frac{1-cos\;a}{sin\;a}=\frac{sin\;a}{1+cos\;a}$
@@ -1098,21 +993,18 @@ $\large sin\left ( \frac{a}{2} \right )=\sqrt{\frac{1-cos(a)}{2}}$
 $\large cos\left ( \frac{a}{2} \right )=\sqrt{\frac{1+cos(a)}{2}}$
 $\large tan\left ( \frac{a}{2} \right )=\sqrt{\frac{1-cos(a)}{1+cos(a)}}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 To compare the two given observations we use effect size formula. To make some important decision and access other results from the comparison of the two sets of the data we use this method. Effect size formula is also used to predict and forecast possibilities by comparing them. We first calculate the mean and then subtract them. Standard deviation is also calculated for both the observations and then we find the squares. 
 \[\LARGE d \; = \; \frac{M_{1}-M_{2}}{\sqrt{\frac{S_{1}^{2}+S_{2}^{2}}{2}}}\]
 Where,
 
-*** END ***
-*** BEGIN ***
+$%$%
 \[\LARGE (x &#8211; a)^{2} + (y &#8211; b)^{2} = r^{2}\]
 Where,
 Question 1: If the center point and radius of a circle is <span style="line-height: 1.5;">given as (4, 5) and 7 respectively. Represent this as a circle equation ?
 Solution:
 
-*** END ***
-*** BEGIN ***
+$%$%
 $\large a^{0}=1$
 $\large a^{1}=a$
 $\large \sqrt{a}=a^{\frac{1}{2}}$
@@ -1151,21 +1043,17 @@ The mean of the Exponential ($\lambda$) Distribution is calculated using integra
 \[\large = \frac{1}{\lambda }\]
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The general form is:
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 uRLStringLine class="size-medium wp-image-6503 aligncenter" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/21163847/Equilateral-Triangle1.png" alt="Equilateral Triangle" width="188" height="166" />
 Perimeter of an equilateral triangle
 Semi-Perimeter of an equilateral triangle
 
-*** END ***
-*** BEGIN ***
+$%$%
 A test statistic which has an F-distribution under the null hypothesis is called an F test. It is used to compare statistical models as per the data set provided or available. George W. Snedecor, in honour of Sir Ronald A. Fisher, termed this formula as F-test Formula.
 F \; Value
 \[\LARGE F \; Value \; = \; \frac{variance \; 1}{variance \; 2} = \frac{\sigma _{1}^{2}}{\sigma _{2}^{2}}\]
@@ -1173,8 +1061,7 @@ To compare variance of two different sets of values, F test formula is used. App
 \[\LARGE \sigma^{2}\; = \; \frac{\sum (x &#8211; \overline{x})^{2}}{n-1}\]
 Where,
 
-*** END ***
-*** BEGIN ***
+$%$%
 Geometry is a branch of mathematics that deals with shape, size, relative position of figures, and the properties of space. It emerges independently in number of early cultures as a practical way of dealing with lengths, area and volumes.
 Geometry can be divided into two different types: Plane Geometry and Solid Geometry. The Plane Geometry deals with shapes such as circles, triangles, rectangles, square and more. Whereas, the Solid Geometry is concerned in calculating the length, perimeter, area and volume of various geometric figures and shapes. And are also used to calculate the arc length and radius etc.
 The main concern of every student about this subject is the Geometry Formula. They are used to calculate the length, perimeter, area and volume of various geometric shapes and figures.  There are many geometric formulas, which are related to height, width, length, radius, perimeter, area, surface area or volume and much more.
@@ -1207,8 +1094,7 @@ $Surface \; Area \; of \; a \; Sphere = S = 4 \pi r^{2}$
 $Volume \; of \; a \; Sphere = V = \frac{4}{3}\pi r^{3}$
 Where, r = Radius of the Sphere
 
-*** END ***
-*** BEGIN ***
+$%$%
 Formula of Frustum of a Right Circular Cone
 \[\large A=\pi (R_{1}+R_{2})s\]
 \[\large V=\frac{\pi h}{3}\left(R^{2}+Rr+r^{2}\right)\]
@@ -1219,16 +1105,13 @@ V = $\frac{\pi h}{3} \left ( R^{2}+ Rr + r^{2} \right)$
 V = $\frac{\pi \times 20}{3} \left (34^{2} + 34 \times 19 + 19^{2} \right)$
 V = 14420 π
 
-*** END ***
-*** BEGIN ***
+$%$%
  Solution:
  Solution: 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Where,
 Question 1: Calculate the probability density of geometric distribution if the value of p is 0.42; x = 1,2,3,&#8230;&#8230;.., also find out the mean and variance ?
 Solution:
@@ -1242,11 +1125,9 @@ Variance = <span class="content_latex">$\frac{1-0.42}{0.42^{2}}$
 Variance = 3.287
 <!-- Bottom of the Page Ads for MCPW Subdomains --> <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-9036831849580519" data-ad-slot="8504651656" data-ad-format="auto"></ins>
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 \[\large e^{x}=  cosh\;x + sinh\;x\]
 
 Following is the relationship among hyperbolic function :
@@ -1266,16 +1147,14 @@ Dividing numerator and denominator by $\large cosh\; x \; cosh\; y$
 $\large = \frac{\frac{\large sinh\;x}{\large cosh\;x}+\frac{\large sinh\;y}{\large cosh\;y}}{1+\frac{\large sinh\;x}{\large cosh\;x}\cdot \frac{\large sinh\;y}{\large cosh\;y}}$
 $\large = \frac{tanh\;x+tanh\;y}{1+tanh\;x\;tanh\;y}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 
 Factorial is defined as the product of the number with all its lowest value numbers. It is also defined as multiplying the descending series of numbers. The symbol used to denote factorial is !. The factorial of 0 is 1. Factorial Formula is mostly used in permutations and combinations for probability calculation.
 The Factorial Formula is given as,
 
-*** END ***
-*** BEGIN ***
+$%$%
 In simple sense, hyperbola looks similar to to mirrored parabolas. The two halves are called the branches. When the plane intersect on the halves  of a right circular cone angle of which will be parallel to the axis of the cone, a parabola is formed.
 A hyperbola contains: two foci and two vertices. The foci of the hyperbola are away from the hyperbola’s center and vertices. Here is an illustration to make you understand:
 uRLStringLine class="size-full wp-image-6529 aligncenter" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/23125551/Hyperbola-Formula.png" alt="Hyperbola Formula" width="531" height="359" />
@@ -1317,8 +1196,7 @@ $x_{o} =4$
 Directrix
 $x=\frac{\pm 9^{2}}{\sqrt{9^{2}+7^{2}}} = \pm \frac{81}{\sqrt{81+49}}=7.1$
 
-*** END ***
-*** BEGIN ***
+$%$%
 \[\LARGE \sin \frac{a}{2} = \pm \sqrt{\frac{(1- \cos a)}{2}}\]
 \[\LARGE \cos \frac{a}{2} = \pm \sqrt{\frac{(1+ \cos a)}{2}}\]
 \[\LARGE \tan \left ( \frac{a}{2} \right ) = \frac{1 &#8211; \cos a}{\sin a} = \frac{\sin a}{1 + \cos a}\]
@@ -1327,22 +1205,18 @@ $sin$ <span class="content_latex">$\frac{a}{2}$ = $\pm$ <span class="content_lat
 $sin$ <span class="content_latex">$\frac{60}{2}$ = $\pm$ <span class="content_latex">$\sqrt{\frac{1+cos(60)}{2}}$
 $sin 30°$ = <span class="content_latex">$\pm$ $\sqrt{\frac{1+cos 60}{2}}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 $\LARGE y = A \; \sin(Bx+C) + D$
 $\large Amplitude \; = \; A$
 $\large Period \; = \; \frac{2\pi}{|B|}$
 $\large Phase \; Shift \; = \; \frac{C}{D}$
 $\large Vertical \; Shift \; = \; D$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 <sup/><sup/>Geometric series formula is given by
 Here a will be the first term and r is the common ratio for all the terms, n is number of terms. 
                           <a class="backtotop" href="#top" name="geometric-series-examples">Back to Top</a>                          <br style="clear:both"/>
@@ -1352,8 +1226,7 @@ s<sub>n</sub> = <span class="content_latex">$\frac{a(1-r^n)}{1-r}$<br /><br />Th
 The 10th term in the series is given by
 S<sub>10</sub> =<span class="content_latex"> $\frac{a(1-r^n)}{1-r}$<br /><br />        = <span class="content_latex">$\frac{2(1-20^{10})}{1-20}$<br /><br />        = <span class="content_latex">$\frac{2(1-20^{10})}{1-20}$<br /><br />        = <span class="content_latex">$\frac{2 \times (-1.024 \times 10^{13})}{-19}$<br /><br />        = <span class="content_latex">$\frac{-2.048 \times 10^{13}}{-19}$<br /><br />        = 1.0778 $\times$ 10^12.<sup/><br /> 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The simple interest rate is a ratio and is typically expressed as a percentage. It plays an important role in determining the amount of interest on a loan or investment. The amount of interest charged or earned depends on three important quantities that we will examine next. The formula is given below. 
 The solved problems on interest formula are given below:
 $\large Simple\;Interest= Principle*Rate*Time$Simple Interest = 4000 × 7/100 × 2
@@ -1365,15 +1238,12 @@ Compound Interest = 4000 × 1.0064 – 4000
 Compound Interest = 560
 The compound interest for 2 years is Rs 560
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Solved Examples
 Question 1: Calculate the implicit derivative of $x^{2}-5xy+3y^{2}=7$ ?
 Solution:
@@ -1384,8 +1254,7 @@ $\frac{dy}{dx}\left(-5x+6y\right)=-2x+5y$
 $\frac{dy}{dx}=\frac{-2x+5y}{-5x+6y}$
 $\frac{dy}{dx}=\frac{2x-5y}{5x-6y}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 <!-- Ask a question with input field -->
 Question. What will be the height of the parallelogram if the area  is 30 Sq inch and the base of a parallelogram is 6 inch, then find the height of a parallelogram ?
 Solution.
@@ -1393,12 +1262,10 @@ Solution.
 H = $\frac{30}{6}$ = 5cm
 Hence, the height is 5 cm.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The standard formula for integration is given as:
 \[\large \int f(ax+b)dx=\frac{1}{a}\varphi (ax+b)+c\]
 \[\large \int f\left(x^{n}\right)x^{n-1}dx=\frac{1}{n}\phi \left(x^{n}\right)+c\]
@@ -1414,8 +1281,7 @@ $\int \frac{(3+ln\; 2x)^{3}}{x}dx= \int u^{3}du$
 $=\frac{u^{4}}{4}+k$
 $=\frac{(3+ln\:2x)^{4}}{4}+k$
 
-*** END ***
-*** BEGIN ***
+$%$%
 For all inverse hyperbolic functions but the inverse hyperbolic cotangent and the inverse hyperbolic cosecant, the domain of the real function is connected.
 Inverse hyperbolic sine (if the domain is the whole real line)
 \[\large arsinh\;x=ln(x+\sqrt {x^{2}+1}\]
@@ -1429,12 +1295,10 @@ Inverse hyperbolic cosecant (if the domain is the real line with 0 removed)
 Inverse hyperbolic secant (if the domain is the semi-open interval <span class="texhtml">0, 1)
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 uRLStringLine 6377" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/19162424/Law-of-sines-formula1.png" alt="Law of sines formula" width="189" height="189" />
 The Law of Sines Formula is,
 \[\large \frac{a}{Sin\; A}=\frac{b}{Sin\; B}=\frac{c}{Sin\;C}\]
@@ -1446,11 +1310,9 @@ $sin B$ = 0.52
 <span class="content_latex">$\frac{4 cm}{5.77 cm}$ = $sin C$
 $sin C$ = 0.69
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Simple linear regression
 Multiple linear regression
 Logistic regression
@@ -1466,14 +1328,11 @@ Where,
 Question: Find linear regression equation for the following two sets of data:
 Solution:
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
  The formula for inter-quartile range is given below
 \[\large IQR=Q_{3}-Q_{1}\]
 Where,
@@ -1494,11 +1353,9 @@ Therefore, the set of data is divided into two parts: 1, 3, 5, 7, 9 and 11, 13, 
 Q<sub>1</sub> = Median of first part = 5
 Formula for inter-quartile range is given by: IQR = Q<sub>3</sub> &#8211; Q<sub>1
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 The x-intercept of a line is the point at which the line crosses the x axis. ( i.e. where the y value equals 0 )
 \[\large x-intercept = (x, 0)\]
 The y-intercept of a line is the point at which the line crosses the y axis. ( i.e. where the x value equals 0 )
@@ -1506,11 +1363,9 @@ The y-intercept of a line is the point at which the line crosses the y axis. ( i
 Solved examples of X and Y Intercept
 Example: Find the x- and y-intercepts of $25x^{^{2}}+4y^{^{2}}=9$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Question 1: Anubhav scored 85, 91, 88, 78, 85 for a series of exams. Calculate the mean deviation for his test scores?
 Ans:  Given test score; 85, 91, 88, 78, 85
@@ -1519,8 +1374,7 @@ Mean, \(\bar{x}\) = (85+91+88+78+85)/5
 Subtracting mean from each score;
 Mean deviation = 16.4/5 = 3.28
 
-*** END ***
-*** BEGIN ***
+$%$%
 Question 1: Expanding $e^{x}$ : Find the Maclaurin Series expansion of $f(x)=e^{x}$
 Solution:
 Recalling that the derivative of the exponential function is ${f}'(x)=e^{x}$ In fact, all the derivatives are $e^{x}$ .
@@ -1529,20 +1383,16 @@ We see that all the derivatives, when evaluated at <span class="intmath"><em>x</
 Also, <em>f</em>(0)=1, so we can conclude the Maclaurin Series expansion will be simply:
 $e^{x}\approx 1+x+\frac{1}{2}x^{2}+\frac{1}{6}x^{3}+\frac{1}{24}x^{4}+\frac{1}{120}x^{5}+&#8230;.$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Given:
 The answer is: P( x &lt; 365) = 0.90. Hence, there is a 90% chance that a light bulb will burn out within 365 days.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The orthocenter is the intersecting point for all the altitudes of the triangle. The point where the altitudes of a triangle meet is known as the Orthocenter. In the below mentioned diagram orthocenter is denoted by the letter ‘O’. There is no direct formula to calculate the orthocenter of the triangle. It lies inside for an acute and outside for an obtuse triangle. 
 Altitudes are nothing but the perpendicular line ( AD, BE and CF ) from one side of the triangle ( either AB or BC or CA ) to the opposite vertex. Vertex is a point where two line segments meet ( A, B and C ).
 uRLStringLine class="aligncenter" title="Orthocenter of a Triangle" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/orthocenter-of-a-triangle.png" alt="Orthocenter of a Triangle" />To Calculate the slope of the sides of the triangle. The formula to calculate the slope is given as,
@@ -1588,8 +1438,7 @@ x  +   4y  =  -13
 Substituting the value of y in equation (1),
 x + 4y = -13
 
-*** END ***
-*** BEGIN ***
+$%$%
 The method starts with a function f defined over the real numbers x, the function&#8217;s derivative f&#8217;, and an initial guess $x_{0}$ for a root of the function f. If the function satisfies the assumptions made in the derivation of the formula and the initial guess is close, then a better approximation $x_{1}$.
 In general solving an equation f(x) = 0 is not easy, though we can do it in simple cases like find roots of quadratics. If the function is complicated we can approximate the solution using an iterative procedure also known as a numerical method. One simple method is called Newton’s Method.
 The formula for Newton&#8217;s method is given as,
@@ -1604,13 +1453,11 @@ To calculate this we have to find out the first derivative f'(x)
 The formula becomes
 x<sub>1</sub> = 2 &#8211; <span class="content_latex">$\frac{2}{4}$ = <span class="content_latex">$\frac{6}{4}$ = <span class="content_latex">$\frac{3}{2}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 = 80%
 Total students in the class = 150
 
-*** END ***
-*** BEGIN ***
+$%$%
 The formula for finding the volume and surface area of the pyramid is given as,
 \[\large Surface\;Area\;of\;a\;Pyramid=Base\;Area+\frac{1}{2}\left(Number\;of\;Base\;Sides \times Slant\;Height \times Base \;Length \right)\]
 \[\large Volume\;of\;a\;Pyramid=\frac{1}{2} \times Base\;Area \times Height\]
@@ -1642,8 +1489,7 @@ The Hexagonal Pyramid Formulas are,
 \[\large Volume\;of\;a\;Hexagonal\;Pyramid=abh\]
 Where,
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Given Net Sale = Rs.150
 Net Profit = Rs. 150 &#8211; Rs. 100 = Rs. 150
@@ -1652,12 +1498,10 @@ Profit Margin = <span class="content_latex">$\frac{$50}{$150}$
 Profit Margin=0.33
 Hence, the Percentage of Profit Margin = 33.33%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Product to sum formulas are the trigonometric identities. These identities are used to rewrite products of sine and cosine. Product to sum formulas are also used to simplify the critical trigonometry function.To solve the trigonometry functions use below given Product to sum formula.
 Sum to product formulas are:
 \[\large cos\;a\;cos\;b=\frac{1}{2}\left(cos\left(a+b\right)+cos\left(a-b\right )\right)\]
@@ -1673,11 +1517,9 @@ cos 3x sin 2x = <span class="content_latex">$\frac{1}{2}$$(sin(3x + 2x) &#8211; 
 cos 3x sin 2x = <span class="content_latex">$\frac{1}{2}$$(sin(5x) &#8211; sin(x))$
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 <span class="content_select">Question 1: Find the solution of partial differential equation $x^{3}p + y^{3}q = z^{3}$.
 <span class="content_select">Solution:
 Given: $x^{3}p + y^{3}q = z^{3}$
@@ -1691,15 +1533,12 @@ and
 Step 3: By simplifying the equation
 $2(2x &#8211; y) = xy$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 An expression obtained from the square of binomial equation is a perfect square trinomial. If a trinomial is in the form <span style="line-height: 1.6em;"> ax<sup style="line-height: 1.6em;">2<span style="line-height: 1.6em;"> + bx + c is said to be perfect square, if only it satisfies the condition <span style="line-height: 1.6em;">b<sup style="line-height: 1.6em;">2<span style="line-height: 1.6em;"> = 4ac.
 <span style="line-height: 1.6em;">The Perfect Square Trinomial Formula is given as<span style="line-height: 1.6em;">,
 \[\large (ax)^{2}+2abx+b^{2}=(ax+b)^{2}\]
@@ -1710,13 +1549,11 @@ x^2 &#8211; 6x + 9
 The factors of the given equation are a perfect square.
 So, the trinomial is a perfect square.
 
-*** END ***
-*** BEGIN ***
+$%$%
 What is the percentage change of the rent of house if on the month of January it was Rs. 10,000 and in the month of March it is Rs. 15,000.?
 Hence, there is a 33.33% increase in the value of rent.
 
-*** END ***
-*** BEGIN ***
+$%$%
 Perimeter of a Square Formula is given as,
 Where,
 Question 1: Find the perimeter of a square whose side is 16 cm ?
@@ -1724,8 +1561,7 @@ Solution:
 Given,
 Perimeter of a Square = 4a
 
-*** END ***
-*** BEGIN ***
+$%$%
 In probability and statistics, the t-distribution is any member of a family of continuous probability distributions that arises when estimating the mean of a normally distributed population in situations where the sample size is small and population standard deviation is unknown.
 According to the central limit theorem, the sampling distribution of a statistic will follow a normal distribution, as long as the sample size is sufficiently large.
 Therefore, when we know the standard deviation of the population, we can compute a z-score, and use the normal distribution to evaluate probabilities with the sample mean.
@@ -1742,11 +1578,9 @@ $=\frac{-10}{12.909945}=0.7745966$
 Since we will work with the raw data, we select &#8220;Sample mean&#8221; from the Random Variable dropdown box.
 The cumulative probability: 0.226. Hence, if the true bulb life were 300 days, there is a 22.6% chance that the average bulb life for 15 randomly selected bulbs would be less than or equal to 290 days
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Question 1: Find the perimeter of a triangle whose sides are of  6 cm, 8 cm and 6 cm?
 Solution:
 Given,
@@ -1763,16 +1597,13 @@ Thus, a = 6, b = 6 and c = 8
 <a href="https://byjus.com/formulas/isosceles-triangle-perimeter-formula">Perimeter of an isosceles triangle</a>= a +b + c = a + a + c = 2a + b
 For more: <a href="https://byjus.com/formulas/math-formulas">Math Formulas</a>.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 uRLStringLine class="aligncenter" title="Pythagorean Triples" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/pythagorean-triples.jpg" alt="Pythagorean Triples" />
 
 
-*** END ***
-*** BEGIN ***
+$%$%
                           Reactants often yield quantities of products that are less than those calculated on the basis of the formulated chemical reaction. The percent yield formula is used to determine the percentage of the theoretical yield that was formed in a reaction.
 The ideal amount of product is called the theoretical yield and it is obtained by working a stoichiometry problem. Measuring the amount of product formed gives us the actual yield. From the ratio of the actual yield to the theoretical yield we can calculate the percentage yield.
                           <a class="backtotop" href="#top" name="percentage-yield-solved-problems">Back to Top</a>                          <br style="clear:both"/>
@@ -1785,12 +1616,10 @@ Percentage yield =<span class="content_select"> 42.9%
 <span style="line-height: 1.6em;">Question 2:<br />If 11.2 g of Na reacts with 9.00 g of H<sub>2</sub>O and 0.400 g of H<sub>2</sub> is formed, what is the percent yield of the reaction?
 Solution:<br /><span style="line-height: 20.7999992370605px;">Substitute the values in the corresponding formula,<br style="line-height: 20.7999992370605px;"/><br style="line-height: 20.7999992370605px;"/><span style="line-height: 20.7999992370605px;">Percentage yield = <span class="content_latex">$\frac{actual yield}{theoretical yield}$ $\times$ 100%<br style="line-height: 20.7999992370605px;"/><br style="line-height: 20.7999992370605px;"/><span style="line-height: 20.7999992370605px;">Percentage yield = <span class="content_latex">$\frac{0.400}{0.494}$ $\times$ 100%<br /><span style="line-height: 20.7999992370605px;"><br />Percentage yield = <span style="line-height: 20.7999992370605px;"/><span class="content_select"><span style="line-height: 20.7999992370605px;">81.0%
 
-*** END ***
-*** BEGIN ***
+$%$%
 A Prism that has 2 parallel rectangular bases and 4 rectangular faces is a Rectangular Prism. The mathematical literature suggests to any polyhedron like this as a Cuboid. It has a 6 flat rectangular faces and all the angles are right angled. The other names of such Rectangular Prism are Rectangular hexahedron, rectangular parallelepiped and right rectangular prism. 
 
-*** END ***
-*** BEGIN ***
+$%$%
 \[\large Revenue=Quantity \times Price\]
 Question: What will be the revenue of a newspaper stand if he is selling 500 copies of a newspaper at Rs. 5 per copy.
 Solution:
@@ -1798,8 +1627,7 @@ Revenue formula is given as
 Here,
 So, Revenue = 500 x 5 = 2500
 
-*** END ***
-*** BEGIN ***
+$%$%
 A rectangle is a four sided polygon and the length of the opposite sides are equal. A rectangle is also called as an equiangular quadrilateral, as all the angles of a rectangle are right angled. A rectangle is a parallelogram with right angles in it. When the four sides are square, then it is called a square. There are mainly three formulas for rectangle &#8211; Perimeter, Area and Diagonal.  
 uRLStringLine 6083" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/14105422/Rectangle.png" alt="Rectangle" width="344" height="215" />
 The formulas are:
@@ -1814,8 +1642,7 @@ $96=l \times 16$
 $l= \frac{96}{16}$
 Length = 6 cm
 
-*** END ***
-*** BEGIN ***
+$%$%
 We come across repetitive data in a observation all the time. When a repetitive data is given, then the number of times it has been in the observation is called its frequency. Relative frequency is the comparison between the number of times a number has been repeated to the total frequencies of all the numbers. Mathematically speaking, relative frequency is the division between individual frequency of an item by the total number of repetition that has occurred. 
 The formula for the relative frequency is given as:
 \[\large Relative\;Frequency=\frac{f}{n}\]
@@ -1824,15 +1651,13 @@ Question: Construct the relative frequency table for the following data:
 Solution:
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Question: Marks obtained by 5 students in algebra and trigonometry as given below:
 Calculate the Pearson correlation coefficient?
 Construct the following table:
 Formula for Pearson correlation coefficient is given by:
 
-*** END ***
-*** BEGIN ***
+$%$%
 Ratio analysis is an important tool that is used in inter-business and intra-business comparison. 
 For a quick indication of a business’s financial health in key areas, ratio analysis comes handy. Ratio analysis is broadly classified into four types:
 1. Liquidity Ratios
@@ -1857,20 +1682,16 @@ Mathematically it is written as:
 The ratio is given as:
 \[\large Proprietary\;Ratio=\frac{Stakeholder&#8217;s\;Equity}{Total\;Assets}\times 100\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 They all are convex regular polyhedra. These five platonic solids have different formulas.
 Tetrahedron: A tetrahedron has 4 faces, 4 vertices, 6 edges and 3 concurrent edges at a vertex:
 
-*** END ***
-*** BEGIN ***
+$%$%
 Question: Find the regression sum of square line for the data set {(1, 2), (2, 1), (4, 6), (5, 6)}?
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 <!-- Ask a question with input field -->
 Statistics is a branch of mathematics which deals with numbers and data analysis. Statistics is the study of the collection, analysis, interpretation, presentation, and organization of data. Statistical theory defines a statistic as a function of a sample where the function itself is independent of the sample&#8217;s distribution.
 In short, Statistics is associated with collecting, classifying, arranging and presenting numerical data. It allows us to interpret various results from it and forecast many possibilities. Statistics deals with facts, observations and information which are in the form of numeric data only. With the help of statistics, we are able to find various measures of central tendencies and the deviation of different values from the center.
@@ -1878,8 +1699,7 @@ In short, Statistics is associated with collecting, classifying, arranging and p
 The important statistics formulas are listed in the chart below:
 Additional guidelines on all statistics formula are given below. See the below list where all statistical formulas are listed.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The quantities that have both magnitude and direction are called vectors. If they are in opposite direction or same direction, then we can add and subtract directly. But they are in same direction, then we cannot directly add. For case like this, we use the formula that will square root of sum of squares of each vectors.
 The formula of resultant vector is given as:
 \[\large \overrightarrow{R}=\sqrt{\overrightarrow{x^{2}}+\overrightarrow{y^{2}}}\]
@@ -1889,8 +1709,7 @@ From the formula we could say that,
 $\overrightarrow{R}=\sqrt{\overrightarrow{4^{2}}+\overrightarrow{5^{2}}}$
 $\overrightarrow{R}=6.41\;cm$
 
-*** END ***
-*** BEGIN ***
+$%$%
 Sometimes we come across a very large number, which needs to be written in a form much smaller and understandable by the universe. When a large number is reduced in its decimal notation accompanied by an exponential, it is called standard form. Sometimes standard form is also known as exponential notation or scientific notation.
 Example: The standard form of 1220 can be written as $1.22 \times 10^{3}$ 
 To understand negative numbers standard form, refer the image below:
@@ -1901,8 +1720,7 @@ Solution:
 $4.253 \times 1000$
 $4.253 \times 10^{3}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 In geometry, you come across different types of figures which properties that set them apart from one another. One common figure among them is a triangle. A triangle is a closed figure, a <a href="https://byjus.com/maths/polygon/" target="_blank">polygon</a>, with three sides. It has 3 vertices and its 3 sides enclose 3 interior angles of the triangle. The sum of the three interior angles in a triangle is always 180 degrees.  
 The most common types of triangle that we study about are equilateral, isosceles, scalene and right angled triangle. In this section, we will talk about the right angled triangle, also called right triangle, and the formulas associated with it.
 A right triangle is the one in which the measure of any one of the interior angles is 90 degrees. It is to be noted here that since the sum of interior angles in a triangle is 180 degrees, only 1 of the 3 angles can be a right angle. If the other two angles are equal, that is 45 degrees each, the triangle is called an isosceles right angled triangle. However, if the other two angles are unequal, it is a scalene right angled triangle.
@@ -1950,11 +1768,9 @@ Therefore, c = 32 &#8211; 23 = 9 cm
 
 To solve more problems on the topic and for video lessons, download Byju&#8217;s -The Learning App.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Root mean square is also known as quadratic mean. Used in both, statistics and mathematics, this formula gives the total sum of square root of each data in an observation. It is generally denoted by $X_{rms}$.
 The formula of root mean square is:
 \[\large X_{rms}=\sqrt{\frac{x_{1}^{2}+x_{2}^{2}+x_{3}^{2}&#8230;.x_{n}^{2}}{n}}\]
@@ -1965,8 +1781,7 @@ Using the Root Menu Square formula: $X_{rms}=\sqrt{\frac{x_{1}^{2}+x_{2}^{2}+x_
 $Root\;Mean\;Square=\sqrt{\frac{5^{2}+4^{2}+8^{2}+1^{2}}{4}}$
 Root mean square = 5.14
 
-*** END ***
-*** BEGIN ***
+$%$%
 When large number of data are concerned, then summation is needed quite often. To write a very large number, summation notation is useful.  The sequence [1,2,4,2..] whose value is the sum of the each number in the sequence is summation. In simple words, summation notation helps write a short form for addition of very large number of data. We use this symbol &#8211; 
  We use this symbol &#8211;   , called sigma to denote summation. When a sequence is needed to add from left to right, it could run intermediate result in a partial sum, running total or prefix sum. 
 The form in which the summation notation is used:
@@ -1977,8 +1792,7 @@ The expression can be written as:
 $\sum_{x-0}^{4}x^{4}=\left(0\right)^{2}+\left(1\right)^{2}+\left(2\right)^{2}+\left(3\right)^{2}+\left(4\right)^{2}$
 $=0+1+16+81+256=354$
 
-*** END ***
-*** BEGIN ***
+$%$%
 When we connect a point on the circumference on a circle to the exact center, then the line segment made, is called as the radius of the circle.  The distance between the center of the circle to its circumference is the radius. The diameter is double the radius. Hence the formula is derived by dividing the diameter by 2. 
 The Radius Formula is given as,
 Radius of the circle
@@ -1986,8 +1800,7 @@ Radius of the circle
 Radius of the circle
 = <span class="content_latex">$\frac{30}{2}$ cm
 
-*** END ***
-*** BEGIN ***
+$%$%
 Where R<sub>1</sub>, R<sub>2</sub>,&#8230;.,R<sub>n</sub> are the resistors connected in parallel
                           <a class="backtotop" href="#top" name="resistors-in-parallel-problems">Back to Top</a>                          <br style="clear:both"/>
                       Let us discuss the solved problems of resisters in parallel connection.
@@ -1999,16 +1812,14 @@ Where R<sub>1</sub>, R<sub>2</sub>,&#8230;.,R<sub>n</sub> are the resistors conn
 <span class="content_latex">$\frac{1}{R_{p}}$ = 0.45<br />So, $R_{p}$ = 2.222Ω
  
 
-*** END ***
-*** BEGIN ***
+$%$%
 Tan Subtracting formula:
 Question: What is the value of cos 30$^{\circ}$?
 Solution:
 Given,
 As we already know the value of 60$^{\circ}$ and Cos 30$^{\circ}$, it is going to be easy for us to solve Cos 30$^{\circ}$.
 
-*** END ***
-*** BEGIN ***
+$%$%
 A series has a constant difference between terms. For example, 3 + 7 + 11 + 15 + ….. + 99. We name the first term as <em>a1</em>. The common difference is often named as “<em>d</em>”, and the number of terms in the series is <i>n.  </i>
 We can find out the sum of the arithmetic series by multiplying the number of times the average of the last and first terms. 
 The formula for finding out the sum of the terms of the arithmetic series is given as:
@@ -2022,8 +1833,7 @@ We solve 3 + (<i>n</i> – 1) x 4 = 99 to get <i>n</i> = 25
 $Sum=25\left(\frac{3+99}{2}\right)=1275$
 $Sum=\frac{25}{2}\left[2\cdot 3+\left(25-1\right)\cdot 4\right]=1275$
 
-*** END ***
-*** BEGIN ***
+$%$%
 To detect the quality of a signal, the signal to noise ratio term is used. Simply, it is the ratio of light signal to the noise signal. Often expressed in decibels, a ratio when is higher than 1 : 1, or greater than 0 <em>dB</em>, indicates that the signal is more compared to noise. 
 Signal to noise ratio is often written as S/N or SNR. In Digital sense, this ratio refers useful information, false information, spam or the things that are off topic or unrelated to the webpage, often regarded as “noise” and how the noise interferes with “signal” made to apt discussions.
 The ratio is given as
@@ -2043,8 +1853,7 @@ $=\left(1-6\right)^{2}+\left(5-6\right)^{2}+\left(6-6\right)^{2}+\left(8-6\right
 $=\sqrt{\frac{39}{4}}$
 $=\sqrt{9.75}=3.1$
 
-*** END ***
-*** BEGIN ***
+$%$%
 A perfectly symmetrical 3 &#8211; Dimensional circular shaped object is a Sphere. The line that connects from the center to the boundary is called radius of the square. You will find a point equidistant from any point on the surface of a sphere. The longest straight line that passes through the center of the sphere is called the diameter of the sphere. It is twice the length of the radius of the sphere.uRLStringLine 6107" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/14120748/Sphere-Solid.png" alt="Sphere Solid" width="200" height="200" />
 \[\large Diameter\;of\;a\;sphere=2r\]
 \[\large Circumference\;of\;a\;sphere=2\pi r\]
@@ -2061,13 +1870,11 @@ $4\pi r^{2}$
 Volume of a sphere
 $\frac{4}{3}\;\pi r^{3}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The formula for the Surface Area of Cone Formula is given as:
 \[\large Total\;Surface\;Area\;of\;cone=\pi r \left (s+r \right )\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 The number of observation in a given sample population is known as Sample size. Since it not possible to survey the whole population. We take sample from the population and then conduct survey or research. Sample size formula helps us find the accurate sample size through the difference between the population and the sample. Sample size is denoted by “<em>n</em>” or “<em>N</em>”. Here we write it as “<em>SS</em>”.
 We should know that the sample size that we are taking from the population, will not hold good for the whole sample. We have a level of confidence and margin of error to calculate that the sample size is accurate or not. Confidence level helps describe how sure you are that the results of the survey hold true or accurate. 
 The sample size for infinite population is given as:
@@ -2082,8 +1889,7 @@ $SS=\frac{\left(2.58\right)^{2}0.5\left(1-2.58\right)}{0.01^{2}}=474$
 Sample size for finite population $=\frac{474}{1+\left(\frac{474-1}{4300}\right)}$ 
 New SS = 250
 
-*** END ***
-*** BEGIN ***
+$%$%
 Mathematically, square is obtained when the number is multiplied by itself. But square root, is much more complicated to find the original number required. Which is why this formula is used. The required square number is usually a lengthy process and result in a long decimal form. We know that the square root 81 is 9, but what if we have to find the square root of 5? Using the calculator, we can see that the square root of 5 , which is denoted by: $\sqrt{5}$ equals 2.236. Square root sometimes need to found out in geometry to find the side of a particular shape. Let&#8217;s say, in pythagoras theorem, the result of finding the side using the theorem need not be in perfect square. However, we need to keep in mind the properties while finding out the square root.
 Let’s see what those properties say:
 $\sqrt{a}\cdot \sqrt{b}=\sqrt{a \times b}$
@@ -2096,8 +1902,7 @@ We can&#8217;t club the terms together according to property number 4. Solving t
 $=\sqrt{9\times 9}+\sqrt{2\times 2\times 3\times 5}$
 $=9+2\sqrt{15}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Surface Area of a Prism Formula is given as,<br /><span class="content_highlight">
 <br />Where,<br />a &#8211; apothem length of the prism.<br />b &#8211; base length of the prism.<br />l &#8211; base width of the rectangular prism.<br />  h &#8211; height of the prism.  
                           <a class="backtotop" href="#top" name="surface-area-of-a-prism-problems">Back to Top</a>                          <br style="clear:both"/>
@@ -2107,11 +1912,9 @@ Surface area of a triangular prism <br />= ab + 3bh<br />= (7 cm $\times$ 10 cm)
  Surface area of a pentagonal prism <br /> = 5ab + 5bh<br /> = (5 $\times$ 12 cm $\times$ 15 cm) + (5 $\times$ 15 cm $\times$ 21 cm)<br /> = 900 cm^2 + 1575 cm^2<br />= 2475 cm^2
  
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 When you borrow money from a bank, there is an extra amount to be along with the amount you borrowed. That extra money that you pay is called an interest. Some money lenders and financial institutions also charge this interest for the money borrowed. There are two types of interest levied upon:
 1. Simple Interest
 Simple interest is paid at the end of a specific time period.
@@ -2124,8 +1927,7 @@ $=\frac{2000\times 1\times 10}{100}$
 $=200$
 So, the rate of simple interest is Rs. 200
 
-*** END ***
-*** BEGIN ***
+$%$%
 The formula used to calculate the sum of two or more squares is the Sum of squares formula. To describe how well a model represents the data being modelled, the sum of squares formula is used. The sum of square is the measure of deviation from the data’s mean value. Hence, it is calculated as the total summation of the squares minus from the mean. 
 The formula to calculate the sum of the squares of two values is given as,
 \[\large a^{2}+b^{2}=\left(a+b\right)^{2}-2ab\]
@@ -2140,8 +1942,7 @@ $=196-2\left(14\right)$
 $=196-28$
 $=168$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The volume of the spherical cap with base radius is:
 \[\large V=\frac{\pi}{3}\,H^{2}(3R^{2}=H^{2})\]
 The Volume if terms of spherical radius is given as:
@@ -2155,8 +1956,7 @@ $V=\frac{\pi}{3}\,40^{2}(3\times 30-40)$
 $=83680\;cm^{2}$
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 A spherical sector is in a shape of an ice cream cone. Mathematically, the part of the sphere with vertex at the center and conical boundary is the spherical sector. The base of the sphere is called it’s zone. It can be the spherical cap and union of a cone. The formula we will use here is to find the volume and surface of the spherical sector. 
 The formula has been given below:
 \[\large A=\pi r(2h+a)\]
@@ -2169,8 +1969,7 @@ $V=\frac{2\times 3.14\times 8^{2}\times 10}{3}$
 $=\frac{4019.2}{3}$
 $=1339.73\;cm^{3}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 When a polynomial has a numerator higher than the denominator, then a slant asymptote occurs. Slant asymptote can also be referred to an oblique. To find the oblique, we need to divide the numerator to the denominator using synthetic division method or long division. The numerator being stronger, “pulls” the graph far from the <em>x</em>-axis or other fixed y value. The distance of the curve is so close that the they approach if extended until infinity.
 If for example we have a function : <em>f(x)</em>, then the slant asymptote will be in the form:
 Question: Find the Slant Asymptote for the function: y = <span class="content_latex">$\frac{x^2 + 3x + 5}{x + 5}$ 
@@ -2179,11 +1978,9 @@ Given function is y = <span class="content_latex">$\frac{x^2 + 3x + 5}{x + 5}$. 
 x &#8211; 2
 The slant asymptote for the function y = <span class="content_latex">$\frac{x^2 + 3x + 5}{x + 5}$ is (x &#8211; 2).
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Given below is an illustration of rectangular prism:uRLStringLine 5198" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Rectangular-Prism-1.png" alt="Rectangular Prism" width="383" height="286" />The Surface Area of a Rectangular Prism Formula is,
 Where,
 Question 1: Find out the volume, surface area and base area of a rectangular prism with base 6 cm, h = 12 cm and side 5 cm?
@@ -2192,8 +1989,7 @@ Given,
 Surface area of a rectangular prism
 $=2(bl+lh+hb)$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Taylor series is a representation of a function as an infinite sum of terms that are calculated from the values of the function&#8217;s derivatives at a single point. The concept of a Taylor series was formulated by the Scottish mathematician James Gregory and formally introduced by the English mathematician Brook Taylor in 1715.
 A function can be approximated by using a finite number of terms of its Taylor series. Taylor&#8217;s theorem gives quantitative estimates on the error introduced by the use of such an approximation. The polynomial formed by taking some initial terms of the Taylor series is called a Taylor polynomial.
 The Taylor series of a function is the limit of that function&#8217;s Taylor polynomials as the degree increases, provided that the limit exists. A function may not be equal to its Taylor series, even if its Taylor series converges at every point. A function that is equal to its Taylor series in an open interval (or a disc in the complex plane) is known as an analytic function in that interval.
@@ -2214,8 +2010,7 @@ The hyperbolic functions differ from their trigonometric counterparts in that th
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 When you think about a Pyramid, the first thing that comes to your mind is the Great Pyramids of Egypt. If you observe the shape of the Great Pyramid of Egypt, then you will notice that the pyramid has a base, that is square shaped. Hence, those pyramids are called Square Pyramid. Similarly, in the triangular pyramid the base of the same is triangular.
 When a base is constructed to connect to the <i>apex</i>, a pyramid is formed. A pyramid that had a triangular base is a triangular pyramid. It is also known as the tetrahedron which has equilateral triangles for each of its faces. The illustration below will make it clear what the triangular pyramid looks like.
 uRLStringLine 5277" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/TRIANGULAR-PYRAMID-FORMULA.png" alt="TRIANGULAR PYRAMID FORMULA" width="306" height="281" />
@@ -2225,8 +2020,7 @@ uRLStringLine 5277" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/TRIAN
 Question 1: Find the volume of a triangular pyramid when base area is $9\;cm^{2}$ and height is 4 cm ?
 Solution:
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 All trigonometric formulas are divided into two major systems: The <a href="https://byjus.com/maths/trigonometric-identities/">Trigonometric Identities</a> and Trigonometric Ratios.
 Trigonometric Identities are some formulas that involve the trigonometric functions. These trigonometry identities are true for all values of the variables.
@@ -2257,8 +2051,7 @@ Also, <span class="latex-for-amp">\(\tan(\frac{x}{2}) = \sqrt{\frac{1-\cos(x)}{1
 So, <span class="latex-for-amp">\(\tan(\frac{x}{2}) =\frac{1-\cos(x)}{\sin(x)}\)
 This was all about Trigonometry formulas. To learn more about the topic like trigonometric function, <a href="https://byjus.com/maths/inverse-trigonometric-functions/">Inverse trigonometric function</a> visit our page BYJU&#8217;S.
 
-*** END ***
-*** BEGIN ***
+$%$%
 In analytic geometry, the distance between two points of the <em>xy</em>-plane can be found using the distance formula. Distance Formula is used to calculate the distance between two points. The distance between <em>(x</em><em>1, y1</em><em>)</em> and <em>(x</em><em>2, y2</em><em>)</em> is given by:uRLStringLine 5360" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/The-Distance-Formula.gif" alt="The Distance Formula" width="595" height="174" />
 \[\large d=\sqrt{\left(x_{2}^{2}-x_{1}^{2}\right)+\left(y_{2}^{2}-y_{1}^{2}\right)}\]
 Question: Given the points (1, -2) and (-3, 5), find the distance between them.
@@ -2274,8 +2067,7 @@ $=\sqrt{\left(-2\right)^{2}+\left(7\right)^{2}}$
 $\sqrt{4+49}$
 $=\sqrt{53}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 In mathematics, a unit circle is a circle with a radius of one. Especially in trigonometry, the unit circle is the circle of radius one centered at the origin (0, 0) in the Cartesian coordinate system in the Euclidean plane.
 The unit circle is often denoted $S^{1}$ : the generalization to higher dimensions is the unit sphere. The interior of the unit circle is called the open unit disk while the interior of the unit circle combined with the unit circle itself is called the closed unit disk.uRLStringLine 5192" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/unit-circle-1.png" alt="unit-circle" width="391" height="217" />
 The general equation of circle is given below:
@@ -2293,8 +2085,7 @@ $=\frac{1}{3}+\frac{2}{3}$
 = 1
 Therefore P is on the unit circle.
 
-*** END ***
-*** BEGIN ***
+$%$%
 T-test uses means and standard deviations of two samples to make a comparison. The formula for T-test is given below:
 \(\large t=\frac{\overline{x}_{1}-\overline{x}_{2}}{\sqrt{\frac{S_{1}^{2}}{n_{1}}+\frac{S_{2}^{2}}{n_{1}}}}\)
 Where,
@@ -2314,8 +2105,7 @@ Formula for t-test value:
 $\large t=\frac{6.5-2.5}{\sqrt{\frac{93667}{4}+\frac{1.667}{4}}}$
 t = 2.3764 = 2.38 (approx)
 
-*** END ***
-*** BEGIN ***
+$%$%
 The vector projection is of two types: Scalar projection that tells about the magnitude of vector projection and the other is the Vector projection which says about itself and represents the unit vector.
 If the vector veca is projected on vecb then Vector Projection formula is given below:
 \[\large proj_{b}\,a=\frac{\vec{a}\cdot\vec{b}}{\left|\vec{b}\right|^{2}}\;\vec{b}\]
@@ -2334,8 +2124,7 @@ $=\frac{1}{29}\left(27,-18,36\right)$
 The Projection of a on b are:
 $\left(\frac{27}{29},\frac{-18}{29},\frac{36}{29}\right)$
 
-*** END ***
-*** BEGIN ***
+$%$%
 In mathematics, a rate is a ratio between two related quantities as a rate of change. If the unit or quantity in respect of which something is changing is not specified, usually the rate is per unit of time.
 However, a rate of change can be specified per unit of time, or per unit of length or mass or another quantity. The most common type of rate is &#8220;per unit of time&#8221;, such as speed, heart rate, and flux. Ratios that have a non-time denominator include exchange rates, literacy rates, and electric field in volts/meter.
 Unit rate is a common measure used in our daily life. Where one quantity tells how much quantity in one unit. The quantity may be any thing. The rate is nothing but the ratio between two quantities. The denominator should be 1 while calculating the unit rate.
@@ -2346,8 +2135,7 @@ $\frac{Rs.\;4.94}{13\;Chocolates}$
 Now, Find the unit cost by dividing the numerator and denominator by 13
 The unit cost is Rs. 0.38
 
-*** END ***
-*** BEGIN ***
+$%$%
 Cone is a 3D structure having a circular base and an apex/vertex. Every point on the circular base is connected to the apex by a set of line segments. A cone can be viewed as a stack of non-congruent circular discs that are placed one above the other such that ratio of the diameter of the adjacent discs remains constant. Volume of a cone is its capacity or is the amount of space occupied by the cone. It can be mathematically expressed as:
 uRLStringLine class="aligncenter wp-image-6794 size-full" title="Cone is a 3D structure having a circular base and an apex/vertex. Every point on the circular base is connected to the apex by a set of line segments. A cone can be viewed as a stack of non-congruent circular discs that are placed one above the other such that ratio of the diameter of the adjacent discs remains constant. Volume of a cone is its capacity or is the amount of space occupied by the cone. It can be mathematically expressed as:  \(Volume of Cone =frac{1}{3}pi r^{2}h\)  Where, r is the base radius and h is the height of the cone. Derivation: Here’s an activity to compute the volume of a cone. Take a conical flask and a cylindrical container of same base radius and same height.  Keep adding water to the flask until it is filled to the brim. Start pouring this water to the cylindrical container. You will observe that it does not fill up the cylinder completely.  Again fill the conical flask with water to the brim. Now add this water to the cylinder, you will observe that there is still some vacant space in the container.  Perform this experiment yet once again. This time you will notice that the cylindrical container is entirely filled. We can conclude from this experiment that the volume of a cylinder is thrice the volume of a cone having the same height and base radius. This implies that the volume of a cone is equal to one-third of the volume of cylinder having the same height and base radius. Now, you know that volume of a cylinder = \(pi r^{2}h\)   Hence,  Volume of a cone = \(frac{1}{3}pi r^{2}h\)   Volume of Cone in Real Life: In our everyday life, we come across different types of cones. The volume of cone formula can be used in manufacturing and calculating the capacity or volume of traffic cones, ice-cream cones, funnels and even the regular cylinders.  You can easily find out the volume of a cone if you have the measurements of its height and radius. Solved Examples: Question 1:  Find the volume of a cone, if radius is 4 cm and height is 9 cm. Solution: Radius r= 4 cm Height h= 9 cm Using the volume of a cone formula, Volume of cone = \(frac{1}{3}pi r^{2}h\) Volume of cone = 1/3 x 3.14 x 4² x 9 = 150.72 cm³ Question 2:  Find the volume of a cone which has the base radius of 8 cm and slant height (l) of 13 cm. Solution:  Given, Radius r= 8 cm Slant height l = 13 cm Slant height, \(l=sqrt{h^{2}=r^{2}}\) \(13^{2}=h^{2}+8^{2}\) \(h^{2}=13^{2}-8^{2}\) \(h=sqrt{13^{2}-8^{2}}=sqrt{169-64}=10.24cm\) Using the formula of volume of cone, Volume of cone = \(frac{1}{3}pi r^{2}h\) Volume of cone = \(frac{1}{3}times frac{22}{7}times 8^{2}times 10.24=686.65cm^{3}\) To solve more problems on the topic, download Byju's -The Learning App." src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/20142046/Volume-of-Cone.png" alt="Volume of Cone" width="193" height="221" />
 Here’s an activity to compute the volume of a cone.
@@ -2380,15 +2168,13 @@ Volume of cone = \(\frac{1}{3}\pi r^{2}h\)
 Volume of cone<i> =</i> \(\frac{1}{3}\times \frac{22}{7}\times 8^{2}\times 10.24=686.65cm^{3}\)
 To solve more problems on the topic, download Byju&#8217;s -The Learning App.
 
-*** END ***
-*** BEGIN ***
+$%$%
 Volume of an object is the amount of space occupied by the object, which is three dimensional in shape. It is usually measured in terms of cubic units. In other words, volume of any object or container is the capacity of the container to hold the amount of fluid (gas or liquid).The volume of three dimensional mathematical shapes Cube, Cuboid, Cylinder, Prism and Cone etc. can be easily calculated by using arithmetic formulas whereas, to find the volumes of complicated shapes, one can use integral calculus.
 For example, the volume of the cylinder can be measured as = πr^2h, where r = $\frac{d}{2}$ ;
 Some of the formulas to find out volumes of basic shapes are &#8211;
 Happy learning with BYJU&#8217;s &#8211; The Learning App!
 
-*** END ***
-*** BEGIN ***
+$%$%
 Question. Find out the surface area of a triangular prism with base 4 cm, side 3 cm and height 6 cm
 Solution:
 Given,
@@ -2396,22 +2182,19 @@ According to the formula,
 $=\frac{1}{3}\times3\times4\times6$
 $=36 cm^{3}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Cube has all edges of the same length and is measured in cubic units. The volume of cube is found by multiplying the number with itself three times. For instance, if the length of an edge is 5, the volume is $5^{3}$.uRLStringLine 5150" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Volume-of-a-Cube-Formula-1.png" alt="Volume of a Cube Formula" width="534" height="305" />
 The Volume of a Cube Formula is,
 \[\large Volume\;of\;a\;cube=a^{3}\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 uRLStringLine 5064" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/X-Intercept-Formula-1.png" alt="X Intercept Formula" width="605" height="400" />
 Some solved problems on X-Intercept are given below:
 Example: Find the X-Intercept of the equation 3x + 4y = 12.
 Solution:
 $3x+4(0)=12$
 
-*** END ***
-*** BEGIN ***
+$%$%
 An ellipsoid is a closed quadric surface that is a three-dimensional analogue of an ellipse. The standard equation of an ellipsoid centered at the origin of a Cartesian coordinate system. The spectral theorem can again be used to obtain a standard equation akin to the one given above.
 uRLStringLine 5086" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Ellipsoid-Formula.png" alt="Ellipsoid Formula" width="369" height="229" />
 The formula of Ellipsoid is given below:
@@ -2427,8 +2210,7 @@ Using the formula: $V=\frac{4}{3}\pi\,a\,b\,c$
 $V=\frac{4}{3}\times\pi\times9\times6\times3$
 $V=678.24\,cm^{3}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 for k = 1, 2, &#8230;, n (where we wrote the indices $i_{k}$ in increasing order to ensure each sub product of roots is used exactly once)
 Example: This is a polynomial: $P(x)=5x^{3}+4x^{2}-2x+1$ 
 The highest exponent of x is 3, so the degree is 3. P(x) has coefficients.
@@ -2439,8 +2221,7 @@ $P\left(0\right)=5\cdot\left(0\right)^{3}+4\cdot\left(0\right)^{2}-2\cdot\left(0
 $P\left(-1\right)=5\cdot\left(-1\right)^{3}+4\cdot\left(-1\right)^{2}-2\cdot\left(-1\right)+1=2$
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 In analytic geometry, using the common convention that the horizontal axis represents a variable x and the vertical axis represents a variable y and a y-intercept is a point where the graph of a function or relation intersects with the y-axis of the coordinate system.
 uRLStringLine 5052" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/y-intercept-1.png" alt="y-intercept" width="563" height="328" />
 The Y Intercept Formula of a line Ax + By = C is,
@@ -2457,24 +2238,19 @@ Solution:
 3(0) + 4y = 12
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Let&#8217;s go through an example to proof this Difference of Squares Formula with the following problem.
 Hence, LHS = RHS
 Question: What is the value of 10^2 – 4^2?
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 
@@ -2483,8 +2259,7 @@ The elements denotes a strong relation if the product is 1. Similarly, if the co
 According to the formula we have,
 $r(xy)=\frac{4\times 600-40\times 50}{\sqrt{4}\times 40^{2}\sqrt{4}\times 750 \times 50^{2}}=0.00008$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The mean is the usual average, so:
 $\frac{13+18+13+14+13+16+14+21+13}{9}=15$
 Note that the mean isn&#8217;t a value from the original list. This is a common result. You should not assume that your mean will be one of your original numbers.
@@ -2496,8 +2271,7 @@ $\frac{9+1}{2}=\frac{10}{2}=5$
 The mode is the number that is repeated more often than any other, so 13 is the mode.
 mean: 15
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 uRLStringLine class="wp-image-6337 size-full alignleft" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/18170344/Diameter.png" alt="Diameter Formula" width="153" height="151" />
 
@@ -2507,14 +2281,11 @@ uRLStringLine class="wp-image-6337 size-full alignleft" src="https://cdn1.byjus.
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 By favourable outcome we mean that the outcome of interest. One should not confuse the word “favourable outcome” with desirable outcome. In some of the requirements, losing in a certain test or occurrence of an undesirable outcome can be a favourable event for the experiments run.
 Now let’s see an example: What is the probability that a card taken from a deck of cards, which by the way has 52 cards, is an Ace? Since we know that the number of aces that a deck of card contains is four, the number of favourable outcome will be four. Now, by looking at the formula we come to the conclusion that the probability of finding an ace from a deck would be =
 P(Ace) = 4/52
@@ -2528,11 +2299,9 @@ Now let’s solve some more examples:
 Question 1: Calculate the probability of getting an odd number if a dice is rolled?
  Solution: 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Pythagorean Theorem is one of the most fundamental theorems in mathematics and it defines the relationship between the three sides of a right angled triangle. You are already aware of the definition and properties of a right angled triangle. It is the triangle with one of its angles as a right angle, that is, 90 degrees. The side that is opposite to the 90 degree angle is known as the hypotenuse. The other two sides that are adjacent to the right angle are called legs of the triangle. 
 The theorem, also known as the Pythagorean theorem, states that the square of the length of the hypotenuse is equal to the sum of squares of the lengths of other two sides of the right-angled triangle. Or, the sum of the squares of the two legs of a right triangle is equal to the square of its hypotenuse. 
 Let us call one of the legs on which the triangle rests as its base. The side opposite to the right angle is its hypotenuse, as we already know. The remaining side is called the perpendicular. So, mathematically, we represent the Pythagoras theorem as:
@@ -2580,11 +2349,9 @@ Using the Pythagoras theorem,
 Hence the hypotenuse of the triangle is 12cm.
 To solve more problems on the topic, download Byju&#8217;s -The Learning App.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 In mathematics, and more specifically in numerical analysis, the trapezoidal rule, also known as the trapezoid rule or trapezium rule, is a technique for approximating the definite integral.
 The trapezoidal rule works by approximating the region under the graph of the function <em>f(x)</em> as a trapezoid and calculating its area. 
 The trapezoidal rule is to find the exact value of a definite integral using a numerical method. This rule is mainly based on the Newton-Cotes formula which states that one can find the exact value of the integral as an nth order polynomial.
@@ -2599,14 +2366,11 @@ uRLStringLine 5328" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/trape
 $\int_{1}^{5}\sqrt{1+x_{2}}dx\approx \frac{0.5}{2}\left (\sqrt{2}+\sqrt{3.25}+\sqrt{5}+\sqrt{7.25}+\sqrt{10}+\sqrt{13.25}+\sqrt{17}+\sqrt{21.25}+\sqrt{26}\right)$
 $\approx 12.76$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Product Formulas
 \[\large (a+b)^{2}=a^{2}+2ab+b^{2}\]
 \[\large (a-b)^{2}=a^{2}-2ab+b^{2}\]
@@ -2617,8 +2381,7 @@ Product Formulas
 \[\large (a+b+c)^{2}=a^{2}+b^{2}+c^{2}+2ab+2ac+2bc\]
 \[\large (a+b+c+&#8230;)^{2}=a^{2}+b^{2}+c^{2}+&#8230;+2(ab+ac+bc+&#8230;)\]
 
-*** END ***
-*** BEGIN ***
+$%$%
 <a class="backtotop" href="#top" name="function-problems">Back to Top</a>
 Some solved problems on functions are given below:
 The general form of a linear equation is,
@@ -2630,11 +2393,9 @@ x = 6 ± <span class="content_latex">$\frac{\sqrt{20}}{2}$
 The given quadratic function has two x-intercepts.
 Substitute x = 0,
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 There may be a slight manufacturing error in measuring instruments. They can never be assumed to be exact. To get to know to what extend error is there, we go for this percent error formula.
 It is the absolute value of the difference of the measured value and the actual value divided by the actual value and multiplied by 100.
 Percent Error Formula is
@@ -2646,11 +2407,9 @@ Percentage Error = <span class="content_latex">$\frac{Approximate Value &#8211; 
 $Percentage\;Error=\frac{8-12}{12}\times 100$
 = -33.3%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 The perimeter formula of a kite is,
 \[\large Perimeter=2a+2b\]
 Where,
@@ -2659,8 +2418,7 @@ Solution:
 Given
 Perimeter of the kite = 2(a + b)
 
-*** END ***
-*** BEGIN ***
+$%$%
 In electromagnetism, the charge density tells how much charge is present in a given length, area or volume. The greek symbol Pho $\left(\rho\right)$  denotes electric charge, and the subscript V indicates the volume charge density.
 The charge in terms of volume charge density is expressed as, 
 Where,
@@ -2674,8 +2432,7 @@ $\large \rho =\frac{q}{v}$
 $\large \rho =\frac{10C/m}{2m^{3}}$
 $\large \rho =5\,C/m^{3}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 A triangle is a polygon with three edges and three vertices. It is one of the basic shapes in geometry. A triangle with vertices A, B, and C.The length of the sides of a triangle may be same or different. If all the 3 sides of a triangle are equal then it is an equilateral triangle. If 2 sides of a triangle are equal, it is an isosceles triangle.
 Equilateral Triangles
 uRLStringLine 5383" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Equilateral-Triangle.png" alt="Equilateral Triangle" width="135" height="116" />
@@ -2737,11 +2494,9 @@ from which
 $a=\frac{12sin\, 18.6^{\circ}}{sin\,131.4^{\circ}}$
 = 5.1 (1 d.p.)
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Quadratic function is also a second degree polynomial function.  The graph of a quadratic function is a parabola. The parabola open upwards if a graph is made for the quadratic formula. 
 The point at which the function attains maximum or minimum value is the vertex of the quadratic function. When we say second degree, then the variable is raised to the second power like $x^{2}$ .
 The quadratic function is a polynomial function of the form:
@@ -2757,8 +2512,7 @@ The roots are: $x_{1}=-2$ and $x_{2}=-4$
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Question 1: 
  Solution: 
 Given Degree = 220°
@@ -2768,24 +2522,20 @@ Radian = <span class="content_latex">$\frac{220 \times \pi}{180}$
 Radian = <span class="content_latex">$\frac{11 \times \pi}{9}$
 Radian = $3.837$
 
-*** END ***
-*** BEGIN ***
+$%$%
 \[\LARGE DF=n_{1}+n_{2}-2\]
 \[\LARGE DF=n-2\]
 \[\LARGE DF=k-1\]
 \[\LARGE DF=(r-1)(c-1)\]
 
-*** END ***
-*** BEGIN ***
+$%$%
  Solution: 
 So, the binary equivalent is,
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The formula for rate of change is:
 \[\large Rate\;of\;Change= \frac{y_{2}-y_{1}}{x_{2}-x_{1}}\]
 Question: By how much has the value of <i>y</i> changed between the two points (-4, -7) and (-2, -6)?
@@ -2795,8 +2545,7 @@ With the formula we can evaluate the rate of change: $Rate\;of\;Change= \frac{y
 $Rate\;of\;Change= \frac{-6-(-7)}{-2-(-4)}=\frac{1}{2}$
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Below given are some of the reduction formulas:
 \[\large \int Sin^{n}(x)dx=\frac{-Sin^{n-1}(x)Cos(x)}{n}+\frac{n-1}{n}Sin^{n-2}(x)dx\]
 \[\large \int tan^{n}(x)dx=\frac{-tan^{n-1}(x)}{n-1}-\int tan^{n-2}(x)dx\]
@@ -2816,17 +2565,14 @@ $=\frac{1}{2} \left [ \frac{1}{4} \: tan^{4}(a) &#8211; \left [ \frac{1}{2} \: t
 $\frac{1}{8}\:tan^{4}(a)-\frac{1}{4}\:tan^{2}(a)+\frac{1}{2}\:ln\:sec(a)+C$
 $\frac{1}{8}\:tan^{4}(2x)-\frac{1}{4}\:tan^{2}(2x)+\frac{1}{2}\:ln\:sec(2x)+C$
 
-*** END ***
-*** BEGIN ***
+$%$%
 A radian is defined as the angle of an arc in a circle that is created by enclosing the radius of the circle around its circumference. We represent the angle between two lines through radians and degrees. The total angle of a circle equals 360 or we can call it as 2 radians. With the help of radians to degrees we can convert the angles that are represented in radians into degrees.
 
-*** END ***
-*** BEGIN ***
+$%$%
 <a class="backtotop" href="#top" name="examples-of-diagonal-of-parallelogram"></a>
  Solution: 
 
-*** END ***
-*** BEGIN ***
+$%$%
 \[\LARGE y-y_{1}=m(x-x_{1})\]
 Where,
 The formula for the equation of a line is,
@@ -2837,41 +2583,32 @@ y &#8211; 5 = 8x &#8211; 24
 8x &#8211; y &#8211; 19 = 0
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 $\large a ^{3} + b ^{3} = (a + b) (a ^{2} &#8211; a b + b ^{2})$
  Solution:
 
-*** END ***
-*** BEGIN ***
+$%$%
 Formula to convert Celsius to Fahrenheit
 It is also known as Centigrade to Fahrenheit formula.
 Kelvin to Fahrenheit formula
 The degree Celsius is denoted as C° and degree Fahrenheit is denoted as F°
 
-*** END ***
-*** BEGIN ***
+$%$%
 Great circle formula is given by,
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Volume = 19 (8) (10)
 Weight 1520 $ft^{3}$ coal
 
-*** END ***
-*** BEGIN ***
+$%$%
 The radius of approximate circle at a particular point is radius of curvature. The curvature vector length is the radius of curvature. The radius changes as the curve moves. Denoted by R, the radius of curvature is found out by the following formula: 
 \[\large R=\frac{(1+(\frac{dy}{dx})^{2})^{3}}{|\frac{d^{2}y}{dx}|}\]
 Question: Find the radius of curvature for the cubic at the point <em>x</em> = 2 ?
@@ -2887,12 +2624,10 @@ $R=\frac{\left(1+100x^{4}-20x^{2}+1\right)^{\frac{3}{2}}}{\left|20x\right|}\; at
 $R=1481.51$
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Here in this page you can see a list of Surface Area Formulas for all kinds of available geometrical figures.
 
-*** END ***
-*** BEGIN ***
+$%$%
 When a value is multiplied by itself to give the original number then that number is a square root. Represented by a radical symbol $\sqrt{}$ &#8220;Square Root” is often used to refer to the principal square root. 
 uRLStringLine class="alignnone size-medium wp-image-6890" title="Square root" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/29183314/Square-root-1-300x193.jpg" alt="" width="300" height="193" />
 For example, 4 and -4 are the square roots of 16 because 42 is 16.
@@ -2906,8 +2641,7 @@ Question 2: What is the square root of 80?
 Solution:
 The factors of 80 are given as,
 
-*** END ***
-*** BEGIN ***
+$%$%
 Skewness formula is called so because the graph plotted is displayed in skewed manner. Skewness is a measure used in statistics that helps reveal the asymmetry of a probability distribution. It can either be positive or negative, irrespective of signs. To calculate the skewness, we have to first find the mean and variance of the given data.
 The formula is:
 \[\large g=\sqrt{\frac{\sum_{i-1}^{n}\left(x-x_{i}\right)^{3}}{\left(n-1\right)s^{3}}}\]
@@ -2925,8 +2659,7 @@ Now, the skewness is
 $g_{i}=\sqrt{\frac{\sum_{i=1}^{n}\left(x-x_{i}\right)^{3}}{\left(n-1 \right)s^{3}}}=-\frac{2.6937}{8.5275^{\frac{3}{2}}}=-0.1082$
 For interpreting we have the folowing rules as per Bulmer in the year 1979:
 
-*** END ***
-*** BEGIN ***
+$%$%
 Statistical error arising out of nature of sampling, is known as sampling error. The error in statistical analysis arise because of unrepresentativeness of the observation in the samples taken.
 For example, the weight of two thousand citizens from a country of two million is taken and the average weight is taken out from that, then it&#8217;s not the same as the average weight of the two million people in the country. 
 Since to determine the characteristics of a whole population the sampling is done, the difference between the sample values and population is called sampling error. We should note that the exact value of sampling cannot be done since the population value if not known  although often sampling error can be found out by probabilistic modelling of sample.
@@ -2938,8 +2671,7 @@ Solution: 
 $=\pm \sqrt{\frac{2500}{60}}\times 1.96$
 $=\pm 12.65$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 A pyramid  with polygonal base and triangular faces equal to the number of sides in the base. In a pyramid, the triangular faces meet at a single point known as apex. The base of the pyramid is connected with the faces of the pyramid. Since, each and every triangular face will have different size and shape, we would need to find the area of each using the formula given.
 The different types of pyramid are given as:
@@ -2951,8 +2683,7 @@ Solution
 Surface area of a square pyramid = 2bs + b2
 = 2 x 4 x 5 + 42 = 40 + 16 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Simpson’s rule is used for approximating the integral using quadratic polynomials where parabolic arcs are present in place of straight line segments used in trapezoidal rule. For approximating the polynomials up to cubic degrees, Simpson’s rule gives the definite result. We do have trapezoidal formula that would take the shape under a curve and find out the area of those area. However to make it more precise and better approximation, Simpson’s rule came to rescue. Through Simpson’s rule parabolas are used to find parts of curve. 
 The approximate area under the curve are given by the following formula:
 Simpson’s three-eighths rule formula is:
@@ -2983,12 +2714,10 @@ $=1+[(4)+4(\frac{2}{3})+2(\frac{22}{3})]$
 $=1 \times \frac{66}{3}$
 $=21.33$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Surface Area of a Cylinder Formula is
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 
@@ -3040,12 +2769,10 @@ Area of an isosceles triangle
 = 40.173 cm²
 For more: <a href="https://byjus.com/formulas/math-formulas">Math Formulas</a>.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The following table shows several geometric series with different common ratios:
 
-*** END ***
-*** BEGIN ***
+$%$%
 The approximate value for factorial function (n!) is Stirling’s approximation. This can also be used for Gamma function. Stirling’s formula is also used in applied mathematics. It makes finding out the factorial of larger numbers easy. Lets see how we use this formula for the factorial value of larger numbers.3
 The stirling formula for n numbers is given below:
 \[\large n!\sim \sqrt{2\pi}\,n^{n+\frac{1}{2}}\,e^{-n}\]
@@ -3055,8 +2782,7 @@ Using the formula: $n!\sim \sqrt{2\pi}\,n^{n+\frac{1}{2}}\,e^{-n}$
 $11!\sim \sqrt{2\pi}\,11^{11+\frac{1}{2}}\,e^{-11}$
 = 99251304.16
 
-*** END ***
-*** BEGIN ***
+$%$%
 If we cut a basketball with a pair of two knives parallely, then the solid that is defined by the cutting is the spherical segment. You can say that the spherical cap has been truncated, and so it can be called as a spherical frustum.Those spherical segment is called spherical zone, where we exclude the bases.
 uRLStringLine 6181" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/15101108/spherical-segment.png" alt="spherical segment" width="230" height="218" />
 The formula that we use here are volume and surface area:
@@ -3069,11 +2795,9 @@ $V=\frac{\pi \times 7}{6}(3\times 9.2^{2}+3\times 11^{2}+7^{2})$
 $= 3.66 \times 665.92$
 $=2437.26\;cm^{2}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tangent Addition Formula&quot;}" data-sheets-userformat="{&quot;2&quot;:258,&quot;4&quot;:[null,2,65280],&quot;11&quot;:3}">Trigonometric identities are equalities that involves trigonometric functions. Trigonometric identities involves angles, side lengths and other lengths of the triangle. We use these identities for expressions involving trigonometric functions that need to be simplified.  Let’s see what the tangent addition formula looks like and solve an example to make it clear.
 The Tangent function in trigonometry is defined by <i>$tan\;x=\frac{sin\;x}{cos\;x}$ </i>. The addition formula for the tangent are achieved from the addition of sine and cosine. To find the addition of a tangent function use below given formula.
 The Tangent Addition Formula in term of functions $\alpha$ and \beta is given below,
@@ -3089,8 +2813,7 @@ $tan\;285^{\circ}=\frac{-\frac{\sqrt{3}}{3}-1}{1-\frac{\sqrt{3}}{3}\times \; 1}$
 $tan\;285^{\circ}=\frac{-12-6\sqrt{3}}{6}=\frac{-3-\sqrt{3}}{3-\sqrt{3}}\times\frac{3+\sqrt{3}}{3+\sqrt{3}}=\frac{-9-6\sqrt{3}-3}{9-3}$
 $tan\;285^{\circ}=-2\;-\sqrt{3}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 In geometry, a tangent of a circle is a straight line that touches the circle at exactly one point, never entering the circle&#8217;s interior. It is a line through a pair of infinitely close points on the circle.
 The tangent lines to circles form the subject of several theorems and play an important role in many geometrical constructions and proofs. Since the tangent line to a circle at a point <em>P</em> is perpendicular to the radius to that point, theorems involving tangent lines often involve radial lines and orthogonal circles.
 The tangent has two defining properties such as:
@@ -3141,8 +2864,7 @@ $=-\frac{1}{4}x+\frac{9}{2}$
 The final answer
 The equation of the tangent to the circle at $F\;is\;y=-\frac{1}{4}x+\frac{9}{2}$ 
 
-*** END ***
-*** BEGIN ***
+$%$%
 In calculus, u-substitution,is also known as integration by substitution, is a method for finding integrals. Using the fundamental theorem of calculus often requires finding an antiderivative. For this and other reasons, integration by substitution is an important tool in mathematics. It is the counterpart to the chain rule of differentiation.
 This method is intimately related to the chain rule for differentiation. In this method, the function is replaced by U and then integrate according to the fundamental integration formula after integration substitute the real function instead of U.
 U substitution formula is given below,
@@ -3158,8 +2880,7 @@ $=\int cos\left(u\right)du$
 $=sin\left(u\right)+c$
 $=sin\left(w-1nw\right)+c$
 
-*** END ***
-*** BEGIN ***
+$%$%
 In probability theory and statistics, variance measures how far a set of numbers are spread out. It is a numerical value used to indicate how widely individuals in a group vary. If individual observations vary considerably from the group mean, the variance is big; and vice versa.
 A variance of zero indicates that all the values are identical. Variance is always non-negative: a small variance indicates that the data points tend to be very close to the mean and hence to each other while a high variance indicates that the data points are very spread out around the mean and from each other.
 The variance of a population is denoted by $\sigma^{2}$ and the variance of a sample by $s^{2}$ .
@@ -3189,8 +2910,7 @@ Step 7: Take the square root of your answer from Step 6. This gives you the stan
 $\large \sqrt{6219.9}$ = 78.86634
 The answer is 78.86
 
-*** END ***
-*** BEGIN ***
+$%$%
 A cylinder is a 3D structure that has two circular faces which are joined by a curved surface. A cylinder can be viewed as stacks of circular discs which are placed on one another. The total surface area of a cylinder can be calculated by summing up the areas of all its faces.  Volume of a cylinder is its capacity. It is the amount of space occupied by it. Mathematically, we can express it as:
 uRLStringLine 6764" title="Volume of Cylinder Formula" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/20114636/Volume-of-Cylinder-Formula.png" alt="Volume of Cylinder Formula" width="304" height="158" />
 Where r refers to the base radius and h is the height of the cylinder.
@@ -3224,13 +2944,11 @@ Volume of the cylindrical water tank = \(\frac{22}{7}\times 20^{2}\times 28=3520
 The cylindrical water tank can hold 35.2 litres of water.
 To solve more problems on the topic, download Byju&#8217;s -The Learning App.
 
-*** END ***
-*** BEGIN ***
+$%$%
 uRLStringLine 4925" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Volume-of-a-Square-Pyramid-Formula-1.png" alt="Volume of a Square Pyramid" width="534" height="305" />
 The Volume of a Square Pyramid Formula is = $\frac{1}{3}$$a^{2}$h
 
-*** END ***
-*** BEGIN ***
+$%$%
 Or in simple terms we can write the formula as below
 \[\large Weighted\;Average=\frac{Sum\;of\;Weighted\;Terms}{Total\;Number\;of\;Terms}\]
 To find the weighted term, multiply each term by its weighting factor, which is the number of times each term occurs.
@@ -3243,8 +2961,7 @@ Step 3: Using the formula
 $Weighted\;Average=\frac{Sum\;of\;Weighted\;Terms}{Total\;Number\;of\;Terms}$
 Answer: The average score of the whole class is 68.
 
-*** END ***
-*** BEGIN ***
+$%$%
 $\large =\frac{10}{15}$
 The z-score is 0.67 (to 2 decimal places), but now we need to work out the percentage (or number) of students that scored higher and lower than Ram.
 Question 2: A student wrote 2 quizzes. In first quiz, he scored 80 and in other, he scored 75. The mean and standard deviation of first quiz are70 and 15 respectively, while the mean and standard deviation of second quiz are 54 and 12 respectively. The results follow normal distribution. What can you conclude about the student&#8217;s result by seeing their z scores?
@@ -3263,29 +2980,23 @@ $\large =\frac{75-54}{12}$
 = 1.75
 Since Z score of second quiz is better than that of first quiz, hence it is concluded that he did better in second quiz.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 <a class="backtotop" href="#top" name="examples of-hexagonal-pyramid"></a>
 Base area of a hexagonal pyramid = 3ab
 
-*** END ***
-*** BEGIN ***
+$%$%
 <!-- Ask a question with input field -->
 The method of finding new values for any function using the set of values is done by interpolation. The unknown value on a point is found out using this formula. If linear interpolation formula is concerned then it should be used to find the new value from the two given points. If compared to Lagrange’s interpolation formula, the “n” set of numbers should be available and Lagrange’s method is to be used to find the new value. 
 The following is  Linear Interpolation Formula
@@ -3295,8 +3006,7 @@ The La-grange&#8217;s Interpolation Formula is given as,
 $y=y_{1}+\frac{(x-x_{1})}{(x_{2}-x_{1})} \times (y_{2}-y_{1}) $
 $y=6+(\frac{(8-2)}{(5-2)} \times (9-6)$
 
-*** END ***
-*** BEGIN ***
+$%$%
 Let us discuss how to find out inverse of a matrix.
 Question 1: Find the inverse of \(\begin{bmatrix} 5&amp; 6&amp; \\ -1&amp; 2 &amp; \end{bmatrix}\)?
  Solution: 
@@ -3312,8 +3022,7 @@ adj(A) = \(\begin{bmatrix} -6&amp;1 &amp;-6 \\ 4&amp;-1 &amp;2 \\ 4&amp;-1 &amp;
 Then, | A | = 1(0-6)+1(-4-0)+2(4-0) = -6-4+8 = -2
 \(A^{-1} = \frac{adj(A)}{| A |} = \frac{\begin{bmatrix} -6&amp;1 &amp;-6\\ 4&amp;-1 &amp;2\\ 4&amp;-1 &amp;4 &amp; \end{bmatrix}}{-2}\)
 
-*** END ***
-*** BEGIN ***
+$%$%
 The theorem can be derived as follows. Suppose $u(x)$ and $v(x)$ are two continuously differentiable functions. The product rule states:
 \[\large \frac{d}{dx}\left(u(x)v(x)\right)=v(x)\frac{d}{dx}(u(x))+u(x)\frac{d}{dx}(v(x))\]
 Integrating both sides with respect to x,
@@ -3326,8 +3035,7 @@ Gives the formula for integration by parts. Since $du$ and $dv$ are differential
 \[\large \int u(x)dv=u(x)v(x)-\int v(x)du\]
 The original integral $\int uv&#8217;\;dx$ contains $v&#8217;$ (derivative of $v$); in order to apply the theorem, $v$ (antiderivative of $v&#8217;$) must be found, and then the resulting integral $\int vu&#8217;\; dx$ must be evaluated.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Law of Cosine Formula is,
 The cosine law can be derived out of Pythagoras Theorem. 
 The Pythagorean theorem can be derived from the cosine law. In the case of a right triangle the angle, θ = 90°. So, the value of cos θ becomes 0 and thus the law of cosines reduces to $c^2=a^2+b^2$
@@ -3338,21 +3046,17 @@ b^2 = a^2 + c^2 &#8211; 2ac cos B^
 cos B = 0.48
 c^2 = a^2 + b^2 &#8211; 2ab cos C^
 
-*** END ***
-*** BEGIN ***
+$%$%
 The numbers can be written in the form of their prime factors-
 50 = 1\(\times\)2\(\times\)5\(\times\)5
 65 = 1\(\times\)5\(\times\)13
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Mean Value Theorem states that if f(x) is continuous on [a,b] and differentiable on (a,b) then there exists a number c between a and b such that:
 \[\large {f}'(c)=\frac{f(b)-f(a)}{b-a}\]
 Solved Examples
@@ -3367,8 +3071,7 @@ So, f'(c) = <span class="content_latex">$\frac{6-3}{2-1}$ = 3
 
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 To calculate the number of happening of an event, N choose K tool is used. N is the sum of data and K is the number that we chose from the sum of data. 
 The formula for N choose K formula is :
 \(_{n}^{k}\textrm{C}= \frac{n!}{k!(n-k)!}\)
@@ -3383,20 +3086,16 @@ So the formula for n choose k is,
 = 210
 So, there are 210 ways of drawing 6 cards in a pack of 10.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 A perimeter means the distance of the boundary of a two dimensional shape. Also defined as the total sum of the length of all the sides of the object. The algebraic sum of length of each side is the perimeter of that area. 
 It is also defined as the total sum of the length of all the sides of the object. So, the algebraic sum of the length of individual sides of the object gives the perimeter of that object.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 \(\large \log _{b} (1) = 0\) Since, \( b^{0}=1; \; b&gt; 0\)
 \(\large \log _{b} (b) = 1\) Since, \(b^{1}=b\)
@@ -3411,13 +3110,11 @@ It is also defined as the total sum of the length of all the sides of the object
 \[\large x^{\frac{\log(\log(x))}{\log(x)}} \; = \; \log(x)\]
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Where,
 The following graph shows a scatter plot and a line of best fit:
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Linear equation formula is given by
 \[\large y=mx+b\]
 Where,
@@ -3426,15 +3123,12 @@ Question 1: Solve for x: 5x + 6 = 11
 Solution:
 Given function is 5x + 6 = 11
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Question 1: Find the mean absolute deviation of the following data set 26+46+56+45+19+22+24
 Solution:
 Given set of data in ascending order can be arranged as 26+46+56+45+19+22+24
@@ -3444,8 +3138,7 @@ $\frac{(8+12+22+11+15+12+14)}{7}=13.42$
 Now, coming to the MAD formula:
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 A polygon is a two-dimensional (2-D) closed figure made up of straight line segments. In <a href="https://byjus.com/maths/geometry/">geometry</a>, octagon is a polygon with 8 sides. If the lengths of all the sides and the measurement of all the angles are equal, the octagon is called a regular octagon. In other words, sides of a regular octagon are congruent. Each of the interior angle and the exterior angle measure 135° and 45° respectively, in a regular octagon. There is a predefined set of formulas for the calculation of perimeter, and area of a regular octagon which is collectively called as octagon formula. For an octagon with the length of its edge as a, the formulas are listed below.
 Perimeter of an Octagon = 8a
 Octagon formula helps us to compute the area and perimeter of octagonal objects.
@@ -3498,11 +3191,9 @@ Area of an Octagon = \(2a^{2}(1+\sqrt{2})\)
 Area of the stop sign board = \(2\times 4^{2}(1+\sqrt{2})=77.25\;cm^{2}\)
 To solve more problems on the topic, download Byju&#8217;s &#8211; the Learning App.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Where,
 Triangular Prism: A prism that has 3 rectangular faces and 2 parallel triangular bases, then it is a triangular prism.
 Where,
@@ -3511,8 +3202,7 @@ Where,
 Hexagonal Prism: A hexagonal prism is a type of prism that has six rectangular faces and two parallel hexagonal bases.uRLStringLine class="aligncenter" title="Hexagonal Prism" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/hexagonal-prism.png" alt="Hexagonal Prism" />The Hexagonal Prism Formulas are,
 Where,
 
-*** END ***
-*** BEGIN ***
+$%$%
 A function is defined as a relation which possesses one output value for each permissible or allowable input value. The period of a function is the number “T” such that so, if a number is fixed and $\theta$ is any angle, we have the following below given period. The function sine and cosine have a period 2$\pi$.
 Some of the trigonometry periodic functions are given below,
 \[\large Sin\left(\omega\theta\right)\Rightarrow T=\frac{\pi}{\omega}\]
@@ -3527,23 +3217,18 @@ The multiple of x = <span class="content_latex">$\frac{1}{3}$ = ${\omega}$
 T = <span class="content_latex">$\frac{2\pi}{\frac{1}{3}}$ = 6$\pi$
 Hence the period of the function $cos$<span class="content_latex">$\frac{x}{3}$ is 6$\pi$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The type of polygon that is nothing but a quadrilateral having at least a pair of parallel sides is called Trapezoid. Two sides of a trapezium are parallel. The perpendicular distance between the parallel sides is called the altitude. 
 uRLStringLine 6233" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/15135128/trapezoid.png" alt="trapezoid" width="239" height="180" />The perimeter of a trapezoid formula is given by
 \[\large P=a+b+c+d\]
@@ -3553,17 +3238,13 @@ Solution:
 Given:
 Perimeter is given by
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Question: Find the estimate of $cos(80^{\circ}&#58; {35}&#8217;)$ by quadratic interpolation ?
 Table of $cos x$:
 Solution:
@@ -3572,8 +3253,7 @@ $cos 80^{\circ}35&#8217;$ = $f(80^{\circ}30&#8242;) + 0.5\delta f(80^{\circ}30&
 $cos 80^{\circ}35&#8217;$ = 0.1650 + 0.5(-0.0028) + (0.5)(0.5)(-0.5)(-0.0001)
 $cos 80^{\circ}35&#8217;$ = 0.1636
 
-*** END ***
-*** BEGIN ***
+$%$%
 When we compare the relationship between two numbers dealing with a kind, then we use the ratio formula. It is denoted as a separation between the number with a colon (:). Sometimes a division sign is also used to express ratios. 
 For example, we are making a cake, then the recipe sometimes says to mix flour to water in the ratio 2 part 1. That means if you using 2 cups of flour then mix it with 1 cup of water. 
 Both the numbers should be non-zero in order to make a meaning out of the comparison. Some ratios are denoted in percentages and decimals as well.
@@ -3586,8 +3266,7 @@ The profit for each of them:
 A = 10000 x $\frac{2}{6}$ = Rs. 3333.33
 B = 10000 X $\frac{4}{6}$= Rs. 6666.67
 
-*** END ***
-*** BEGIN ***
+$%$%
 The four methods in Riemann Summation for finding the area are:
 $[a,b]$ = Closed interval divided into ‘n’ sub intervals
 \[\large S_{n}=\sum_{n}^{i-1}\int (x_{i})(x_{i}-x_{i-1})\]
@@ -3598,8 +3277,7 @@ $\delta$ x = <span class="content_latex">$\frac{b &#8211; a}{n}$ = <span class="
 Area = $left ( \sum_{i} f(x_{i})\delta{x})$ = $\delta{x}$(f(-2) + f(-1) + f(0) + f(1))
 <span class="content_latex">$\frac{2}{3}$(5 + 2 + 1 + 2) = <span class="content_latex">$\frac{20}{3}$ = 6.6667
 
-*** END ***
-*** BEGIN ***
+$%$%
 Relative standard deviation is also called percentage relative standard deviation formula, is the deviation measurement that tells us how the different numbers in a particular data set are scattered around the mean. This formula shows the spread of data in percentage.
 <span style="line-height: 1.5;">If the product comes to a higher relative standard deviation, that means the numbers are very widely spread from its mean. 
 If the product comes lower, then the numbers are closer than its average.  It is also knows as the coefficient of variation.
@@ -3610,8 +3288,7 @@ Question 1: Following are the marks obtained in by 4 students in mathematics ex
 Formula for standard deviation:
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 A regular pyramid is called so because this type of pyramid has a square base. A regular square has 4 triangular faces, 1 square base, 5 vertices and 8 edges.
 uRLStringLine 5896" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/SQUARE-PYRAMID-FORMULA.png" alt="SQUARE PYRAMID FORMULA" width="333" height="281" />The two major formulas for regular square pyramid are:
 \[\large Volume=\frac{1}{3}\, b^{2}h\]
@@ -3622,8 +3299,7 @@ From the volume formula: $Volume=\frac{1}{3}\, b^{2}h$
 $Volume=\frac{1}{3}\times 6^{2}\times 8$
 $Volume = 760.32\; cm^{3}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 Pyramid on a triangular base is a tetrahedron. When a solid is bounded by four triangular faces then it is a tetrahedron. A right tetrahedron is so called when the base of a tetrahedron is an equilateral triangle and other triangular faces are isosceles triangles. When we encounter a tetrahedron that has all its four faces equilateral then it is regular tetrahedron.
 Area of One Face of Regular Tetrahedron Formula:
 \[\large A=\frac{1}{4}\sqrt{3}a^{2}\]
@@ -3643,8 +3319,7 @@ $V=\frac{a^{3}\sqrt{2}}{12}$
 $=\frac{10^{3}\sqrt{2}}{12}$
 $=117.85\;cm^{3}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 When a number is divisible by only one and <span style="color: inherit; font-size: inherit; line-height: 1.5;">itself, then it is a prime number. The prime numbers cannot be factorised as they are not divisible. The divisible numbers are called composite numbers. 1 is neither prime nor composite.
 How do we get to know if a number is prime or not?
 To calculate we need to find the factors of the number. Take for example 11, 11 is divisible only by 1 and itself. Since it has only two factors, it is a prime number.
@@ -3654,18 +3329,14 @@ The factors of 53 are 1 and 53.
 Question 2: Check if 64 is a prime number or not?
 Solution. The factors of 1, 2, 4, 16, 8.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 To find out the parallel line of a given line with slope m and which is passing through a point (x1,y1), given formula is used.
 \[\large Slope=\frac{-a}{b}\]
 \[\large Parallel\;Lines=y-y_{1}=m(x-x_{1})\]
@@ -3677,15 +3348,12 @@ $Slope=\frac{-a}{b}$
 Parallel line equation is,
 y &#8211; y<sub>1</sub> = m (x &#8211; x<sub>1</sub>)
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 A quartile divides the set of observation into 4 equal parts. The middle term, between the median and first term is known as the first or Lower Quartile and is written as Q1.Similarly, the value of mid term that lies between the last term and the median is known as the third or upper quartile and is denoted as Q3.Second Quartile is the median and is written as Q2.
 When the set of observation is arranged in an ascending order, then the 25th percentile is given as:
 \[\large Q_{1}=\left(\frac{n+1}{4}\right)^{th}Term\]
@@ -3715,11 +3383,9 @@ $IQR=Upper\;Quartile-Lower\;Quartile$
 IQR = 24.5 &#8211; 11
 IQR = 13.5
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 Sum of cubes formula is given by computing the area of the region in two ways: by squaring the length of a side and by adding the areas of the smaller squares. In other words, the sum of the first n natural numbers is the sum of the first n cubes. 
 The other name of sum of cube is factoring formula. The find the sum of cubes of any polynomial the given formula is used:
 \[\large a^{3}+b^{3}=\left(a+b\right)\left(a^{2}-ab+b^{2}\right)\]
@@ -3729,8 +3395,7 @@ $27x^{3}+1=\left(3x\right)^{3}+1^{3}$
 $=\left(3x+1\right)\left(\left(3x\right)^{2}-\left(3x\right)\left(1\right)+1^{2}\right )$
 $=\left(3x+1\right)\left(9x^{2}-3x+1\right )$
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The Sine Cosine Tangent Formula is,
 \[\large tan\;\theta = \frac{Opposite}{Adjacent}\]
@@ -3740,8 +3405,7 @@ $cos\; \theta$ = <span class="content_latex">$\frac{12}{20}$
 <span class="content_latex">$\theta = cos^{-1}(0.6)$
 <span class="content_latex">$\theta = 99.99$ 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Standard error is an important statistical measure and it is concerned with standard deviation. The accuracy of a sample that represents a population is knows through this formula. The sample mean deviates from the population and that deviation is called standard error formula.
 \[\large SE_{\overline{x}}=\frac{S}{\sqrt{n}}\]
 Where,
@@ -3755,14 +3419,12 @@ Standard Error:
 $SE_{\overline{x}}=\frac{S}{\sqrt{n}}$
 $=\frac{5.418}{\sqrt{5}}=2.42$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Surface Area of a Cube Formula is,
 Surface Area of a Cube
 Surface Area of a Cube
 
-*** END ***
-*** BEGIN ***
+$%$%
 <span style="text-align: justify; line-height: 1.6em;">Lets illustrate this thing using a simple equation term <span class="content_latex">$\sqrt[n]{x}$<span style="text-align: justify; line-height: 1.6em;"> &#8211; c = 0
 Isolate the square root on any of the side of equation by shifting remaining term other sides
 <span class="content_latex">$\sqrt[n]{x}$ = c
@@ -3772,8 +3434,7 @@ Given,
 $\left(x^{\frac{1}{3}}\right)^{3}=9$
 x = 729
 
-*** END ***
-*** BEGIN ***
+$%$%
 Linear equations are “straight line” equations have simple variable expressions with terms without exponents on them.  You are dealing with straight line equation, if you come across an equation with only <em>x</em> and y.  To find the equation of a line and y-intercept in the steepness of the line, we use slope intercept form formula.
 The point slope formula is given as:
 The values used in formula are as follows:
@@ -3783,8 +3444,7 @@ Here,
 With the formula : <em>y</em> = <em>mx</em> + <em>b</em>
 The equation of the line will be: <em>y</em>  = 6<em>x</em> + 4
 
-*** END ***
-*** BEGIN ***
+$%$%
 Think of a compass and draw a circle, the point where you put the pin to rotate the compass to draw the circle, is the point which is called as a “centre of rotation”. 
 The rotation turns the circle through an angle. Rotation can be done clockwise as well as counterclockwise. The most common rotation angles are 90 degrees, 180 degrees, 270 degrees etc. 
 We have the formula for the three angles of rotation below:
@@ -3793,8 +3453,7 @@ Question: What are the angles formed if the rotation is done at 270^{\circ} cl
 i. 12, 4
 Through the formulas we can tell that the rotation has been done in angle:
 
-*** END ***
-*** BEGIN ***
+$%$%
 Circle is nothing but the 2-D representation of a sphere. The total area that is taken inside the boundary of the circle is the surface area of the circle. When we say we want the area of the circle, then we mean surface area of the circle itself. 
 When the length of the radius or diameter or even the circumference of the circle is already given, then we can use the surface formula to find out the surface area. The surface is represented in square units.
 The surface of a circle is given as
@@ -3809,8 +3468,7 @@ $r^{2}=100.05$
 $r=\sqrt{100.05}$
 $r=10\;cm$
 
-*** END ***
-*** BEGIN ***
+$%$%
 R Squared is also known as coefficient of determination, represented by R2or r2and pronounced as R Squared- is the number indicating the variance in the dependent variable that is to be predicted from the independent variable. It is a statistic model used for future prediction and outcomes, also regarded as testing of hypothesis. <span style="line-height: 1.5;">The linear relation between the dependent and independent variable is known through this formula. 
 <span style="line-height: 1.5;">FFollowing is the R Squared formula:
 \[\large R^{2}=\frac{N\sum xy-\sum x \sum y}{\sqrt{\left[N\sum x^{2}-\left(\sum x\right)^{2}\right]\left[N\sum y^{2}-\left(\sum y\right)^{2}\right]}}\]
@@ -3824,12 +3482,10 @@ The coefficient of correlation is given by
 = -12540 x 10976
 = -0.003
 
-*** END ***
-*** BEGIN ***
+$%$%
 To calculate the angle of the right angled triangle, sine formula is used. The relation between the sides and angles of the right angle is shown through this formula. Sine is the ratio of the opposite side to the hypotenuse side of the right triangle. The longest side is the hypotenuse and the opposite side of the hypotenuse is the opposite side. In trigonometry, Sin is the shorthand of sine function.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The three sides of a right angles triangles are &#8211; Perpendicular, Base(Adjacent) and Hypotenuse(Opposite). The largest side side which is opposite to the right-angle(90 degree) is known as the Hypotenuse.  The side that is adjacent to the right angle are called legs cathetus. Thus both base and Perpendicular are known as Cathetus. 
 To find the side of the triangle, we need the sides of other two triangle.
 uRLStringLine 5906" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/right-angle.png" alt="right angle" width="414" height="280" />The Right angled triangle formula known as Pythagorean theorem (<a href="https://byjus.com/maths/pythagoras-theorem/">Pythagoras Theorem</a>) is given by
@@ -3839,8 +3495,7 @@ uRLStringLine class="size-medium wp-image-6842 aligncenter" title="Capture2" src
 Solution:
 Given:
 
-*** END ***
-*** BEGIN ***
+$%$%
 Arithmetic series of finite arithmetic progress is the addition of the members. The sequence that the arithmetic formula usually follows is (a, a + d , a + 2d, …) where 1 is the first term and d is the common difference. There are two ways with which we can find the sum of the arithmetic sequence.
 We call S as the sum of the arithmetic sequence, a as the first term, d the common difference between the terms, n is the total number of terms in the sequence and L is the last term of the sequence.
 The formula for the sum of arithmetic sequence below is:
@@ -3853,8 +3508,7 @@ Using the formula: $S=\frac{n}{2}\left\{2a+(n-1)d\right\}$
 $S=\frac{30}{2}\left\{2(1)+(30-1)2\right\}$
 = 900
 
-*** END ***
-*** BEGIN ***
+$%$%
                           Retention factor some\times called capacity factor is a very convenient chromatographic descriptor since it is dimensionless and independent of the mobile phase flow rate and column dimensions.
                           <a class="backtotop" href="#top" name="retention-factor-formula-problems">Back to Top</a>                          <br style="clear:both"/>
                       Some of the solved problems based on Retention Factor Formula are given below.
@@ -3863,8 +3517,7 @@ Solution:<br /><span style="line-height: 1.6em;">t<sub style="line-height: 1.6em
 Question 2: The k value is a multiple of the value of the dead time. How many \times the dead time is the retention time? For a substance that elutes after 4min on a 125$\times$4mm column at a flow rate of 1mL min^-1, the k value is 4. If a flow rate of 2mL min^-1 the substance would also elute after 4 min, the k value would be 8.
 Solution:
 
-*** END ***
-*** BEGIN ***
+$%$%
 Trajectory formula is given by
 
 Question: Marshall throws a ball at an angle of 60o. If it moves at the rate of 6m/s and Steve catches it after 4s. Calculate the vertical distance covered by it.
@@ -3877,8 +3530,7 @@ $=24\,m/sec^{2}\;tan\;60^{\circ}$
 $=\frac{9.8\,m/sec^{2}(15/sec^{2})^{2}}{2(6m/sec)^{2}cos^{2}\,60^{\circ}}$
 $=24.5\,m/s^{2}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 When a number is too large, then the scientific notation is used for expressing in shorthand with the use of powers of tens that is universal and easy to manage. The scientific calculator displays the result in “SCI” mode.
 The formula for scientific notation is written as:
 \[\large a\times 10^{2}\]
@@ -3888,8 +3540,7 @@ $4\times 10^{8}$
 The negative exponent yields smaller number whereas the larger number yields larger number. 
 $2\times 10^{-8}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 Let a convex quadrilateral with sides <em>a, b, c, d,</em> then the area of a Tangential quadrilateral is, <em>a + c = b + d</em>
 \[\large area=\sqrt{abcd}\]
 Or the formula can also be written as 
@@ -3901,8 +3552,7 @@ Let  <em>x</em>  be the measure of the fourth side of our quadrilateral. Since
 5 + 4 = 6 + <em>x
 Answer: The fourth side of the quadrilateral is of  3 cm  long.
 
-*** END ***
-*** BEGIN ***
+$%$%
 All sequences is an ordered list of numbers. Example 1,4,7,10…. all of these are in a proper sequence. That is each subsequent number is increasing by 3. To make our work much easier, sequence formula can be used to find out the last number (Of finite sequence with a last digit) of the series or any term of a series. 
 There are two types of sequence formula:
 \[\LARGE a_{n}=a_{1}+(n-1)d\]
@@ -3919,8 +3569,7 @@ Using the formula:
 $g_{n}=g_{1}r^{(n-1)}$
 $g_{n}=5\times 2^{5-1}=80$
 
-*** END ***
-*** BEGIN ***
+$%$%
 Where,
 Example: Calculate the tangent angle of a right triangle whose adjacent side and opposite side are 8 cm and 6 cm respectively?
 Solution:
@@ -3930,8 +3579,7 @@ $tan\;\theta=\frac{6}{8}$
 $tan\;\theta=0.75$
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 In this section, we will learn about the square formulas – a list of the formula related to squares which will help you compute its area, perimeter, and length of its diagonals. They are enlisted below:
 \(Area\; of\; a\; Square\; = a^{2}\)
@@ -3977,8 +3625,7 @@ Side of one tile = 5 m
 Area of one such tile = side x side = 5 m x 5 m = 25 sq. m
 \(No.\; of\; tiles\; needed = \frac{Area\; of\; floor}{Area\; of\; one\; tile}=\frac{1000}{25}=40\; tiles\)
 
-*** END ***
-*** BEGIN ***
+$%$%
 In mathematics, a unit vector in a normed vector space is a vector of length-1. A unit vector is often denoted by a lowercase letter with a &#8220;hat&#8221; $\widehat{i}$ . The term direction vector is used to describe a unit vector being used to represent spatial direction, and such quantities are commonly denoted as <em>d</em>.uRLStringLine class="aligncenter wp-image-5217 size-full" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Unit-Vector-Formula-1.png" alt="Unit Vector Formula" width="292" height="300" />
 Two 2D direction vectors, <em>d1</em> and <em>d2,</em> are illustrated. 2D spatial directions represented this way are equivalent numerically to points on the unit circle.
 Unit Vector Formula is given by
@@ -3994,8 +3641,7 @@ $\widehat{V}=\frac{v}{\left|v\right|}$
 $=\left(\frac{1}{15}\right)&lt;9,12=&#8221;&#8221;&gt;$
 $\left[\frac{3}{5},\frac{4}{5}\right]$
 
-*** END ***
-*** BEGIN ***
+$%$%
 Standard deviation is defined as, &#8220;The deviation of the values  or data from an average mean&#8221;
 Standard Deviation helps us to know how the values of a particular data are dispersed. Lower standard deviation concludes that the values are very close to their average. Whereas higher values mean  the values are far from the mean value. Standard deviation value can never be in negative.
 uRLStringLine class="aligncenter wp-image-6626 " src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/15154606/standard-deviation-300x150.png" alt="Standard Deviation" width="384" height="192" />
@@ -4016,8 +3662,7 @@ $Sample\;Standard\;Deviation=\sqrt{\frac{\sum_{i=1}^{n}\left(x-x_{i}\right)^{2}}
 $\sqrt{\frac{13.5}{6}}=\sqrt{2.25}$
 $=1.5$
 
-*** END ***
-*** BEGIN ***
+$%$%
 In geometry, a vertex is a point where two or more curves, lines, or edges meet. As a consequence of this definition, the point where two lines meet to form an angle and the corners of polygons and polyhedra are vertices.
 For example, a square has four corners, each is called a vertex. The plural form of the vertex is vertices. The word vertex is most commonly used to denote the corners of a polygon.
 When two lines meet at a vertex, they form an included angle. For polygons, the included angle at each vertex is an interior angle of the polygon. Vertex is also sometimes used to indicate the &#8216;top&#8217; or high point of something, such as the vertex of an isosceles triangle , which is the &#8216;top&#8217; corner opposite its base, but this is not its strict mathematical definition.uRLStringLine 5175" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Vertex-Formula-1.png" alt="Vertex Formula" width="687" height="462" />
@@ -4032,8 +3677,7 @@ Substituting in the original equation to get the y-coordinate:
 $y=3\left(\overline{2}\right)+12\left(-2\right)-12$
 So, the vertex of the parabola is at (-2, -24).
 
-*** END ***
-*** BEGIN ***
+$%$%
 Statistical hypothesis testing is the a result that is attained when a p &#8211; value is lesser than the significance level, denoted by  , alpha.   p &#8211; value is the probability of getting at least as extreme results that is provided that the null hypothesis is true. Statistical significance is the mean to get sure that the statistic is reliable. 
 If there is a large sample size, then small difference in the research findings can be negligible if you are very sure that the differences did not arise out of fluke. This formula helps us determine that there is a relationship in the differences or variations. Depending upon the sample size, to know how moderate, weak or strong is the relationship, statistical significance is used. 
 Statistical significance is also referred to as type 1 error. The formula and terminologies related to this formula is given as:
@@ -4047,8 +3691,7 @@ $Z=\frac{15-12}{\frac{5}{\sqrt{30}}}$
 $=\frac{3}{0.73}$
 $=4.10$
 
-*** END ***
-*** BEGIN ***
+$%$%
 In geometry, a parallelepiped is a three-dimensional figure formed by six parallelograms. Any of the three pairs of parallel faces can be viewed as the base planes of the prism. The volume of the parallelepiped can be find if the area of the bottom and height is known. The standard notation of the parallelepiped volume is V.  
 uRLStringLine 5141" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Volume-of-Parallelepiped-Formula.png" alt="Volume of Parallelepiped Formula" width="534" height="305" />
 Let S is the area of the bottom and h is the height of a parallelepiped, then the volume formula is,
@@ -4061,8 +3704,7 @@ Volume formula is: $\large V=S\times h$ 
 $V=20^{2}\times10$
 $V=200\,cm^{2}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 A prism that has 3 rectangular faces and 2 parallel triangular bases, then it is a triangular prism. This three-sided prism is a polyhedron that has a rectangular base, a translated copy and 3 faces joining sides.
 The surface area of a triangular prism is nothing but the amount of space on the outside. This formula will show what is the surface area of the triangular prism. For finding that out we need the height, side and base length. 
 This is how a Triangular prism looks like:
@@ -4076,8 +3718,7 @@ $35+90$
 $=125$
 So, the surface area of the given triangular prism is $125\;cm^{2}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 Where,
 Example: A pyramid has a square base of side 4 cm and a height of 9 cm.  Find its volume.
 Solution:
@@ -4087,8 +3728,7 @@ $=\frac{1}{3}\times4^{2}\times9$
 $=48$
 So, the volume is $48\,cm^{3}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 When 2 sides and an angle of the triangle are already provided, then, by using the sine trigonometric function, side angle side formula is used to calculate the area of the triangle. In short, we call this formula as “SAS” when the two sides and the angle between them is given.
 There are mainly three steps in calculating the required angles of the triangle:
 uRLStringLine 6149" src="https://cdn1.byjus.com/wp-content/uploads/2018/11/formulas/2016/04/14150559/side.png" alt="SIDE ANGLE SIDE FORMULA" width="321" height="204" />
@@ -4101,8 +3741,7 @@ $Area=\frac{6\times 10\times 45^{\circ}}{2}$
 $=\frac{60\times 0.70}{2}$
 $= 21\;cm^{2}$
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Weighted mean for given set of non-negative data ${x_{1},\:x_{2},\:x_{3},&#8230;.x_{n}}$ with non-negative weights ${w_{1},\:w_{2},\:w_{3},&#8230;.w_{n}}$ can be derived from the formula.
 \[\large \overline{x}=\frac{w_{1}x_{1}+w_{2}x_{2}+&#8230;..+w_{n}x_{n}}{w_{1}+w_{2}+&#8230;..w_{n}}\]
 Where,
@@ -4125,18 +3764,14 @@ $=\frac{2566}{1000}$
 $=2.566$
 The mean number of TVs per household in this sample is 2.566.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Surface Area of a Sphere Formula is,
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Question: What is the surface area of the square pyramid which has the base length of 8 cm and side 5 cm?
 Solution:
 Given,
 Using the formula: $Surface\;area\;of\;a\;square\;pyramid= 2bs+b^{2}$
 
-*** END ***
 
-Process finished with exit code 0

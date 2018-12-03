@@ -1,5 +1,4 @@
-"/Users/prasannsinghal/Desktop/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java" -Didea.launcher.port=57518 "-Didea.launcher.bin.path=/Users/prasannsinghal/Desktop/Android Studio.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/prasannsinghal/Library/Android/sdk/platforms/android-28/android.jar:/Users/prasannsinghal/Library/Android/sdk/platforms/android-28/data/res:/Users/prasannsinghal/StudioProjects/GraphingCalculator/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes:/Users/prasannsinghal/StudioProjects/GraphingCalculator/app/build/generated/res/rs/debug:/Users/prasannsinghal/StudioProjects/GraphingCalculator/app/build/generated/res/resValues/debug:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/83187b8d46f3a4950114100637100701/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c76eb0a91a822875ab33b78cac5273bb/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/68350b238b819148fec4a4c9326c9d5e/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/86fe8b9a815f78f23b64a05f86926537/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a2bc98f30692cd2eea78dc633d4737fc/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f90a10759768e633d75802224219286f/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f90a10759768e633d75802224219286f/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7e65902506eb7fcec9cf6888580e3356/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7e65902506eb7fcec9cf6888580e3356/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/graphview-4.2.2.aar/5e6bd207393d6c051182e3c3fc74773b/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/graphview-4.2.2.aar/5e6bd207393d6c051182e3c3fc74773b/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7abf7011f4ff3c7ffadcc1546301a59e/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7abf7011f4ff3c7ffadcc1546301a59e/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/20d6eb3a95c8881a04700bdc1e59a174/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/442f88b5682c207f30d6929c9ff44d45/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8dffad56fce481f9e21bac7eef17f1e8/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/07415fc322079f520d8b09b5c79fbbce/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/99f25dade7c9ca43ae47b5912da045f6/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/1c902f223c68748bf6d04ed74b57c037/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/955848765a4b8b89665f51c752054a41/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9ac6f80c9f59d36f6a7131aa9b8bccc9/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5d109e0c326e0017722619f631612127/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b5521b191d0c1166bd446304da7b0eaa/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2db25929a4cc750a017a9287331b9e5c/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/04fd18169f02c8bc95113e3a4b24cb40/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/686e0364af1a2fbdc203fd141b5ed144/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/123bcf39818799b905d287ef928f7cfc/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/123bcf39818799b905d287ef928f7cfc/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4fbc2ade34aade7acb656d60b0701573/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4fbc2ade34aade7acb656d60b0701573/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/de7413ca6269020e998d31b61f9883cb/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d2dd9f0677eb1db5d16e50e579534645/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9d10ad94eac57d85abdf6d0195f19426/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9d10ad94eac57d85abdf6d0195f19426/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c860c576fc43272f65079f194079d62f/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/af4e6cd69e861eab000b1fa81c45b294/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/af4e6cd69e861eab000b1fa81c45b294/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/2e2cc8e735bcc2d62b3f4e51d32268be/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6bbf59210a5d3392a07509c849afb0c0/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f723d1af4d8b2603819fa694458a1e91/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f723d1af4d8b2603819fa694458a1e91/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/c2fa05eedd18eceff44fd2b7092bbe44/jars/classes.jar:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/266ef63806ed97d72ad93220f5426e85/res:/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/266ef63806ed97d72ad93220f5426e85/jars/classes.jar:/Users/prasannsinghal/Desktop/Android Studio.app/Contents/lib/idea_rt.jar" com.intellij.rt.execution.application.AppMainV2 graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.ConvertUrlToString
-*** BEGIN ***
+$%$%
 
 Boyle&#8217;s Law, an ideal gas law which states that the volume of an ideal gas is inversely proportional to its absolute pressure <span style="background-color: #f5f6f5;">at a constant temperature. The law applies only to ideal gases which allow only pressure and volume to change.
 
@@ -56,8 +55,7 @@ Therefore P2 = 1940 mm Hg
 
 To solve more problems on Boyle’s law and practice more questions, please visit Byju’s.com
 
-*** END ***
-*** BEGIN ***
+$%$%
 Energy equivalent to mass defect is termed as binding energy. A nucleus is like an inflexible spherical ball molded by getting together a huge amount of miniature spherical balls in the nucleons form. Something is required to bound the nucleons collected. It is that something which assists as the glue. Every nucleon has to donate some of its mass, to deliver the energy resulting in a mass defect.
 &#8220;More binding energy means more strong binding as energy is a measure of the strength of the bondage.&#8221;
 uRLStringLine class="aligncenter" title="\large \bar{B}=\frac{B}{A}=\frac{(\Delta m)c^{2})}{A}" src="https://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;\bar{B}=\frac{B}{A}=\frac{(\Delta&amp;space;m)c^{2})}{A}" width="193" height="54" />
@@ -81,8 +79,7 @@ Number of nucleons in 9Be4 = 9
 B per nucleon = 58.20958.209 MeV = 6.47 MeV
 To know more examples and practice questions on Binding Energy Formula, please visit Byju’s.com
 
-*** END ***
-*** BEGIN ***
+$%$%
 Atomic Mass Formula
 Atomic mass is the total of the masses of the electrons, neutrons, and protons in an atom, or in a group of atoms, the average mass. When compared to protons or neutrons electrons have so much less mass that they don&#8217;t influence the calculation. Thus, the total of the masses of neutrons and protons is the atomic mass.
 
@@ -126,8 +123,7 @@ Atomic mass = (14.000u x 0.7500) + (15.000u x 0.2500)
 Atomic mass = 14.25u
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 In order to start a reaction, molecule requires energy. This can be understood by a simple example &#8211;  molecules need some kinetic energy or velocity to collide with other molecules to start a reaction. No reaction will take place, if collision don’t happen, or molecules don’t have enough kinetic energy. The energy needs to initiate the reaction is known as Activation energy.
 “Activation Energy is the minimum amount of energy that is needed to start a chemical reaction.”
 Activation Energy Formula 
@@ -168,8 +164,7 @@ Ea = 2.303 ×× 8.314JK-1mol-1 ×× 4585.45K ×× 0.6021
 Ea = 52848 Jmol-1
 Ea = 52.8 KJ mol-1
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The Chemical Formula is a clue to the makeup of a compound regarding the types of atoms and their relative numeric. From the understanding of oxidation numbers and valence and a knowledge of atomic structure, it is possible to write chemical formulas.A chemical formula is a &#8220;notation made up of the chemical symbols of the elements present in a compound and numerical subscript that indicate the number of atoms of each element present in a molecule of the compound.&#8221;A chemical formula provides information about the atomic composition of a substance.
 Solved Examples
@@ -179,8 +174,7 @@ uRLStringLine class="aligncenter wp-image-5339 size-full" src="https://cdn1.byju
 Problem 2: Note the accurate chemical formulas for the compounds containing sulfur whose molecular images are as following.
 Solution: Specific guidelines must be followed when writing Chemical Formulas. One must make use of the correct subscript and symbols and arrange the symbols in the right order.
 
-*** END ***
-*** BEGIN ***
+$%$%
 What is Bond order?
 The bond order shows the number of chemical bonds present between a pair of atoms. For instance, the bond order of diatomic nitrogen N≡N is 3 and bond order between the carbon atoms in H-H≡C-H is also three. The bond order describes the stability of the bond.The molecular orbital provides an easy understanding of the concept of the bond order of a chemical bond. It quantifies the degree of covalent bonds between the atoms.
 
@@ -221,8 +215,7 @@ It means single covalent bond exist in H2 molecule, and diamagnetic since there 
 To solve more problems on bond formula and practice more questions, please visit Byju’s.com.
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Dalton’s Law of partial pressure states that &#8220;the total pressure exerted by the mixture of gases is the sum of all the partial pressure of the individual gases.&#8221; Partial pressure is the pressure exerted by a gas present in a mixture of gases.
 In other words, Dalton’s law of partial pressures is applied in determining the individual pressure of every single gas in a gaseous mixture.
@@ -255,8 +248,7 @@ Ptotal =1235 torr
 To solve more problems and practice more questions on Dalton&#8217;s Law formula, please visit Byju&#8217;s.com
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Changes in the states of substance or system are known as reactions and can be divided into chemical and physical reactions.
 Physical reaction
@@ -286,8 +278,7 @@ Solution:
 To refer more Chemical reactions and practice equations, visit Byju&#8217;s.com
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 In thermodynamics, the interaction whose external system could be viewed as the raising of mass through a distance against gravitational force is defined as work done by a system on the surroundings during a process.
 Thermodynamics Formulas are listed below.
@@ -320,8 +311,7 @@ W = frac1441−1.067 times (140 times 0.3335-20 times 2.0884)
 W = -11,670ft-1b
 To know more examples and practice questions on thermodynamics formulas, please visit Byju’s.com
 
-*** END ***
-*** BEGIN ***
+$%$%
 Chemistry is a science of composition of matter and transformation of its physical or chemical property. Our universe is made of matter. The matter is composed of atoms of various different chemical elements that are found in pure as well as combined form. Any substance consisting of the matter is called chemical. They occur in the form of solids, liquids or gases. It can exist as a pure substance or as a mixture. Every chemical element is represented by a unique symbol.
 There are naturally occurring chemicals and artificially made chemicals. Examples of naturally occurring chemicals are as follows:
 Artificially made chemicals have various applications. They have transformed the pharmaceuticals and food industries. Due to this the food flavoring and preservation has become easy and inexpensive.
@@ -1379,8 +1369,7 @@ Reference links:
 <a href="https://byjus.com/chemistry/chemical-reactions/">Synthesis reaction</a>
 <a href="https://byjus.com/chemistry/decomposition-reaction/">Decomposition reaction</a>
 
-*** END ***
-*** BEGIN ***
+$%$%
 The variations together with the heat content of the materials which react, result in enthalpy(H) the accurate word for heat content. Typically, this variation in the heat content or enthalpy is displayed by an alteration in temperature.There is an alteration in the heat of the reaction, during the reaction. The enthalpy change for the reaction is represented by DeltaH (sometimes called the heat of reaction). The enthalpy of products is H2 and is less than the heat content of reactants H1.
 Enthalpy Formula is denoted as
 Enthaply Change = Heat of the Reaction
@@ -1418,8 +1407,7 @@ DeltaH = 16 times DeltaH for CO2 + 18 times DeltaH for H2O – 2 times DeltaH fo
 DeltaH = 16 times (-394kJ) + 18 times (-286kJ) – 2 times (-269kJ)
 DeltaH = -1.09 times 104kJ
 
-*** END ***
-*** BEGIN ***
+$%$%
 Dilution refers to drop in the pH of a chemical which can be a gas, vapor or solution. It involves the process of decreasing the concentration of a solute in the solution normally by mixing with solvent. To dilute a solution add more solvent without the addition of more solute. Mix the resulting solution thoroughly to ensure that all parts of the solution are even. 
 For example, if 10 grams of salt is dissolved in 1 liter of water, it has a particular salt concentration. By adding 1 liter of water to this solution, the salt concentration is reduced. The dilute solution still has 10 grams of salt.
 
@@ -1447,8 +1435,7 @@ Substituting the given values in the equation, we get
 1500 / 500 = 15 / X
 = 5%
 
-*** END ***
-*** BEGIN ***
+$%$%
 In condensed structural formula, every carbon atom is represented individually, and the following carbon atoms are placed to the atoms that are bonded to that particular carbon atom. Just like in a chemical reaction wherein the first carbon atom has three hydrogen atoms bonded, the second carbon atom has two hydrogen atoms; third carbon atom has three hydrogen atoms, and fourth carbon atom has three hydrogen atoms.Other more condensed way of writing structural formula is when there are two CH2 groups in the middle of the molecule by having (CH2)2 in the middle of the structural formula.
 
 Example 1
@@ -1464,8 +1451,7 @@ uRLStringLine class="aligncenter size-full wp-image-5018" src="https://cdn1.byju
 CH3CCl2CH2CH2CH3
  
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 \(\frac{P_{1}}{T_{1}}=\frac{P_{2}}{T_{2}}\)
@@ -1520,8 +1506,7 @@ Using Gay Lussac’s Law Formula,
 \(P_{2}=\frac{2\times 300}{150}=4\; atm\)
 To solve more problems on the topic, download Byju&#8217;s -The Learning App.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 A large element of chance is inherited in the natural processes. For example, the spacing between trees is a random natural process. Likewise, falling of tree leaves on the ground with the random arrangement is also a random process. Entropy is the measure of disorders or randomness of the particular system. Since it depends on the initial and final state of the system, the absolute value of entropy cannot be determined. You need to consider the difference between initial and final state to determine the change in entropy.
 The change in Entropy Formula is expressed as
@@ -1568,8 +1553,7 @@ uRLStringLine class="alignleft wp-image-4853 size-full" src="https://cdn1.byjus.
 ΔS = (2)(192.5 JK-1mol-1) – [191.6JK-1mol-1 + (3)(130.6 JK-1mol-1)]
 ΔS = -198.4 JK-1mol-1
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Density is defined as mass per unit volume of a substance under specific conditions of temperature and pressure. The density of gas is equal to its mass divided by the volume. You can calculate the molar mass of the substance once the density of gas is known. The Density varies with temperature and pressure.
 If density is expressed in moles per liter, Density of gas formula is mathematically expressed as
@@ -1598,8 +1582,7 @@ The molecular weight of SO2 is 64 g/mol. Substituting in the corresponding equat
      = 2.39 g/L
 To solve more examples on density of gas formula and practice more equations, please visit Byju’s.com.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The equilibrium constant of a chemical reaction is the value of the reaction quotient when the chemical reaction has reached the equilibrium state. The value of equilibrium constant depends on ionic strength and temperature but independent of the analytical concentrations of the reactants and products in the chemical reaction. 
 If the proportion of reactants and products are same, this reaction can be called as an equilibrium reaction. If A and B denote the reactants, C and D are products; then an equilibrium reaction can be expressed as A + B &#8212;&gt; C + D. You can calculate the equilibrium constant  Kc from this equation. 
 The equilibrium constant formula is
@@ -1636,8 +1619,7 @@ Kc = [C]c [D]d / [A]a [B]b
 = (0.23)2 / (0.015)1 (0.1)1
 Kc = 35.266
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Gibbs Free energy formula is independent of temperature and pressure and as given below.
 G = H – TS
@@ -1674,8 +1656,7 @@ Substitute the above values in this equation
 ΔG = -32.8KJ
 To refer more problems and questions on Gibbs Free energy Formula, please visit Byju&#8217;s.com
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Provides the association amongst amount and volume when temperature and pressure are held at standard. The amount is measured in moles, always remember that. Similarly, the container holding the gas is flexible in some way and can expand or contract because the volume is one of the variables.
 
@@ -1713,8 +1694,7 @@ In the typical volume of 22.4 L, we have 1 mol of O2, so
 Since the number of O2 molecules per mole must equal Avogadro&#8217;s number, the number of O2 molecules in 0.0446 mol is
  (6.02 ×× 1023 molecules mol-1)(0.0446 mol) = 2.69 ×× 1022 molecules
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The boiling point is the temperature at which a liquid starts to boil and transforms to vapor. The liquid begins to boil at a particular temperature when its vapor pressure becomes equal to atmospheric pressure. The presence of solute lowers the vapor pressure and makes it necessary to heat at a higher temperature to boil the solution. The boiling point of water (universal solvent) is known to be 100oC, which states that water starts to turn to a vapor state, and its vapor pressure becomes equal to atmospheric pressure at 100oC.
 
@@ -1758,8 +1738,7 @@ Tsolution = 100 + 0.017442
 To solve more problems on boiling point formula and practice more questions, please visit Byju’s.com
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Charles’ law is one of the gas laws which explains the relationship between volume and temperature of a gas. It states that when pressure is held constant, the volume of a fixed amount of dry gas is directly proportional to its absolute temperature. When two measurements are in direct proportion then any change made in one of them affects the other through direct variation. Charles’ Law is expressed by the equation:
 <b>\(V\alpha T\)</b>
 <b>Or</b>
@@ -1814,8 +1793,7 @@ Using Charles Law,
 The initial volume of a gas at 150 K is 9 litres. 
 To solve more problems on the topic, download Byju&#8217;s -The Learning App.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Diffusion is the net movement of molecules or atoms from a region of high concentration to lower concentration. It can also be referred to movement of substances towards the lower concentration.The diffusion equation is the partial differentiation equation which indicates dynamics in a material which undergoes diffusion. It also describes processes exhibiting diffusive behavior. The diffusion equation is ∂ψ/∂t = kΔ2ψ
 The diffusion equation can also be written as
@@ -1852,8 +1830,7 @@ From the formula,
 Un(x, t) = Bn sin (n π x / L) e –k(2 π / L)2 t
 U(x, t) = 12 sin(π x / L) e –k(π/L)2 t
 
-*** END ***
-*** BEGIN ***
+$%$%
 <em>The simplest formula or the empirical formula provides the lowest whole number ratio of atoms existent in a compound. The relative number of atoms of every element in the compound is provided by this formula.</em>
 
 Steps for Determining an Empirical Formula
@@ -1888,8 +1865,7 @@ Fe: (1.000)2 = 2.000
 S: (1.502)2 = 3.004
 Empirical formula = Fe2S3
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 SOLVED EXAMPLES
 
@@ -1904,8 +1880,7 @@ Atomic weight of oxygen = 16g/mol
 Grams to Moles conversion equation is,
 uRLStringLine title="Grams to Moles Formula" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/grams-to-moles-formula.png" alt="Grams to Moles Formula" />
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Ionic compounds are neutral compounds made up of positive cations and negative anions.Every ionic compound has discrete ionic units with a specific charge. An Ionic compound always contains equal amount of positive and negative charge. The chemical formula of an ionic compound represents its ionic units and cation to anion ratio.
 Chemical formulas of ionic compounds are not complicated to write. Write the cation symbol followed by anion symbol. Then, find the lowest multiple of the ions to make the compound neutral.Ionic compounds consist of positively and negatively charged ions, but the overall compound and its formula are electrically neutral. In other words,
@@ -1925,8 +1900,7 @@ Solution
 The names of cations and anions identify the chemical formulas along with changes of each ion.The charges indicate the ion ratio that needs to appear in the chemical formula.
 Calcium chloride contains Ca+ of Group 2 and Cl- of Group 17. That&#8217;s the reason there must be two anions for every cation. Therefore, the chemical formula of calcium chloride is uRLStringLine title="CaCl_{2}" src="https://latex.codecogs.com/gif.latex?CaCl_{2}" alt="" />
 
-*** END ***
-*** BEGIN ***
+$%$%
 The mole is a counting unit to specify the number of atoms, molecules, ions or formula units in a particular chemical compound. It is similar to other counting units like a pair (2) and a dozen (12). One mole of a compound contains Avogadro’s number (6.022 x 1023) of molecules or formula units. The molar mass of a compound defines the mass of 1 mole of that particular substance and number of grams per mole of a compound.  In other words, molar mass is the total mass of all the atoms in grams that make a mole of a particular molecule. Therefore, the units of molar mass are grams/mole.
 
 How to find the molar mass of a compound?
@@ -1956,8 +1930,7 @@ Note that the subscript two after the parentheses specifies that there are 2 nit
 To solve more examples and practice questions on molar mass, please visit Byju’s.com
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 What is Mass percent?
 The Mass percent is a way of expressing a concentration or describing the component in a particular mixture. The solution composition can be described in mass percentage which shows the mass of solute present in a given mass of solution.The quantity of solute is expressed in mass or by moles. For a solution, the mass percent is described as the grams of solute per grams of solution, multiplied by 100 to get the percentage.
@@ -1973,8 +1946,7 @@ Solution
 Since mass percentage gives the mass of sugar in 100g of solution.
 Hence, 22.5g sugar is present in 1.500g of 1.50% solution.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Net ionic equation provides the information of ions that exists in aqueous medium. Salts get dissolved in polar solvents like water and present as cations and anions in dissolved state. The net ionic equation indicates the chemical species that undergo a chemical change. The ions that appear on both sides of the equation remain constant and therefore considered to be spectator ions. Many equations have been encountered, most of them have been condensed equations where in all the reactants and products are indicated as electrically neutral molecules and compounds.
 
 Example 1
@@ -1995,8 +1967,7 @@ Net ionic equation
 CrO<sub>4</sub>^2-(aq) + Pb^<sub>2</sub>+(aq) &#8211;&gt; PbCrO<sub>4</sub>(s)
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Solutions can be described in other concentration besides molarity, normality or molality. Solutions are sometimes represented in terms of relative percent concentration of solute in a solution.To determine the weight percent of a solution, divide the mass of solute by mass of the solution (solute and solvent together) and multiply by 100 to obtain percent.
 The percent by weight formula can be expressed as
 uRLStringLine title="\large Percent\; by\; weight=\frac{gram\; of\;solute}{ 100g\; of\; solution}" src="http://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;Percent\;&amp;space;by\;&amp;space;weight=\frac{gram\;&amp;space;of\;solute}{&amp;space;100g\;&amp;space;of\;&amp;space;solution}" />
@@ -2014,8 +1985,7 @@ Substitute the known values in the percent weight formula.
 Therefore, X = 25%
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The decay of a particular nucleus cannot be predicted and is not affected by physical influences like temperature, unlike chemical reactions. The rate of isotope decay depends on two factors. The total number of undecayed nuclei present in the system on doubling the average and undecayed nuclei must double the rate of decay. The stability of the isotope since some isotope decay rapidly. The rate of decay gives the number of nuclei that decay per second.
 Rate of Decay Formula is given as
 uRLStringLine class="alignnone" title="\large \frac{-d[A]}{dt}=k[A]" src="http://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;\frac{-d[A]}{dt}=k[A]" alt="Rate_of_Decay_Formula" width="137" height="51" />
@@ -2044,8 +2014,7 @@ Substitute the value of k into the integrated form of the rate equation.
  = ln1.5
 t = 3270 years old
 
-*** END ***
-*** BEGIN ***
+$%$%
 The definition of specific heat capacity of any substance is &#8220;the quantity of heat required to change the temperature of a unit mass of the substance by 1 degree.&#8221; This is articulated as:
 uRLStringLine title="\large Specific\; Heat\; Capcity=\frac{energy\; required}{mass\times\Delta T}" src="http://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;Specific\;&amp;space;Heat\;&amp;space;Capcity=\frac{energy\;&amp;space;required}{mass\times\Delta&amp;space;T}" alt="" />
 As it indicates the resistance of a material to an alteration in its temperature, specific heat capacity is a type of thermal inertia. Specific Heat Capacity Formula is also communicated in relation to the quantity of heat Q. 
@@ -2071,8 +2040,7 @@ Specific heat capacity = 350350
 Specific heat capacity = 0.06cal/goC
 To know more examples and practice questions on Specific Heat Capacity Formula, please visit <a href="https://byjus.com/">Byjus.com</a>
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Whenever the liquid evaporates, the gaseous molecules formed will escape in the air. But, If the liquid is kept in a closed container, the gaseous molecules will not escape in the air but will remain above the liquid. Those evaporated particles will create a pressure above the liquid, which is then known as the vapour pressure. 
 
@@ -2103,8 +2071,7 @@ Finally, calculate the partial pressure of the solution.
 P<sub> solution</sub>=0.988 x 23.8 torr
 P <sub>solution</sub>=23.5 torr
 
-*** END ***
-*** BEGIN ***
+$%$%
 The gas in which every molecule behaves autonomous of every individual molecule and has no excluded volume is called an ideal gas. Ideal Gas Law Formula is arithmetically articulated as:
                                                                      PV=nRT
 from which simpler gas laws such as Amonton&#8217;s, Avogadro&#8217;s, Charles&#8217;s and Boyle&#8217;s law were derived.
@@ -2132,8 +2099,7 @@ P = fracnRTV
 P = frac[0.11molCO2][298K]10L times frac0.0821L.atmmol. K
  P = 0.27atm
 
-*** END ***
-*** BEGIN ***
+$%$%
 In any chemical reaction, the limiting reactant(or reagent) is a substance which is totally consumed when the chemical reaction is complete. This reagent limits the quantity of the product produced and the reaction cannot continue without it. In a precipitation reaction, the incomplete precipitation gives the idea of limiting reagent. In dissolution reaction, the clear saturated or unsaturated solution gives the limiting reactant. In case of gaseous reaction, the limiting reagent is found by analyzing the mixture of gases that are formed. 
 The procedure to determine the limiting reagent is as follows
 Balance the chemical equation if not balanced.
@@ -2164,8 +2130,7 @@ The equation suggests that 2 moles of Al require 3 moles of uRLStringLine title=
 We have 2L of 1M uRLStringLine title="H_{2}SO_{4}" src="https://latex.codecogs.com/gif.latex?H_{2}SO_{4}" alt="" /> which equals 2 moles
 Therefore, Sulfuric acid is the limiting reactant.
 
-*** END ***
-*** BEGIN ***
+$%$%
 <!-- Ask a question with input field -->Mole is the standard unit of amount measurement. Substances react in simple ratios of moles. But, when you have to compare the amount of one substance to another by moles, you must convert into grams since balances do not provide readings in moles.
 One mole consists of Avogadro number of atoms. If you know the quantity of mole, it can be converted into grams and vice versa. 
 The formula for moles to grams is given by
@@ -2186,8 +2151,7 @@ By calculating, we get molecular weight of CO = 28.01 g/mol.
 Since we need to find for 3 moles of Carbon monoxide,
 Grams = 3 x 28.01 = 84.03 grams. 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Normality indicates the concentration of the solution. Normality definition is the weight of solute dissolved in a liter of solution. Normality of a solution can be calculated when atomic mass and volume are known. If the composition of solute and solvent are same, the solution is saturated.
 
 uRLStringLine title="Normality Formula" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/normality-formula1.png" alt="Normality Formula" />
@@ -2204,8 +2168,7 @@ Normality = 0.248mol x 2 eq /mol 0.250L
 Therefore Normality = 1.984 N
   
 
-*** END ***
-*** BEGIN ***
+$%$%
 Photosynthesis is the process of converting energy in which the solar energy is converted into the form of light which is used in the production of carbohydrate molecules.
 Here are few solved problems on <a href="https://byjus.com/biology/photosynthesis/">Photosynthesis</a>.
 Problem 1: During Photosynthesis process all green plants synthesis glucose (C6H12O6) and oxygen from carbon dioxide and water. Find out how many kilograms of oxygen is produced from 330kg of carbon dioxide?
@@ -2220,8 +2183,7 @@ Carbon dioxide + Water → Glucose  + oxygen.
 The balanced reaction for photosynthesis in symbol form is
 6CO2 + 6H2O → C6H12O6 + 6O2.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Rydberg formula is the mathematical formula to determine the wavelength of light emitted by an electron moving between the energy levels of an atom.When an electron transfers from one atomic orbital to another, it’s energy changes. When an electron shifts from an orbital with high energy to a lower energy state, a photon of light is generated. A photon of light gets absorbed by the atom when the electron moves from low energy to a higher energy state. The Rydberg Formula applies to the spectra of various elements and is given by
 uRLStringLine class="alignnone" title="\large \bar{v}=\frac{1}{\lambda }=R(\frac{1}{n^{2}_{1}}-\frac{1}{n^{2_{2}}}" src="http://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;\bar{v}=\frac{1}{\lambda&amp;space;}=R(\frac{1}{n^{2}_{1}}-\frac{1}{n^{2_{2}}}" alt="Rydberg_formula" width="209" height="57" />
 Where, 
@@ -2248,11 +2210,9 @@ Substitute the above values in the equation
 λ = 1.282 x 10-4 cm = 1282 nm which is in near infrared region. 
 To solve more problems and questions on Rydberg Formula, please visit <a href="https://byjus.com/">Byjus.com</a>
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 The force exerted by the substance per unit area on another substance is known as pressure. The pressure of gas is the force exerted by the gas on the walls of its container.The gas molecules move randomly along the given volume. During this movement, they collide with the surface and also with each other. The impact of every individual gas molecule is too small and difficult to visualize. But the impact of all the gas molecules considered together constitutes the gas pressure. Greater the number of collisions, greater would be the pressure.
 
 The Gas pressure formula is given as,
@@ -2297,8 +2257,7 @@ P = F / A
 P = 300 / 50
 P = 6 Pascal
 
-*** END ***
-*** BEGIN ***
+$%$%
 Internal Energy Formula is the heat energy stocked in gas. If a certain amount of heat is applied to gas, the result is that the temperature of the gas may increase or else the volume of gas might increase. In this manner doing some work externally or volume and temperature may both intensify, but it will be made definite by the situations under which the gas is provided heat.
 When the structure is left in a situation which differs from its condition before the process, after the process, it can be articulated as
 ΔΔU = U2 &#8211; U1 = Q – wt/J
@@ -2333,8 +2292,7 @@ Q = &#8211; 230 + 120
 Thus, the heat rejected by the air is 110 KJ/kg
 To know more examples and practice questions on Internal Energy Formula, please visit Byju’s.com
 
-*** END ***
-*** BEGIN ***
+$%$%
 <b>Molarity Formula:</b>
 The equation for <a href="https://byjus.com/molarity-calculator/" target="_blank">calculating molarity</a> is the ratio of the moles of solute whose molarity is to be calculated and the volume of solvent used to dissolve the given solute. 
 \(M = \frac{n}{V}\)
@@ -2371,8 +2329,7 @@ Substituting the values, we get,
 \(molarity=\frac{0.106}{0.125}=0.85M\)
 The molarity of the given solution is 0.85M. 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 What is Molar Volume?
 The Molar Volume, represented by V<sub>m</sub>, is the volume occupied by one mole of a substance which can be a chemical element or a chemical compound at Standard Temperature and Pressure (STP). It can be calculated by dividing Molar mass (M) by mass density (ρ). One mole of any gas at a particular temperature and pressure has fixed volume and known as its Molar gas volume.
@@ -2414,8 +2371,7 @@ Vm = 18.02 x 0.018 / 0.0009167
       = 353.83m<sub>3</sub>/mol
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 
 Osmosis is the phenomenon of the route of solvent but not solute through a semipermeable membrane from solvent to the solution or from weak to concentrated solution. The natural phenomenon like pure water from the sea, industrial extraction and purification are based on the osmosis process. Osmosis can be described as a selective separation aspect.
@@ -2469,8 +2425,7 @@ Osmotic Pressure, ‘π’ = iMRT
             = 3.9atm
 Hence, the osmotic pressure of sucrose = 3.9atm
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 pH is a measure of the amount of activity of hydrogen ions (H+) in a solution and thus its alkalinity or acidity. Although a pH value is unitless, it is not a random scale; the number rises from a description grounded on the activity of hydrogen ions in the solution. pH is described as &#8220;the negative of the logarithm of the molar hydronium-ion concentration.&#8221;
 pH Formula is arithmetically articulated as
@@ -2499,8 +2454,7 @@ The concentration of hydronium ion is
 [H3O+] = antilog (-3.16) = 10-3.16
 [H3O+] = 7.0 × 10-4M
 
-*** END ***
-*** BEGIN ***
+$%$%
 
  All round us we have Chemical compounds &#8211; they are in our beverages, food and in items one uses day to day. We can identify these chemical compounds by their molecular formulas. Though the molecular formula demonstrates how many atoms there are for every element existing in the compound, it does not communicate to us about by what means the elements are attached to each other. We have no idea which atom of an element is attached to which. This is the place where the structural formula arises. It displays how the atoms are organized and attached together in a molecular formula of a chemical compound. Deprived of the structural formula, one would not discern that acetic acid has a carbon atom double-bonded together with oxygen. One can see the spatial arrangement of the atoms in the compound, by taking a look at the formula.
 
@@ -2525,8 +2479,7 @@ Solution: List each carbon atom in the molecule and then add the hydrogen atoms
  uRLStringLine class="aligncenter size-full wp-image-4904" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/structural-formula1.png" alt="Structural_Formula" width="235" height="113" />
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The sensible heat is a type of energy released or absorbed in the atmosphere. Sensible heat concerns about changes in temperature of a gas or object but no change in phase.Latent heat is relevant to changes in phases between solids, liquids and gases. You can use sensible heat formula to calculate the flow of air for an electric furnace. The formula provides the amount of airflow. The sensible heat formula with change in temperature is given by
 Q <sub>sensible</sub>= 1.10 x c<span style="font-size: 10.5px; line-height: 0px;">fm x (t<sub>o</sub> – t<sub>i</sub>)
 Where,
@@ -2554,8 +2507,7 @@ Hence, the sensible heat gain is 110,000 Btu/h.
 
 To solve more problems on sensible heat formula and practice more questions, please visit Byju’s.com
 
-*** END ***
-*** BEGIN ***
+$%$%
 The amount of the ion concentration in the solution is the <b>ionic </b>strength of the solution. It is articulated as<b> I</b>. The ion activity is affected by it. It is denoted with the ion interaction with water and other ions in the solution. To compute the half of the total concentration of each ionic species, the ionic strength formula is used. 
 Where the molar concentration of an ion in a solution is Ci and Zi is the valence. 
 <b>Ionic Strength Examples</b>
@@ -2570,8 +2522,7 @@ The ionic strength is given by
 <b>Answer:</b>
 The ionic strength is given by
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The molecular formula is the expression of the number of atoms of each element in one molecule of a compound. 
 The molecular formula definition is the formula showing the actual number of each atom in a molecule. 
@@ -2634,8 +2585,7 @@ Since 5 is the common factor, the empirical formula is C5H9
 To know more examples and practice questions on molecular formulas, please visit Byju’s.com
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 The weight in atomic mass units of each of the atoms in a given formula is the molecular weight of a substance. An atomic mass unit is described as 1/12th the weight of the carbon-12 isotope. The old symbol was amu, while the most correct symbol is u (a lower-case letter u).
 The molecular weight of a material is required to tell an individual how many grams there are in one mole of that substance.The mole is the typical method in chemistry for interacting as to how much of a substance is present.
@@ -2661,8 +2611,7 @@ Molecular weight of uRLStringLine class="alignnone" title="K_{2}SO_{4}" src="htt
 = 2 ×× 39.098 a\mu + 1 ×× 32.066 a\mu + 4 ×× 16.999 amu
 = 174.298 amu
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 A mole of a defined substance is defined as the mass of that substance containing the same number of fundamental units just like atoms in 12.0 g of 12C. These fundamental units can be atoms, molecules, or formula units based on the substance. It represents the number of chemical elements.One mole of any substance is equal to the Avogadro number whose value is 6.023 x 1023. It can be used to measure the products in a chemical reaction. The unit is defined denoted by mol.
 The number of moles formula is given by
@@ -2688,8 +2637,7 @@ Number of moles = Mass of substance / Mass of one mole
                             = 95 / 86.94
                             = 1.092 mol 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The Percent solutions can be in the form of weight/volume % (wt/vol % or w/v %), volume/volume % (vol/vol % or v/v %) or, weight/weight % (wt/wt % or w/w %). In each case, the concentration in percentage is calculated as the fraction of the volume or weight of the solute related to the total volume or weight or of the solution.Not only for a solution where concentration needs to be expressed in volume percent (v/v%) when the solute is a liquid, but it is also applicable to the numerator in weight units and the denominator in volume units and called weight/volume percent.
 Volume percent = Volume of solute / volume of solution x 100
 The formula relates to volume fraction by dividing by 100%
@@ -2716,8 +2664,7 @@ Volume percent = volume of solute /volume of solution x 100%
 Volume percent = 3 %
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 The spontaneous breakdown of an atomic nucleus of a radioactive substance resulting in the emission of radiation from the nucleus is known as Radioactive decay. The nuclide which undergoes decay in a radioactive process is a parent nuclide, and the nuclide which is produced in the radioactive process is a daughter nuclide.
 The Radioactive Formula is given by
 Where N<sub>0</sub> = the initial quantity of the substance and N is the quantity still remained and not yet decayed.
@@ -2749,8 +2696,7 @@ uRLStringLine class="aligncenter" src="https://cdn1.byjus.com/wp-content/uploads
 Therefore, the decay rate is approximately 31%.
 To solve more problems on Radioactive formula and practice more questions, please visit Byjus.com
 
-*** END ***
-*** BEGIN ***
+$%$%
 The term solubility is all about to measure the quantity of solute dissolved in a particular solvent. The simple definition of solubility is solubility of a substance is the molarity of that substance in a solution which is at chemical equilibrium under excessive undissolved substance. This states that there must be a uniform temperature throughout the system, since solubility is temperature dependent.The Solubility Formula can be mathematically expressed as
 
 uRLStringLine title="\large S=\sqrt{K_{sp}}" src="http://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;S=\sqrt{K_{sp}}" alt="" />
@@ -2785,8 +2731,7 @@ Substitute these values in K<sub>sp</sub> expression
 K<sub>sp</sub> = (1.28 ×× 10-2M)(2.56 ×× 10-2M)2
 Therefore, K<sub>sp</sub> = 8.4 × 10-6 M^2
 
-*** END ***
-*** BEGIN ***
+$%$%
 The quantity of a product obtained from a reaction is expressed in terms of the yield of the reaction. The amount of product predicted by stoichiometry is called the theoretical yield, whereas the amount obtained actually is called the actual yield. <span style="font-size: 14px; line-height: 1.42857;">A reaction yield is reported as a percent yield which gives the percentage of the theoretical amount.
 The formula for percent yield is given by
 uRLStringLine class="alignnone" title="\large Percent\; yield =\frac{Actual\; yield}{Theoretical\; yield}\times 100\%" src="http://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;Percent\;&amp;space;yield&amp;space;=\frac{Actual\;&amp;space;yield}{Theoretical\;&amp;space;yield}\times&amp;space;100\%" alt="Theoretical_Yield_Formula" width="438" height="56" />
@@ -2809,8 +2754,7 @@ uRLStringLine class="alignnone" title="\large Theoretical\; yield =\frac{Actual\
 = 1.50×105 kg / 97.5% × 100%
 Theoretical yield = 1.528 × 105 kg HCN
 
-*** END ***
-*** BEGIN ***
+$%$%
 A titration can define the volume of one solution required to react correctly with an identified volume of a different solution. Titration commonly comprises of reactions such as redox reactions and reactions involving precipitations, different than acid-base reactions.
 “Titration can discern the volume of one solution required to react exactly with a known volume of a different solution.”
 The equation for Titration Formula is articulated as:
@@ -2852,8 +2796,7 @@ uRLStringLine class="aligncenter size-full wp-image-4987" src="https://cdn1.byju
                                                                                         = 4.90 ×× 10-2 L NaOH
 precisely 49.0 mL of 0.250M sodium hydroxide solution reacts with 35.0 mL of 0.175M sulfuric acid solution.
 
-*** END ***
-*** BEGIN ***
+$%$%
 The combined gas law is the law which combines Charles’s law, Gay-Lussac’s law and Boyle’s law. It’s an amalgamation of the three previously discovered laws. These laws relate one thermodynamic variable to another holding everything else constant.The interdependence of these variables represents combined gas law which states that the ratio between the product of pressure-volume and temperature of a system remains constant.
 Combined gas law can be mathematically expressed as
 P = pressure
@@ -2901,8 +2844,7 @@ Substituting in the above equation, we get
 35 x 3 / 300 = 50 x Vf / 250
 Therefore, Vf = 1.75 L
 
-*** END ***
-*** BEGIN ***
+$%$%
 A compound&#8217;s molecular formula is a derivative of its molecular weight (which was determined independently) and elemental analysis. The notion of the degree of unsaturation of an organic compound is derived simply from the tetravalency of carbon. Any compound whose chemical formula has two hydrogen less than the maximum number possible (2n+2) must have one ring or one double bond. The Degree of Unsaturation is the rings plus the total number of multiple bonds. The molecular formula is abridged to CnHm and the Degree of Unsaturation Formula is given by
 
 uRLStringLine class="aligncenter" title="\large Degree of Unsaturation = n-\frac{m}{2} + 1" src="https://latex.codecogs.com/gif.latex?\dpi{120}&amp;space;\large&amp;space;Degree&amp;space;of&amp;space;Unsaturation&amp;space;=&amp;space;n-\frac{m}{2}&amp;space;+&amp;space;1" width="381" height="44" />
@@ -2922,8 +2864,7 @@ Problem 2: Calculate the degree of unsaturation for benzene.
 Answer: Benzene has one ring and three double bonds. The structure of benzene is
 Using the formula a hydrocarbon which is saturated and has six carbons has the formula C6H14.
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Delocalized Bonding cannot be properly described by a single Electron Dot Formula. As an alternative, a resonance depiction is often used. Conferring to the resonance depiction, we can describe a molecules electron structure having delocalized bonding by noting down all conceivable Electron Dot Formula.
          Make use of the N &#8211; A = S equation to get to know the number of bonds
@@ -2944,8 +2885,7 @@ Single bonds connect five carbon atoms of cyclopentane in a cyclic form. The mol
 uRLStringLine class="aligncenter size-full wp-image-5061" src="https://cdn1.byjus.com/wp-content/uploads/2016/04/Electron-Dot-Formula3.png" alt="Electron Dot Formula" width="494" height="285" />
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 Henry’s law defines that at constant temperature, the concentration of the gas that is dissolved in a given liquid is proportional to the partial pressure of the gas above the fluid.
 
 Henry Law Formula
@@ -2984,8 +2924,7 @@ Solubility = 0.348g /100 mL x 3 atm/1 atm
         = 1.044 g/100 mL of water.
 To solve more problems on Henry’s law formula and practice more equations, please visit Byju’s.com
 
-*** END ***
-*** BEGIN ***
+$%$%
 The energy essential to take away an electron from a gaseous atom A or a gaseous molecule AB is titled as ionization energy. Referring to the following equation. A mass spectrometer can determine the ionization energy. The ionization energy or potential is therefore sometimes also called the &#8220;threshold&#8221; or &#8220;appearance&#8221; energy or potential.
 Energy + A →→ A + e-
 Energy + AB →→ AB + e-
@@ -3011,11 +2950,9 @@ Therefore, 3 × 10-2 mole of Al will need = 5140 × 10-2 kJ
 = 51.40 kJ
 To know more examples and practice questions on Ionization Energy Formula, please visit Byju’s.com
 
-*** END ***
-*** BEGIN ***
+$%$%
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 Mole fraction represents the number of molecules of a particular component in a mixture divided by the total number of moles in the given mixture. It’s a way of expressing the concentration of a solution.
 
@@ -3057,8 +2994,7 @@ mole fraction of CH<sub>3</sub>OH = 0.14 / 2.2 + 0.14
 To solve more examples on Mole fraction formula and practice more question, please visit Byju’s.com
 
 
-*** END ***
-*** BEGIN ***
+$%$%
 <!-- Ask a question with input field -->
 The molecules of air frequently bump into the walls of the vessel. These impacts apply an energy on the walls of the vessel which is not anything but termed as pressure. The pressure exerted by the gas is force per unit area. Though as we know, air is a mixture of gases like nitrogen, oxygen, etc. and not a single compound. The pressure that is contributed by every gas is termed its partial pressure. Partial pressure can, therefore, be explained as the pressure applied if that gas by itself had engaged the volume. Therefore, the entire pressure of air will be the summation of partial pressures of oxygen, nitrogen, etc.
 
@@ -3090,8 +3026,7 @@ P total = PN2 + P water vapor
 2.015 = 1.908 + P water vapor
 P water vapor = 0.107
 
-*** END ***
-*** BEGIN ***
+$%$%
 Partition coefficients are described as the concentration ratio of a chemical amidst the two media at equilibrium. The media can be gases such as air, liquids such as water or olive oil, or complex mixtures such as blood or other tissues. However, the partition coefficients of an uncharged solute in two different two-phase systems of identical Δw2, in general, are unequal.
 
 The formula for partition coefficient is,
@@ -3122,8 +3057,7 @@ uRLStringLine title="\large 6.40=\frac{C_{s}}{0.415}" src="http://latex.codecogs
 C<sub>s</sub> = 2.656 
 To know more examples and practice questions on Partition Coefficient Formula, please visit <a href="https://byjus.com/">Byjus.com</a>
 
-*** END ***
-*** BEGIN ***
+$%$%
 
 In Chemistry, STP is an elementary concept. In STP system, both pressure and temperature are in their typical form. Pressure and temperature of this system is considered as 1atm and 273K correspondingly. You can compute the volume of a gas in STP using the standard formula. In this standard formula, the pressure is in torr and temperature is in Kelvin. STP formula is articulated as:
 
@@ -3131,7 +3065,6 @@ uRLStringLine title="STP=Volume\; of\; the\; gas\times\frac{273}{T}\times\frac{P
 
 STP Problems
 Solved problems for gas in STP are provided below:
-Solved Examples
 Problem 1: Compute the volume of a gas at STP whose volume is 0.5L and the temperature and pressure is 300K and 700 torr respectively?
 Answer:
 Given numerics are,
@@ -3153,6 +3086,4 @@ for volume of a gas in STP the formula is,
 uRLStringLine title="STP=Volume\; of\; the\; gas\times\frac{273}{T}\times\frac{P}{100}" src="https://latex.codecogs.com/gif.latex?STP=Volume\;&amp;space;of\;&amp;space;the\;&amp;space;gas\times\frac{273}{T}\times\frac{P}{100}" alt="" />
 uRLStringLine title="STP=30\times\frac{273}{350}\times\frac{1100}{760}" src="https://latex.codecogs.com/gif.latex?STP=30\times\frac{273}{350}\times\frac{1100}{760}" alt="" />
 STP = 33.868L
-
-*** END ***
 

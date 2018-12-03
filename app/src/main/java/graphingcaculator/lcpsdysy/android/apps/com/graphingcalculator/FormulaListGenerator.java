@@ -394,9 +394,8 @@ public class FormulaListGenerator {
             Scanner scanner = new Scanner(new InputStreamReader(context.getAssets().open(filepath)));
             String FormulaTemp = "";
             String temp;
-            scanner.nextLine();
-            scanner.nextLine();
             int a = 0;
+            scanner.nextLine();
             while (scanner.hasNextLine()) {
                 temp = scanner.nextLine();
                 if (temp.equals("$%$%")) {
