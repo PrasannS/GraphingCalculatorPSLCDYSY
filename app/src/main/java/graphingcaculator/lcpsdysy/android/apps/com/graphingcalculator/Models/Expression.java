@@ -235,10 +235,19 @@ public class Expression {
                 }
                 else{
 
-                    while(Character.isDigit(input.charAt(a))||input.charAt(a)=='.'&&a!=input.length()){
-                        a++;
-                        if (a==input.length())
-                            break;
+                    while(input.charAt(a)=='-'||Character.isDigit(input.charAt(a))||input.charAt(a)=='.'&&a!=input.length()){
+                        if(input.charAt(a)=='-'){
+                            if(a==0)
+                                a++;
+                            else if(Character.isDigit(input.charAt(a-1))){
+                                break;
+                            }
+                        }
+                        else{
+                            a++;
+                            if(a==input.length()){
+                                break;
+                            }}
                     }
                     expressions.add(new Expression(Double.parseDouble(input.substring(0,a))));
                     if(a!=input.length()){
@@ -420,7 +429,7 @@ public class Expression {
                 for (int j = 0; j < sb.length(); j++)
                     if (sb.charAt(j) == ' ')
                         sb.delete(j, j + 1);
-                for (int j = 0; j < inds.size(); j++)
+                for (int j = inds.size() - 1; j >= 0; j--)
                 {
                     Log.d("solveEq", j + "     " + sb.toString());
                     int ind = inds.get(j);
