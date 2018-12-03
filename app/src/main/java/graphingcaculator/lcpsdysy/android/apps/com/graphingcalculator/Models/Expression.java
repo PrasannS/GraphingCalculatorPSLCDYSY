@@ -237,6 +237,8 @@ public class Expression {
 
                     while(Character.isDigit(input.charAt(a))||input.charAt(a)=='.'&&a!=input.length()){
                         a++;
+                        if (a==input.length())
+                            break;
                     }
                     expressions.add(new Expression(Double.parseDouble(input.substring(0,a))));
                     if(a!=input.length()){
@@ -375,49 +377,61 @@ public class Expression {
         ArrayList<Expression> Expression = new ArrayList<>();
         ArrayList<Double> nums = new ArrayList<Double>();
         ArrayList<Character> operators = new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
         ArrayList<Integer> inds = new ArrayList<>();
+        Expression test = new Expression();
+        test.parseExpression("-15.0");
+        Log.d("SolveEq()", test.getSolution() + "");
+        Log.d("Solve", "2nd log");
         try
         {
             for (int i = 0; i < input.length(); i++)
             {
                 char cur = input.charAt(i);
+                if (cur >= 65 && cur <= 90 || cur >= 97 && cur <= 122)
+                    inds.add(i);
                 //Log.d("readInput()", cur + "");
-                if (cur > 47 && cur < 58 || cur == 46)
-                    sb.append(cur);
-                else if (cur == 120)
-                {
-                    if (sb.length() == 0)
-                        sb.append(1);
-                    nums.add(Double.parseDouble(sb.toString()));
-                    operators.add('*');
-                    sb.delete(0, sb.length());
-                    inds.add(nums.size());
-                    nums.add(0.0);
-                }
-                else if (cur == 32);
-                else
-                {
-                    if (!(sb.toString().length() == 0))
-                        nums.add(Double.parseDouble(sb.toString()));
-                    sb.delete(0, sb.length());
-                    operators.add(cur);
-                }
+//                if (cur > 47 && cur < 58 || cur == 46)
+//                    sb.append(cur);
+//                else if (cur == 120)
+//                {
+//                    if (sb.length() == 0)
+//                        sb.append(1);
+//                    nums.add(Double.parseDouble(sb.toString()));
+//                    operators.add('*');
+//                    sb.delete(0, sb.length());
+//                    inds.add(nums.size());
+//                    nums.add(0.0);
+//                }
+//                else if (cur == 32);
+//                else
+//                {
+//                    if (!(sb.toString().length() == 0))
+//                        nums.add(Double.parseDouble(sb.toString()));
+//                    sb.delete(0, sb.length());
+//                    operators.add(cur);
+//                }
             }
-            if (!(sb.toString().length() == 0))
-                nums.add(Double.parseDouble(sb.toString()));
+//            if (!(sb.toString().length() == 0))
+//                nums.add(Double.parseDouble(sb.toString()));
             LineGraphSeries<DataPoint> ansSeries = new LineGraphSeries<DataPoint>();
             for (double i = start; i < end; i += increment)
             {
+                StringBuilder sb = new StringBuilder(input);
+                for (int j = 0; j < sb.length(); j++)
+                    if (sb.charAt(j) == ' ')
+                        sb.delete(j, j + 1);
                 for (int j = 0; j < inds.size(); j++)
-                    nums.set(inds.get(j), i);
-                ArrayList<Double> holdNums = new ArrayList<>();
-                ArrayList<Character> holdOp = new ArrayList<>();
-                for (int j = 0; j < nums.size(); j++)
-                    holdNums.add(nums.get(j));
-                for (int j = 0; j < operators.size(); j++)
-                    holdOp.add(operators.get(j));
-                Expression answer = new Expression(holdOp, holdNums);
+                {
+                    Log.d("solveEq", j + "     " + sb.toString());
+                    int ind = inds.get(j);
+                    if (ind != 0)
+                        sb.replace(ind, ind + 1, "*" + i);
+                    else
+                        sb.replace(ind, ind + 1, i + "");
+                }
+                Log.d("solveEq", sb.toString());
+                Expression answer = new Expression();
+                answer.parseExpression(sb.toString());
                 ansSeries.appendData(new DataPoint(i, answer.getSolution()), false, 100000);
             }
             return ansSeries;
