@@ -27,6 +27,7 @@ public class Expression {
     public boolean closed = false;
     public boolean radians = true;
 
+
     public ArrayList<Character> vars= new ArrayList<>();
 
     public Expression(){

@@ -23,15 +23,15 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     private Button addhistory;
     private Button homebutton;
     private Button settingsbutton;
-    private boolean firstform = false;
     private TextView display;
     private String stringshown= "0";
-    public Expression e = new Expression();
+    public Expression e;
     public double solution;
     public String last;
     private GraphingCalculatorDAO datasource=null;
     public static FragmentManager fragmentManager;
     public static Context calccontext;
+    public boolean first = true;
 
     public CalcActivity(){}
 
@@ -134,15 +134,24 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     }
 
     public void enternum(double i){
+        if(first){
+            first = false;
+            e = new Expression();
+            e.expressions.add(new Expression(0));
+        }
         e.enternumber(i,false);
         show();
     }
 
-    public void enterfunc(char c){
+    public void enterfunc(char c) {
+        if (first){
+            first = false;
+        e = new Expression();
+        e.expressions.add(new Expression(0));}
         e.enterfunction(c);
         show();
-
     }
+
     /*
         public void calculate(Expression e){
             e.Expression.get(e.currentExpression).i.add(e.getSolution());
@@ -158,7 +167,8 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
 
 
     public void loadformula(String id){
-        firstform = true;
+        e= new Expression();
+        first=false;
         e.parseExpression("a+10*b");
         show();
     }
@@ -179,7 +189,14 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                     show();
                     break;
                 case '(':
-                    e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"(",")"));
+                    if(first) {
+                        first = false;
+                        e = new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"(",")");
+                        e.expressions.add(new Expression(0));
+                    }
+                    else{
+                        e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"(",")"));
+                    }
                     show();
                     break;
                 case ')':
@@ -188,7 +205,14 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                     break;
 
                 case'√':
+                    if(first) {
+                        first = false;
+                        e = new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"√",")");
+                        e.expressions.add(new Expression(0));
+                    }
+                    else
                     e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"√",")"));
+
                     show();
                     break;
 
@@ -206,26 +230,62 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
             e.changeradians();
         }
         else if(message.equals("sin")){
+            if(first) {
+                first = false;
+                e = new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"sin",")");
+                e.expressions.add(new Expression(0));
+            }
+            else
             e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"sin",")"));
             show();
         }
         else if(message.equals("cos")){
+            if(first) {
+                first = false;
+                e = new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"cos",")");
+                e.expressions.add(new Expression(0));
+            }
+            else
             e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"cos",")"));
             show();
         }
         else if(message.equals("tan")){
+            if(first) {
+                first = false;
+                e = new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"tan",")");
+                e.expressions.add(new Expression(0));
+            }
+            else
             e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"tan",")"));
             show();
         }
         else if(message.equals("cot")){
+            if(first) {
+                first = false;
+                e = new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"cot",")");
+                e.expressions.add(new Expression(0));
+            }
+            else
             e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"cot",")"));
             show();
         }
         else if(message.equals("sec")){
+            if(first) {
+                first = false;
+                e = new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"sec",")");
+                e.expressions.add(new Expression(0));
+            }
+            else
             e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"sec",")"));
             show();
         }
         else if(message.equals("csc")){
+            if(first) {
+                first = false;
+                e = new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"csc",")");
+                e.expressions.add(new Expression(0));
+            }
+            else
             e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"csc",")"));
             show();
         }
