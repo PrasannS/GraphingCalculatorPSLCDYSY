@@ -1,6 +1,7 @@
  package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -50,6 +51,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistenc
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_graph);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         //this code opens up the database, so now it is ready for usage
         datasource = new GraphingCalculatorDAO(this.getApplicationContext());
         datasource.open();

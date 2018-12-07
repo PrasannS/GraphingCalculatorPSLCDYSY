@@ -1,5 +1,6 @@
 package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 
+import android.content.pm.ActivityInfo;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -40,6 +41,7 @@ public class WikiActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wiki);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         datasource = new GraphingCalculatorDAO(this.getApplicationContext());
         datasource.open();
 
