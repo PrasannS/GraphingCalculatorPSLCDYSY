@@ -5,8 +5,10 @@ import android.util.Log;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
+import java.text.CollationElementIterator;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Expression {
     private double solution;
@@ -442,9 +444,16 @@ public class Expression {
                 else
                     sb.replace(ind, ind + 1, "x");
             }
+            Expression temp;
+            ArrayList<Character> cs = new ArrayList<>();
+            Collections.copy(cs,answer.c);
+
             for (double i = start; i < end; i += increment)
             {
-                Expression temp = answer;
+                ArrayList<Character> hold =new ArrayList<Character>();
+                Collections.copy(hold,cs);
+                temp = answer;
+                temp.c=hold;
                 temp.setvar('x', i, true);
                 Log.d("solveEq", sb.toString());
                 ansSeries.appendData(new DataPoint(i, temp.getSolution()), false, 100000);
