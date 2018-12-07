@@ -54,6 +54,10 @@ public class Expression {
         c= ct;
     }
 
+    public Expression(ArrayList<Expression>exp, ArrayList<Character>ct, int a){
+        expressions = exp;
+        c= ct;
+    }
     public Expression(ArrayList<Character>ct, ArrayList<Double>it, String sep, String clo){
         expressions = new ArrayList<>();
         for(Double d: it){
@@ -391,7 +395,7 @@ public class Expression {
         test.parseExpression("-15.0");
         Log.d("SolveEq()", test.getSolution() + "");
         Log.d("Solve", "2nd log");
-        try
+//        try
         {
             for (int i = 0; i < input.length(); i++)
             {
@@ -423,32 +427,34 @@ public class Expression {
 //            if (!(sb.toString().length() == 0))
 //                nums.add(Double.parseDouble(sb.toString()));
             LineGraphSeries<DataPoint> ansSeries = new LineGraphSeries<DataPoint>();
+            StringBuilder sb = new StringBuilder(input);
+            for (int j = 0; j < sb.length(); j++)
+                if (sb.charAt(j) == ' ')
+                    sb.delete(j, j + 1);
+            Expression answer = new Expression();
+            answer.parseExpression(sb.toString());
+            for (int j = inds.size() - 1; j >= 0; j--)
+            {
+                Log.d("solveEq", j + "     " + sb.toString());
+                int ind = inds.get(j);
+                if (ind != 0)
+                    sb.replace(ind, ind + 1, "*x");
+                else
+                    sb.replace(ind, ind + 1, "x");
+            }
             for (double i = start; i < end; i += increment)
             {
-                StringBuilder sb = new StringBuilder(input);
-                for (int j = 0; j < sb.length(); j++)
-                    if (sb.charAt(j) == ' ')
-                        sb.delete(j, j + 1);
-                for (int j = inds.size() - 1; j >= 0; j--)
-                {
-                    Log.d("solveEq", j + "     " + sb.toString());
-                    int ind = inds.get(j);
-                    if (ind != 0)
-                        sb.replace(ind, ind + 1, "*" + i);
-                    else
-                        sb.replace(ind, ind + 1, i + "");
-                }
+                Expression temp = answer;
+                temp.setvar('x', i, true);
                 Log.d("solveEq", sb.toString());
-                Expression answer = new Expression();
-                answer.parseExpression(sb.toString());
-                ansSeries.appendData(new DataPoint(i, answer.getSolution()), false, 100000);
+                ansSeries.appendData(new DataPoint(i, temp.getSolution()), false, 100000);
             }
             return ansSeries;
         }
-        catch (Exception e)
-        {
-            return new LineGraphSeries<DataPoint>();
-        }
+//        catch (Exception e)
+//        {
+//            return new LineGraphSeries<DataPoint>();
+//        }
     }
 
     public boolean isSpecialMultiplier(String str){
