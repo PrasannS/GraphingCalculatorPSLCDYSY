@@ -166,7 +166,7 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     public void loadformula(String id){
         e= new Expression();
         first=false;
-        e.parseExpression("a+10*b");
+        e.parseExpression("-1-1-a");
         show();
     }
 

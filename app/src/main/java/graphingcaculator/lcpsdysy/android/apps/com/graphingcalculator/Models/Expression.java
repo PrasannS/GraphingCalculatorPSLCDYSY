@@ -235,8 +235,19 @@ public class Expression {
                 }
                 else{
 
-                    while(Character.isDigit(input.charAt(a))||input.charAt(a)=='.'&&a!=input.length()){
-                        a++;
+                    while(input.charAt(a)=='-'||Character.isDigit(input.charAt(a))||input.charAt(a)=='.'&&a!=input.length()){
+                        if(input.charAt(a)=='-'){
+                            if(a==0)
+                            a++;
+                            else if(Character.isDigit(input.charAt(a-1))){
+                                break;
+                            }
+                        }
+                        else{
+                            a++;
+                        if(a==input.length()){
+                            break;
+                        }}
                     }
                     expressions.add(new Expression(Double.parseDouble(input.substring(0,a))));
                     if(a!=input.length()){
