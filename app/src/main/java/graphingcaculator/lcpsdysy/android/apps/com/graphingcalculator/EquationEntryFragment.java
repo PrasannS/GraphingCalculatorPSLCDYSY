@@ -105,13 +105,15 @@ public class EquationEntryFragment extends Fragment {
 
         @Override
         public void afterTextChanged(Editable s) {
-            if (first)
-            {
-                equationEntry.firstRead(s.toString());
-                first = false;
-            }
+            char c = (s.length() > 0) ? s.toString().charAt(s.length() - 1) : '`';
+            if (Character.isDigit(c) || Character.isLowerCase(c)) {
+                if (first){
+                    equationEntry.firstRead(s.toString());
+                    first = false;
+                }
             else
                 equationEntry.updatedEq(code, s.toString());
+            }
         }
     };
 
