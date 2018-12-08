@@ -9,6 +9,7 @@ import java.text.CollationElementIterator;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class Expression {
     private double solution;
@@ -130,23 +131,24 @@ public class Expression {
             }
 
         }
-        int ref = c.size();
+        List<Character> ch = new ArrayList<>(c);
+        int ref = ch.size();
         int ind;
         char symbol;
         while(ref>=1){
             ind = getInd();
-            symbol = c.get(ind);
+            symbol = ch.get(ind);
             endList.add(ind,evaluate(endList.get(ind),endList.get(ind+1),symbol));
             endList.remove(ind+1);
             endList.remove(ind+1);
-            c.remove(ind);
+            ch.remove(ind);
             ref--;
 
         }
 
         solution = endList.get(0);
         if(hasSeparator)
-        solution = separatorProperties(solution);
+            solution = separatorProperties(solution);
         return solution;
     }
 
@@ -444,19 +446,12 @@ public class Expression {
                 else
                     sb.replace(ind, ind + 1, "x");
             }
-            Expression temp;
-            ArrayList<Character> cs = new ArrayList<>();
-            Collections.copy(cs,answer.c);
 
             for (double i = start; i < end; i += increment)
             {
-                ArrayList<Character> hold =new ArrayList<Character>();
-                Collections.copy(hold,cs);
-                temp = answer;
-                temp.c=hold;
-                temp.setvar('x', i, true);
+                answer.setvar('x', i, true);
                 Log.d("solveEq", sb.toString());
-                ansSeries.appendData(new DataPoint(i, temp.getSolution()), false, 100000);
+                ansSeries.appendData(new DataPoint(i, answer.getSolution()), false, 100000);
             }
             return ansSeries;
         }
