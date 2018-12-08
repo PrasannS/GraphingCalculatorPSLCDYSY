@@ -33,6 +33,14 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
     public static FragmentManager fragmentManager;
     public boolean first = true;
 
+    /**
+     * TODO:
+     * automatic multiplication
+     * derivative
+     * make Lucas fix up calculator UI
+     *
+     */
+
     public CalcActivity(){}
 
 
@@ -122,9 +130,10 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
         startActivity(intent1);
     }
 
-    public void openThisActivity(){
-        Intent intent1 = new Intent(this,CalcActivity.class);
-        startActivity(intent1);
+    public void clear(){
+          e = new Expression();
+          e.expressions.add(new Expression(0));
+          show();
     }
 
     public void openSettingsActivity(){
@@ -188,13 +197,17 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
                     show();
                     break;
                 case '(':
-                    if(first) {
+                    if(!e.onfunc){
+                        e.enterfunction('*');
+                    }
+                    else if(first) {
                         first = false;
                         e = new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"(",")");
                         e.expressions.add(new Expression(0));
                     }
                     else{
                         e.addsepfunc(new Expression(new ArrayList<Character>(),new ArrayList<Double>(),"(",")"));
+                        e.enternumber(0,false);
                     }
                     show();
                     break;
@@ -312,7 +325,7 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
             enternum(2);
         }
         else if(message.equals("clear")){
-            openThisActivity();
+            clear();
         }
     }
 

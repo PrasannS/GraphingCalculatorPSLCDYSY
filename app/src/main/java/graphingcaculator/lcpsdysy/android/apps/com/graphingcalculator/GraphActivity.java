@@ -27,6 +27,17 @@ import java.util.List;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistence.GraphingCalculatorDAO;
 
+ /**
+  *
+  * TODO
+  * fix the initial x button crash thing
+  * more than 1 x crashes
+  * parentheses, fix the textwatcher so that it wont load until all parentheses closed
+  * remove taskbar
+  *
+  *
+  */
+
  public class GraphActivity extends AppCompatActivity implements EquationEntryFragment.equationEntryFragmentListener {
      private Button addgraph;
     private ImageButton home;
