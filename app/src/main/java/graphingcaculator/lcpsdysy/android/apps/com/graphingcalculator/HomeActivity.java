@@ -1,5 +1,6 @@
 package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -15,7 +16,7 @@ import java.util.ArrayList;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Formula;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistence.GraphingCalculatorDAO;
 
-public class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends Activity {
 
     private Button graphbutton;
     private Button settingsbutton;

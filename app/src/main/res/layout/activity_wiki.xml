@@ -51,6 +51,7 @@
             <graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.CustomAutoCompleteView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:text="Please enter"
                 android:id="@+id/myautocomplete"
                 android:completionThreshold="1"
                 />

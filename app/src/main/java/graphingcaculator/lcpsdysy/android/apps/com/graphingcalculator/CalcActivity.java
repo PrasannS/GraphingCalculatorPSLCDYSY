@@ -1,10 +1,11 @@
 package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 
+import android.app.Activity;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,12 +15,11 @@ import android.widget.TextView;
 
 import java.io.IOException;
 import java.util.ArrayList;
-
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Expression;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.Formula;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistence.GraphingCalculatorDAO;
 
-public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragment.OnKeyboardOneReadListener, KeyBoardTwoFragment.OnKeyBoardTwoReadListener,CalcDisplayFragment.OnCalcDisplayReadListener{
+public class CalcActivity extends Activity implements KeyBoardOneFragment.OnKeyboardOneReadListener, KeyBoardTwoFragment.OnKeyBoardTwoReadListener,CalcDisplayFragment.OnCalcDisplayReadListener{
 
     private Button addhistory;
     private Button homebutton;
@@ -50,7 +50,7 @@ public class CalcActivity extends AppCompatActivity implements KeyBoardOneFragme
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calc);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        fragmentManager = getSupportFragmentManager();
+        fragmentManager = getFragmentManager();
         if(findViewById(R.id.fragmentcontainer)!=null){
             if(savedInstanceState!=null){
                 return;

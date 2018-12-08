@@ -1,11 +1,12 @@
  package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -38,7 +39,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistenc
   *
   */
 
- public class GraphActivity extends AppCompatActivity implements EquationEntryFragment.equationEntryFragmentListener {
+ public class GraphActivity extends Activity implements EquationEntryFragment.equationEntryFragmentListener {
      private Button addgraph;
     private ImageButton home;
     private ImageButton settings;
@@ -80,7 +81,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistenc
         allSeries = new ArrayList<>();
         colorInds = new ArrayList<>();
         equations = new ArrayList<>();
-        fragmentManager = getSupportFragmentManager();
+        fragmentManager = getFragmentManager();
         if (findViewById(R.id.frame) != null)
         {
             if (savedInstanceState != null)
@@ -226,7 +227,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistenc
          if (findViewById(R.id.frame) != null)
          {
              FragmentTransaction ft = fragmentManager.beginTransaction();
-             List<Fragment> list = getSupportFragmentManager().getFragments();
+             List<Fragment> list = getFragmentManager().getFragments();
              for (int i = 0; i < ((List) list).size(); i++)
              {
                  Fragment frag = list.get(i);
@@ -251,7 +252,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistenc
 
      @Override
      public void updatedEq(int code, String newEq) {
-         List<Fragment> list = getSupportFragmentManager().getFragments();
+         List<Fragment> list = getFragmentManager().getFragments();
          for (int i = 0; i < list.size() && i < allSeries.size(); i++)
          {
              Fragment frag = list.get(i);

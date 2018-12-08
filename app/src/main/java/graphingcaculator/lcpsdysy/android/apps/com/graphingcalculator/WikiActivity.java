@@ -1,5 +1,6 @@
 package graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator;
 
+import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -17,7 +18,7 @@ import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Models.For
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.Persistence.GraphingCalculatorDAO;
 import graphingcaculator.lcpsdysy.android.apps.com.graphingcalculator.CustomAutoCompleteView;
 
-public class WikiActivity extends AppCompatActivity {
+public class WikiActivity extends Activity {
 
     public String cur;
     public Formula curF;

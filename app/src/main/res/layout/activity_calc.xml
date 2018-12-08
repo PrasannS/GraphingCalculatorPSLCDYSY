@@ -23,11 +23,7 @@
                 android:id="@+id/homebutton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="HOMe"></Button>
-
-            <android.support.v7.widget.SearchView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"></android.support.v7.widget.SearchView>
+                android:text="Home"></Button>
 
             <Button
                 android:id="@+id/settingsbutton"
